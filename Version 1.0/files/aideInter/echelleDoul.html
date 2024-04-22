@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="../../Style/style.css">
+  </head>
+  <body>
+  
+    <body  class="degrade-angulaire"></body>
+    <!-- En tête-->
+    <div id="enTête" class="enTête" >
+      <div class="logo">
+        <a class="logo" href="../../index.html"><img src="../../img/logo.png"></a>
+        <h1>Apgar</h1> 
+      </div>
+    </div>
+
+<div id="test" class="test">
+
+</div>
+<div class="slidecontainer " > 
+    <img class="echelleDouleur" src="../../img/EchelleDeDouleur.png">
+   <input type="range" orient="vertical" id="range" min="0" max="10" value="0" class="slider"/>
+   
+
+</div>
+
+ <p class="echelleDouleurText"><br><br>Value:<span class="echelleDouleurText" id="echelleDouleurText"></span></p>
+<script>
+    var slider = document.getElementById("range");
+    var output = document.getElementById("echelleDouleurText");
+    output.innerHTML = slider.value;
+    
+    slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script>
+
+</body>
+</html>
+

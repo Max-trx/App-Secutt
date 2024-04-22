@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calcul de l'âge</title>
+    <link rel="stylesheet" href="../../Style/style.css">
+  </head>
+  
+<body  class="degrade-angulaire"></body>
+<!-- En tête-->
+<div id="enTête" class="enTête" >
+  <div class="logo">
+      <a class="logo" href="../../index.html"><img src="../../img/logo.png"></a>
+      <h1>Conversion Age</h1> 
+    </div>
+  </div>
+
+<p id="aidePourInter">Entrez la date de naissance de la victime</p>
+
+<input class ="myInput1" type="text" id="myInput1" oninput="myFunction1()">
+
+
+<p class="myInput1"  id="age"></p>
+
+<script>
+
+function myFunction1() {
+  var x = document.getElementById("myInput1").value;
+        var diff = 2022 - document.getElementById("myInput1").value;
+        var age = diff; 
+        document.getElementById("age").innerHTML = "La victime à : "+ Math.abs(age)+" ans";
+}
+</script>
+<div id="ligne" class="ligne">
+
+</div>
+
+
+<p  id="aidePourInter">Entrez l'année de naissance de la victime</p>
+
+<input class ="myInput2" type="text" id="myInput2" oninput="myFunction2()">
+
+<p class="myInput2" id="ddn"></p>
+
+
+<script>
+
+function myFunction2() {
+  var x = document.getElementById("myInput2").value;
+        var diff = document.getElementById("myInput2").value - 2022;
+        var ddn = diff; 
+        document.getElementById("ddn").innerHTML = "La date de naissance est: "+ Math.abs(ddn);
+}
+</script>
+<p id="ddn"></p>
+
+
+   
+<div id="separateur" class="separateur"></div>
+<div id="down" class="down"> 
+  <div id="textB" class="texteB" >
+    <p><span>Mise à jour le 20/04/2022 </span></p>
+    <p><span>Développé par l'association Secouristes UTT - Sec'UTT</span></p>
+  </div>
+</div>
+
+  
+
+</body>
+</html>
+

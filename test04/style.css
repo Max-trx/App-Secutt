@@ -1,0 +1,28 @@
+.rounded-9 {
+    border-radius: 20%;
+}
+
+.square-btn {
+    width: 20vw; /* 60% de la largeur de la vue */
+    /*height: auto; /* Hauteur automatique */
+    aspect-ratio: 1 / 1; /* Ratio d'aspect 1:1 pour maintenir les boutons carrés */
+    /*box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 25px 25px 32px 7px rgba(0,0,0,0.50);*/
+}
+
+.bg-btn {
+    aspect-ratio: 1 / 1;
+    width: 20vw;
+    right: 30px;
+}
+
+.footer {
+    /*position: fixed;
+    bottom: 0;*/
+    padding: 2px;
+    width: 100%;
+}
+
+.page {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

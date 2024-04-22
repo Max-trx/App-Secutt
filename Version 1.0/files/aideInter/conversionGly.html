@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="../../Style/style.css">
+  </head>
+  
+  <body  class="degrade-angulaire"></body>
+  <!-- En tête-->
+  <div id="enTête" class="enTête" >
+    <div class="logo">
+      <a class="logo" href="../../index.html"><img src="../../img/logo.png"></a>
+      <h1>Apgar</h1> 
+    </div>
+  </div>
+
+<p id="aidePourInter">Glycémie en G/L</p>
+
+<input class ="myInput1" type="text" id="myInput1" oninput="myFunction1()">
+<p class="myInput1"  id="mg1"></p>
+<p class="myInput1"  id="mmol1"></p>
+
+<script>
+
+function myFunction1() {
+  var x = document.getElementById("myInput1").value;
+        var mg1 = 100* document.getElementById("myInput1").value;
+        var mmol1 = 5.5* document.getElementById("myInput1").value;
+        document.getElementById("mg1").innerHTML = "Glycémie en mg/dl : " + mg1;
+        document.getElementById("mmol1").innerHTML = "Glycémie en mmol/l : " + mmol1;
+}
+</script>
+<div id="ligne" class="ligne"></div>
+<p id="aidePourInter">Glycémie en mg/dl</p>
+
+<input class ="myInput1" type="text" id="myInput2" oninput="myFunction2()">
+<p class="myInput2"  id="g2"></p>
+<p class="myInput2"  id="mmol2"></p>
+
+<script>
+
+function myFunction2() {
+  var x = document.getElementById("myInput2").value;
+        var g2 = 0.01*document.getElementById("myInput2").value;
+        var mmol2 =0.0555*document.getElementById("myInput2").value;
+        document.getElementById("g2").innerHTML = "Glycémie en g/l : " + g2;
+        document.getElementById("mmol2").innerHTML = "Glycémie en mmol/l : " + mmol2;
+}
+</script>
+<div id="ligne" class="ligne"></div>
+<p id="aidePourInter">Glycémie en mmol/l</p>
+
+<input class ="myInput1" type="text" id="myInput3" oninput="myFunction3()">
+<p class="myInput3"  id="mg3"></p>
+<p class="myInput3"  id="g3"></p>
+
+<script>
+
+function myFunction3() {
+  var x = document.getElementById("myInput3").value;
+        var mg3 = 0.18*100* document.getElementById("myInput3").value;
+        var g3 = 0.18* document.getElementById("myInput3").value;
+        document.getElementById("mg3").innerHTML = "Glycémie en mg/dl : " + mg3;
+        document.getElementById("g3").innerHTML = "Glycémie en g/l : " + g3;
+}
+</script>
+<div id="ligne" class="ligne"></div>
+
+
+   
+<div id="separateur" class="separateur"></div>
+<div id="down" class="down"> 
+  <div id="textB" class="texteB" >
+    <p><span>Mise à jour le 20/04/2022 </span></p>
+    <p><span>Développé par l'association Secouristes UTT - Sec'UTT</span></p>
+  </div>
+</div>
+
+  
+
+</body>
+</html>
+

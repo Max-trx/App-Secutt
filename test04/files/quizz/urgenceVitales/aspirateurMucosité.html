@@ -1,0 +1,156 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quizz Aspirateur à mucosité</title>
+    <link rel="stylesheet" href="../../../Style/style.css">
+  </head>
+
+  
+<body  class="degrade-angulaire"></body>
+<!-- En tête-->
+<div id="enTête" class="enTête" >
+  <div class="logo">
+    <a class="logo" href="../../../index.html"><img src="../../../img/logo.png"></a>
+    <h1>Aspirateur mucosité</h1> 
+  </div>
+</div>
+
+
+
+
+<section class="cube_text"> 
+  
+  <form id="form1">
+  
+  <!-- Questionnaire!-->
+  <div class="question" id="question">
+  
+  <div id="rectangleQ" class="rectangleQ" >
+
+  <div class="boxQ"id="boxQ">
+  <h3> A combien doit-on régler la dépression d’un aspirateur à mucosité pour un nourrisson ?</h3>
+  
+  <label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />350 à 500 mmHg</label><br>
+  <label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />200 à 300 mmHg  </label><br>
+  <label for="var_info"><input type="radio" name="variable" value="1" id="var_info" />200 à 250 mmHg</label><br>
+  </div></div>
+  </div>
+
+<div class="question" id="question">
+    <div id="rectangleQ" class="rectangleQ" >
+    <div class="boxQ"id="boxQ">
+  
+  <h3>Chez un nouveau-né, j’aspire une première fois la bouche pendant 5 secondes puis : </h3>
+  <label for="sub_string"><input  type="radio" name="sub" value="1" id="sub_string"/>j’aspire chaque narine</label><br>
+  <label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>j’attend 10 secondes puis j’aspire de nouveau la bouche</label><br>
+  <label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />je ne réitère pas l’aspiration, ça peut être dangereux pour lui</label><br>
+  </div></div>
+</div>
+
+  
+  <div class="question" id="question">
+    <div id="rectangleQ" class="rectangleQ" >
+    <div class="boxQ"id="boxQ">
+
+  <h3>A combien doit-on régler la dépression d’un aspirateur à mucosité pour un adulte ? </h3>
+  
+  <label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />250 à 400 mmHg</label><br>
+  <label for="if_info"><input type="radio" name="ifstate" value="1" id="if_info" />350 à 500 mmHg </label><br>
+  <label for="if_condition"><input type="radio" name="ifstate"  value="0" id="if_condition" />500 à 700 mmHg</label><br>
+  </div></div></div>
+ 
+
+  
+
+  <br>
+  <button id ="button" class="button" type="submit" value="Submit" onclick="toggle_text();">Score</button> <br> <br>
+  
+  </form>
+  
+  
+<p id="reponse" class="reponse">Score : <span id="grade">__</span></p> 
+  
+  </div><!-- close main div -->
+  
+  <span class="textQ" id="span_txt" style=" display:none; font-size:1.2vw">
+
+    Les réponses :<br>
+    <ul>
+      <li>A combien doit-on régler la dépression d’un aspirateur à mucosité pour un nourrisson ?<br> 
+      <ul>
+        <li>200 à 250 mmHg</li>
+    
+      </ul></li>
+      <li>Chez un nouveau-né, j’aspire une première fois la bouche pendant 5 secondes puis :<br>
+        <ul>
+          <li>J’aspire chaque narine</li>
+        </ul>
+      </li>
+      <li>A combien doit-on régler la dépression d’un aspirateur à mucosité pour un adulte ?<br>
+        <ul>
+          <li>350 à 500 mmHg</li>
+        </ul>
+      </li>
+    
+    </ul>
+    
+    
+    </span>
+  
+  <script>
+  document.getElementById("form1").onsubmit=function() {
+      variable = parseInt(document.querySelector('input[name = "variable"]:checked').value);
+      sub = parseInt(document.querySelector('input[name = "sub"]:checked').value);
+    
+      ifstate = parseInt(document.querySelector('input[name = "ifstate"]:checked').value);
+     
+       
+       
+       result = variable + sub +ifstate;
+       
+    document.getElementById("grade").innerHTML = result;
+       
+
+  
+  
+  return false; // required to not refresh the page; just leave this here
+  } //this ends the submit function
+  
+  </script>
+  
+  
+  
+  </body>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  function toggle_text() {
+  
+  var span = document.getElementById("span_txt");
+if(span.style.display == "none") {
+  span.style.display = "inline";
+} else {
+  span.style.display = "none";
+}
+}</script></section>
+  
+   
+<div id="separateur" class="separateur"></div>
+<div id="down" class="down"> 
+  <div id="textB" class="texteB" >
+    <p><span>Mise à jour le 20/04/2022 </span></p>
+    <p><span>Développé par l'association Secouristes UTT - Sec'UTT</span></p>
+  </div>
+</div>
+
+  
+  
+
+</html>
+
