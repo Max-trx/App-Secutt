@@ -3,7 +3,8 @@
 }
 
 .square-btn {
-    width: 20vw; /* 60% de la largeur de la vue */
+    width: 60%; /* 60% de la largeur de la vue */
+    font-size: 1.6em;
     /*height: auto; /* Hauteur automatique */
     aspect-ratio: 1 / 1; /* Ratio d'aspect 1:1 pour maintenir les boutons carrés */
     /*box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 25px 25px 32px 7px rgba(0,0,0,0.50);*/
@@ -16,13 +17,36 @@
 }
 
 .footer {
-    /*position: fixed;
-    bottom: 0;*/
+    position: fixed;
+    bottom: 0;
     padding: 2px;
     width: 100%;
 }
 
 .page {
-    margin-top: 50px;
     margin-bottom: 50px;
+    margin: auto;
+    width: 80%;
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 1150px){
+    .square-btn{
+        width: 80%;
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (min-width : 480px) and (max-width : 767px){
+    .square-btn{
+        font-size: 1.6em;
+        width: 60%
+    }
+}
+
+@media only screen and (max-width : 480px){
+    .square-btn{
+        font-size: 1.3em;
+        width : 70%;
+    }
 }
