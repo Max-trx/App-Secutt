@@ -1,66 +1,80 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Bouteille O2</title>
-    <link rel="stylesheet" href="../../Style/style.css">
-  </head>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple Bootstrap 5</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
 
+</head>
+<body>
 
-    <body  class="degrade-angulaire"></body>
-    <!-- En tête-->
-    <div id="enTête" class="enTête" >
-      <div class="logo">
-        <a class="logo" href="../../index.html"><img src="../../img/logo.png"></a>
-        <h1>Apgar</h1> 
-      </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="../../index.html">
+        <img src="../../img/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-top me-2">
+        <div class="fw-bold text-navbar">Calcul autonomie bouteille O2</div>
+      </a>
     </div>
+  </nav>
 
+  <!-- Contenu de la page -->
+  <div class="container-fluid page mt-4">
+      <form id="form1">
+        <!-- Questionnaire -->
+        <div class="row justify-content-center">
+          <div class="col-md-10 mb-4 mt-4 text-center">
+            <h2>Vb : Volume de la bouteille en Litre</h2>
+            <input type="number" id="myInput1" oninput="myFunction1()"/><br>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 mb-4 mt-4 text-center">
+            <h2>Pb : Pression de la bouteille en Bars</h2>
+            <input type="number" id="myInput2" oninput="myFunction1()"/><br>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 mb-4 mt-4 text-center">
+            <h2>Db : Débit de la bouteille en Litre/Min</h2>
+            <input type="number" id="myInput3" oninput="myFunction1()"/><br>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4 mt-4">
+            <p class="fs-2" id="autonomie"></p>
+          </div>
+        </div>
+          
+      </form>
+    
+      
+    
+      <script>
 
-<p id="aidePourInter">Vb : Volume de la bouteille en Litre </p>
-<input class ="myInputB" type="text" id="myInput1" oninput="myFunction1()">
-
-<p id="aidePourInter">Pb : Pression de la bouteille en Bars </p>
-<input class ="myInputB" type="text" id="myInput2" oninput="myFunction1()">
-
-<p id="aidePourInter">Db : Débits de la bouteille </p>
-<input class ="myInputB" type="text" id="myInput3" oninput="myFunction1()">
-
-<p id="autonomie"></p>
-
-
-
-<script>
-
-function myFunction1() {
-  var Vb = document.getElementById("myInput1").value;
-  var Pb= document.getElementById("myInput2").value;
-  var Db = document.getElementById("myInput3").value;
-        var autonomie = ((Vb*Pb)*0.9)/Db;
-        document.getElementById("autonomie").innerHTML = "L'autonomie est de : "+ Math.abs(autonomie)+" minutes";
-}
-</script>
-<div id="ligne" class="ligne">
-
-</div>
-
-
-<p id="aidePourInter"> Autonomie Bouteille = ((VbxPb)-10%)/dB</p>
-
-
-
-
-   
-<div id="separateur" class="separateur"></div>
-<div id="down" class="down"> 
-  <div id="textB" class="texteB" >
-    <p><span>Mise à jour le 20/04/2022 </span></p>
-    <p><span>Développé par l'association Secouristes UTT - Sec'UTT</span></p>
+        function myFunction1() {
+          var Vb = document.getElementById("myInput1").value;
+          var Pb= document.getElementById("myInput2").value;
+          var Db = document.getElementById("myInput3").value;
+                var autonomie = ((Vb*Pb)*0.9)/Db;
+                document.getElementById("autonomie").innerHTML = "L'autonomie est de : "+ Math.abs(autonomie)+" minutes";
+        }
+        </script>
+    
   </div>
-</div>
-
   
+  
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-light text-center py-3">
+    <p>Mise à jour le 20/04/2022</p>
+    <p>Développé par l'association Secouristes UTT - Sec'UTT</p>
+  </footer>
 
 </body>
 </html>
+
+
 

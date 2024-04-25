@@ -34,6 +34,10 @@
     width: 80%;
 }
 
+.text-navbar {
+    font-size: 1.5em;
+}
+
 
 @media only screen and (min-width : 768px) and (max-width : 1150px){
     .square-btn{
@@ -53,5 +57,9 @@
     .square-btn{
         font-size: 1.3em;
         width : 70%;
+    }
+
+    .text-navbar {
+        font-size: 0.9em;
     }
 }
