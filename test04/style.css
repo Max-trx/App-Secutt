@@ -5,9 +5,14 @@
 .square-btn {
     width: 60%; /* 60% de la largeur de la vue */
     font-size: 1.6em;
+    transition: .4s all;
     /*height: auto; /* Hauteur automatique */
     aspect-ratio: 1 / 1; /* Ratio d'aspect 1:1 pour maintenir les boutons carrés */
     /*box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 25px 25px 32px 7px rgba(0,0,0,0.50);*/
+}
+
+.square-btn:hover{
+    transform: scale(1.15);
 }
 
 .bg-btn {
