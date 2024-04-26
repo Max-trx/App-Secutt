@@ -1,71 +1,92 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Calcul de l'âge</title>
-    <link rel="stylesheet" href="../../Style/style.css">
-  </head>
-  
-<body  class="degrade-angulaire"></body>
-<!-- En tête-->
-<div id="enTête" class="enTête" >
-  <div class="logo">
-      <a class="logo" href="../../index.html"><img src="../../img/logo.png"></a>
-      <h1>Conversion Age</h1> 
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple Bootstrap 5</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="../../index.html">
+        <img src="../../img/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-top me-2">
+        <div class="fw-bold text-navbar">Calcul d'âge</div>
+      </a>
     </div>
+  </nav>
+
+  <!-- Contenu de la page -->
+  <div class="container-fluid page mt-4">
+      <form id="form1">
+        <!-- Questionnaire -->
+        <div class="row justify-content-center">
+          <div class="col-md-10 mb-4 mt-4 text-center">
+            <h2>Entrez la date de naissance de la personne</h2>
+            <input type="date" id="ddn" oninput="myFunction1()"/><br>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4 mt-4">
+            <p class="fs-2" id="agePrecis"></p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-10 mb-4 mt-4 text-center">
+            <h2>Entrez l'année de naissance</h2>
+            <input type="number" id="anneeNaissance" oninput="myFunction2()"/><br>
+          </div>
+        </div>
+        
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4 mt-4">
+            <p class="fs-2" id="age"></p>
+          </div>
+        </div>
+      </form>
+    
+      
+    
+      <script>
+        function myFunction1() {
+          var ddn = new Date(document.getElementById("ddn").value);
+          var today = new Date();
+          var age = today.getFullYear() - ddn.getFullYear();
+          var monthDiff = today.getMonth() - ddn.getMonth();
+          if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < ddn.getDate())) {
+            age--;
+          }
+          document.getElementById("agePrecis").innerHTML = "L'âge précis est: " + age + " ans";
+        }
+    
+        function myFunction2() {
+          var anneeNaissance = parseInt(document.getElementById("anneeNaissance").value);
+          var today = new Date();
+          var age = today.getFullYear() - anneeNaissance;
+          document.getElementById("age").innerHTML = "L'âge est: " + age + " ans";
+        }
+      </script>
+    
   </div>
-
-<p id="aidePourInter">Entrez la date de naissance de la victime</p>
-
-<input class ="myInput1" type="text" id="myInput1" oninput="myFunction1()">
-
-
-<p class="myInput1"  id="age"></p>
-
-<script>
-
-function myFunction1() {
-  var x = document.getElementById("myInput1").value;
-        var diff = 2022 - document.getElementById("myInput1").value;
-        var age = diff; 
-        document.getElementById("age").innerHTML = "La victime à : "+ Math.abs(age)+" ans";
-}
-</script>
-<div id="ligne" class="ligne">
-
-</div>
-
-
-<p  id="aidePourInter">Entrez l'année de naissance de la victime</p>
-
-<input class ="myInput2" type="text" id="myInput2" oninput="myFunction2()">
-
-<p class="myInput2" id="ddn"></p>
-
-
-<script>
-
-function myFunction2() {
-  var x = document.getElementById("myInput2").value;
-        var diff = document.getElementById("myInput2").value - 2022;
-        var ddn = diff; 
-        document.getElementById("ddn").innerHTML = "La date de naissance est: "+ Math.abs(ddn);
-}
-</script>
-<p id="ddn"></p>
-
-
-   
-<div id="separateur" class="separateur"></div>
-<div id="down" class="down"> 
-  <div id="textB" class="texteB" >
-    <p><span>Mise à jour le 20/04/2022 </span></p>
-    <p><span>Développé par l'association Secouristes UTT - Sec'UTT</span></p>
-  </div>
-</div>
-
   
+  
+
+  <!-- Footer -->
+  <footer class="footer bg-dark text-light text-center py-3">
+    <p>Mise à jour le 20/04/2022</p>
+    <p>Développé par l'association Secouristes UTT - Sec'UTT</p>
+  </footer>
 
 </body>
 </html>
+
+
+
+
 

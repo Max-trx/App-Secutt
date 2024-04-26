@@ -1,75 +1,82 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Page d'accueil</title>
-    <link rel="stylesheet" href="../../Style/style.css">
-  </head>
-  <body>
-  
-<!-- En tête-->
-<div id="enTête" class="enTête" >
-  <a href="../../index.html"><img id="logo" class="logo" src="../../media/logo.png"/></a>
-    <div id="text1eT" class="texteT" >
-      <p><span>Autonomie bouteille O2</span></p>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple Bootstrap 5</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../style.css">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="../../index.html">
+        <img src="../../img/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-top me-2">
+        <div class="fw-bold text-navbar">Calcul d'âge</div>
+      </a>
     </div>
+  </nav>
+
+  <!-- Contenu de la page -->
+<div class="container-fluid page mt-4">
+  <!-- Lecteur de métronome 100 bpm -->
+  <div id="player100bpm" class="text-center" style="height: 8em;">
+      <button id="playButton100bpm" class="btn btn-primary fs-2" style="width: 100%; height: 100%;">Play 100 Bpm</button>
+      <audio id="metronomeAudio100bpm" src="../../media/metronome_100_bpm.mp3" loop></audio>
   </div>
-<!-- Rectangle jaune-->
-<div id="separateur" class="separateur">
 
-</div>
-<!--<div id="ligne" class="ligne"></div>
-<div id="aidePourInter" class="aidePourInter">
-    <p id="aidePourInter" class="aidePourInter"> Massage cardiaque à 100 Bt/min</p>
-    <audio class = "Audio" controls src="../../media/100-bpm-metronome.mp3"></audio>
-</div>
-<div id="ligne" class="ligne"></div>
-<div id="aidePourInter" class="aidePourInter">
-       <p id="aidePourInter" class="aidePourInter"> Massage cardiaque à 110 Bt/min</p>
-    <audio class = "Audio" controls src="../../media/110-bpm-metronome.mp3"></audio>
-</div>
+  <br>
 
-<div id="ligne" class="ligne"></div>
-<div id="aidePourInter" class="aidePourInter">
- <p id="aidePourInter" class="aidePourInter"> Massage cardiaque à 120 Bt/min</p>
-    <audio class = "Audio" controls src="../../media/120-bpm-metronome.mp3"></audio>
-</div>
-
-<div id="down" class="down"> 
-  <div id="textB" class="texteB" >
-    <p><span>Mise à jour le 20/04/2022 </span></p>
-    <p><span>Développé par l'association Secouristes UTT - Sec'UTT</span></p>
+  <!-- Lecteur de métronome 120 bpm -->
+  <div id="player120bpm" class="text-center" style="height: 8em;">
+      <button id="playButton120bpm" class="btn btn-primary fs-2" style="width: 100%; height: 100%;">Play 120 Bpm</button>
+      <audio id="metronomeAudio120bpm" src="../../media/metronome_120_bpm.mp3" loop></audio>
   </div>
-</div>-->
 
-<div id = "player">
-    <div class="play control"> Play</div>
+  <script>
+      document.getElementById('playButton100bpm').addEventListener('click', function() {
+          var audio = document.getElementById('metronomeAudio100bpm');
+          if (audio.paused) {
+              audio.play();
+              this.textContent = 'Pause 100 bpm';
+          } else {
+              audio.pause();
+              audio.currentTime = 0;
+              this.textContent = 'Play 100 bpm';
+          }
+      });
 
-
+      document.getElementById('playButton120bpm').addEventListener('click', function() {
+          var audio = document.getElementById('metronomeAudio120bpm');
+          if (audio.paused) {
+              audio.play();
+              this.textContent = 'Pause 120 bpm';
+          } else {
+              audio.pause();
+              audio.currentTime = 0;
+              this.textContent = 'Play 120 bpm';
+          }
+      });
+  </script>
 </div>
+  
+  
 
-<script>
-$(document).ready(function(){
-
-const $metro = new Audio ('')
-var $play = $('.play');
-
-$play.click( jouer) ; 
-
-function jouer(){
-    $metro.play(); 
-}
-
-
-
-
-
-})
-
-
-</script>
-
+  <!-- Footer -->
+  <footer class="footer bg-dark text-light text-center py-3">
+    <p>Mise à jour le 20/04/2022</p>
+    <p>Développé par l'association Secouristes UTT - Sec'UTT</p>
+  </footer>
 
 </body>
 </html>
+
+
+
+
+
+
 

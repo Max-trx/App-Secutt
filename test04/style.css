@@ -14,13 +14,6 @@
 .square-btn:hover{
     transform: scale(1.15);
 }
-
-.bg-btn {
-    aspect-ratio: 1 / 1;
-    width: 20vw;
-    right: 30px;
-}
-
 .footer {
     position: fixed;
     bottom: 0;
@@ -29,8 +22,7 @@
 }
 
 .page {
-    margin-bottom: 50px;
-    margin: auto;
+    margin-bottom: 10em;
     width: 80%;
 }
 
