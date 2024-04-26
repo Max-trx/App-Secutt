@@ -43,6 +43,10 @@
         font-size: 1.6em;
         width: 60%
     }
+
+    .text-navbar {
+        white-space: normal;
+    }
 }
 
 @media only screen and (max-width : 480px){
@@ -53,5 +57,6 @@
 
     .text-navbar {
         font-size: 0.9em;
+        white-space: normal;
     }
 }
