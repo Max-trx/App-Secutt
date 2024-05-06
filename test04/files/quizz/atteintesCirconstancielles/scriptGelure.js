@@ -47,7 +47,8 @@ var Question = function (questionObj) {
     this.html = document.createElement("div");
     this.html.classList.add("question");
 
-    this.questionText = document.createElement("h3");
+    this.questionText = document.createElement("div");
+    this.questionText.classList.add("titreQuestion");
     this.questionText.textContent = this.value.text;
 
     this.questionAnswers = document.createElement("div");
@@ -194,6 +195,56 @@ let questionsData = [
       { text: "S’il n’y a pas de risque de réexposition au froid", isCorrect: true },
       { text: "Pas plus de 20min immergées", isCorrect: false }
     ]
+  },
+  {
+      text: "Pourquoi est-il important de repérer la présence d'une poche d'air lors du dégagement de la tête de la victime ensevelie ?",
+      answers: [
+          {
+              text: "Pour décider si la victime doit être évacuée rapidement",
+              isCorrect: false,
+              comment: "Incorrect. L'évaluation de la poche d'air est importante pour adapter la conduite à tenir, mais cela ne détermine pas nécessairement la nécessité d'une évacuation rapide."
+          },
+          {
+              text: "Pour évaluer l'ampleur des lésions traumatiques",
+              isCorrect: false,
+              comment: "Incorrect. Bien que l'évaluation des lésions soit importante, la présence d'une poche d'air est plus pertinente pour fournir une ventilation efficace."
+          },
+          {
+              text: "Pour déterminer si la victime est encore consciente",
+              isCorrect: false,
+              comment: "Incorrect. La présence d'une poche d'air n'est pas nécessairement liée à la conscience de la victime. Elle est importante pour fournir de l'oxygène si nécessaire."
+          },
+          {
+              text: "Pour adapter la conduite à tenir et fournir de l'oxygène si nécessaire",
+              isCorrect: true,
+              comment: "Correct. Repérer une poche d'air permet d'adapter la prise en charge de la victime et de fournir de l'oxygène pour prévenir l'asphyxie."
+          }
+      ]
+  },
+  {
+      text: "Quel est l'un des mécanismes de traumatismes subis par une victime ensevelie dans une avalanche ?",
+      answers: [
+          {
+              text: "L'écrasement par la neige compacte",
+              isCorrect: false,
+              comment: "Incorrect. L'écrasement est un mécanisme de traumatisme, mais les chocs contre des obstacles comme les rochers ou les arbres sont également fréquents."
+          },
+          {
+              text: "La déshydratation due à l'exposition prolongée",
+              isCorrect: false,
+              comment: "Incorrect. La déshydratation peut être un problème, mais les traumatismes physiques sont plus immédiats et graves dans les premières minutes après l'avalanche."
+          },
+          {
+              text: "Les brûlures causées par le frottement avec la neige",
+              isCorrect: false,
+              comment: "Incorrect. Les brûlures sont peu probables dans une avalanche. Les traumatismes sont généralement dus à des chocs contre des obstacles ou à l'asphyxie."
+          },
+          {
+              text: "Les chocs directs contre les rochers ou les arbres",
+              isCorrect: true,
+              comment: "Correct. Les chocs contre des obstacles solides comme les rochers ou les arbres sont l'un des principaux mécanismes de traumatismes dans les avalanches."
+          }
+      ]
   }
 ];
 
@@ -204,7 +255,7 @@ let score = 0,
   answeredQuestions = 0;
 let appContainer = document.getElementById("questions-container");
 let scoreContainer = document.getElementById("score-container");
-scoreContainer.innerHTML = `Score: ${score}/${questionsData.length}`;
+scoreContainer.innerHTML = `Score: ${score}/${5}`;
 
 /**
  * Shuffles array in place. ES6 version
@@ -220,7 +271,7 @@ function shuffle(arr) {
 shuffle(questionsData);
 
 // creating questions
-for (var i = 0; i < questionsData.length; i++) {
+for (var i = 0; i < 5; i++) {
   let question = new Question({
     text: questionsData[i].text,
     answers: questionsData[i].answers

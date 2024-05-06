@@ -10,16 +10,17 @@
 .question {
   --correct-color: rgb(9, 187, 69);
   --incorrect-color: rgb(245, 48, 48);
-  --selected-color: rgba(13, 110, 221, 0.712);
+  --selected-color: rgba(0, 0, 0, 0.712);
   --disabled-color: rgb(219, 219, 219);
   --disabled-correct-color: rgb(118, 212, 149);
   --disabled-incorrect-color: rgb(221, 131, 131);
 
   position: relative;
-  width: 500px;
+  /*width: 500px;
   height: 100%;
   min-width: 500px;
-  min-height: max-content;
+  min-height: max-content;*/
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   padding: 1em;
@@ -47,7 +48,7 @@
   font-size: 18px;
   background: none;
   padding: 10px 5px;
-  border: 1px solid rgba(13, 110, 221, 0.712);
+  border: 1px solid rgba(0, 0, 0, 0.712);
   outline: none;
   border-radius: 10px;
   cursor: pointer;
@@ -69,7 +70,7 @@
 }
 
 .answer:hover {
-  background: rgba(13, 110, 221, 0.712);
+  background: rgba(0, 0, 0, 0.712);
   color: white;
   transition: all 200ms ease-out;
 }
@@ -127,14 +128,16 @@
   padding: 40px 20px;
 }
 
+
 #questions-container {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(1, auto);
   grid-template-rows: repeat(3, max-content);
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 30px;
 }
+
 
 #score-container {
   position: fixed;
@@ -147,15 +150,29 @@
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-  background: rgb(13, 110, 221);
+  background: rgb(0, 0, 0);
   padding: 10px 15px;
   min-width: 100px;
   min-height: 45px;
   border-radius: 10px;
+  z-index: 999;
 }
 
 #app-title {
   margin-top: 0;
   margin-bottom: 40px;
   margin: 0 0 40px 20px;
+}
+
+.titreQuestion {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px){
+  .answer {
+    font-size: 16px;
+    font-weight: 400;
+  }
 }
