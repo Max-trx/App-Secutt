@@ -161,91 +161,505 @@ var Question = function (questionObj) {
 
 let questionsData = [
   {
-    text: "Qu’elle est la défnition d'une gelure ?",
-    answers: [
-      { text: "Un saignement qui ne s'arrête pas", isCorrect: false, comment: "Ce n'est pas correct. Une gelure est une lésion grave de la peau liée au froid." },
-      { text: "Une lésion grave de la peau liée au froid", isCorrect: true, comment: "Une gelure est en effet une lésion de la peau causée par le froid." },
-      { text: "Une douleur des cervicales", isCorrect: false, comment: "Non, ce n'est pas une gelure. Il s'agit d'autre chose." },
-      { text: "Une douleur des cervicales", isCorrect: false, comment: "Non, ce n'est pas une gelure. Il s'agit d'autre chose." }
+    "text": "Qu'est-ce qu'un état de crise selon la définition donnée ?",
+    "answers": [
+        {
+            "text": "Une réaction brusque et intense, de durée limitée, générant une souffrance aiguë difficile à contenir",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Une manifestation contrôlée et régulière",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Une réaction progressive et stable face à un événement traumatisant",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Une condition permanente de détresse psychologique",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
     ]
-  },
-  {
-    text: "Dans quelle(s) condition(s) surviennent les gelures ?",
-    answers: [
-      { text: "Lors d’une exposition prolongée dans un milieu froid, en dessous de 0°C", isCorrect: true },
-      { text: "Lors d’une exposition de 5 min dans un milieu froid -10°C", isCorrect: false },
-      { text: "Lors ce que je vais dans un milieu chaud", isCorrect: false },
-      { text: "Lors ce que je vais dans un milieu chaud", isCorrect: false }
+},
+{
+    "text": "Quelles peuvent être les origines des troubles entraînant un état de crise ?",
+    "answers": [
+        {
+            "text": "Des facteurs physiques, psychologiques ou psychiatriques",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Uniquement des facteurs psychologiques",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Uniquement des facteurs physiques",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Des facteurs génétiques et héréditaires",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
     ]
-  },
-  {
-    text: "Combien de degré de gelure existe-il ?",
-    answers: [
-      { text: "3 sachant que dans le cas le plus grave il y a un risque d’amputation", isCorrect: false },
-      { text: "4 et l’apparition des 1er cloques s’effectue au 3eme degré", isCorrect: true },
-      { text: "4 et l’apparition des cloques sanglantes se manifeste au 3eme degré", isCorrect: false },
-      { text: "4 et l’amputation est irréversible dans le pire cas", isCorrect: false }
+},
+{
+    "text": "Qu'est-ce qui peut être considéré comme un facteur déclencheur externe d'un état de crise ?",
+    "answers": [
+        {
+            "text": "Un événement stressant, potentiellement traumatisant, exposant soudainement la personne à une menace de mort",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Un changement interne à la personne",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Une affection psychiatrique permanente",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Une réaction aiguë de la victime",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
     ]
-  },
-  {
-    text: "Sous quelles conditions pouvons-nous plonger les gelures dans une bassine d’eau à 37-39°C ?",
-    answers: [
-      { text: "Uniquement sous 10h", isCorrect: false },
-      { text: "Uniquement sous 24h", isCorrect: false },
-      { text: "S’il n’y a pas de risque de réexposition au froid", isCorrect: true },
-      { text: "Pas plus de 20min immergées", isCorrect: false }
+},
+{
+    "text": "Quels sont les signes et manifestations qui peuvent indiquer un état de crise chez une personne ?",
+    "answers": [
+        {
+            "text": "Des signes et manifestations repérables dans différentes sphères : comportementales, émotionnelles et cognitives",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Seulement des signes physiques visibles",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Seulement des signes émotionnels intenses",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Des signes qui ne peuvent être observés que par des professionnels de santé",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
     ]
-  },
-  {
-      text: "Pourquoi est-il important de repérer la présence d'une poche d'air lors du dégagement de la tête de la victime ensevelie ?",
-      answers: [
-          {
-              text: "Pour décider si la victime doit être évacuée rapidement",
-              isCorrect: false,
-              comment: "L'évaluation de la poche d'air est importante pour adapter la conduite à tenir, mais cela ne détermine pas nécessairement la nécessité d'une évacuation rapide."
-          },
-          {
-              text: "Pour évaluer l'ampleur des lésions traumatiques",
-              isCorrect: false,
-              comment: "Bien que l'évaluation des lésions soit importante, la présence d'une poche d'air est plus pertinente pour fournir une ventilation efficace."
-          },
-          {
-              text: "Pour déterminer si la victime est encore consciente",
-              isCorrect: false,
-              comment: "La présence d'une poche d'air n'est pas nécessairement liée à la conscience de la victime. Elle est importante pour fournir de l'oxygène si nécessaire."
-          },
-          {
-              text: "Pour adapter la conduite à tenir et fournir de l'oxygène si nécessaire",
-              isCorrect: true,
-              comment: "Repérer une poche d'air permet d'adapter la prise en charge de la victime et de fournir de l'oxygène pour prévenir l'asphyxie."
-          }
-      ]
-  },
-  {
-      text: "Quel est l'un des mécanismes de traumatismes subis par une victime ensevelie dans une avalanche ?",
-      answers: [
-          {
-              text: "L'écrasement par la neige compacte",
-              isCorrect: false,
-              comment: "L'écrasement est un mécanisme de traumatisme, mais les chocs contre des obstacles comme les rochers ou les arbres sont également fréquents."
-          },
-          {
-              text: "La déshydratation due à l'exposition prolongée",
-              isCorrect: false,
-              comment: "La déshydratation peut être un problème, mais les traumatismes physiques sont plus immédiats et graves dans les premières minutes après l'avalanche."
-          },
-          {
-              text: "Les brûlures causées par le frottement avec la neige",
-              isCorrect: false,
-              comment: "Les brûlures sont peu probables dans une avalanche. Les traumatismes sont généralement dus à des chocs contre des obstacles ou à l'asphyxie."
-          },
-          {
-              text: "Les chocs directs contre les rochers ou les arbres",
-              isCorrect: true,
-              comment: "Les chocs contre des obstacles solides comme les rochers ou les arbres sont l'un des principaux mécanismes de traumatismes dans les avalanches."
-          }
-      ]
-  }
+},
+{
+    "text": "Comment peut réagir une victime en état de crise selon les informations données ?",
+    "answers": [
+        {
+            "text": "Elle peut présenter une réaction de fuite panique ou une agitation désordonnée",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Elle reste calme et posée, évaluant calmement la situation",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Elle est souvent incapable de bouger ou de parler",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Elle est parfaitement consciente de la réalité de la situation et prend des décisions rationnelles",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Quels sont les signes indiquant un état de panique chez une personne ?",
+    "answers": [
+        {
+            "text": "Une tension nerveuse avec apparition d'anxiété et d'agitation psychomotrice",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Une capacité à raisonner calmement",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Une réaction de recul par rapport à la situation",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Une expression calme et posée",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Quelles sont les différentes formes que peuvent prendre les comportements agressifs ?",
+    "answers": [
+        {
+            "text": "Incivilités, comportements menaçants, violence verbale",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Compassion et empathie",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Passivité et retrait",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Acceptation et compréhension",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Quels sont les signes d'alerte indiquant un passage à l'acte violent ?",
+    "answers": [
+        {
+            "text": "Pâleur, augmentation de la coloration du visage, agitation",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Respiration profonde et régulière",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Sourire et contact visuel apaisant",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Immobilité et silence",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Quelle est la conduite à tenir spécifique face à un geste violent ?",
+    "answers": [
+        {
+            "text": "Évaluer la dangerosité de la situation et mettre en sécurité les objets potentiellement dangereux",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Utiliser des gestes violents pour se défendre",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Ignorer la personne agressive jusqu'à ce qu'elle se calme",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Laisser la personne agressive seule pour qu'elle se calme d'elle-même",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Comment devrait être l'abord relationnel avec une personne agressive ?",
+    "answers": [
+        {
+            "text": "Garder une distance de sécurité et rester calme et respectueux",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Adopter une attitude agressive pour montrer de la fermeté",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Éviter tout contact verbal pour ne pas aggraver la situation",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Ignorer la personne agressive jusqu'à ce qu'elle se calme",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Quel est l'objectif principal de l'action de secours en termes de relation avec la victime ?",
+    "answers": [
+        {
+            "text": "Identifier les réactions inhabituelles et protéger la victime et son entourage",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Éviter toute interaction avec la victime pour des raisons de sécurité",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Réaliser des gestes médicaux complexes dès le début de l'intervention",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Encourager la victime à prendre des décisions autonomes",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Que recherche le secouriste lors de l'observation et de la recherche d'éléments auprès de la victime ?",
+    "answers": [
+        {
+            "text": "Des signes et des caractéristiques spécifiques, ainsi que des informations sur les antécédents, traitements et hospitalisations potentiels",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Uniquement la cause externe de la crise",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Des éléments extérieurs perturbants la victime",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Des informations sur les antécédents de la victime",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Quelle est la première étape pour déterminer les stratégies de protection et de prise en charge de la victime ?",
+    "answers": [
+        {
+            "text": "Identifier les risques potentiels dans l'environnement",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Demander immédiatement l'intervention des forces de l'ordre",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Établir un contact verbal avec la victime",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Stabiliser l'état de crise de la victime",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Quelles sont les actions à entreprendre en cas de contact et de dialogue impossibles avec la victime ?",
+    "answers": [
+        {
+            "text": "Demander une médicalisation en vue d'une éventuelle sédation",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Continuer à essayer de communiquer verbalement avec la victime",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Réaliser des gestes invasifs pour réanimer la victime",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Ne rien faire et attendre que la situation se calme d'elle-même",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Comment le secouriste devrait-il aborder une victime présentant une réaction de type hypoactive (silencieuse) ?",
+    "answers": [
+        {
+            "text": "En cherchant à l'orienter vers des éléments sécurisants et des tâches simples",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "En s'exprimant de manière bruyante pour attirer son attention",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "En lui demandant de s'exprimer émotionnellement sur la situation",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "En lui proposant de réaliser des activités physiques pour la stimuler",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Quel est le premier pas à prendre face à une personne en crise suicidaire ?",
+    "answers": [
+        {
+            "text": "Ignorer la situation et la laisser seule.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Reconnaître la souffrance de la personne et aborder la situation avec tact.",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Agir de façon agressive pour la secouer.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Demander à d'autres personnes de s'en occuper.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Quelle est la meilleure façon d'évaluer le risque de passage à l'acte suicidaire ?",
+    "answers": [
+        {
+            "text": "Poser des questions indirectes pour ne pas déranger la personne.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Ne pas aborder le sujet du tout pour ne pas aggraver la situation.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Poser des questions directes pour évaluer le moyen envisagé et sa disponibilité.",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Proposer simplement à la personne de prendre des médicaments pour se calmer.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Que faut-il proposer systématiquement à une personne en crise suicidaire ?",
+    "answers": [
+        {
+            "text": "Une intervention agressive pour la secouer.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "L'abandonner et la laisser seule.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Le transport vers l'hôpital pour une évaluation spécialisée.",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Ignorer ses propos et changer de sujet.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Pourquoi est-il important de surveiller la personne en crise suicidaire pendant toute l'intervention ?",
+    "answers": [
+        {
+            "text": "Pour la juger et la critiquer en cas de geste impulsif.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Pour prévenir tout passage à l'acte impulsif.",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Pour l'ignorer et la laisser seule.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Pour minimiser ses propos et ses émotions.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
+{
+    "text": "Que faut-il rapporter à l'hôpital concernant une personne en crise suicidaire ?",
+    "answers": [
+        {
+            "text": "Aucune information n'est nécessaire.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Les éléments observés et repérés lors de la prise en charge de la personne.",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
+            "text": "Rien, il suffit de laisser la personne seule.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Les éléments médicaux uniquement.",
+            "isCorrect": false,
+            "comment": "Ce n'est pas la bonne réponse."
+        }
+    ]
+},
 ];
 
 

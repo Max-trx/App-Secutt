@@ -160,7 +160,108 @@ var Question = function (questionObj) {
 //
 
 let questionsData = [
-  
+  // Questions sur la douleur thoracique (non traumatique)
+
+// Question 1
+{
+  text: "Qu'est-ce que la douleur thoracique ?",
+  answers: [
+    { text: "Une douleur perçue au niveau du thorax.", isCorrect: true },
+    { text: "Une douleur ressentie dans le bas du dos.", isCorrect: false },
+    { text: "Une douleur localisée dans les membres supérieurs.", isCorrect: false }
+  ]
+},
+
+// Question 2
+{
+  text: "Quelles sont les principales causes de douleur thoracique non traumatique ?",
+  answers: [
+    { text: "Occlusion d'une artère coronaire, infection pulmonaire, reflux gastro-œsophagien.", isCorrect: true },
+    { text: "Fracture des côtes, blessure au sternum, contusion pulmonaire.", isCorrect: false },
+    { text: "Maux de tête, douleurs abdominales, engourdissement des membres.", isCorrect: false }
+  ]
+},
+
+// Question 3
+{
+  text: "Quels signes peuvent accompagner la douleur thoracique ?",
+  answers: [
+    { text: "Malaise, pâleur, sueurs, nausées.", isCorrect: true },
+    { text: "Picotements dans les bras, sensation de chaleur dans les jambes.", isCorrect: false },
+    { text: "Vertiges, troubles de la vision, perte d'équilibre.", isCorrect: false }
+  ]
+},
+
+// Question 4
+{
+  text: "Quel est le principal risque associé à une douleur thoracique ?",
+  answers: [
+    { text: "Atteinte des fonctions vitales, comme un infarctus ou une détresse respiratoire.", isCorrect: true },
+    { text: "Risque de fracture des côtes ou de blessure au sternum.", isCorrect: false },
+    { text: "Possibilité de développer une allergie alimentaire.", isCorrect: false }
+  ]
+},
+
+// Question 5
+{
+  text: "Comment la douleur thoracique peut-elle évoluer dans le temps ?",
+  answers: [
+    { text: "Elle peut être continue ou intermittente, et sa durée doit être précisée.", isCorrect: true },
+    { text: "Elle diminue progressivement avec le temps.", isCorrect: false },
+    { text: "Elle s'aggrave brusquement sans prévenir.", isCorrect: false }
+  ]
+},
+
+// Question 6
+{
+  text: "Que doit faire le secouriste en cas de douleur thoracique chez une victime consciente ?",
+  answers: [
+    { text: "Préserver les fonctions vitales, demander un avis médical, aider la victime à prendre un traitement si nécessaire.", isCorrect: true },
+    { text: "Appliquer immédiatement un massage cardiaque.", isCorrect: false },
+    { text: "Administer un médicament anti-inflammatoire sans demander l'avis de la victime.", isCorrect: false }
+  ]
+},
+
+// Question 7
+{
+  text: "Quelles sont les positions recommandées pour une victime de douleur thoracique ?",
+  answers: [
+    { text: "Assise ou demi-assise.", isCorrect: true },
+    { text: "Allongée sur le ventre.", isCorrect: false },
+    { text: "Allongée sur le dos les jambes relevées.", isCorrect: false }
+  ]
+},
+
+// Question 8
+{
+  text: "Que doit faire le secouriste si la victime perd conscience lors de douleurs thoraciques ?",
+  answers: [
+    { text: "Appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent.", isCorrect: true },
+    { text: "Attendre que la victime reprenne conscience naturellement.", isCorrect: false },
+    { text: "Administer un médicament contre la douleur.", isCorrect: false }
+  ]
+},
+
+// Question 9
+{
+  text: "Pourquoi est-il important de demander un avis médical en cas de douleur thoracique ?",
+  answers: [
+    { text: "Pour évaluer la gravité de la situation et orienter la prise en charge appropriée.", isCorrect: true },
+    { text: "Pour obtenir des conseils sur la relaxation.", isCorrect: false },
+    { text: "Pour prescrire un traitement sans tenir compte de la gravité de la situation.", isCorrect: false }
+  ]
+},
+
+// Question 10
+{
+  text: "Quelles sont les premières mesures à prendre en cas de douleur thoracique chez une victime consciente et en détresse respiratoire ?",
+  answers: [
+    { text: "Appliquer la conduite à tenir adaptée à une détresse respiratoire (position assise ou demi-assise, oxygène si nécessaire) et demander un avis médical.", isCorrect: true },
+    { text: "Appliquer la conduite à tenir adaptée à une détresse circulatoire (position allongée horizontale, oxygène si nécessaire) et demander un avis médical.", isCorrect: false },
+    { text: "Mettre la victime au repos immédiatement et lui administrer un médicament contre la douleur.", isCorrect: false }
+  ]
+}
+
 ];
 
 

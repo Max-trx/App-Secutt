@@ -160,7 +160,107 @@ var Question = function (questionObj) {
 //
 
 let questionsData = [
-  
+  // Questions sur l'AVC
+
+// Question 1
+{
+  text: "Qu'est-ce qu'un accident vasculaire cérébral (AVC) ?",
+  answers: [
+    { text: "Un déficit neurologique soudain d'origine vasculaire.", isCorrect: true },
+    { text: "Une rupture d'un vaisseau sanguin dans le cerveau.", isCorrect: false },
+    { text: "Une perte de conscience brève et passagère.", isCorrect: false }
+  ]
+},
+
+// Question 2
+{
+  text: "Quelle est la principale cause d'AVC ?",
+  answers: [
+    { text: "L'obstruction d'une artère cérébrale.", isCorrect: true },
+    { text: "Une hémorragie cérébrale.", isCorrect: false },
+    { text: "Une perte de connaissance due à une maladie.", isCorrect: false }
+  ]
+},
+
+// Question 3
+{
+  text: "Quels sont les signes spécifiques d'un AVC selon le FAST test ?",
+  answers: [
+    { text: "Face, Arm et Speech (langage).", isCorrect: true },
+    { text: "Fever, Arm et Spasm.", isCorrect: false },
+    { text: "Fatigue, Appetite et Stress.", isCorrect: false }
+  ]
+},
+
+// Question 4
+{
+  text: "Quelle est la première cause de handicap chez l'adulte ?",
+  answers: [
+    { text: "L'accident vasculaire cérébral (AVC).", isCorrect: true },
+    { text: "Les troubles cardiaques.", isCorrect: false },
+    { text: "Les accidents de voiture.", isCorrect: false }
+  ]
+},
+
+// Question 5
+{
+  text: "Que doit faire un secouriste si une victime présente des signes d'AVC ?",
+  answers: [
+    { text: "Demander un avis médical immédiat et respecter les consignes.", isCorrect: true },
+    { text: "Attendre que les symptômes disparaissent d'eux-mêmes.", isCorrect: false },
+    { text: "Donner à la victime des médicaments contre la douleur.", isCorrect: false }
+  ]
+},
+
+// Question 6
+{
+  text: "Quels sont les trois signes spécifiques recherchés chez une victime d'AVC ?",
+  answers: [
+    { text: "Déformation de la bouche, faiblesse ou engourdissement des bras, difficulté de langage.", isCorrect: true },
+    { text: "Douleur abdominale, difficulté de respiration, vertiges.", isCorrect: false },
+    { text: "Toux persistante, fièvre élevée, fatigue extrême.", isCorrect: false }
+  ]
+},
+
+// Question 7
+{
+  text: "Quel est le principe de l'action de secours pour une victime d'AVC ?",
+  answers: [
+    { text: "Demander un avis médical immédiat, surveiller la victime et respecter les consignes.", isCorrect: true },
+    { text: "Donner des médicaments pour réduire la pression artérielle.", isCorrect: false },
+    { text: "Mettre la victime en position assise et lui donner de l'oxygène.", isCorrect: false }
+  ]
+},
+
+// Question 8
+{
+  text: "Quelle est la meilleure prise en charge pour les victimes d'AVC ?",
+  answers: [
+    { text: "Les acheminer vers un centre spécialisé en unité neuro-vasculaire.", isCorrect: true },
+    { text: "Les traiter à domicile avec des médicaments.", isCorrect: false },
+    { text: "Les envoyer dans n'importe quel hôpital proche.", isCorrect: false }
+  ]
+},
+
+// Question 9
+{
+  text: "Quel est l'effet de l'interruption de la circulation sanguine pendant un AVC ?",
+  answers: [
+    { text: "Une ischémie des cellules nerveuses, suivie de leur détérioration et de leur mort.", isCorrect: true },
+    { text: "Un afflux excessif de sang dans le cerveau, provoquant des saignements.", isCorrect: false },
+    { text: "Une augmentation de l'oxygénation du cerveau, améliorant la santé des cellules nerveuses.", isCorrect: false }
+  ]
+},
+
+// Question 10
+{
+  text: "Qu'est-ce qu'un accident ischémique transitoire (AIT) ?",
+  answers: [
+    { text: "Une obstruction de l'artère cérébrale se résorbant d'elle-même avec des signes passagers.", isCorrect: true },
+    { text: "Une hémorragie cérébrale permanente entraînant des séquelles.", isCorrect: false },
+    { text: "Une perte de conscience prolongée due à une hypoxie cérébrale.", isCorrect: false }
+  ]
+}
 ];
 
 
