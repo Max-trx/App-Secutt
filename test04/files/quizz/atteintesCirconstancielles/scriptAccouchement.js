@@ -174,7 +174,7 @@ let questionsData = [
             "comment": "L'accouchement inopiné se produit avant l'arrivée des secours."
         },
         {
-            "text": "Un accouchement qui se déroule après l'arrivée des secours.",
+            "text": "Un accouchement qui se déroule sous césarienne.",
             "isCorrect": false,
             "comment": " L'accouchement inopiné se produit avant l'arrivée des secours."
         },

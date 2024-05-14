@@ -161,91 +161,80 @@ var Question = function (questionObj) {
 
 let questionsData = [
   {
-    text: "Qu’elle est la défnition d'une gelure ?",
-    answers: [
-      { text: "Un saignement qui ne s'arrête pas", isCorrect: false, comment: "Ce n'est pas correct. Une gelure est une lésion grave de la peau liée au froid." },
-      { text: "Une lésion grave de la peau liée au froid", isCorrect: true, comment: "Une gelure est en effet une lésion de la peau causée par le froid." },
-      { text: "Une douleur des cervicales", isCorrect: false, comment: "Non, ce n'est pas une gelure. Il s'agit d'autre chose." },
-      { text: "Une douleur des cervicales", isCorrect: false, comment: "Non, ce n'est pas une gelure. Il s'agit d'autre chose." }
+    "text": "Quels sont les principaux objectifs de la transmission du bilan selon les informations fournies ?",
+    "answers": [
+        {
+            text: "Demander un avis médical, demander du renfort, définir l’orientation de la victime et réaliser un relai.",
+            isCorrect: true,
+            comment: "Effectivement, la transmission du bilan vise à accomplir ces objectifs selon les informations fournies."
+        },
+        {
+            text: "Réaliser un examen détaillé de la victime et mesurer les paramètres physiologiques.",
+            isCorrect: false,
+            comment: "Non, la transmission du bilan concerne la communication des informations sur l'intervention et l'état de la victime, pas la réalisation d'un examen détaillé ou la mesure des paramètres physiologiques."
+        },
+        {
+            text: "Assurer la sécurité des intervenants et de la victime.",
+            isCorrect: false,
+            comment: "Ce n'est pas le but principal de la transmission du bilan, même si cela peut en découler indirectement."
+        },
+        {
+            text: "Donner des instructions spécifiques sur les gestes de secours à entreprendre.",
+            isCorrect: false,
+            comment: "La transmission du bilan vise à communiquer des informations sur l'intervention déjà entreprise, pas à donner des instructions spécifiques sur les gestes de secours à entreprendre."
+        }
     ]
-  },
-  {
-    text: "Dans quelle(s) condition(s) surviennent les gelures ?",
-    answers: [
-      { text: "Lors d’une exposition prolongée dans un milieu froid, en dessous de 0°C", isCorrect: true },
-      { text: "Lors d’une exposition de 5 min dans un milieu froid -10°C", isCorrect: false },
-      { text: "Lors ce que je vais dans un milieu chaud", isCorrect: false },
-      { text: "Lors ce que je vais dans un milieu chaud", isCorrect: false }
+},
+{
+    "text": "Que doit contenir la transmission du bilan pour une situation nécessitant immédiatement des moyens en renfort ?",
+    "answers": [
+        {
+            text: "La nature de l’intervention, les moyens déjà présents sur place, les moyens supplémentaires nécessaires et éventuellement la correction d'informations erronées.",
+            isCorrect: true,
+            comment: "Oui, dans une situation nécessitant des moyens en renfort, la transmission du bilan doit inclure ces éléments selon les informations fournies."
+        },
+        {
+            text: "Un compte-rendu détaillé de l'ensemble de l'intervention.",
+            isCorrect: false,
+            comment: "Non, dans une situation nécessitant des moyens en renfort, la transmission du bilan doit être particulièrement descriptive de la situation, mais elle ne nécessite pas nécessairement un compte-rendu détaillé de l'ensemble de l'intervention."
+        },
+        {
+            text: "Les antécédents médicaux complets de la victime.",
+            isCorrect: false,
+            comment: "La transmission du bilan ne nécessite pas les antécédents médicaux complets de la victime, mais plutôt des informations spécifiques liées à la situation actuelle."
+        },
+        {
+            text: "Des recommandations sur les gestes de secours à entreprendre.",
+            isCorrect: false,
+            comment: "La transmission du bilan ne se concentre pas sur les recommandations futures, mais sur la communication des informations pertinentes pour la situation actuelle."
+        }
     ]
-  },
-  {
-    text: "Combien de degré de gelure existe-il ?",
-    answers: [
-      { text: "3 sachant que dans le cas le plus grave il y a un risque d’amputation", isCorrect: false },
-      { text: "4 et l’apparition des 1er cloques s’effectue au 3eme degré", isCorrect: true },
-      { text: "4 et l’apparition des cloques sanglantes se manifeste au 3eme degré", isCorrect: false },
-      { text: "4 et l’amputation est irréversible dans le pire cas", isCorrect: false }
+},
+{
+    "text": "Que doit inclure la transmission du bilan pour une victime ne présentant pas de détresse vitale ?",
+    "answers": [
+        {
+            text: "Le motif réel de l’intervention, le sexe et l’âge de la victime, la plainte principale, le résultat du bilan et les gestes de secours entrepris.",
+            isCorrect: true,
+            comment: "Oui, dans ce cas, la transmission du bilan doit inclure ces éléments spécifiques selon les informations fournies."
+        },
+        {
+            text: "Un appel à une équipe de renfort médical.",
+            isCorrect: false,
+            comment: "Cela ne fait pas partie des éléments nécessaires pour la transmission du bilan dans ce contexte."
+        },
+        {
+            text: "Des détails sur les antécédents médicaux complets de la victime.",
+            isCorrect: false,
+            comment: "La transmission du bilan ne nécessite pas les antécédents médicaux complets de la victime, mais plutôt des informations spécifiques liées à la situation actuelle."
+        },
+        {
+            text: "Les instructions spécifiques sur les gestes de secours à entreprendre pour la suite de l'intervention.",
+            isCorrect: false,
+            comment: "La transmission du bilan se concentre sur la communication des informations pertinentes pour la situation actuelle, pas sur les instructions futures."
+        }
     ]
-  },
-  {
-    text: "Sous quelles conditions pouvons-nous plonger les gelures dans une bassine d’eau à 37-39°C ?",
-    answers: [
-      { text: "Uniquement sous 10h", isCorrect: false },
-      { text: "Uniquement sous 24h", isCorrect: false },
-      { text: "S’il n’y a pas de risque de réexposition au froid", isCorrect: true },
-      { text: "Pas plus de 20min immergées", isCorrect: false }
-    ]
-  },
-  {
-      text: "Pourquoi est-il important de repérer la présence d'une poche d'air lors du dégagement de la tête de la victime ensevelie ?",
-      answers: [
-          {
-              text: "Pour décider si la victime doit être évacuée rapidement",
-              isCorrect: false,
-              comment: "L'évaluation de la poche d'air est importante pour adapter la conduite à tenir, mais cela ne détermine pas nécessairement la nécessité d'une évacuation rapide."
-          },
-          {
-              text: "Pour évaluer l'ampleur des lésions traumatiques",
-              isCorrect: false,
-              comment: "Bien que l'évaluation des lésions soit importante, la présence d'une poche d'air est plus pertinente pour fournir une ventilation efficace."
-          },
-          {
-              text: "Pour déterminer si la victime est encore consciente",
-              isCorrect: false,
-              comment: "La présence d'une poche d'air n'est pas nécessairement liée à la conscience de la victime. Elle est importante pour fournir de l'oxygène si nécessaire."
-          },
-          {
-              text: "Pour adapter la conduite à tenir et fournir de l'oxygène si nécessaire",
-              isCorrect: true,
-              comment: "Repérer une poche d'air permet d'adapter la prise en charge de la victime et de fournir de l'oxygène pour prévenir l'asphyxie."
-          }
-      ]
-  },
-  {
-      text: "Quel est l'un des mécanismes de traumatismes subis par une victime ensevelie dans une avalanche ?",
-      answers: [
-          {
-              text: "L'écrasement par la neige compacte",
-              isCorrect: false,
-              comment: "L'écrasement est un mécanisme de traumatisme, mais les chocs contre des obstacles comme les rochers ou les arbres sont également fréquents."
-          },
-          {
-              text: "La déshydratation due à l'exposition prolongée",
-              isCorrect: false,
-              comment: "La déshydratation peut être un problème, mais les traumatismes physiques sont plus immédiats et graves dans les premières minutes après l'avalanche."
-          },
-          {
-              text: "Les brûlures causées par le frottement avec la neige",
-              isCorrect: false,
-              comment: "Les brûlures sont peu probables dans une avalanche. Les traumatismes sont généralement dus à des chocs contre des obstacles ou à l'asphyxie."
-          },
-          {
-              text: "Les chocs directs contre les rochers ou les arbres",
-              isCorrect: true,
-              comment: "Les chocs contre des obstacles solides comme les rochers ou les arbres sont l'un des principaux mécanismes de traumatismes dans les avalanches."
-          }
-      ]
-  }
+},
 ];
 
 
