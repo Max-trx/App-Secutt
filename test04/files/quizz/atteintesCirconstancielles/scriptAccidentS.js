@@ -161,7 +161,7 @@ var Question = function (questionObj) {
 
 let questionsData = [
   {
-    text: "Qu’elle est la défnition d'une gelure ?",
+    "text": "Qu’elle est la défnition d'une gelure ?",
     answers: [
       { text: "Un saignement qui ne s'arrête pas", isCorrect: false, comment: "Ce n'est pas Une gelure est une lésion grave de la peau liée au froid." },
       { text: "Une lésion grave de la peau liée au froid", isCorrect: true, comment: "Une gelure est en effet une lésion de la peau causée par le froid." },
@@ -170,7 +170,7 @@ let questionsData = [
     ]
   },
   {
-    text: "Dans quelle(s) condition(s) surviennent les gelures ?",
+    "text": "Dans quelle(s) condition(s) surviennent les gelures ?",
     answers: [
       { text: "Lors d’une exposition prolongée dans un milieu froid, en dessous de 0°C", isCorrect: true },
       { text: "Lors d’une exposition de 5 min dans un milieu froid -10°C", isCorrect: false },
@@ -179,7 +179,7 @@ let questionsData = [
     ]
   },
   {
-    text: "Combien de degré de gelure existe-il ?",
+    "text": "Combien de degré de gelure existe-il ?",
     answers: [
       { text: "3 sachant que dans le cas le plus grave il y a un risque d’amputation", isCorrect: false },
       { text: "4 et l’apparition des 1er cloques s’effectue au 3eme degré", isCorrect: true },
@@ -188,7 +188,7 @@ let questionsData = [
     ]
   },
   {
-    text: "Sous quelles conditions pouvons-nous plonger les gelures dans une bassine d’eau à 37-39°C ?",
+    "text": "Sous quelles conditions pouvons-nous plonger les gelures dans une bassine d’eau à 37-39°C ?",
     answers: [
       { text: "Uniquement sous 10h", isCorrect: false },
       { text: "Uniquement sous 24h", isCorrect: false },
@@ -197,7 +197,7 @@ let questionsData = [
     ]
   },
   {
-      text: "Pourquoi est-il important de repérer la présence d'une poche d'air lors du dégagement de la tête de la victime ensevelie ?",
+      "text": "Pourquoi est-il important de repérer la présence d'une poche d'air lors du dégagement de la tête de la victime ensevelie ?",
       answers: [
           {
               text: "Pour décider si la victime doit être évacuée rapidement",
@@ -222,7 +222,7 @@ let questionsData = [
       ]
   },
   {
-      text: "Quel est l'un des mécanismes de traumatismes subis par une victime ensevelie dans une avalanche ?",
+      "text": "Quel est l'un des mécanismes de traumatismes subis par une victime ensevelie dans une avalanche ?",
       answers: [
           {
               text: "L'écrasement par la neige compacte",
@@ -250,22 +250,22 @@ let questionsData = [
     "text": "Qu'est-ce que l'électrisation ?",
     "answers": [
         {
-            "text": "L'ensemble des lésions provoquées par le passage d'un courant électrique à travers le corps.",
+            text: "L'ensemble des lésions provoquées par le passage d'un courant électrique à travers le corps.",
             "isCorrect": true,
             "comment": "L'électrisation désigne en effet l'ensemble des lésions causées par le passage du courant électrique à travers le corps."
         },
         {
-            "text": "Un accident lié à la production d'un arc électrique.",
+            text: "Un accident lié à la production d'un arc électrique.",
             "isCorrect": false,
             "comment": "Ce type d'accident est différent et n'est pas spécifiquement appelé électrisation."
         },
         {
-            "text": "L'effet direct du courant électrique lorsqu'il traverse les tissus.",
+            text: "L'effet direct du courant électrique lorsqu'il traverse les tissus.",
             "isCorrect": false,
             "comment": "C'est une partie de l'électrisation, mais pas sa définition complète."
         },
         {
-            "text": "Toutes les réponses précédentes sont correctes.",
+            text: "Toutes les réponses précédentes sont correctes.",
             "isCorrect": false,
             "comment": "Seule la première réponse est correcte pour définir l'électrisation."
         }
@@ -276,22 +276,22 @@ let questionsData = [
     "text": "Qu'est-ce que l'électrocution ?",
     "answers": [
         {
-            "text": "Une électrisation mortelle.",
+            text: "Une électrisation mortelle.",
             "isCorrect": true,
             "comment": "L'électrocution désigne une électrisation mortelle."
         },
         {
-            "text": "Une électrisation temporaire.",
+            text: "Une électrisation temporaire.",
             "isCorrect": false,
             "comment": "L'électrocution n'est pas temporaire, c'est une condition mortelle."
         },
         {
-            "text": "Une électrisation due à la production d'un arc électrique.",
+            text: "Une électrisation due à la production d'un arc électrique.",
             "isCorrect": false,
             "comment": "L'électrocution ne se limite pas à la production d'un arc électrique."
         },
         {
-            "text": "Une électrisation provoquée par un courant continu.",
+            text: "Une électrisation provoquée par un courant continu.",
             "isCorrect": false,
             "comment": "L'électrocution n'est pas spécifiquement liée à un type particulier de courant électrique."
         }
@@ -302,22 +302,22 @@ let questionsData = [
     "text": "Quel est le nombre estimé d'accidents mortels d'origine électrique en France chaque année ?",
     "answers": [
         {
-            "text": "Environ 50",
+            text: "Environ 50",
             "isCorrect": false,
             "comment": "Ce nombre est plus élevé que cela."
         },
         {
-            "text": "Environ 200",
+            text: "Environ 200",
             "isCorrect": false,
             "comment": "Ce nombre est encore plus élevé."
         },
         {
-            "text": "Environ 1000",
+            text: "Environ 1000",
             "isCorrect": false,
             "comment": "Ce nombre est excessivement élevé pour les accidents électriques mortels en France."
         },
         {
-            "text": "Environ 100",
+            text: "Environ 100",
             "isCorrect": true,
             "comment": "Environ 100 accidents mortels d'origine électrique sont estimés chaque année en France."
         }
@@ -1866,325 +1866,325 @@ let questionsData = [
   ]
 },
 {
-  "text": "Quelles sont les recommandations de sécurité en cas de risque persistant de foudre ?",
-  "answers": [
-      {
-          "text": "Se tenir en position assise en boule sur un sac ou une corde",
-          "isCorrect": false,
-          "comment": "Cette position ne réduit pas significativement le risque de foudroiement."
-      },
-      {
-          "text": "Progresser en faisant de grands pas pour minimiser le temps d'exposition",
-          "isCorrect": false,
-          "comment": "Se déplacer n'offre pas une protection adéquate contre la foudre."
-      },
-      {
-          "text": "S'éloigner des arbres",
-          "isCorrect": true,
-          "comment": "S'éloigner des arbres réduit le risque de foudroiement en diminuant la probabilité d'un impact direct."
-      },
-      {
-          "text": "Éviter de porter un casque de protection pour ne pas attirer la foudre",
-          "isCorrect": false,
-          "comment": "Les casques de protection"
-      }
-  ]
-},
-{
-  "text": "Pourquoi est-il important de repérer la présence d'une poche d'air lors du dégagement de la tête de la victime ensevelie ?",
-  "answers": [
-      {
-          "text": "Pour décider si la victime doit être évacuée rapidement",
-          "isCorrect": false,
-          "comment": "La présence d'une poche d'air n'indique pas automatiquement la nécessité d'une évacuation rapide."
-      },
-      {
-          "text": "Pour évaluer l'ampleur des lésions traumatiques",
-          "isCorrect": false,
-          "comment": "La présence d'une poche d'air n'est pas directement liée à l'ampleur des lésions traumatiques."
-      },
-      {
-          "text": "Pour déterminer si la victime est encore consciente",
-          "isCorrect": false,
-          "comment": "La présence d'une poche d'air ne permet pas de déterminer directement si la victime est consciente."
-      },
-      {
-          "text": "Pour adapter la conduite à tenir et fournir de l'oxygène si nécessaire",
-          "isCorrect": true,
-          "comment": "Repérer une poche d'air permet d'adapter la prise en charge et de fournir de l'oxygène si la victime en a besoin."
-      }
-  ]
-},
-{
-  "text": "Quels sont les types de lésions possibles causées par le blast (onde de choc) d'une foudre ?",
-  "answers": [
-      {
-          "text": "Brûlures thermiques seulement",
-          "isCorrect": false,
-          "comment": "Le blast de foudre peut causer diverses lésions en plus des brûlures thermiques."
-      },
-      {
-          "text": "Troubles de la vision et troubles de l'audition",
-          "isCorrect": false,
-          "comment": "Bien que ces troubles puissent survenir, d'autres lésions sont également possibles."
-      },
-      {
-          "text": "Paralysie des membres inférieurs",
-          "isCorrect": false,
-          "comment": "La paralysie n'est pas un effet courant du blast de foudre."
-      },
-      {
-          "text": "Marques cutanées en forme de fougère et arrêt cardiaque",
-          "isCorrect": true,
-          "comment": "Les lésions typiques du blast de foudre incluent les marques en forme de fougère sur la peau et les arrêts cardiaques."
-      }
-  ]
-},
-{
-  "text": "Quelles sont les mesures de sécurité recommandées en cas de risque de foudre persistant ?",
-  "answers": [
-      {
-          "text": "S'approcher des arbres pour se protéger",
-          "isCorrect": false,
-          "comment": "S'approcher des arbres augmente le risque de foudroiement."
-      },
-      {
-          "text": "Se mettre à découvert pour éviter les chocs directs",
-          "isCorrect": false,
-          "comment": "Se mettre à découvert expose davantage à la foudre."
-      },
-      {
-          "text": "S'éloigner des endroits élevés et des arbres isolés",
-          "isCorrect": true,
-          "comment": "S'éloigner des endroits élevés et des arbres réduit le risque de foudroiement."
-      },
-      {
-          "text": "Se réfugier sous un abri métallique",
-          "isCorrect": false,
-          "comment": "Les abris métalliques attirent la foudre et ne sont pas sûrs."
-      }
-  ]
-},
-{
-  "text": "Quel est l'un des effets possibles d'un foudroiement indirect sur une victime ?",
-  "answers": [
-      {
-          "text": "Brûlures internes sévères",
-          "isCorrect": false,
-          "comment": "Les brûlures internes ne sont pas un effet courant du foudroiement indirect."
-      },
-      {
-          "text": "Perte de cheveux",
-          "isCorrect": false,
-          "comment": "La perte de cheveux n'est pas un effet typique du foudroiement indirect."
-      },
-      {
-          "text": "Paralysie induite par le courant de foudre",
-          "isCorrect": true,
-          "comment": "La paralysie peut résulter du passage du courant de foudre à travers le corps."
-      },
-      {
-          "text": "Augmentation de la température corporelle",
-          "isCorrect": false,
-          "comment": "L'augmentation de la température corporelle n'est pas un effet du foudroiement indirect."
-      }
-  ]
-},
-{
-  "text": "Quelles sont les actions prioritaires lors de la prise en charge d'une victime foudroyée ?",
-  "answers": [
-      {
-          "text": "Appliquer immédiatement de la glace sur les brûlures",
-          "isCorrect": false,
-          "comment": "Appliquer de la glace n'est pas une priorité dans la prise en charge initiale d'une victime foudroyée."
-      },
-      {
-          "text": "Demander à la victime de se lever rapidement",
-          "isCorrect": false,
-          "comment": "Demander à la victime de se lever peut aggraver ses blessures et ne fait pas partie de la prise en charge initiale."
-      },
-      {
-          "text": "Mettre en sécurité la victime et appliquer la conduite à tenir en cas d'arrêt cardiaque",
-          "isCorrect": true,
-          "comment": "La priorité est de protéger la victime, puis d'appliquer les premiers secours, y compris la RCP si nécessaire."
-      }
-  ]
-},
-{
-  "text": "Quelle est la différence entre la pendaison et la strangulation?",
-  "answers": [
-      {
-          "text": "La pendaison concerne la suspension du corps par le cou, tandis que la strangulation implique une pression sur la gorge.",
-          "isCorrect": true,
-          "comment": "Correct. La pendaison se réfère à la suspension du corps par le cou, tandis que la strangulation implique une pression sur la gorge."
-      },
-      {
-          "text": "La pendaison est toujours accidentelle, tandis que la strangulation peut être volontaire ou accidentelle.",
-          "isCorrect": false,
-          "comment": "Incorrect. La nature de l'accident peut varier dans les deux cas, et la pendaison peut également être intentionnelle."
-      },
-      {
-          "text": "La pendaison est causée par un vêtement qui se prend dans une machine, tandis que la strangulation est causée par un objet constrictif.",
-          "isCorrect": false,
-          "comment": "Incorrect. La pendaison et la strangulation peuvent toutes deux être causées par un objet constrictif, mais la pendaison implique la suspension du corps par le cou."
-      },
-      {
-          "text": "La pendaison est une constriction du cou, tandis que la strangulation est une suspension du corps par le cou.",
-          "isCorrect": false,
-          "comment": "Incorrect. Ces définitions sont inversées. La pendaison implique la suspension du corps par le cou, tandis que la strangulation implique une constriction de la gorge."
-      }
-  ]
-},
-{
-  "text": "Quelles sont les causes possibles de la pendaison et de la strangulation?",
-  "answers": [
-      {
-          "text": "Un accident de la route",
-          "isCorrect": false,
-          "comment": "Incorrect. Les accidents de la route ne sont pas des causes typiques de pendaison ou de strangulation."
-      },
-      {
-          "text": "Une chute depuis une hauteur",
-          "isCorrect": false,
-          "comment": "Incorrect. Les chutes depuis une hauteur ne sont pas des causes typiques de pendaison ou de strangulation."
-      },
-      {
-          "text": "Un vêtement qui se prend dans une machine",
-          "isCorrect": true,
-          "comment": "Correct. Un vêtement qui se prend dans une machine peut entraîner une pendaison ou une strangulation."
-      },
-      {
-          "text": "Une blessure sportive",
-          "isCorrect": false,
-          "comment": "Incorrect. Les blessures sportives ne sont pas des causes typiques de pendaison ou de strangulation."
-      }
-  ]
-},
-{
-  "text": "Quels sont les risques et les conséquences de la pendaison et de la strangulation ?",
-  "answers": [
-      {
-          "text": "Lésion des membres inférieurs",
-          "isCorrect": false,
-          "comment": "Incorrect. Les lésions des membres inférieurs ne sont pas typiques de la pendaison ou de la strangulation."
-      },
-      {
-          "text": "Compression des voies aériennes et interruption de la circulation sanguine vers le cerveau",
-          "isCorrect": true,
-          "comment": "Correct. La compression des voies aériennes et l'interruption de la circulation sanguine vers le cerveau sont des risques graves associés à la pendaison et à la strangulation."
-      },
-      {
-          "text": "Augmentation du flux sanguin vers le cerveau",
-          "isCorrect": false,
-          "comment": "Incorrect. L'augmentation du flux sanguin vers le cerveau n'est pas une conséquence typique de la pendaison ou de la strangulation."
-      },
-      {
-          "text": "Diminution de la pression intra-abdominale",
-          "isCorrect": false,
-          "comment": "Incorrect. La diminution de la pression intra-abdominale n'est pas une conséquence typique de la pendaison ou de la strangulation."
-      }
-  ]
-},
-{
-  "text": "Quel est le premier signe permettant de suspecter une pendaison ou une strangulation ?",
-  "answers": [
-      {
-          "text": "Une perte de connaissance",
-          "isCorrect": false,
-          "comment": "Incorrect. Une perte de connaissance peut survenir, mais ce n'est pas le premier signe typique de la pendaison ou de la strangulation."
-      },
-      {
-          "text": "La présence d'un objet constrictif autour du cou",
-          "isCorrect": true,
-          "comment": "Correct. La présence d'un objet constrictif autour du cou est souvent le premier signe de pendaison ou de strangulation."
-      },
-      {
-          "text": "Des douleurs thoraciques",
-          "isCorrect": false,
-          "comment": "Incorrect. Les douleurs thoraciques peuvent survenir, mais ce n'est pas le premier signe typique de la pendaison ou de la strangulation."
-      },
-      {
-          "text": "Une augmentation de la fréquence cardiaque",
-          "isCorrect": false,
-          "comment": "Incorrect. Une augmentation de la fréquence cardiaque peut survenir, mais ce n'est pas le premier signe typique de la pendaison ou de la strangulation."
-      }
-  ]
-},
-{
-  "text": "Quels symptômes peut présenter une victime consciente de pendaison ou de strangulation ?",
-  "answers": [
-      {
-          "text": "Fièvre et douleurs abdominales",
-          "isCorrect": false,
-          "comment": "Incorrect. Ces symptômes ne sont pas typiques de la pendaison ou de la strangulation."
-      },
-      {
-          "text": "Raucité de la voix et difficulté à respirer",
-          "isCorrect": true,
-          "comment": "Correct. La raucité de la voix et la difficulté à respirer sont des symptômes courants chez une victime consciente de pendaison ou de strangulation."
-      },
-      {
-          "text": "Étourdissements et perte d'équilibre",
-          "isCorrect": false,
-          "comment": "Incorrect. Ces symptômes ne sont pas typiques de la pendaison ou de la strangulation."
-      },
-      {
-          "text": "Frissons et perte d'appétit",
-          "isCorrect": false,
-          "comment": "Incorrect. Ces symptômes ne sont pas typiques de la pendaison ou de la strangulation."
-      }
-  ]
-},
-{
-  "text": "Quelle est la première action à entreprendre lors de la prise en charge d'une victime de pendaison ou de strangulation ?",
-  "answers": [
-      {
-          "text": "Appliquer immédiatement des compressions thoraciques",
-          "isCorrect": false,
-          "comment": "Incorrect. La première action consiste à desserrer et à enlever rapidement toute source de constriction du cou."
-      },
-      {
-          "text": "Allonger la victime au sol en limitant les mouvements du rachis cervical",
-          "isCorrect": false,
-          "comment": "Incorrect. Bien que la position de la victime soit importante, la première priorité est de retirer la source de constriction du cou."
-      },
-      {
-          "text": "Desserrer et enlever rapidement toute source de constriction du cou",
-          "isCorrect": true,
-          "comment": "Correct. La première action consiste à desserrer et à enlever rapidement toute source de constriction du cou pour restaurer la respiration."
-      },
-      {
-          "text": "Transmettre le bilan pour obtenir un avis médical",
-          "isCorrect": false,
-          "comment": "Incorrect. La première priorité est de desserrer et d'enlever toute source de constriction du cou avant de demander un avis médical."
-      }
-  ]
-},
-{
-  "text": "Que doit-on faire en cas de pendaison pour soutenir la victime ?",
-  "answers": [
-      {
-          "text": "La laisser suspendue jusqu'à l'arrivée des secours",
-          "isCorrect": false,
-          "comment": "Incorrect. Il est important de soutenir la victime en attendant l'arrivée des secours pour éviter toute détérioration supplémentaire de son état."
-      },
-      {
-          "text": "Tenter de couper la corde ou l'objet de suspension",
-          "isCorrect": false,
-          "comment": "Incorrect. Tenter de couper la corde peut aggraver les blessures de la victime. Il est préférable de soutenir la victime en attendant les secours."
-      },
-      {
-          "text": "Soutenir la victime en se faisant aider",
-          "isCorrect": true,
-          "comment": "Correct. Il est important de soutenir la victime en se faisant aider pour prévenir toute détérioration supplémentaire de son état jusqu'à l'arrivée des secours."
-      },
-      {
-          "text": "Tenter de réanimer immédiatement la victime",
-          "isCorrect": false,
-          "comment": "Incorrect. Il est important de soutenir la victime en attendant les secours. La réanimation peut être nécessaire, mais elle doit être réalisée par des professionnels de la santé."
-      }
-  ]
-},
+    "text": "Quelles sont les recommandations de sécurité en cas de risque persistant de foudre ?",
+    "answers": [
+        {
+            "text": "Se tenir en position assise en boule sur un sac ou une corde",
+            "isCorrect": false,
+            "comment": "Cette position ne réduit pas significativement le risque de foudroiement."
+        },
+        {
+            "text": "Progresser en faisant de grands pas pour minimiser le temps d'exposition",
+            "isCorrect": false,
+            "comment": "Se déplacer n'offre pas une protection adéquate contre la foudre."
+        },
+        {
+            "text": "S'éloigner des arbres",
+            "isCorrect": true,
+            "comment": "S'éloigner des arbres réduit le risque de foudroiement en diminuant la probabilité d'un impact direct."
+        },
+        {
+            "text": "Éviter de porter un casque de protection pour ne pas attirer la foudre",
+            "isCorrect": false,
+            "comment": "Les casques de protection"
+        }
+    ]
+  },
+  {
+    "text": "Pourquoi est-il important de repérer la présence d'une poche d'air lors du dégagement de la tête de la victime ensevelie ?",
+    "answers": [
+        {
+            "text": "Pour décider si la victime doit être évacuée rapidement",
+            "isCorrect": false,
+            "comment": "La présence d'une poche d'air n'indique pas automatiquement la nécessité d'une évacuation rapide."
+        },
+        {
+            "text": "Pour évaluer l'ampleur des lésions traumatiques",
+            "isCorrect": false,
+            "comment": "La présence d'une poche d'air n'est pas directement liée à l'ampleur des lésions traumatiques."
+        },
+        {
+            "text": "Pour déterminer si la victime est encore consciente",
+            "isCorrect": false,
+            "comment": "La présence d'une poche d'air ne permet pas de déterminer directement si la victime est consciente."
+        },
+        {
+            "text": "Pour adapter la conduite à tenir et fournir de l'oxygène si nécessaire",
+            "isCorrect": true,
+            "comment": "Repérer une poche d'air permet d'adapter la prise en charge et de fournir de l'oxygène si la victime en a besoin."
+        }
+    ]
+  },
+  {
+    "text": "Quels sont les types de lésions possibles causées par le blast (onde de choc) d'une foudre ?",
+    "answers": [
+        {
+            "text": "Brûlures thermiques seulement",
+            "isCorrect": false,
+            "comment": "Le blast de foudre peut causer diverses lésions en plus des brûlures thermiques."
+        },
+        {
+            "text": "Troubles de la vision et troubles de l'audition",
+            "isCorrect": false,
+            "comment": "Bien que ces troubles puissent survenir, d'autres lésions sont également possibles."
+        },
+        {
+            "text": "Paralysie des membres inférieurs",
+            "isCorrect": false,
+            "comment": "La paralysie n'est pas un effet courant du blast de foudre."
+        },
+        {
+            "text": "Marques cutanées en forme de fougère et arrêt cardiaque",
+            "isCorrect": true,
+            "comment": "Les lésions typiques du blast de foudre incluent les marques en forme de fougère sur la peau et les arrêts cardiaques."
+        }
+    ]
+  },
+  {
+    "text": "Quelles sont les mesures de sécurité recommandées en cas de risque de foudre persistant ?",
+    "answers": [
+        {
+            "text": "S'approcher des arbres pour se protéger",
+            "isCorrect": false,
+            "comment": "S'approcher des arbres augmente le risque de foudroiement."
+        },
+        {
+            "text": "Se mettre à découvert pour éviter les chocs directs",
+            "isCorrect": false,
+            "comment": "Se mettre à découvert expose davantage à la foudre."
+        },
+        {
+            "text": "S'éloigner des endroits élevés et des arbres isolés",
+            "isCorrect": true,
+            "comment": "S'éloigner des endroits élevés et des arbres réduit le risque de foudroiement."
+        },
+        {
+            "text": "Se réfugier sous un abri métallique",
+            "isCorrect": false,
+            "comment": "Les abris métalliques attirent la foudre et ne sont pas sûrs."
+        }
+    ]
+  },
+  {
+    "text": "Quel est l'un des effets possibles d'un foudroiement indirect sur une victime ?",
+    "answers": [
+        {
+            "text": "Brûlures internes sévères",
+            "isCorrect": false,
+            "comment": "Les brûlures internes ne sont pas un effet courant du foudroiement indirect."
+        },
+        {
+            "text": "Perte de cheveux",
+            "isCorrect": false,
+            "comment": "La perte de cheveux n'est pas un effet typique du foudroiement indirect."
+        },
+        {
+            "text": "Paralysie induite par le courant de foudre",
+            "isCorrect": true,
+            "comment": "La paralysie peut résulter du passage du courant de foudre à travers le corps."
+        },
+        {
+            "text": "Augmentation de la température corporelle",
+            "isCorrect": false,
+            "comment": "L'augmentation de la température corporelle n'est pas un effet du foudroiement indirect."
+        }
+    ]
+  },
+  {
+    "text": "Quelles sont les actions prioritaires lors de la prise en charge d'une victime foudroyée ?",
+    "answers": [
+        {
+            "text": "Appliquer immédiatement de la glace sur les brûlures",
+            "isCorrect": false,
+            "comment": "Appliquer de la glace n'est pas une priorité dans la prise en charge initiale d'une victime foudroyée."
+        },
+        {
+            "text": "Demander à la victime de se lever rapidement",
+            "isCorrect": false,
+            "comment": "Demander à la victime de se lever peut aggraver ses blessures et ne fait pas partie de la prise en charge initiale."
+        },
+        {
+            "text": "Mettre en sécurité la victime et appliquer la conduite à tenir en cas d'arrêt cardiaque",
+            "isCorrect": true,
+            "comment": "La priorité est de protéger la victime, puis d'appliquer les premiers secours, y compris la RCP si nécessaire."
+        }
+    ]
+  },
+  {
+    "text": "Quelle est la différence entre la pendaison et la strangulation?",
+    "answers": [
+        {
+            "text": "La pendaison concerne la suspension du corps par le cou, tandis que la strangulation implique une pression sur la gorge.",
+            "isCorrect": true,
+            "comment": "Correct. La pendaison se réfère à la suspension du corps par le cou, tandis que la strangulation implique une pression sur la gorge."
+        },
+        {
+            "text": "La pendaison est toujours accidentelle, tandis que la strangulation peut être volontaire ou accidentelle.",
+            "isCorrect": false,
+            "comment": "Incorrect. La nature de l'accident peut varier dans les deux cas, et la pendaison peut également être intentionnelle."
+        },
+        {
+            "text": "La pendaison est causée par un vêtement qui se prend dans une machine, tandis que la strangulation est causée par un objet constrictif.",
+            "isCorrect": false,
+            "comment": "Incorrect. La pendaison et la strangulation peuvent toutes deux être causées par un objet constrictif, mais la pendaison implique la suspension du corps par le cou."
+        },
+        {
+            "text": "La pendaison est une constriction du cou, tandis que la strangulation est une suspension du corps par le cou.",
+            "isCorrect": false,
+            "comment": "Incorrect. Ces définitions sont inversées. La pendaison implique la suspension du corps par le cou, tandis que la strangulation implique une constriction de la gorge."
+        }
+    ]
+  },
+  {
+    "text": "Quelles sont les causes possibles de la pendaison et de la strangulation?",
+    "answers": [
+        {
+            "text": "Un accident de la route",
+            "isCorrect": false,
+            "comment": "Incorrect. Les accidents de la route ne sont pas des causes typiques de pendaison ou de strangulation."
+        },
+        {
+            "text": "Une chute depuis une hauteur",
+            "isCorrect": false,
+            "comment": "Incorrect. Les chutes depuis une hauteur ne sont pas des causes typiques de pendaison ou de strangulation."
+        },
+        {
+            "text": "Un vêtement qui se prend dans une machine",
+            "isCorrect": true,
+            "comment": "Correct. Un vêtement qui se prend dans une machine peut entraîner une pendaison ou une strangulation."
+        },
+        {
+            "text": "Une blessure sportive",
+            "isCorrect": false,
+            "comment": "Incorrect. Les blessures sportives ne sont pas des causes typiques de pendaison ou de strangulation."
+        }
+    ]
+  },
+  {
+    "text": "Quels sont les risques et les conséquences de la pendaison et de la strangulation ?",
+    "answers": [
+        {
+            "text": "Lésion des membres inférieurs",
+            "isCorrect": false,
+            "comment": "Incorrect. Les lésions des membres inférieurs ne sont pas typiques de la pendaison ou de la strangulation."
+        },
+        {
+            "text": "Compression des voies aériennes et interruption de la circulation sanguine vers le cerveau",
+            "isCorrect": true,
+            "comment": "Correct. La compression des voies aériennes et l'interruption de la circulation sanguine vers le cerveau sont des risques graves associés à la pendaison et à la strangulation."
+        },
+        {
+            "text": "Augmentation du flux sanguin vers le cerveau",
+            "isCorrect": false,
+            "comment": "Incorrect. L'augmentation du flux sanguin vers le cerveau n'est pas une conséquence typique de la pendaison ou de la strangulation."
+        },
+        {
+            "text": "Diminution de la pression intra-abdominale",
+            "isCorrect": false,
+            "comment": "Incorrect. La diminution de la pression intra-abdominale n'est pas une conséquence typique de la pendaison ou de la strangulation."
+        }
+    ]
+  },
+  {
+    "text": "Quel est le premier signe permettant de suspecter une pendaison ou une strangulation ?",
+    "answers": [
+        {
+            "text": "Une perte de connaissance",
+            "isCorrect": false,
+            "comment": "Incorrect. Une perte de connaissance peut survenir, mais ce n'est pas le premier signe typique de la pendaison ou de la strangulation."
+        },
+        {
+            "text": "La présence d'un objet constrictif autour du cou",
+            "isCorrect": true,
+            "comment": "Correct. La présence d'un objet constrictif autour du cou est souvent le premier signe de pendaison ou de strangulation."
+        },
+        {
+            "text": "Des douleurs thoraciques",
+            "isCorrect": false,
+            "comment": "Incorrect. Les douleurs thoraciques peuvent survenir, mais ce n'est pas le premier signe typique de la pendaison ou de la strangulation."
+        },
+        {
+            "text": "Une augmentation de la fréquence cardiaque",
+            "isCorrect": false,
+            "comment": "Incorrect. Une augmentation de la fréquence cardiaque peut survenir, mais ce n'est pas le premier signe typique de la pendaison ou de la strangulation."
+        }
+    ]
+  },
+  {
+    "text": "Quels symptômes peut présenter une victime consciente de pendaison ou de strangulation ?",
+    "answers": [
+        {
+            "text": "Fièvre et douleurs abdominales",
+            "isCorrect": false,
+            "comment": "Incorrect. Ces symptômes ne sont pas typiques de la pendaison ou de la strangulation."
+        },
+        {
+            "text": "Raucité de la voix et difficulté à respirer",
+            "isCorrect": true,
+            "comment": "Correct. La raucité de la voix et la difficulté à respirer sont des symptômes courants chez une victime consciente de pendaison ou de strangulation."
+        },
+        {
+            "text": "Étourdissements et perte d'équilibre",
+            "isCorrect": false,
+            "comment": "Incorrect. Ces symptômes ne sont pas typiques de la pendaison ou de la strangulation."
+        },
+        {
+            "text": "Frissons et perte d'appétit",
+            "isCorrect": false,
+            "comment": "Incorrect. Ces symptômes ne sont pas typiques de la pendaison ou de la strangulation."
+        }
+    ]
+  },
+  {
+    "text": "Quelle est la première action à entreprendre lors de la prise en charge d'une victime de pendaison ou de strangulation ?",
+    "answers": [
+        {
+            "text": "Appliquer immédiatement des compressions thoraciques",
+            "isCorrect": false,
+            "comment": "Incorrect. La première action consiste à desserrer et à enlever rapidement toute source de constriction du cou."
+        },
+        {
+            "text": "Allonger la victime au sol en limitant les mouvements du rachis cervical",
+            "isCorrect": false,
+            "comment": "Incorrect. Bien que la position de la victime soit importante, la première priorité est de retirer la source de constriction du cou."
+        },
+        {
+            "text": "Desserrer et enlever rapidement toute source de constriction du cou",
+            "isCorrect": true,
+            "comment": "Correct. La première action consiste à desserrer et à enlever rapidement toute source de constriction du cou pour restaurer la respiration."
+        },
+        {
+            "text": "Transmettre le bilan pour obtenir un avis médical",
+            "isCorrect": false,
+            "comment": "Incorrect. La première priorité est de desserrer et d'enlever toute source de constriction du cou avant de demander un avis médical."
+        }
+    ]
+  },
+  {
+    "text": "Que doit-on faire en cas de pendaison pour soutenir la victime ?",
+    "answers": [
+        {
+            "text": "La laisser suspendue jusqu'à l'arrivée des secours",
+            "isCorrect": false,
+            "comment": "Incorrect. Il est important de soutenir la victime en attendant l'arrivée des secours pour éviter toute détérioration supplémentaire de son état."
+        },
+        {
+            "text": "Tenter de couper la corde ou l'objet de suspension",
+            "isCorrect": false,
+            "comment": "Incorrect. Tenter de couper la corde peut aggraver les blessures de la victime. Il est préférable de soutenir la victime en attendant les secours."
+        },
+        {
+            "text": "Soutenir la victime en se faisant aider",
+            "isCorrect": true,
+            "comment": "Correct. Il est important de soutenir la victime en se faisant aider pour prévenir toute détérioration supplémentaire de son état jusqu'à l'arrivée des secours."
+        },
+        {
+            "text": "Tenter de réanimer immédiatement la victime",
+            "isCorrect": false,
+            "comment": "Incorrect. Il est important de soutenir la victime en attendant les secours. La réanimation peut être nécessaire, mais elle doit être réalisée par des professionnels de la santé."
+        }
+    ]
+  },
 ];
 
 
