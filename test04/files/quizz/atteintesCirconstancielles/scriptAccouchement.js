@@ -174,7 +174,7 @@ let questionsData = [
             "comment": "L'accouchement inopiné se produit avant l'arrivée des secours."
         },
         {
-            "text": "Un accouchement qui se déroule après l'arrivée des secours.",
+            "text": "Un accouchement qui se déroule sous césarienne.",
             "isCorrect": false,
             "comment": " L'accouchement inopiné se produit avant l'arrivée des secours."
         },
@@ -185,9 +185,6 @@ let questionsData = [
         }
     ]
 },
-
-
-
 {
     "text": "À quelle semaine de grossesse l'accouchement se produit-il en moyenne ?",
     "answers": [
@@ -213,7 +210,6 @@ let questionsData = [
         }
     ]
 },
-
 {
     "text": "Quelle est la première étape de l'accouchement ?",
     "answers": [
@@ -239,8 +235,6 @@ let questionsData = [
         }
     ]
 },
-
-
 {
     "text": "Qu'est-ce que la rupture de la poche des eaux ?",
     "answers": [
@@ -266,7 +260,6 @@ let questionsData = [
         }
     ]
 },
-
 {
     "text": "Quelle est la deuxième étape de l'accouchement ?",
     "answers": [
@@ -292,8 +285,6 @@ let questionsData = [
         }
     ]
 },
-
-
 {
     "text": "Comment se déroule l'expulsion pendant l'accouchement ?",
     "answers": [
@@ -319,8 +310,6 @@ let questionsData = [
         }
     ]
 },
-
-
 {
     "text": "Qu'est-ce que la délivrance ?",
     "answers": [
@@ -346,7 +335,6 @@ let questionsData = [
         }
     ]
 },
-
 {
     "text": "Quels sont les signes de l'accouchement imminant ?",
     "answers": [
@@ -372,7 +360,6 @@ let questionsData = [
         }
     ]
 },
-
 {
     "text": "Que doit-on faire si le transport de la parturiente peut être réalisé ?",
     "answers": [
@@ -398,7 +385,6 @@ let questionsData = [
         }
     ]
 },
-
 {
     "text": "Quel est le matériel nécessaire pour l'accouchement sur place ?",
     "answers": [
@@ -424,7 +410,6 @@ let questionsData = [
         }
     ]
 },
-
 {
     "text": "Quelle est la position recommandée pour la parturiente lors de l'accouchement sur place ?",
     "answers": [
@@ -450,7 +435,6 @@ let questionsData = [
         }
     ]
 },
-
 {
     "text": "Comment doit-on aider la mère pendant l'accouchement ?",
     "answers": [
@@ -476,7 +460,6 @@ let questionsData = [
         }
     ]
 },
-
 {
     "text": "Que doit-on faire dès que la moitié de la tête du bébé est apparue ?",
     "answers": [
@@ -502,8 +485,6 @@ let questionsData = [
         }
     ]
 },
-
-
 {
     "text": "Quelle est la dernière étape de l'accouchement inopiné ?",
     "answers": [
@@ -529,7 +510,6 @@ let questionsData = [
         }
     ]
 },
-
 {
     "text": "Quelle est la méthode recommandée pour aider la future maman à pousser pendant l'accouchement ?",
     "answers": [
@@ -555,8 +535,6 @@ let questionsData = [
         }
     ]
 },
-
-
 {
     "text": "Quelle précaution doit-on prendre lors de l'expulsion de la tête du bébé ?",
     "answers": [
@@ -582,7 +560,6 @@ let questionsData = [
         }
     ]
 },
-
 {
     "text": "Que doit-on faire une fois que la tête du bébé est totalement sortie ?",
     "answers": [
@@ -608,7 +585,6 @@ let questionsData = [
         }
     ]
 },
-
 {
     "text": "Quels équipements sont nécessaires pour une éventuelle réanimation du nouveau-né ?",
     "answers": [
@@ -618,7 +594,7 @@ let questionsData = [
             "comment": " Un téléphone portable peut être utile pour appeler les secours, mais il n'est pas un équipement médical pour la réanimation d'un nouveau-né."
         },
         {
-            "text": "Une bouteille d'oxygène, un insufflateur manuel pédiatrique, un aspirateur de mucosités et un oxymètre de pouls.",
+            "text": "Une bouteille d'oxygène, un insufflateur manuel nourrisson, un aspirateur de mucosités et un oxymètre de pouls.",
             "isCorrect": true,
             "comment": "Ces équipements sont nécessaires pour fournir une assistance respiratoire et surveiller les signes vitaux du nouveau-né lors de la réanimation."
         },
@@ -634,7 +610,6 @@ let questionsData = [
         }
     ]
 },
-
 {
     "text": "Quel est le matériel nécessaire pour l'accouchement sur place ?",
     "answers": [
@@ -660,8 +635,6 @@ let questionsData = [
         }
     ]
 },
-
-
 {
     "text": "Comment doit-on aider la mère pendant l'accouchement ?",
     "answers": [
@@ -687,7 +660,6 @@ let questionsData = [
         }
     ]
 },
-
 {
   "text": "Quelles sont les principales choses à examiner chez le nouveau-né pour déterminer s'il est en bonne santé ?",
   "answers": [
@@ -713,7 +685,6 @@ let questionsData = [
       }
   ]
 },
-
 {
   "text": "Quand doit-on clamper le cordon ombilical pour un nouveau-né en bonne santé ?",
   "answers": [
@@ -739,7 +710,6 @@ let questionsData = [
       }
   ]
 },
-
 {
   "text": "Que faut-il faire si le nouveau-né ne respire pas ou ne présente pas de cri à la naissance ?",
   "answers": [
@@ -765,8 +735,6 @@ let questionsData = [
       }
   ]
 },
-
-
 {
   "text": "Comment doit-on évaluer l'état du nouveau-né pendant la réanimation cardio-pulmonaire ?",
   "answers": [
@@ -792,12 +760,11 @@ let questionsData = [
       }
   ]
 },
-
 {
   "text": "Quelle est la conduite à tenir en fonction de la fréquence cardiaque du nouveau-né ?",
   "answers": [
       {
-          "text": "Si la fréquence cardiaque est inférieure à 60 battements par minute, réaliser une RCP avec un apport complémentaire d'oxygène.",
+          "text": "Si la fréquence cardiaque est inférieure à 60 battements par minute, réaliser une RCP sans DAE, avec un apport complémentaire d'oxygène.",
           "isCorrect": true,
           "comment": "Une fréquence cardiaque inférieure à 60 bpm nécessite des mesures de réanimation, y compris un apport d'oxygène supplémentaire."
       },
@@ -818,7 +785,6 @@ let questionsData = [
       }
   ]
 },
-
 {
   "text": "Quelle est la première étape à réaliser lorsque le nouveau-né est en bonne santé et présente un cri vigoureux ?",
   "answers": [
@@ -844,7 +810,6 @@ let questionsData = [
       }
   ]
 },
-
 {
   "text": "Pourquoi est-il important de protéger le nouveau-né contre le froid après la naissance ?",
   "answers": [
@@ -870,9 +835,8 @@ let questionsData = [
       }
   ]
 },
-
 {
-  "text": "Quels sont les signes indiquant que le nouveau-né n'est pas en bonne santé ?",
+  "text": "Quels sont les signes qui peuvent indiquer que le nouveau-né n'est pas en bonne santé ?",
   "answers": [
       {
           "text": "Il ne pleure pas.",
@@ -896,7 +860,6 @@ let questionsData = [
       }
   ]
 },
-
 {
   "text": "Quelle est la conduite à tenir si l'état du nouveau-né s'améliore pendant la réanimation cardio-pulmonaire ?",
   "answers": [
@@ -922,9 +885,6 @@ let questionsData = [
       }
   ]
 },
-
-
-
 {
   "text": "Quand doit-on réaliser le clampage et la section du cordon ombilical ?",
   "answers": [
@@ -1050,7 +1010,6 @@ let questionsData = [
       }
   ]
 },
-
 {
   "text": "Quel est le but de la pince du cordon ombilical ?",
   "answers": [
@@ -1176,7 +1135,6 @@ let questionsData = [
       }
   ]
 },
-
 {
   "text": "Quelle est la conduite à tenir en cas de circulaire serrée du cordon ?",
   "answers": [
