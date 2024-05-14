@@ -1,66 +1,47 @@
 <!DOCTYPE html>
-    <html>
-      <head>
-        <meta charset="utf-8">
-        <title>Protection en adéquation aux risques</title>
-        <link rel="stylesheet" href="../../../Style/styleRev.css">
-        <link rel="stylesheet" href="../../../Style/style.css">
-     
-    
-    </head>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemple Bootstrap 5</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../../style/styleQuizz.css">
+  <link rel="stylesheet" href="../../../style/style.css">
+  
 
+</head>
+<body>
 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="../../../index.html">
+        <img src="../../../img/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-top me-2">
+        <div class="fs-3">Quizz Protection</div>
+      </a>
+    </div>
+  </nav>
 
-    <body  class="degrade-angulaire">  
-        <!-- En tête-->
-        <div id="enTête" class="enTête" >
-          <div class="logo">
-            <a class="logo" href="../../../index.html"><img src="../../../img/logo.png"></a>
-            <h1> Protection</h1> 
-          </div>
-        </div>
- 
-        <!-- carré -->
-    
-        <div class="outer-div ">
-            <a href="ProtectionSecurité/degagementurgence.html"> 
-              <div class="parent ">
-                 <div class="child11 child21"></div>
-                 <div class="child1 child2">
-                     <p class="carre">
-                        Protection sur intervention
-                     </p>
-                 </div>
-               </div></a>
-       </div>
-       
-            <!-- carré -->
-            
-            <div class="outer-div ">
-             <a href="ProtectionSecurité/degagementurgence.html">
-               <div class="parent ">
-                 <div class="child11 child21"></div>
-                 <div class="child1 child2">
-                     <p class="carre">
-                        Dégagement d'urgence
-                     </p>
-                 </div>
-               </div></a>
-         </div>
-       
+  <!-- Contenu de la page -->
+  <div class="container page">
+    <div id="app-container">
+      <div id="score-container">Score: 0</div>
+      <div id="questions-container"></div>
+    </div>
 
+    <button onclick="window.location.reload();" class="btn btn-dark">Recharger les questions</button>
+  </div>
 
- <!--Footer-->
- <div id="separateur" class="separateur"></div>
- <div id="down" class="down"> 
-   <div id="textB" class="texteB" >
-     <p><span>Mise à jour le 20/04/2022 </span></p>
-     <p><span>Développé par l'association Secouristes UTT - Sec'UTT</span></p>
-   </div>
- </div>
-    </body>
-     </section>   
+  
+  
+  
 
-    </HTML>
+  <!-- Footer -->
+  <footer class="footer bg-dark text-light text-center">
+    <p>Mise à jour le 14/05/2024</p>
+    <p>Développé par l'association Secouristes UTT - Sec'UTT</p>
+  </footer>
 
-
+  <script src="./scriptProtection.js"></script>
+</body>
+</html>
