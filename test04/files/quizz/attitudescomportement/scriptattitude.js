@@ -160,92 +160,760 @@ var Question = function (questionObj) {
 //
 
 let questionsData = [
-  {
-    text: "Qu’elle est la défnition d'une gelure ?",
-    answers: [
-      { text: "Un saignement qui ne s'arrête pas", isCorrect: false, comment: "Ce n'est pas correct. Une gelure est une lésion grave de la peau liée au froid." },
-      { text: "Une lésion grave de la peau liée au froid", isCorrect: true, comment: "Une gelure est en effet une lésion de la peau causée par le froid." },
-      { text: "Une douleur des cervicales", isCorrect: false, comment: "Non, ce n'est pas une gelure. Il s'agit d'autre chose." },
-      { text: "Une douleur des cervicales", isCorrect: false, comment: "Non, ce n'est pas une gelure. Il s'agit d'autre chose." }
-    ]
-  },
-  {
-    text: "Dans quelle(s) condition(s) surviennent les gelures ?",
-    answers: [
-      { text: "Lors d’une exposition prolongée dans un milieu froid, en dessous de 0°C", isCorrect: true },
-      { text: "Lors d’une exposition de 5 min dans un milieu froid -10°C", isCorrect: false },
-      { text: "Lors ce que je vais dans un milieu chaud", isCorrect: false },
-      { text: "Lors ce que je vais dans un milieu chaud", isCorrect: false }
-    ]
-  },
-  {
-    text: "Combien de degré de gelure existe-il ?",
-    answers: [
-      { text: "3 sachant que dans le cas le plus grave il y a un risque d’amputation", isCorrect: false },
-      { text: "4 et l’apparition des 1er cloques s’effectue au 3eme degré", isCorrect: true },
-      { text: "4 et l’apparition des cloques sanglantes se manifeste au 3eme degré", isCorrect: false },
-      { text: "4 et l’amputation est irréversible dans le pire cas", isCorrect: false }
-    ]
-  },
-  {
-    text: "Sous quelles conditions pouvons-nous plonger les gelures dans une bassine d’eau à 37-39°C ?",
-    answers: [
-      { text: "Uniquement sous 10h", isCorrect: false },
-      { text: "Uniquement sous 24h", isCorrect: false },
-      { text: "S’il n’y a pas de risque de réexposition au froid", isCorrect: true },
-      { text: "Pas plus de 20min immergées", isCorrect: false }
-    ]
-  },
-  {
-      text: "Pourquoi est-il important de repérer la présence d'une poche d'air lors du dégagement de la tête de la victime ensevelie ?",
-      answers: [
-          {
-              text: "Pour décider si la victime doit être évacuée rapidement",
-              isCorrect: false,
-              comment: "L'évaluation de la poche d'air est importante pour adapter la conduite à tenir, mais cela ne détermine pas nécessairement la nécessité d'une évacuation rapide."
-          },
-          {
-              text: "Pour évaluer l'ampleur des lésions traumatiques",
-              isCorrect: false,
-              comment: "Bien que l'évaluation des lésions soit importante, la présence d'une poche d'air est plus pertinente pour fournir une ventilation efficace."
-          },
-          {
-              text: "Pour déterminer si la victime est encore consciente",
-              isCorrect: false,
-              comment: "La présence d'une poche d'air n'est pas nécessairement liée à la conscience de la victime. Elle est importante pour fournir de l'oxygène si nécessaire."
-          },
-          {
-              text: "Pour adapter la conduite à tenir et fournir de l'oxygène si nécessaire",
-              isCorrect: true,
-              comment: "Repérer une poche d'air permet d'adapter la prise en charge de la victime et de fournir de l'oxygène pour prévenir l'asphyxie."
-          }
-      ]
-  },
-  {
-      text: "Quel est l'un des mécanismes de traumatismes subis par une victime ensevelie dans une avalanche ?",
-      answers: [
-          {
-              text: "L'écrasement par la neige compacte",
-              isCorrect: false,
-              comment: "L'écrasement est un mécanisme de traumatisme, mais les chocs contre des obstacles comme les rochers ou les arbres sont également fréquents."
-          },
-          {
-              text: "La déshydratation due à l'exposition prolongée",
-              isCorrect: false,
-              comment: "La déshydratation peut être un problème, mais les traumatismes physiques sont plus immédiats et graves dans les premières minutes après l'avalanche."
-          },
-          {
-              text: "Les brûlures causées par le frottement avec la neige",
-              isCorrect: false,
-              comment: "Les brûlures sont peu probables dans une avalanche. Les traumatismes sont généralement dus à des chocs contre des obstacles ou à l'asphyxie."
-          },
-          {
-              text: "Les chocs directs contre les rochers ou les arbres",
-              isCorrect: true,
-              comment: "Les chocs contre des obstacles solides comme les rochers ou les arbres sont l'un des principaux mécanismes de traumatismes dans les avalanches."
-          }
-      ]
-  }
+  
+{
+  "text": "Quel est l'objectif principal de l'abord relationnel?",
+  "answers": [
+      {
+          text: "Fournir un traitement médical immédiat",
+          isCorrect: false,
+          comment: "L'objectif principal est d'établir un contact et un dialogue."
+      },
+      {
+          text: "Établir un contact et un dialogue",
+          isCorrect: true,
+          comment: "L'abord relationnel vise à établir un contact et un dialogue avec la victime."
+      },
+      {
+          text: "Identifier les responsabilités légales",
+          isCorrect: false,
+          comment: "Bien que cela soit important, ce n'est pas l'objectif principal de l'abord relationnel."
+      },
+      {
+          text: "Ignorer les émotions de la victime",
+          isCorrect: false,
+          comment: "L'abord relationnel implique de reconnaître et de prendre en compte les émotions de la victime."
+      }
+  ]
+},
+{
+  "text": "Comment devrait-on aborder la victime lors d'une intervention?",
+  "answers": [
+      {
+          text: "En évitant tout contact direct",
+          isCorrect: false,
+          comment: "Un contact direct est souvent nécessaire pour établir une relation de confiance."
+      },
+      {
+          text: "En changeant fréquemment d'interlocuteur",
+          isCorrect: false,
+          comment: "Cela peut induire de la confusion chez la victime. Un interlocuteur principal est préférable."
+      },
+      {
+          text: "En privilégiant un interlocuteur principal et en s'identifiant",
+          isCorrect: true,
+          comment: "Cela permet d'établir une communication claire et de construire une relation de confiance."
+      },
+      {
+          text: "En ignorant les signes d'émotion de la victime",
+          isCorrect: false,
+          comment: "Il est important de reconnaître et de prendre en compte les émotions de la victime."
+      }
+  ]
+},
+{
+  "text": "Pourquoi est-il important de prendre le temps de se présenter à la victime?",
+  "answers": [
+      {
+          text: "Pour laisser la victime dans l'incertitude",
+          isCorrect: false,
+          comment: "Cela peut augmenter l'anxiété de la victime. La clarté est préférable."
+      },
+      {
+          text: "Pour établir un rapport de confiance",
+          isCorrect: true,
+          comment: "Se présenter permet d'établir un rapport de confiance et de réduire l'anxiété de la victime."
+      },
+      {
+          text: "Pour accélérer l'intervention médicale",
+          isCorrect: false,
+          comment: "Bien que l'intervention rapide soit importante, la confiance est également essentielle."
+      },
+      {
+          text: "Pour minimiser l'importance de la situation",
+          isCorrect: false,
+          comment: "Minimiser la situation peut invalider les émotions de la victime."
+      }
+  ]
+},
+
+{
+  "text": "Quel est l'objectif principal de l'abord relationnel?",
+  "answers": [
+      {
+          text: "Fournir un traitement médical immédiat",
+          isCorrect: false,
+          comment: "L'objectif principal est d'établir un contact et un dialogue."
+      },
+      {
+          text: "Établir un contact et un dialogue",
+          isCorrect: true,
+          comment: "L'abord relationnel vise à établir un contact et un dialogue avec la victime."
+      },
+      {
+          text: "Identifier les responsabilités légales",
+          isCorrect: false,
+          comment: "Bien que cela soit important, ce n'est pas l'objectif principal de l'abord relationnel."
+      },
+      {
+          text: "Ignorer les émotions de la victime",
+          isCorrect: false,
+          comment: "L'abord relationnel implique de reconnaître et de prendre en compte les émotions de la victime."
+      }
+  ]
+},
+{
+  "text": "Comment devrait-on aborder la victime lors d'une intervention?",
+  "answers": [
+      {
+          text: "En évitant tout contact direct",
+          isCorrect: false,
+          comment: "Un contact direct est souvent nécessaire pour établir une relation de confiance."
+      },
+      {
+          text: "En changeant fréquemment d'interlocuteur",
+          isCorrect: false,
+          comment: "Cela peut induire de la confusion chez la victime. Un interlocuteur principal est préférable."
+      },
+      {
+          text: "En privilégiant un interlocuteur principal et en s'identifiant",
+          isCorrect: true,
+          comment: "Cela permet d'établir une communication claire et de construire une relation de confiance."
+      },
+      {
+          text: "En ignorant les signes d'émotion de la victime",
+          isCorrect: false,
+          comment: "Il est important de reconnaître et de prendre en compte les émotions de la victime."
+      }
+  ]
+},
+{
+  "text": "Pourquoi est-il important de prendre le temps de se présenter à la victime?",
+  "answers": [
+      {
+          text: "Pour laisser la victime dans l'incertitude",
+          isCorrect: false,
+          comment: "Cela peut augmenter l'anxiété de la victime. La clarté est préférable."
+      },
+      {
+          text: "Pour établir un rapport de confiance",
+          isCorrect: true,
+          comment: "Se présenter permet d'établir un rapport de confiance et de réduire l'anxiété de la victime."
+      },
+      {
+          text: "Pour accélérer l'intervention médicale",
+          isCorrect: false,
+          comment: "Bien que l'intervention rapide soit importante, la confiance est également essentielle."
+      },
+      {
+          text: "Pour minimiser l'importance de la situation",
+          isCorrect: false,
+          comment: "Minimiser la situation peut invalider les émotions de la victime."
+      }
+  ]
+},
+{
+  "text": "Quelle question est recommandée pour instaurer le dialogue avec la victime?",
+  "answers": [
+      {
+          text: "Avez-vous besoin d'une assistance médicale immédiate?",
+          isCorrect: false,
+          comment: "Cette question peut être trop directe et ne pas encourager le dialogue."
+      },
+      {
+          text: "Quel est votre nom?",
+          isCorrect: false,
+          comment: "Cette question peut sembler superficielle au début de l'intervention."
+      },
+      {
+          text: "Pouvez-vous me dire ce qu'il se passe?",
+          isCorrect: true,
+          comment: "Cette question encourage la victime à partager son expérience et à ouvrir le dialogue."
+      },
+      {
+          text: "Pourquoi êtes-vous ici?",
+          isCorrect: false,
+          comment: "Cette question peut être perçue comme accusatrice ou jugementale."
+      }
+  ]
+},
+{
+  "text": "Quelle est l'étape suivante après avoir posé le cadre de l'intervention?",
+  "answers": [
+      {
+          text: "Transporter immédiatement la victime à l'hôpital",
+          isCorrect: false,
+          comment: "Informer et expliquer ce qui va être réalisé est souvent la prochaine étape."
+      },
+      {
+          text: "Explorer les loisirs de la victime",
+          isCorrect: false,
+          comment: "Cela peut sembler inapproprié ou déplacé dans ce contexte."
+      },
+      {
+          text: "Informer et expliquer ce qui va être réalisé",
+          isCorrect: true,
+          comment: "Cette étape permet à la victime de comprendre le processus et de se sentir en contrôle."
+      },
+      {
+          text: "Demander à la victime de quitter les lieux",
+          isCorrect: false,
+          comment: "Cela peut être précipité et ne pas répondre aux besoins de la victime."
+      }
+  ]
+},
+{
+  "text": "Pourquoi est-il important de reformuler ce que la victime a exprimé?",
+  "answers": [
+      {
+          text: "Pour laisser la victime dans la confusion",
+          isCorrect: false,
+          comment: "Cela peut augmenter l'anxiété de la victime. La clarification est préférable."
+      },
+      {
+          text: "Pour vérifier la compréhension et montrer de l'empathie",
+          isCorrect: true,
+          comment: "Reformuler montre à la victime qu'elle est entendue et comprise, ce qui renforce la relation."
+      },
+      {
+          text: "Pour minimiser l'importance de ses propos",
+          isCorrect: false,
+          comment: "Cela peut invalider les émotions de la victime et nuire à la relation."
+      },
+      {
+          text: "Pour éviter toute communication supplémentaire",
+          isCorrect: false,
+          comment: "La communication supplémentaire peut être nécessaire pour clarifier les informations."
+      }
+  ]
+},
+{
+  "text": "Comment peut-on favoriser l'alliance avec la victime?",
+  "answers": [
+      {
+          text: "En lui demandant de quitter les lieux",
+          isCorrect: false,
+          comment: "Cela peut être perçu comme insensible et ne répond pas aux besoins de la victime."
+      },
+      {
+          text: "En ignorant ses besoins et préférences",
+          isCorrect: false,
+          comment: "Cela peut compromettre la relation et la confiance de la victime envers les soignants."
+      },
+      {
+          text: "En impliquant la victime dans sa propre prise en charge",
+          isCorrect: true,
+          comment: "Impliquer la victime dans les décisions concernant son propre soin renforce son autonomie et son empowerment."
+      },
+      {
+          text: "En faisant des promesses impossibles à tenir",
+          isCorrect: false,
+          comment: "Cela peut créer de la frustration et de la méfiance chez la victime."
+      }
+  ]
+},
+{
+  "text": "Quelle est l'étape finale avant de passer le relais à une autre équipe?",
+  "answers": [
+      {
+          text: "Ignorer la victime et partir",
+          isCorrect: false,
+          comment: "Cela va à l'encontre du principe de fournir un soutien et un suivi appropriés."
+      },
+      {
+          text: "Préparer le passage de relais",
+          isCorrect: true,
+          comment: "Préparer le passage de relais assure une transition fluide et un suivi adéquat de la victime."
+      },
+      {
+          text: "Rester avec la victime indéfiniment",
+          isCorrect: false,
+          comment: "Cela peut être inapproprié et ne répond pas toujours aux besoins de la victime."
+      },
+      {
+          text: "Refuser toute aide supplémentaire",
+          isCorrect: false,
+          comment: "Cela va à l'encontre du principe de fournir un soutien complet à la victime."
+      }
+  ]
+},
+{
+  "text": "Comment devrait-on saluer la victime à la fin de l'intervention?",
+  "answers": [
+      {
+          text: "En lui souhaitant une bonne continuation et en prenant congé",
+          isCorrect: true,
+          comment: "Saluer la victime de manière respectueuse et chaleureuse aide à conclure l'interaction de manière positive."
+      },
+      {
+          text: "En lui demandant de ne pas contacter d'autres personnes pour obtenir du soutien",
+          isCorrect: false,
+          comment: "Cela peut limiter les ressources de soutien de la victime et ne pas respecter son autonomie."
+      },
+      {
+          text: "En lui rappelant les détails de l'intervention",
+          isCorrect: false,
+          comment: "Cela peut sembler intrusif et ne pas reconnaître la fin de l'interaction."
+      },
+      {
+          text: "En minimisant l'impact de la situation sur sa vie",
+          isCorrect: false,
+          comment: "Cela peut invalider les émotions de la victime et ne pas reconnaître son vécu."
+      }
+  ]
+},
+{
+  "text": "Quel est le ton général recommandé lors de l'interaction avec la victime?",
+  "answers": [
+      {
+          text: "Froid et distancié",
+          isCorrect: false,
+          comment: "Cela peut créer une barrière entre le soignant et la victime, compromettant la relation."
+      },
+      {
+          text: "Calme et rassurant",
+          isCorrect: true,
+          comment: "Un ton calme et rassurant peut aider à apaiser la victime et à établir une relation de confiance."
+      },
+      {
+          text: "Pressé et impatient",
+          isCorrect: false,
+          comment: "Cela peut augmenter l'anxiété de la victime et compromettre la qualité de l'interaction."
+      },
+      {
+          text: "Critique et blâmant",
+          isCorrect: false,
+          comment: "Cela peut nuire à l'estime de soi de la victime et ne pas favoriser un environnement de soutien."
+      }
+  ]
+},
+{
+  "text": "Quelles sont les deux catégories de victimes parmi les enfants dans une situation de secours?",
+  "answers": [
+      {
+          text: "Victime primaire et victime secondaire",
+          isCorrect: true,
+          comment: "Ces deux catégories décrivent les enfants directement affectés par la situation d'urgence et ceux indirectement touchés."
+      },
+      {
+          text: "Victime tertiaire et victime quaternaire",
+          isCorrect: false,
+          comment: "Ces catégories décrivent généralement les personnes touchées par les conséquences à plus long terme d'une urgence."
+      },
+      {
+          text: "Victime principale et victime accessoire",
+          isCorrect: false,
+          comment: "Ces termes ne sont pas couramment utilisés pour décrire les catégories de victimes chez les enfants lors d'une intervention d'urgence."
+      },
+      {
+          text: "Victime prioritaire et victime secondaire",
+          isCorrect: false,
+          comment: "Ces termes ne sont pas utilisés pour décrire les catégories de victimes chez les enfants lors d'une intervention d'urgence."
+      }
+  ]
+},
+{
+  "text": "Pourquoi l'impact d'un événement grave sur un enfant est-il double?",
+  "answers": [
+      {
+          text: "Parce qu'il est moins affecté par les émotions",
+          isCorrect: false,
+          comment: "En fait, les enfants peuvent être profondément affectés émotionnellement par les événements graves en raison de leur vulnérabilité et de leur dépendance."
+      },
+      {
+          text: "Parce qu'il peut s'exprimer plus facilement que les adultes",
+          isCorrect: false,
+          comment: "Bien que les enfants puissent parfois avoir des difficultés à exprimer leurs émotions, cela ne rend pas leur impact émotionnel moindre."
+      },
+      {
+          text: "Parce qu'il peut être confronté à la vulnérabilité de ses parents",
+          isCorrect: true,
+          comment: "Les enfants peuvent être confrontés à la vulnérabilité de leurs parents, ce qui peut aggraver l'impact émotionnel de la situation sur eux."
+      },
+      {
+          text: "Parce qu'il est plus apte à comprendre la situation",
+          isCorrect: false,
+          comment: "La capacité à comprendre la situation peut varier d'un enfant à l'autre et dépend de nombreux facteurs, mais cela n'explique pas pourquoi leur impact émotionnel serait double."
+      }
+  ]
+},
+{
+  "text": "Comment devrait-on adapter sa communication lorsqu'on intervient auprès d'un enfant?",
+  "answers": [
+      {
+          text: "En utilisant un ton froid et distant",
+          isCorrect: false,
+          comment: "Un ton froid et distant peut intimider l'enfant et rendre la communication moins efficace."
+      },
+      {
+          text: "En parlant uniquement avec des mots compliqués",
+          isCorrect: false,
+          comment: "L'utilisation de mots compliqués peut rendre la communication confuse pour l'enfant, il est préférable d'utiliser un langage simple et adapté à son âge."
+      },
+      {
+          text: "En s'adressant directement à l'enfant et en utilisant des mots simples et honnêtes",
+          isCorrect: true,
+          comment: "C'est la meilleure approche pour établir une communication efficace avec un enfant pendant une intervention."
+      },
+      {
+          text: "En évitant tout contact visuel avec l'enfant",
+          isCorrect: false,
+          comment: "Le contact visuel est important pour établir une connexion émotionnelle avec l'enfant, il ne devrait pas être évité."
+      }
+  ]
+},
+
+{
+  "text": "Que devrait éviter de faire le secouriste tout au long de l'intervention auprès de l'enfant?",
+  "answers": [
+      {
+          text: "Mentir sur la gravité de la situation",
+          isCorrect: false,
+          comment: "La transparence est importante pour établir la confiance avec l'enfant, donc mentir ne devrait jamais être une option."
+      },
+      {
+          text: "Obliger l'enfant à parler",
+          isCorrect: false,
+          comment: "Forcer l'enfant à parler peut augmenter son stress et rendre l'interaction plus difficile, il est préférable de lui permettre de s'exprimer à son propre rythme."
+      },
+      {
+          text: "Banaliser ou dramatiser la situation",
+          isCorrect: true,
+          comment: "Banaliser la situation peut minimiser les sentiments de l'enfant, tandis que dramatiser peut aggraver son anxiété, il est important de maintenir un équilibre et de fournir un soutien approprié."
+      },
+      {
+          text: "Encourager les attitudes héroïques",
+          isCorrect: false,
+          comment: "Encourager les attitudes héroïques peut mettre trop de pression sur l'enfant et aggraver son stress, il est préférable de fournir un soutien et un réconfort."
+      }
+  ]
+},
+{
+  "text": "Quelle attitude le secouriste devrait-il adopter envers les émotions de l'enfant?",
+  "answers": [
+      {
+          text: "Les ignorer complètement",
+          isCorrect: false,
+          comment: "Ignorer les émotions de l'enfant peut lui faire sentir qu'il n'est pas écouté ou compris, ce qui peut aggraver son stress."
+      },
+      {
+          text: "Encourager les attitudes héroïques",
+          isCorrect: false,
+          comment: "Encourager les attitudes héroïques peut mettre trop de pression sur l'enfant et l'empêcher d'exprimer ses véritables émotions."
+      },
+      {
+          text: "Accepter ses réactions normales et l'autoriser à exprimer ses émotions",
+          isCorrect: true,
+          comment: "C'est important pour aider l'enfant à se sentir compris et soutenu pendant une situation stressante."
+      },
+      {
+          text: "Menacer de quitter la situation",
+          isCorrect: false,
+          comment: "Menacer de quitter la situation peut aggraver l'anxiété de l'enfant et lui faire sentir qu'il est abandonné, ce qui n'est pas approprié."
+      }
+  ]
+},
+{
+  "text": "Pourquoi est-il important de ne pas mentir à l'enfant pendant l'intervention?",
+  "answers": [
+      {
+          text: "Pour éviter de le perturber davantage",
+          isCorrect: true,
+          comment: "La transparence est importante pour établir la confiance avec l'enfant et minimiser son anxiété."
+      },
+      {
+          text: "Pour minimiser l'importance de la situation",
+          isCorrect: false,
+          comment: "Minimiser la situation peut faire sentir à l'enfant que ses sentiments ne sont pas pris au sérieux, ce qui peut aggraver son stress."
+      },
+      {
+          text: "Pour faire preuve d'autorité",
+          isCorrect: false,
+          comment: "La confiance et le soutien sont plus importants que l'autorité dans ce contexte, donc mentir ne devrait pas être utilisé comme un moyen de montrer l'autorité."
+      },
+      {
+          text: "Pour impressionner les parents",
+          isCorrect: false,
+          comment: "L'objectif principal devrait être le bien-être de l'enfant, pas l'impression des parents, donc mentir ne devrait jamais être une option."
+      }
+  ]
+},
+{
+  "text": "Quelle est la principale raison de ne pas encourager les attitudes héroïques chez l'enfant?",
+  "answers": [
+      {
+          text: "Pour éviter de susciter la peur chez l'enfant",
+          isCorrect: false,
+          comment: "Encourager les attitudes héroïques peut en fait augmenter la confiance de l'enfant et lui donner un sentiment de contrôle sur la situation."
+      },
+      {
+          text: "Pour encourager l'enfant à se comporter de manière irresponsable",
+          isCorrect: false,
+          comment: "Encourager les attitudes héroïques peut aider l'enfant à développer un sentiment de responsabilité et d'empathie envers les autres."
+      },
+      {
+          text: "Pour favoriser une expression saine des émotions de l'enfant",
+          isCorrect: true,
+          comment: "Encourager les attitudes héroïques peut encourager l'enfant à refouler ses vraies émotions et à ne pas demander l'aide dont il a besoin."
+      },
+      {
+          text: "Pour augmenter le niveau de stress de l'enfant",
+          isCorrect: false,
+          comment: "Encourager les attitudes héroïques peut en fait aider à réduire le stress de l'enfant en lui donnant un sentiment de contrôle sur la situation."
+      }
+  ]
+},
+{
+  text: "Quels sont les risques psychologiques auxquels est exposé le secouriste dans son activité?",
+  answers: [
+      {
+          text: "Fatigue physique et sentiment de déshumanisation",
+          isCorrect: false,
+          comment: "Bien que la fatigue physique puisse être un risque, le principal risque est lié au stress, au traumatisme, à l'usure et à l'épuisement."
+      },
+      {
+          text: "Troubles du sommeil et dépression",
+          isCorrect: false,
+          comment: "Bien que ces problèmes puissent survenir, ils ne couvrent pas tous les risques psychologiques auxquels est exposé un secouriste."
+      },
+      {
+          text: "Stress, traumatisme, usure et épuisement",
+          isCorrect: true,
+          comment: "Ces risques sont souvent associés aux activités de secours en raison de la nature des situations auxquelles les secouristes sont confrontés."
+      },
+      {
+          text: "Sentiment d'accomplissement personnel et motivation",
+          isCorrect: false,
+          comment: "Bien que le sentiment d'accomplissement puisse être une partie de l'expérience, il ne couvre pas tous les risques psychologiques."
+      }
+  ]
+},
+{
+  text: "Quelle est la réaction immédiate de stress qui permet au secouriste de mobiliser ses ressources pour accomplir sa mission?",
+  answers: [
+      {
+          text: "Fuite",
+          isCorrect: false,
+          comment: "La fuite n'est pas une réaction de stress productive pour un secouriste, elle peut compromettre sa capacité à accomplir sa mission."
+      },
+      {
+          text: "Action automatique",
+          isCorrect: false,
+          comment: "Bien que l'action automatique puisse se produire, ce n'est pas la réaction immédiate de stress qui permet au secouriste de mobiliser ses ressources."
+      },
+      {
+          text: "Sidération",
+          isCorrect: false,
+          comment: "La sidération peut paralyser le secouriste, ce qui compromettrait sa capacité à agir efficacement en situation d'urgence."
+      },
+      {
+          text: "Focalisation d'attention",
+          isCorrect: true,
+          comment: "La focalisation de l'attention permet au secouriste de se concentrer sur la tâche à accomplir malgré le stress, ce qui est essentiel pour une intervention réussie."
+      }
+  ]
+},
+{
+  text: "Quels sont les symptômes d'un trouble de stress aigu chez un secouriste?",
+  answers: [
+      {
+          text: "Répétition de l'événement initial et évitement des situations similaires",
+          isCorrect: false,
+          comment: "Ces symptômes sont plus associés au trouble de stress post-traumatique (TSPT) qu'au trouble de stress aigu."
+      },
+      {
+          text: "Conduites d'hypervigilance et pensées négatives",
+          isCorrect: false,
+          comment: "Bien que ces symptômes puissent se produire, ils ne sont pas spécifiques au trouble de stress aigu."
+      },
+      {
+          text: "Flashbacks et réactions de sidération",
+          isCorrect: true,
+          comment: "Ces symptômes sont caractéristiques du trouble de stress aigu, qui survient dans les jours ou les semaines suivant un événement traumatique."
+      },
+      {
+          text: "Sentiment d'accomplissement personnel et adaptation à la situation",
+          isCorrect: false,
+          comment: "Le sentiment d'accomplissement personnel et l'adaptation ne sont pas des symptômes d'un trouble de stress aigu, mais plutôt des aspects positifs de l'expérience professionnelle."
+      }
+  ]
+},
+{
+  text: "Qu'est-ce que le traumatisme vicariant?",
+  answers: [
+      {
+          text: "Un trouble psychologique développé par les victimes",
+          isCorrect: false,
+          comment: "Le traumatisme vicariant n'est pas développé par les victimes, mais par les professionnels qui sont exposés aux traumatismes des autres."
+      },
+      {
+          text: "Une forme de traumatisme direct vécu par le secouriste",
+          isCorrect: false,
+          comment: "Le traumatisme vicariant est une forme de traumatisme indirect qui résulte de l'exposition aux traumatismes des autres, pas du vécu direct du secouriste."
+      },
+      {
+          text: "Une conviction d'un monde dangereux développée par le secouriste",
+          isCorrect: true,
+          comment: "Le traumatisme vicariant peut conduire le secouriste à développer une vision du monde comme étant intrinsèquement dangereux ou menaçant."
+      },
+      {
+          text: "Un symptôme de stress aigu chez le secouriste",
+          isCorrect: false,
+          comment: "Le traumatisme vicariant est distinct du stress aigu, bien qu'ils puissent être liés dans certaines situations."
+      }
+  ]
+},
+{
+  text: "Quels sont les symptômes d'un épuisement professionnel (burn-out) chez le secouriste?",
+  answers: [
+      {
+          text: "Épuisement émotionnel, déshumanisation et sentiment d'accomplissement personnel",
+          isCorrect: true,
+          comment: "Ces symptômes sont caractéristiques de l'épuisement professionnel, qui résulte d'un stress chronique lié au travail."
+      },
+      {
+          text: "Insensibilité aux émotions, cynisme et vision positive des autres",
+          isCorrect: false,
+          comment: "Ces symptômes sont associés au cynisme, mais pas nécessairement à l'épuisement professionnel."
+      },
+      {
+          text: "Perte d'estime de soi, manque de ressources émotionnelles et engagement professionnel",
+          isCorrect: false,
+          comment: "Ces symptômes peuvent être associés à l'épuisement professionnel, mais ils ne le définissent pas entièrement."
+      },
+      {
+          text: "Perte d'idéal du métier, sentiment d'échec et sentiment de vide émotionnel",
+          isCorrect: false,
+          comment: "Ces symptômes peuvent être présents dans l'épuisement professionnel, mais ils ne sont pas les seuls ni les plus spécifiques."
+      }
+  ]
+},
+
+{
+  text: "Quelle est l'une des compétences indissociables pour être efficace en tant que secouriste?",
+  answers: [
+      {
+          text: "Connaissance approfondie des protocoles médicaux",
+          isCorrect: false,
+          comment: "La connaissance des protocoles médicaux est importante, mais elle n'est pas indissociable pour être efficace en tant que secouriste."
+      },
+      {
+          text: "Condition physique optimale",
+          isCorrect: true,
+          comment: "Une bonne condition physique est essentielle pour répondre efficacement aux situations d'urgence et pour assurer sa propre sécurité."
+      },
+      {
+          text: "Capacité à prendre des décisions rapides",
+          isCorrect: false,
+          comment: "La capacité à prendre des décisions rapides est importante, mais elle peut être compromise en l'absence d'une condition physique optimale."
+      },
+      {
+          text: "Sensibilité émotionnelle",
+          isCorrect: false,
+          comment: "La sensibilité émotionnelle peut être utile dans certaines situations, mais elle n'est pas indissociable pour être efficace en tant que secouriste."
+      }
+  ]
+},
+{
+  text: "Quelles sont les mesures recommandées pour préserver l'opérationnalité mentale du secouriste?",
+  answers: [
+      {
+          text: "Éviter les situations stressantes et émotionnelles",
+          isCorrect: false,
+          comment: "Éviter les situations stressantes et émotionnelles peut être difficile voire impossible dans le cadre des activités de secours."
+      },
+      {
+          text: "Suivre un régime alimentaire strict et équilibré",
+          isCorrect: false,
+          comment: "Un régime alimentaire équilibré est important pour la santé, mais il ne suffit pas à préserver l'opérationnalité mentale du secouriste."
+      },
+      {
+          text: "Appliquer des techniques de gestion du stress et soigner son hygiène de vie",
+          isCorrect: true,
+          comment: "La gestion du stress et une bonne hygiène de vie sont essentielles pour préserver l'opérationnalité mentale du secouriste face aux défis professionnels."
+      },
+      {
+          text: "Se concentrer uniquement sur les aspects techniques de la mission",
+          isCorrect: false,
+          comment: "Se concentrer uniquement sur les aspects techniques peut négliger les aspects émotionnels et relationnels des interventions, ce qui peut compromettre l'efficacité du secouriste."
+      }
+  ]
+},
+{
+  text: "Que devrait faire le secouriste si l'un des membres de l'équipe présente des manifestations inhabituelles pendant une intervention?",
+  answers: [
+      {
+          text: "Ignorer les signes et poursuivre la mission",
+          isCorrect: false,
+          comment: "Ignorer les signes de détresse d'un membre de l'équipe peut aggraver la situation et compromettre la sécurité de tous les membres."
+      },
+      {
+          text: "Informer le chef d'équipe pour ajuster la mission",
+          isCorrect: true,
+          comment: "Il est important de signaler tout signe de détresse ou de manifestations inhabituelles à la hiérarchie afin d'adapter la mission en conséquence et de fournir un soutien approprié."
+      },
+      {
+          text: "Blâmer le membre de l'équipe pour son comportement",
+          isCorrect: false,
+          comment: "Blâmer un membre de l'équipe pour des manifestations inhabituelles peut aggraver sa détresse et compromettre le fonctionnement de l'équipe."
+      },
+      {
+          text: "Demander à l'équipe de se disperser et de se reposer",
+          isCorrect: false,
+          comment: "Demander à l'équipe de se disperser peut compromettre la coordination et l'efficacité de l'intervention, surtout si des manifestations inhabituelles surviennent chez plusieurs membres de l'équipe."
+      }
+  ]
+},
+{
+  text: "Qu'est-ce qui peut nécessiter une orientation vers une aide professionnelle spécialisée pour un secouriste?",
+  answers: [
+      {
+          text: "Une réaction immédiate de stress",
+          isCorrect: false,
+          comment: "Une réaction immédiate de stress est normale dans certaines situations et ne nécessite pas nécessairement une aide professionnelle spécialisée à moins qu'elle ne persiste ou s'aggrave."
+      },
+      {
+          text: "Une perte de capacité de réflexe",
+          isCorrect: false,
+          comment: "Une perte de capacité de réflexe peut être un signe de fatigue ou de stress, mais cela ne nécessite pas nécessairement une aide professionnelle spécialisée à moins que cela n'interfère avec la capacité de travailler efficacement."
+      },
+      {
+          text: "Un sentiment d'accomplissement personnel",
+          isCorrect: false,
+          comment: "Un sentiment d'accomplissement personnel est positif et ne nécessite pas une orientation vers une aide professionnelle spécialisée."
+      },
+      {
+          text: "Des signes de souffrance psychologique",
+          isCorrect: true,
+          comment: "Des signes de souffrance psychologique tels que des symptômes de stress prolongés, des troubles du sommeil ou des difficultés relationnelles peuvent nécessiter une orientation vers une aide professionnelle spécialisée pour aider le secouriste à faire face à ces défis."
+      }
+  ]
+},
+{
+  text: "Quel est l'objectif de l'appui psychologique précoce et approprié pour un secouriste?",
+  answers: [
+      {
+          text: "Améliorer ses performances physiques",
+          isCorrect: false,
+          comment: "L'appui psychologique n'est pas principalement axé sur l'amélioration des performances physiques, mais sur la gestion du stress et la prévention des troubles psychologiques."
+      },
+      {
+          text: "Faciliter sa récupération sur les plans personnels et professionnels",
+          isCorrect: true,
+          comment: "L'objectif de l'appui psychologique précoce et approprié est de soutenir le secouriste dans sa récupération physique et émotionnelle après des situations stressantes, afin de préserver sa santé mentale et son bien-être général."
+      },
+      {
+          text: "Minimiser son engagement émotionnel dans les interventions",
+          isCorrect: false,
+          comment: "L'appui psychologique ne vise pas à minimiser l'engagement émotionnel, mais à aider le secouriste à gérer efficacement ses réactions émotionnelles dans le cadre de son travail."
+      },
+      {
+          text: "Favoriser une vision optimiste de son métier",
+          isCorrect: false,
+          comment: "L'appui psychologique peut aider le secouriste à maintenir une perspective réaliste sur son métier et à développer des stratégies pour faire face aux défis professionnels, mais il ne vise pas nécessairement à favoriser une vision optimiste à tout prix."
+      }
+  ]
+}
 ];
 
 
