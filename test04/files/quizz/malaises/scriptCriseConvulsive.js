@@ -160,7 +160,108 @@ var Question = function (questionObj) {
 //
 
 let questionsData = [
-  
+  // Questions sur la crise convulsive généralisée
+
+// Question 1
+{
+  text: "Qu'est-ce qu'une crise convulsive généralisée ?",
+  answers: [
+    { text: "Une perturbation de l'activité électrique cérébrale se traduisant par des mouvements musculaires incontrôlés.", isCorrect: true },
+    { text: "Un arrêt cardiaque soudain.", isCorrect: false },
+    { text: "Une perte de connaissance due à un traumatisme crânien.", isCorrect: false }
+  ]
+},
+
+// Question 2
+{
+  text: "Quelles peuvent être les causes d'une crise convulsive généralisée ?",
+  answers: [
+    { text: "Le traumatisme crânien, certaines maladies, l'épilepsie, l'hypoglycémie, l'absorption de poisons.", isCorrect: true },
+    { text: "Une insolation prolongée.", isCorrect: false },
+    { text: "Une carence en vitamines.", isCorrect: false }
+  ]
+},
+
+// Question 3
+{
+  text: "Quels sont les signes caractéristiques d'une crise convulsive généralisée ?",
+  answers: [
+    { text: "Perte brutale de connaissance, raideur musculaire, secousses involontaires, révulsion oculaire.", isCorrect: true },
+    { text: "Maux de tête sévères et vision floue.", isCorrect: false },
+    { text: "Fatigue extrême et confusion mentale.", isCorrect: false }
+  ]
+},
+
+// Question 4
+{
+  text: "Qu'est-ce que l'état de mal convulsif ?",
+  answers: [
+    { text: "La succession de plusieurs crises convulsives sans reprise de conscience entre les crises.", isCorrect: true },
+    { text: "Une amnésie temporaire après une crise convulsive.", isCorrect: false },
+    { text: "Un état de confusion mentale prolongé.", isCorrect: false }
+  ]
+},
+
+// Question 5
+{
+  text: "Quelle est la principale action à prendre au début d'une crise convulsive ?",
+  answers: [
+    { text: "Allonger la victime au sol pour éviter qu'elle ne se blesse en chutant.", isCorrect: true },
+    { text: "Demander à la victime de se lever et de marcher pour stimuler la circulation sanguine.", isCorrect: false },
+    { text: "Donner à la victime des médicaments pour calmer les convulsions.", isCorrect: false }
+  ]
+},
+
+// Question 6
+{
+  text: "Que doit faire le secouriste pendant une crise convulsive ?",
+  answers: [
+    { text: "Protéger la tête de la victime, écarter les objets traumatisants, ne rien placer dans sa bouche.", isCorrect: true },
+    { text: "Donner à la victime de l'oxygène pour faciliter sa respiration.", isCorrect: false },
+    { text: "Maintenir la victime en position assise pour éviter qu'elle ne tombe.", isCorrect: false }
+  ]
+},
+
+// Question 7
+{
+  text: "Que faire à la fin des convulsions d'une crise convulsive ?",
+  answers: [
+    { text: "Vérifier les voies aériennes de la victime, sa respiration, et l'installer en PLS si elle respire.", isCorrect: true },
+    { text: "Laisser la victime seule pour qu'elle se repose.", isCorrect: false },
+    { text: "Donner à la victime de l'eau pour qu'elle s'hydrate.", isCorrect: false }
+  ]
+},
+
+// Question 8
+{
+  text: "Quelle mesure doit être réalisée après la phase convulsive d'une crise convulsive ?",
+  answers: [
+    { text: "Une mesure de la glycémie capillaire.", isCorrect: true },
+    { text: "Une mesure de la pression artérielle.", isCorrect: false },
+    { text: "Une prise de température corporelle.", isCorrect: false }
+  ]
+},
+
+// Question 9
+{
+  text: "Quelle est la principale différence dans la prise en charge d'une crise convulsive chez un nourrisson ?",
+  answers: [
+    { text: "En plus des actions pour l'adulte, prendre la température de l'enfant et le ventiler en cas d'arrêt respiratoire.", isCorrect: true },
+    { text: "Aucune différence significative dans la prise en charge.", isCorrect: false },
+    { text: "Donner à l'enfant des médicaments pour calmer les convulsions.", isCorrect: false }
+  ]
+},
+
+// Question 10
+{
+  text: "Quand doit-on transmettre un bilan après une crise convulsive ?",
+  answers: [
+    { text: "Immédiatement après avoir pris les premières mesures de secours.", isCorrect: true },
+    { text: "Une fois que la victime est complètement rétablie.", isCorrect: false },
+    { text: "Avant de commencer les gestes de secours.", isCorrect: false }
+  ]
+}
+
 ];
 
 
