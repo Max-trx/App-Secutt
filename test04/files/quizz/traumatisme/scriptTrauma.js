@@ -2957,7 +2957,7 @@ let questionsData = [
 ]
 },
 {
-"text": "Quand est-il nécessaire de réaliser le réalignement d'une fracture ?",
+"text": "Quand est-il possible de réaliser le réalignement d'une fracture ?",
 "answers": [
     {
         "text": "Uniquement si la victime le demande",
@@ -2968,7 +2968,7 @@ let questionsData = [
         "isCorrect": false
     },
     {
-        "text": "En cas de déformation importante du membre",
+        "text": "En cas de déformation importante du membre avec complication ou impossibilité d'immobilisé",
         "isCorrect": true,
         "comment": "Réponse correcte : Le réalignement est nécessaire en cas de déformation importante du membre."
     },
