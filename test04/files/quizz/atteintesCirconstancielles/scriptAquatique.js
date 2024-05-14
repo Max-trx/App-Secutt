@@ -161,91 +161,190 @@ var Question = function (questionObj) {
 
 let questionsData = [
   {
-    text: "Qu’elle est la défnition d'une gelure ?",
-    answers: [
-      { text: "Un saignement qui ne s'arrête pas", isCorrect: false, comment: "Ce n'est pas correct. Une gelure est une lésion grave de la peau liée au froid." },
-      { text: "Une lésion grave de la peau liée au froid", isCorrect: true, comment: "Une gelure est en effet une lésion de la peau causée par le froid." },
-      { text: "Une douleur des cervicales", isCorrect: false, comment: "Non, ce n'est pas une gelure. Il s'agit d'autre chose." },
-      { text: "Une douleur des cervicales", isCorrect: false, comment: "Non, ce n'est pas une gelure. Il s'agit d'autre chose." }
+    "text": "Qu'est-ce qu'un accident lié à la plongée ?",
+    "answers": [
+        {
+            "text": "Une manifestation qui survient pendant une plongée en apnée uniquement.",
+            "isCorrect": false,
+            "comment": "Les accidents de plongée ne se limitent pas à la plongée en apnée."
+        },
+        {
+            "text": "Une manifestation qui survient après une plongée en scaphandre autonome uniquement.",
+            "isCorrect": false,
+            "comment": "Les accidents de plongée ne se limitent pas à la plongée en scaphandre autonome."
+        },
+        {
+            "text": "Une manifestation qui survient pendant, immédiatement après ou dans les vingt-quatre heures qui suivent une plongée en apnée ou en scaphandre autonome.",
+            "isCorrect": true,
+            "comment": "Un accident de plongée peut survenir pendant, immédiatement après ou jusqu'à 24 heures après une plongée en apnée ou en scaphandre autonome."
+        },
+        {
+            "text": "Toutes les réponses précédentes sont correctes.",
+            "isCorrect": false,
+            "comment": "Seule la troisième réponse est correcte pour définir un accident lié à la plongée."
+        }
     ]
-  },
-  {
-    text: "Dans quelle(s) condition(s) surviennent les gelures ?",
-    answers: [
-      { text: "Lors d’une exposition prolongée dans un milieu froid, en dessous de 0°C", isCorrect: true },
-      { text: "Lors d’une exposition de 5 min dans un milieu froid -10°C", isCorrect: false },
-      { text: "Lors ce que je vais dans un milieu chaud", isCorrect: false },
-      { text: "Lors ce que je vais dans un milieu chaud", isCorrect: false }
-    ]
-  },
-  {
-    text: "Combien de degré de gelure existe-il ?",
-    answers: [
-      { text: "3 sachant que dans le cas le plus grave il y a un risque d’amputation", isCorrect: false },
-      { text: "4 et l’apparition des 1er cloques s’effectue au 3eme degré", isCorrect: true },
-      { text: "4 et l’apparition des cloques sanglantes se manifeste au 3eme degré", isCorrect: false },
-      { text: "4 et l’amputation est irréversible dans le pire cas", isCorrect: false }
-    ]
-  },
-  {
-    text: "Sous quelles conditions pouvons-nous plonger les gelures dans une bassine d’eau à 37-39°C ?",
-    answers: [
-      { text: "Uniquement sous 10h", isCorrect: false },
-      { text: "Uniquement sous 24h", isCorrect: false },
-      { text: "S’il n’y a pas de risque de réexposition au froid", isCorrect: true },
-      { text: "Pas plus de 20min immergées", isCorrect: false }
-    ]
-  },
-  {
-      text: "Pourquoi est-il important de repérer la présence d'une poche d'air lors du dégagement de la tête de la victime ensevelie ?",
-      answers: [
-          {
-              text: "Pour décider si la victime doit être évacuée rapidement",
-              isCorrect: false,
-              comment: "L'évaluation de la poche d'air est importante pour adapter la conduite à tenir, mais cela ne détermine pas nécessairement la nécessité d'une évacuation rapide."
-          },
-          {
-              text: "Pour évaluer l'ampleur des lésions traumatiques",
-              isCorrect: false,
-              comment: "Bien que l'évaluation des lésions soit importante, la présence d'une poche d'air est plus pertinente pour fournir une ventilation efficace."
-          },
-          {
-              text: "Pour déterminer si la victime est encore consciente",
-              isCorrect: false,
-              comment: "La présence d'une poche d'air n'est pas nécessairement liée à la conscience de la victime. Elle est importante pour fournir de l'oxygène si nécessaire."
-          },
-          {
-              text: "Pour adapter la conduite à tenir et fournir de l'oxygène si nécessaire",
-              isCorrect: true,
-              comment: "Repérer une poche d'air permet d'adapter la prise en charge de la victime et de fournir de l'oxygène pour prévenir l'asphyxie."
-          }
-      ]
-  },
-  {
-      text: "Quel est l'un des mécanismes de traumatismes subis par une victime ensevelie dans une avalanche ?",
-      answers: [
-          {
-              text: "L'écrasement par la neige compacte",
-              isCorrect: false,
-              comment: "L'écrasement est un mécanisme de traumatisme, mais les chocs contre des obstacles comme les rochers ou les arbres sont également fréquents."
-          },
-          {
-              text: "La déshydratation due à l'exposition prolongée",
-              isCorrect: false,
-              comment: "La déshydratation peut être un problème, mais les traumatismes physiques sont plus immédiats et graves dans les premières minutes après l'avalanche."
-          },
-          {
-              text: "Les brûlures causées par le frottement avec la neige",
-              isCorrect: false,
-              comment: "Les brûlures sont peu probables dans une avalanche. Les traumatismes sont généralement dus à des chocs contre des obstacles ou à l'asphyxie."
-          },
-          {
-              text: "Les chocs directs contre les rochers ou les arbres",
-              isCorrect: true,
-              comment: "Les chocs contre des obstacles solides comme les rochers ou les arbres sont l'un des principaux mécanismes de traumatismes dans les avalanches."
-          }
-      ]
-  }
+},
+{
+  "text": "Qu'est-ce qu'un accident barotraumatique ?",
+  "answers": [
+      {
+          "text": "Un accident provoqué par une variation des volumes de gaz dans les cavités naturelles et pathologiques de l'organisme.",
+          "isCorrect": true,
+          "comment": "Un accident barotraumatique est provoqué par une variation des volumes de gaz dans les cavités naturelles et pathologiques de l'organisme."
+      },
+      {
+          "text": "Un accident toxique dû à une exposition à des gaz contaminants.",
+          "isCorrect": false,
+          "comment": "Ce type d'accident n'est pas appelé barotraumatique."
+      },
+      {
+          "text": "Un accident provoqué par une insensibilité à la baisse de la quantité d'oxygène dans le sang.",
+          "isCorrect": false,
+          "comment": "Ce type d'accident n'est pas appelé barotraumatique."
+      },
+      {
+          "text": "Toutes les réponses précédentes sont correctes.",
+          "isCorrect": false,
+          "comment": "Seule la première réponse est correcte pour définir un accident barotraumatique."
+      }
+  ]
+},
+
+{
+  "text": "Qu'est-ce qui peut entraîner une surpression pulmonaire lors de la remontée en plongée ?",
+  "answers": [
+      {
+          "text": "Un blocage de l'inspiration.",
+          "isCorrect": false,
+          "comment": "Un blocage de l'inspiration ne provoque pas une surpression pulmonaire lors de la remontée en plongée."
+      },
+      {
+          "text": "Une expiration insuffisante.",
+          "isCorrect": true,
+          "comment": "Une expiration insuffisante peut entraîner une surpression pulmonaire lors de la remontée en plongée."
+      },
+      {
+          "text": "Une brusque inspiration.",
+          "isCorrect": false,
+          "comment": "Une brusque inspiration n'est pas la cause principale de la surpression pulmonaire lors de la remontée en plongée."
+      },
+      {
+          "text": "Toutes les réponses précédentes sont correctes.",
+          "isCorrect": false,
+          "comment": "Seule la deuxième réponse est correcte pour décrire ce qui peut entraîner une surpression pulmonaire lors de la remontée en plongée."
+      }
+  ]
+},
+
+
+{
+  "text": "Qu'est-ce que l'hyperventilation préalable à la plongée en apnée peut provoquer ?",
+  "answers": [
+      {
+          "text": "Une insensibilité à la baisse de la quantité d'oxygène dans le sang.",
+          "isCorrect": true,
+          "comment": "L'hyperventilation préalable à la plongée en apnée peut provoquer une insensibilité à la baisse de la quantité d'oxygène dans le sang."
+      },
+      {
+          "text": "Une augmentation de la sensibilité à l'oxygène.",
+          "isCorrect": false,
+          "comment": "L'hyperventilation ne conduit généralement pas à une augmentation de la sensibilité à l'oxygène."
+      },
+      {
+          "text": "Une augmentation de la pression artérielle.",
+          "isCorrect": false,
+          "comment": "L'hyperventilation ne provoque pas nécessairement une augmentation de la pression artérielle."
+      },
+      {
+          "text": "Toutes les réponses précédentes sont correctes.",
+          "isCorrect": false,
+          "comment": "Seule la première réponse est correcte pour décrire ce que peut provoquer l'hyperventilation préalable à la plongée en apnée."
+      }
+  ]
+},
+
+{
+  "text": "Quels signes peuvent indiquer la présence d'un accident de plongée ?",
+  "answers": [
+      {
+          "text": "Des troubles de la parole.",
+          "isCorrect": false,
+          "comment": "Les troubles de la parole ne sont pas spécifiques aux accidents de plongée."
+      },
+      {
+          "text": "Des troubles de la vision.",
+          "isCorrect": false,
+          "comment": "Les troubles de la vision ne sont pas spécifiques aux accidents de plongée."
+      },
+      {
+          "text": "Des convulsions.",
+          "isCorrect": false,
+          "comment": "Les convulsions peuvent indiquer un accident de plongée, mais il existe d'autres signes également."
+      },
+      {
+          "text": "Toutes les réponses précédentes sont correctes.",
+          "isCorrect": true,
+          "comment": "Les troubles de la parole, de la vision et les convulsions peuvent tous indiquer la présence d'un accident de plongée."
+      }
+  ]
+},
+
+
+
+{
+  "text": "Que doit-on faire en premier lors de l'action de secours pour une victime d'accident de plongée ?",
+  "answers": [
+      {
+          "text": "Lui administrer de l'oxygène.",
+          "isCorrect": false,
+          "comment": "Administrer de l'oxygène peut être important, mais la première priorité est de sortir la victime de l'eau."
+      },
+      {
+          "text": "Lui donner à boire.",
+          "isCorrect": false,
+          "comment": "Lui donner à boire n'est pas une mesure appropriée en cas d'accident de plongée."
+      },
+      {
+          "text": "La sortir de l'eau.",
+          "isCorrect": true,
+          "comment": "La première action à entreprendre lors d'un accident de plongée est de sortir la victime de l'eau pour éviter l'asphyxie."
+      },
+      {
+          "text": "Alerter les autorités.",
+          "isCorrect": false,
+          "comment": "Alerter les autorités est important, mais la première priorité est de sortir la victime de l'eau."
+      }
+  ]
+},
+
+
+{
+  "text": "Quel est l'objectif principal de l'administration d'oxygène à une victime d'accident de plongée ?",
+  "answers": [
+      {
+          "text": "Réduire la douleur.",
+          "isCorrect": false,
+          "comment": "L'administration d'oxygène vise principalement à limiter l'évolution et l'extension des lésions, pas à réduire la douleur."
+      },
+      {
+          "text": "Améliorer la respiration.",
+          "isCorrect": false,
+          "comment": "Bien que l'oxygène puisse aider à améliorer la respiration, son objectif principal est différent."
+      },
+      {
+          "text": "Éviter la formation de bulles de gaz.",
+          "isCorrect": false,
+          "comment": "L'oxygène ne vise pas spécifiquement à éviter la formation de bulles de gaz, mais plutôt à limiter les dommages causés par celles-ci."
+      },
+      {
+          "text": "Limiter l'évolution et l'extension des lésions.",
+          "isCorrect": true,
+          "comment": "L'objectif principal de l'administration d'oxygène est de limiter l'évolution et l'extension des lésions chez une victime d'accident de plongée."
+      }
+  ]
+},
+
 ];
 
 

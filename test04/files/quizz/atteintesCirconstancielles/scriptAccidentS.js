@@ -245,7 +245,7 @@ let questionsData = [
               comment: "Les chocs contre des obstacles solides comme les rochers ou les arbres sont l'un des principaux mécanismes de traumatismes dans les avalanches."
           }
       ]
-  }
+  },
   {
     "text": "Qu'est-ce que l'électrisation ?",
     "answers": [
@@ -270,7 +270,7 @@ let questionsData = [
             "comment": "Seule la première réponse est correcte pour définir l'électrisation."
         }
     ]
-}
+},
 
 {
     "text": "Qu'est-ce que l'électrocution ?",
@@ -296,7 +296,7 @@ let questionsData = [
             "comment": "L'électrocution n'est pas spécifiquement liée à un type particulier de courant électrique."
         }
     ]
-}
+},
 
 {
     "text": "Quel est le nombre estimé d'accidents mortels d'origine électrique en France chaque année ?",
@@ -322,7 +322,7 @@ let questionsData = [
             "comment": "Environ 100 accidents mortels d'origine électrique sont estimés chaque année en France."
         }
     ]
-}
+},
 
 {
     "text": "Quelle est la barrière la plus résistante face au courant électrique ?",
@@ -348,7 +348,7 @@ let questionsData = [
             "comment": "Le liquide amniotique n'est pas une barrière face au courant électrique chez une personne enceinte."
         }
     ]
-}
+},
 
 {
     "text": "À quelle intensité de courant électrique commence-t-on à ressentir des picotements ?",
@@ -374,7 +374,7 @@ let questionsData = [
             "comment": "Cette intensité est beaucoup plus élevée que celle à laquelle on commence à ressentir des picotements."
         }
     ]
-}
+},
 
 {
     "text": "Quels types d'accidents électriques peuvent survenir en France ?",
@@ -400,7 +400,7 @@ let questionsData = [
             "comment": "Les accidents électriques en France ne se limitent pas aux accidents de loisirs."
         }
     ]
-}
+},
 
 {
     "text": "Qu'est-ce que l'action de secours doit permettre lors d'un accident électrique ?",
@@ -426,7 +426,7 @@ let questionsData = [
             "comment": "La dernière option est incorrecte car l'action de secours doit comprendre plusieurs mesures pour aider la victime."
         }
     ]
-}
+},
 
 
 {
