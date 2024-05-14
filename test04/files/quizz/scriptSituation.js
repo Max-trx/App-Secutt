@@ -161,90 +161,94 @@ var Question = function (questionObj) {
 
 let questionsData = [
   {
-    text: "Qu’elle est la défnition d'une gelure ?",
+    text: "Quels sont les types d'accidents pouvant entraîner une situation à nombreuses victimes selon le référentiel de secourisme ?",
     answers: [
-      { text: "Un saignement qui ne s'arrête pas", isCorrect: false, comment: "Ce n'est pas correct. Une gelure est une lésion grave de la peau liée au froid." },
-      { text: "Une lésion grave de la peau liée au froid", isCorrect: true, comment: "Une gelure est en effet une lésion de la peau causée par le froid." },
-      { text: "Une douleur des cervicales", isCorrect: false, comment: "Non, ce n'est pas une gelure. Il s'agit d'autre chose." },
-      { text: "Une douleur des cervicales", isCorrect: false, comment: "Non, ce n'est pas une gelure. Il s'agit d'autre chose." }
+      { text: "Accidents de trafic, incendies, effondrements de structures, accidents sociaux, actes de terrorisme, catastrophes naturelles limitées, catastrophes technologiques, accidents infectieux.", isCorrect: true, comment: "Correct, ces sont les différents types d'accidents énumérés dans le référentiel." },
+      { text: "Uniquement les accidents de trafic.", isCorrect: false, comment: "Il existe d'autres types d'accidents pouvant entraîner une situation à nombreuses victimes." },
+      { text: "Uniquement les accidents de travail.", isCorrect: false, comment: "Les accidents de travail ne sont pas les seuls à entraîner des situations à nombreuses victimes." },
+      { text: "Uniquement les catastrophes naturelles.", isCorrect: false, comment: "Les situations à nombreuses victimes ne sont pas limitées aux catastrophes naturelles." }
     ]
   },
   {
-    text: "Dans quelle(s) condition(s) surviennent les gelures ?",
+    text: "Quelles sont les conséquences caractérisant un accident entraînant de nombreuses victimes selon le référentiel de secourisme ?",
     answers: [
-      { text: "Lors d’une exposition prolongée dans un milieu froid, en dessous de 0°C", isCorrect: true },
-      { text: "Lors d’une exposition de 5 min dans un milieu froid -10°C", isCorrect: false },
-      { text: "Lors ce que je vais dans un milieu chaud", isCorrect: false },
-      { text: "Lors ce que je vais dans un milieu chaud", isCorrect: false }
+      { text: "La présence de dégâts matériels importants uniquement.", isCorrect: false, comment: "Les conséquences d'un accident à nombreuses victimes sont plus larges que seulement les dégâts matériels." },
+      { text: "La présence de nombreuses victimes réelles ou potentielles, des dégâts matériels importants, une inadéquation initiale et temporaire entre les moyens disponibles et les besoins.", isCorrect: true, comment: "Correct, ces éléments caractérisent les conséquences d'un tel accident." },
+      { text: "Uniquement la présence de nombreuses victimes réelles.", isCorrect: false, comment: "Les conséquences d'un tel accident vont au-delà de la présence de victimes." },
+      { text: "Uniquement la présence de dégâts matériels importants et une inadéquation des moyens.", isCorrect: false, comment: "Cela ne couvre pas toutes les conséquences d'un accident à nombreuses victimes." }
     ]
   },
   {
-    text: "Combien de degré de gelure existe-il ?",
+    text: "Quels sont les principes d'action de secours recommandés dans une situation à nombreuses victimes ?",
     answers: [
-      { text: "3 sachant que dans le cas le plus grave il y a un risque d’amputation", isCorrect: false },
-      { text: "4 et l’apparition des 1er cloques s’effectue au 3eme degré", isCorrect: true },
-      { text: "4 et l’apparition des cloques sanglantes se manifeste au 3eme degré", isCorrect: false },
-      { text: "4 et l’amputation est irréversible dans le pire cas", isCorrect: false }
+      { text: "Assurer uniquement la sécurité et procéder rapidement à l'évacuation des victimes.", isCorrect: false, comment: "Il y a d'autres principes d'action à considérer." },
+      { text: "Procéder à une reconnaissance rapide du site, assurer la sécurité, transmettre sans délai les informations recueillies, procéder au repérage des nombreuses victimes, réaliser les gestes de secours les plus urgents.", isCorrect: true, comment: "Correct, ces principes d'action sont recommandés dans une situation à nombreuses victimes." },
+      { text: "Attendre l'arrivée des secours spécialisés sans intervenir.", isCorrect: false, comment: "Il est important d'agir rapidement en cas de situation à nombreuses victimes." },
+      { text: "Procéder directement au sauvetage des victimes sans évaluer les dangers.", isCorrect: false, comment: "Assurer la sécurité est une priorité avant d'agir." }
     ]
   },
   {
-    text: "Sous quelles conditions pouvons-nous plonger les gelures dans une bassine d’eau à 37-39°C ?",
+    text: "Quel est le rôle des secouristes vis-à-vis des personnes non blessées mais affectées psychologiquement lors d'une situation à nombreuses victimes ?",
     answers: [
-      { text: "Uniquement sous 10h", isCorrect: false },
-      { text: "Uniquement sous 24h", isCorrect: false },
-      { text: "S’il n’y a pas de risque de réexposition au froid", isCorrect: true },
-      { text: "Pas plus de 20min immergées", isCorrect: false }
+      { text: "Ne pas intervenir car ils ne sont pas blessés physiquement.", isCorrect: false, comment: "Les secouristes peuvent apporter un soutien aux personnes affectées psychologiquement." },
+      { text: "Les diriger immédiatement vers les équipes spécialisées en psychologie.", isCorrect: false, comment: "Les secouristes peuvent également apporter un premier soutien psychologique." },
+      { text: "Les regrouper au sein d'une zone dédiée aux impliqués et leur apporter une écoute réconfortante.", isCorrect: true, comment: "Correct, les secouristes peuvent jouer un rôle crucial dans le soutien psychologique des personnes affectées." },
+      { text: "Les laisser se débrouiller seules.", isCorrect: false, comment: "Il est important d'offrir un soutien aux personnes affectées, même si elles ne sont pas blessées physiquement." }
     ]
   },
   {
-      text: "Pourquoi est-il important de repérer la présence d'une poche d'air lors du dégagement de la tête de la victime ensevelie ?",
-      answers: [
-          {
-              text: "Pour décider si la victime doit être évacuée rapidement",
-              isCorrect: false,
-              comment: "L'évaluation de la poche d'air est importante pour adapter la conduite à tenir, mais cela ne détermine pas nécessairement la nécessité d'une évacuation rapide."
-          },
-          {
-              text: "Pour évaluer l'ampleur des lésions traumatiques",
-              isCorrect: false,
-              comment: "Bien que l'évaluation des lésions soit importante, la présence d'une poche d'air est plus pertinente pour fournir une ventilation efficace."
-          },
-          {
-              text: "Pour déterminer si la victime est encore consciente",
-              isCorrect: false,
-              comment: "La présence d'une poche d'air n'est pas nécessairement liée à la conscience de la victime. Elle est importante pour fournir de l'oxygène si nécessaire."
-          },
-          {
-              text: "Pour adapter la conduite à tenir et fournir de l'oxygène si nécessaire",
-              isCorrect: true,
-              comment: "Repérer une poche d'air permet d'adapter la prise en charge de la victime et de fournir de l'oxygène pour prévenir l'asphyxie."
-          }
-      ]
+    text: "Quelles sont les caractéristiques des dégâts matériels dans un accident entraînant de nombreuses victimes ?",
+    answers: [
+      { text: "Ils touchent principalement les bâtiments administratifs.", isCorrect: false, comment: "Les dégâts matériels peuvent affecter divers types de structures." },
+      { text: "Ils peuvent engendrer des risques persistants pour les secouristes.", isCorrect: true, comment: "Correct, les dégâts matériels peuvent présenter des risques pour les secouristes." },
+      { text: "Ils sont généralement limités aux véhicules.", isCorrect: false, comment: "Les dégâts matériels ne se limitent pas aux véhicules." },
+      { text: "Ils n'ont pas d'impact sur les opérations de secours.", isCorrect: false, comment: "Les dégâts matériels peuvent influencer les opérations de secours." }
+    ]
   },
   {
-      text: "Quel est l'un des mécanismes de traumatismes subis par une victime ensevelie dans une avalanche ?",
-      answers: [
-          {
-              text: "L'écrasement par la neige compacte",
-              isCorrect: false,
-              comment: "L'écrasement est un mécanisme de traumatisme, mais les chocs contre des obstacles comme les rochers ou les arbres sont également fréquents."
-          },
-          {
-              text: "La déshydratation due à l'exposition prolongée",
-              isCorrect: false,
-              comment: "La déshydratation peut être un problème, mais les traumatismes physiques sont plus immédiats et graves dans les premières minutes après l'avalanche."
-          },
-          {
-              text: "Les brûlures causées par le frottement avec la neige",
-              isCorrect: false,
-              comment: "Les brûlures sont peu probables dans une avalanche. Les traumatismes sont généralement dus à des chocs contre des obstacles ou à l'asphyxie."
-          },
-          {
-              text: "Les chocs directs contre les rochers ou les arbres",
-              isCorrect: true,
-              comment: "Les chocs contre des obstacles solides comme les rochers ou les arbres sont l'un des principaux mécanismes de traumatismes dans les avalanches."
-          }
-      ]
+    text: "Quel est l'impact des dégâts matériels sur le sauvetage des victimes lors d'un accident à nombreuses victimes ?",
+    answers: [
+      { text: "Ils n'ont aucun impact sur le sauvetage des victimes.", isCorrect: false, comment: "Les dégâts matériels peuvent affecter le sauvetage des victimes." },
+      { text: "Ils facilitent le sauvetage des victimes en fournissant des accès plus aisés.", isCorrect: false, comment: "Les dégâts matériels peuvent compliquer le sauvetage des victimes." },
+      { text: "Ils peuvent avoir un impact sur le sauvetage des victimes en rendant l'accès difficile et en influençant la nature des gestes de secours à réaliser.", isCorrect: true, comment: "Correct, les dégâts matériels peuvent compliquer les opérations de secours." },
+      { text: "Ils accélèrent le sauvetage des victimes en rendant l'intervention des secouristes plus efficace.", isCorrect: false, comment: "Les dégâts matériels peuvent ralentir le sauvetage des victimes en rendant l'accès plus difficile." }
+    ]
+  },
+  {
+    text: "Quelle est l'importance de l'organisation des secours dans une situation à nombreuses victimes ?",
+    answers: [
+      { text: "Elle n'est pas importante, car chaque secouriste peut agir individuellement.", isCorrect: false, comment: "Une organisation efficace des secours est cruciale dans ce type de situation." },
+      { text: "Elle permet de limiter les effets du sinistre en coordonnant les interventions et en optimisant les ressources disponibles.", isCorrect: true, comment: "Correct, une bonne organisation des secours est essentielle pour gérer efficacement une situation à nombreuses victimes." },
+      { text: "Elle ne concerne que les secours professionnels, pas les secouristes volontaires.", isCorrect: false, comment: "Tous les intervenants, qu'ils soient professionnels ou volontaires, doivent être intégrés dans l'organisation des secours." },
+      { text: "Elle n'est importante que pour les autorités compétentes, pas pour les secouristes sur le terrain.", isCorrect: false, comment: "Les secouristes sur le terrain doivent également comprendre et respecter l'organisation des secours." }
+    ]
+  },
+  {
+    text: "Quelles sont les caractéristiques des victimes dans une situation à nombreuses victimes selon le référentiel de secourisme ?",
+    answers: [
+      { text: "Elles sont toutes blessées de manière visible.", isCorrect: false, comment: "Les victimes peuvent avoir des blessures visibles ou non." },
+      { text: "Certaines peuvent être accessibles immédiatement, d'autres peuvent être enfouies ou emprisonnées.", isCorrect: true, comment: "Correct, les victimes peuvent présenter une variété de situations d'accessibilité." },
+      { text: "Toutes présentent des blessures internes dues à une explosion.", isCorrect: false, comment: "Les blessures des victimes peuvent avoir différentes origines." },
+      { text: "Elles sont toutes dans un état de choc psychologique sévère.", isCorrect: false, comment: "Le choc psychologique peut varier d'une victime à l'autre." }
+    ]
+  },
+  {
+    text: "Quel est le rôle des secouristes vis-à-vis des victimes en arrêt cardiaque ou décédées lors d'une situation à nombreuses victimes ?",
+    answers: [
+      { text: "Les ignorer car ils sont focalisés sur le sauvetage des victimes vivantes.", isCorrect: false, comment: "Les secouristes doivent également prendre en compte les victimes en arrêt cardiaque ou décédées." },
+      { text: "Les traiter en priorité car leur état est plus grave que celui des autres victimes.", isCorrect: false, comment: "Les secouristes doivent prioriser les interventions en fonction de la gravité des blessures." },
+      { text: "Les prendre en charge selon les protocoles appropriés et les dégager si possible pour libérer les ressources médicales.", isCorrect: true, comment: "Correct, les secouristes doivent suivre les protocoles pour les victimes en arrêt cardiaque ou décédées." },
+      { text: "Attendre l'arrivée des services de secours spécialisés avant d'intervenir.", isCorrect: false, comment: "Les secouristes doivent agir rapidement pour prendre en charge toutes les victimes." }
+    ]
+  },
+  {
+    text: "Quelle est l'importance de la reconnaissance rapide du site dans une situation à nombreuses victimes ?",
+    answers: [
+      { text: "Elle permet d'évaluer la gravité des blessures des victimes.", isCorrect: false, comment: "La reconnaissance du site ne concerne pas directement l'évaluation des blessures des victimes." },
+      { text: "Elle permet de repérer les victimes plus rapidement.", isCorrect: true, comment: "Correct, une reconnaissance rapide du site permet d'identifier les zones les plus critiques et d'optimiser les interventions." },
+      { text: "Elle n'est pas importante car les secouristes doivent agir immédiatement.", isCorrect: false, comment: "Une reconnaissance rapide du site est essentielle pour planifier et prioriser les interventions." },
+      { text: "Elle permet d'identifier les causes de l'accident.", isCorrect: false, comment: "La reconnaissance du site vise principalement à évaluer la situation et à planifier les interventions." }
+    ]
   }
 ];
 
