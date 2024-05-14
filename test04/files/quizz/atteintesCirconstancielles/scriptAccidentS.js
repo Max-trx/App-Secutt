@@ -245,7 +245,215 @@ let questionsData = [
               comment: "Les chocs contre des obstacles solides comme les rochers ou les arbres sont l'un des principaux mécanismes de traumatismes dans les avalanches."
           }
       ]
-  }
+  },
+  {
+    "text": "Qu'est-ce que l'électrisation ?",
+    "answers": [
+        {
+            "text": "L'ensemble des lésions provoquées par le passage d'un courant électrique à travers le corps.",
+            "isCorrect": true,
+            "comment": "L'électrisation désigne en effet l'ensemble des lésions causées par le passage du courant électrique à travers le corps."
+        },
+        {
+            "text": "Un accident lié à la production d'un arc électrique.",
+            "isCorrect": false,
+            "comment": "Ce type d'accident est différent et n'est pas spécifiquement appelé électrisation."
+        },
+        {
+            "text": "L'effet direct du courant électrique lorsqu'il traverse les tissus.",
+            "isCorrect": false,
+            "comment": "C'est une partie de l'électrisation, mais pas sa définition complète."
+        },
+        {
+            "text": "Toutes les réponses précédentes sont correctes.",
+            "isCorrect": false,
+            "comment": "Seule la première réponse est correcte pour définir l'électrisation."
+        }
+    ]
+},
+
+{
+    "text": "Qu'est-ce que l'électrocution ?",
+    "answers": [
+        {
+            "text": "Une électrisation mortelle.",
+            "isCorrect": true,
+            "comment": "L'électrocution désigne une électrisation mortelle."
+        },
+        {
+            "text": "Une électrisation temporaire.",
+            "isCorrect": false,
+            "comment": "L'électrocution n'est pas temporaire, c'est une condition mortelle."
+        },
+        {
+            "text": "Une électrisation due à la production d'un arc électrique.",
+            "isCorrect": false,
+            "comment": "L'électrocution ne se limite pas à la production d'un arc électrique."
+        },
+        {
+            "text": "Une électrisation provoquée par un courant continu.",
+            "isCorrect": false,
+            "comment": "L'électrocution n'est pas spécifiquement liée à un type particulier de courant électrique."
+        }
+    ]
+},
+
+{
+    "text": "Quel est le nombre estimé d'accidents mortels d'origine électrique en France chaque année ?",
+    "answers": [
+        {
+            "text": "Environ 50",
+            "isCorrect": false,
+            "comment": "Ce nombre est plus élevé que cela."
+        },
+        {
+            "text": "Environ 200",
+            "isCorrect": false,
+            "comment": "Ce nombre est encore plus élevé."
+        },
+        {
+            "text": "Environ 1000",
+            "isCorrect": false,
+            "comment": "Ce nombre est excessivement élevé pour les accidents électriques mortels en France."
+        },
+        {
+            "text": "Environ 100",
+            "isCorrect": true,
+            "comment": "Environ 100 accidents mortels d'origine électrique sont estimés chaque année en France."
+        }
+    ]
+},
+
+{
+    "text": "Quelle est la barrière la plus résistante face au courant électrique ?",
+    "answers": [
+        {
+            "text": "Les nerfs.",
+            "isCorrect": false,
+            "comment": "Les nerfs ne sont pas une barrière efficace contre le courant électrique."
+        },
+        {
+            "text": "Les vaisseaux sanguins.",
+            "isCorrect": false,
+            "comment": "Les vaisseaux sanguins ne constituent pas une barrière efficace contre le courant électrique."
+        },
+        {
+            "text": "La peau.",
+            "isCorrect": true,
+            "comment": "La peau est la barrière la plus résistante face au courant électrique."
+        },
+        {
+            "text": "Le liquide amniotique.",
+            "isCorrect": false,
+            "comment": "Le liquide amniotique n'est pas une barrière face au courant électrique chez une personne enceinte."
+        }
+    ]
+},
+
+{
+    "text": "À quelle intensité de courant électrique commence-t-on à ressentir des picotements ?",
+    "answers": [
+        {
+            "text": "1 mA",
+            "isCorrect": true,
+            "comment": "À partir d'environ 1 mA, on peut commencer à ressentir des picotements dus au courant électrique."
+        },
+        {
+            "text": "10 mA",
+            "isCorrect": false,
+            "comment": "Cette intensité est plus élevée que celle à laquelle on commence à ressentir des picotements."
+        },
+        {
+            "text": "30 mA",
+            "isCorrect": false,
+            "comment": "Cette intensité est encore plus élevée que celle à laquelle on commence à ressentir des picotements."
+        },
+        {
+            "text": "100 mA",
+            "isCorrect": false,
+            "comment": "Cette intensité est beaucoup plus élevée que celle à laquelle on commence à ressentir des picotements."
+        }
+    ]
+},
+
+{
+    "text": "Quels types d'accidents électriques peuvent survenir en France ?",
+    "answers": [
+        {
+            "text": "Uniquement des accidents domestiques.",
+            "isCorrect": false,
+            "comment": "Les accidents électriques en France ne se limitent pas aux accidents domestiques."
+        },
+        {
+            "text": "Accidents du travail, domestiques, de loisirs, dus à des conduites à risque et foudroiement.",
+            "isCorrect": true,
+            "comment": "Les accidents électriques en France peuvent inclure des accidents du travail, domestiques, de loisirs, dus à des conduites à risque et le foudroiement."
+        },
+        {
+            "text": "Uniquement des accidents liés à des conduites à risque.",
+            "isCorrect": false,
+            "comment": "Les accidents électriques en France ne se limitent pas aux accidents liés à des conduites à risque."
+        },
+        {
+            "text": "Uniquement des accidents de loisirs.",
+            "isCorrect": false,
+            "comment": "Les accidents électriques en France ne se limitent pas aux accidents de loisirs."
+        }
+    ]
+},
+
+{
+    "text": "Qu'est-ce que l'action de secours doit permettre lors d'un accident électrique ?",
+    "answers": [
+        {
+            "text": "Réparer les câbles endommagés.",
+            "isCorrect": false,
+            "comment": "La réparation des câbles endommagés est une tâche pour les professionnels de l'électricité, pas pour les secouristes."
+        },
+        {
+            "text": "Prendre des photos des blessures.",
+            "isCorrect": false,
+            "comment": "Prendre des photos des blessures peut être utile à des fins médicales, mais ce n'est pas l'objectif principal de l'action de secours lors d'un accident électrique."
+        },
+        {
+            "text": "Obtenir un avis médical, réaliser les gestes de secours adaptés et prendre en charge les brûlures.",
+            "isCorrect": true,
+            "comment": "L'action de secours lors d'un accident électrique doit permettre d'obtenir un avis médical, de réaliser les gestes de secours adaptés et de prendre en charge les brûlures."
+        },
+        {
+            "text": "Aucune des réponses précédentes.",
+            "isCorrect": false,
+            "comment": "La dernière option est incorrecte car l'action de secours doit comprendre plusieurs mesures pour aider la victime."
+        }
+    ]
+},
+
+
+{
+    "text": "Que doit faire un intervenant secouriste lorsqu'une victime est en contact avec un conducteur endommagé ?",
+    "answers": [
+        {
+            "text": "S'approcher immédiatement de la victime.",
+            "isCorrect": false,
+            "comment": "S'approcher immédiatement de la victime peut mettre en danger l'intervenant lui-même en cas de danger électrique."
+        },
+        {
+            "text": "Couper le courant si possible.",
+            "isCorrect": true,
+            "comment": "La première action à entreprendre est de couper le courant si cela est possible pour sécuriser la zone et éviter de nouvelles victimes."
+        },
+        {
+            "text": "Toucher la victime pour vérifier si elle est consciente.",
+            "isCorrect": false,
+            "comment": "Toucher la victime sans avoir sécurisé la zone peut être dangereux en cas de danger électrique."
+        },
+        {
+            "text": "Prendre des photos de la scène.",
+            "isCorrect": false,
+            "comment": "Prendre des photos de la scène peut être utile à des fins d'enquête ou de documentation, mais cela ne doit pas être la priorité lorsqu'une victime est en contact avec un conducteur endommagé."
+        }
+    ]
+}
 ];
 
 
