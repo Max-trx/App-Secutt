@@ -26,7 +26,7 @@ var Question = function (questionObj) {
     if (detail.answer.isCorrect) {
       feedbackText = "Correct! ";
     } else {
-      feedbackText = "Incorrect. ";
+      feedbackText = "";
     }
     feedbackText += detail.answer.comment; // Ajouter le commentaire à la réponse
   
@@ -341,6 +341,506 @@ let questionsData = [
           "text": "Limiter l'évolution et l'extension des lésions.",
           "isCorrect": true,
           "comment": "L'objectif principal de l'administration d'oxygène est de limiter l'évolution et l'extension des lésions chez une victime d'accident de plongée."
+      }
+  ]
+},
+{
+  "text": "Quelle est la définition de la noyade ?",
+  "answers": [
+      {
+          "text": "Une lésion traumatique due à un choc violent",
+          "isCorrect": false,
+          "comment": "La noyade ne se réfère pas à une lésion traumatique, mais à une détresse respiratoire due à l'immersion ou à la submersion."
+      },
+      {
+          "text": "Une affection cutanée causée par une exposition prolongée à l'eau",
+          "isCorrect": false,
+          "comment": "La noyade ne concerne pas une affection cutanée, mais plutôt une détresse respiratoire due à l'immersion ou à la submersion."
+      },
+      {
+          "text": "Une détresse respiratoire due à l'immersion ou à la submersion",
+          "isCorrect": true,
+          "comment": "La noyade est définie comme une détresse respiratoire due à l'immersion ou à la submersion dans l'eau."
+      },
+      {
+          "text": "Une altération de la vision causée par une exposition à la lumière directe du soleil",
+          "isCorrect": false,
+          "comment": "Une altération de la vision due à l'exposition au soleil n'est pas la définition de la noyade, qui concerne plutôt une détresse respiratoire."
+      }
+  ]
+},
+{
+  "text": "Quelle est la différence entre submersion et immersion ?",
+  "answers": [
+      {
+          "text": "La submersion concerne le corps entier, tandis que l'immersion concerne uniquement le visage",
+          "isCorrect": true,
+          "comment": "La submersion implique que le corps entier est immergé, tandis que l'immersion se limite au visage."
+      },
+      {
+          "text": "La submersion se produit dans l'eau, tandis que l'immersion se produit dans l'air",
+          "isCorrect": false,
+          "comment": "Les deux termes, submersion et immersion, impliquent une immersion dans l'eau, mais ils diffèrent par la partie du corps concernée."
+      },
+      {
+          "text": "La submersion provoque l'arrêt cardiaque, tandis que l'immersion provoque l'hypothermie",
+          "isCorrect": false,
+          "comment": "La submersion et l'immersion ne sont pas associées à ces conséquences spécifiques."
+      },
+      {
+          "text": "La submersion est une noyade mortelle, tandis que l'immersion peut être survivable",
+          "isCorrect": false,
+          "comment": "Toutes les submersions ne sont pas nécessairement mortelles, tout comme toutes les immersions ne sont pas nécessairement survivables."
+      }
+  ]
+},
+{
+  "text": "Qu'est-ce qui peut causer une noyade ?",
+  "answers": [
+      {
+          "text": "Une exposition prolongée au soleil",
+          "isCorrect": false,
+          "comment": "L'exposition au soleil ne cause pas directement la noyade."
+      },
+      {
+          "text": "Une affection médicale telle qu'un accident vasculaire cérébral",
+          "isCorrect": true,
+          "comment": "Une affection médicale, comme un accident vasculaire cérébral, peut contribuer à la noyade en compromettant la capacité de la victime à respirer."
+      },
+      {
+          "text": "Une consommation excessive d'aliments salés",
+          "isCorrect": false,
+          "comment": "La consommation d'aliments salés n'est pas directement liée à la noyade."
+      },
+      {
+          "text": "Une exposition à des substances chimiques irritantes",
+          "isCorrect": false,
+          "comment": "Bien que l'exposition à des substances chimiques irritantes puisse être dangereuse, elle n'est pas une cause directe de noyade."
+      }
+  ]
+},
+{
+  "text": "Qu'est-ce qui peut faciliter une noyade ?",
+  "answers": [
+      {
+          "text": "Une alimentation équilibrée",
+          "isCorrect": false,
+          "comment": "L'alimentation équilibrée n'a pas d'effet direct sur la probabilité de noyade."
+      },
+      {
+          "text": "Une hydratation adéquate",
+          "isCorrect": false,
+          "comment": "Bien qu'une hydratation adéquate soit importante pour la santé, elle n'est pas spécifiquement liée à la prévention de la noyade."
+      },
+      {
+          "text": "L'hypothermie et l'hypoglycémie",
+          "isCorrect": true,
+          "comment": "L'hypothermie (baisse de la température corporelle) et l'hypoglycémie (baisse du taux de sucre dans le sang) peuvent rendre une personne plus vulnérable à la noyade."
+      },
+      {
+          "text": "L'activité physique régulière",
+          "isCorrect": false,
+          "comment": "L'activité physique régulière est bénéfique pour la santé, mais elle n'a pas de lien direct avec la noyade."
+      }
+  ]
+},
+{
+  "text": "Quels sont les risques et les conséquences de la noyade ?",
+  "answers": [
+      {
+          "text": "Dommages cutanés et troubles digestifs",
+          "isCorrect": false,
+          "comment": "Les dommages cutanés et les troubles digestifs ne sont pas les principaux risques associés à la noyade."
+      },
+      {
+          "text": "L'hypertension artérielle et les maladies cardiaques",
+          "isCorrect": false,
+          "comment": "Bien que l'hypertension artérielle et les maladies cardiaques puissent être des facteurs de risque, elles ne sont pas des conséquences directes de la noyade."
+      },
+      {
+          "text": "L'hypoxie, la perte de connaissance, les régurgitations et l'arrêt cardiaque",
+          "isCorrect": true,
+          "comment": "Les principaux risques et conséquences de la noyade incluent l'hypoxie (manque d'oxygène), la perte de conscience, les régurgitations et l'arrêt cardiaque."
+      },
+      {
+          "text": "La fatigue chronique et les troubles du sommeil",
+          "isCorrect": false,
+          "comment": "Bien que la fatigue chronique et les troubles du sommeil puissent être des conséquences indirectes, ils ne sont pas des risques immédiats de la noyade."
+      }
+  ]
+},
+{
+  "text": "Quel est le premier regard essentiel permettant d'évoquer la noyade ?",
+  "answers": [
+      {
+          "text": "Observer la température de l'eau",
+          "isCorrect": false,
+          "comment": "Bien que la température de l'eau puisse être importante dans certaines situations, elle n'est pas le premier regard essentiel pour évoquer la noyade."
+      },
+      {
+          "text": "Examiner les vêtements de la victime",
+          "isCorrect": false,
+          "comment": "Les vêtements de la victime peuvent fournir des indices, mais ils ne sont pas le premier regard essentiel pour évoquer la noyade."
+      },
+      {
+          "text": "Vérifier la présence de signes de fatigue",
+          "isCorrect": false,
+          "comment": "La fatigue peut être un symptôme, mais ce n'est pas le premier regard essentiel pour évoquer la noyade."
+      },
+      {
+          "text": "Évaluer le temps passé dans l'eau, l'âge et les antécédents de la victime",
+          "isCorrect": true,
+          "comment": "Évaluer le temps passé dans l'eau, l'âge et les antécédents de la victime est essentiel pour évoquer la possibilité de noyade."
+      }
+  ]
+},
+{
+  "text": "Quelle est la priorité lors de l'action de secours en cas de noyade ?",
+  "answers": [
+      {
+          "text": "Identifier les témoins de l'incident",
+          "isCorrect": false,
+          "comment": "Identifier les témoins peut être important pour recueillir des informations, mais ce n'est pas la priorité immédiate lors de l'action de secours en cas de noyade."
+      },
+      {
+          "text": "Assurer le dégagement immédiat et permanent de la victime du milieu aquatique",
+          "isCorrect": true,
+          "comment": "La priorité absolue lors de l'action de secours en cas de noyade est d'assurer le dégagement immédiat et permanent de la victime du milieu aquatique pour prévenir toute détérioration de son état."
+      },
+      {
+          "text": "Vérifier la température de l'eau",
+          "isCorrect": false,
+          "comment": "Bien que la température de l'eau puisse être importante, elle n'est pas la priorité immédiate lors de l'action de secours en cas de noyade."
+      },
+      {
+          "text": "Examiner les vêtements de la victime",
+          "isCorrect": false,
+          "comment": "Bien que les vêtements de la victime puissent fournir des informations, ils ne sont pas la priorité immédiate lors de l'action de secours en cas de noyade."
+      }
+  ]
+},
+{
+  "text": "Quelle est la conduite à tenir en cas de noyade si la victime est en arrêt cardiaque ?",
+  "answers": [
+      {
+          "text": "Attendre l'arrivée des secours sans intervenir",
+          "isCorrect": false,
+          "comment": "En cas d'arrêt cardiaque, une intervention immédiate est cruciale pour augmenter les chances de survie de la victime."
+      },
+      {
+          "text": "Procéder immédiatement à des compressions thoraciques",
+          "isCorrect": false,
+          "comment": "Avant de débuter les compressions thoraciques, il est recommandé de réaliser d'abord cinq insufflations initiales chez une victime en arrêt cardiaque due à une noyade."
+      },
+      {
+          "text": "Réaliser cinq insufflations initiales avant de débuter les compressions thoraciques",
+          "isCorrect": true,
+          "comment": "En cas d'arrêt cardiaque dû à une noyade, il est recommandé de commencer par réaliser cinq insufflations initiales avant de débuter les compressions thoraciques."
+      },
+      {
+          "text": "Immobiliser la victime dans l'eau en attendant les secours spécialisés",
+          "isCorrect": false,
+          "comment": "Il est crucial de retirer la victime de l'eau et de commencer les premiers secours dès que possible en cas d'arrêt cardiaque."
+      }
+  ]
+},
+{
+  "text": "Quels sont les gestes à effectuer pour assurer le sauvetage aquatique d'une victime de noyade ?",
+  "answers": [
+      {
+          "text": "Entrer dans l'eau rapidement et seul",
+          "isCorrect": false,
+          "comment": "Entrer rapidement dans l'eau peut mettre en danger le sauveteur. Il est préférable d'utiliser un moyen d'aide au sauvetage."
+      },
+      {
+          "text": "Utiliser un moyen d'aide au sauvetage et éviter de plonger tête la première",
+          "isCorrect": true,
+          "comment": "Il est recommandé d'utiliser un moyen d'aide au sauvetage tel qu'une bouée et d'éviter de plonger tête la première pour éviter les blessures."
+      },
+      {
+          "text": "Ne pas parler à la victime pour éviter la panique",
+          "isCorrect": false,
+          "comment": "Il est important de communiquer avec la victime pour la rassurer et lui indiquer les actions entreprises."
+      },
+      {
+          "text": "Plonger tête la première pour une meilleure propulsion",
+          "isCorrect": false,
+          "comment": "Plonger tête la première peut entraîner des blessures graves, surtout dans des eaux peu profondes ou inconnues."
+      }
+  ]
+},
+{
+  "text": "Quelles sont les spécificités de la prise en charge d'une victime de noyade concernant la ventilation artificielle ?",
+  "answers": [
+      {
+          "text": "Il faut réaliser des compressions thoraciques avant toute ventilation artificielle",
+          "isCorrect": false,
+          "comment": "En cas de noyade, il est recommandé de débuter par la ventilation artificielle avant les compressions thoraciques."
+      },
+      {
+          "text": "Il est nécessaire d'attendre que la victime soit hors de l'eau pour débuter la ventilation artificielle",
+          "isCorrect": false,
+          "comment": "La ventilation artificielle doit être initiée dès que possible, idéalement pendant le dégagement de la victime de l'eau."
+      },
+      {
+          "text": "La ventilation artificielle doit être réalisée dès que possible, idéalement pendant le dégagement de la victime de l'eau",
+          "isCorrect": true,
+          "comment": "La ventilation artificielle doit être débutée dès que possible, idéalement pendant le dégagement de la victime de l'eau, pour prévenir l'hypoxie."
+      },
+      {
+          "text": "La ventilation artificielle est contre-indiquée chez les victimes de noyade",
+          "isCorrect": false,
+          "comment": "La ventilation artificielle est cruciale pour assurer l'apport d'oxygène chez les victimes de noyade en arrêt respiratoire."
+      }
+  ]
+},
+{
+  "text": "Quel est le principal facteur conditionnant le devenir des victimes de noyade ?",
+  "answers": [
+      {
+          "text": "La quantité d'eau ingérée pendant l'immersion",
+          "isCorrect": false,
+          "comment": "Bien que l'ingestion d'eau puisse être dangereuse, ce n'est pas le principal facteur conditionnant le devenir des victimes de noyade."
+      },
+      {
+          "text": "La durée de l'hypoxie",
+          "isCorrect": true,
+          "comment": "La durée pendant laquelle la victime est privée d'oxygène (hypoxie) est le principal facteur conditionnant son devenir en cas de noyade."
+      },
+      {
+          "text": "Le type de liquide dans lequel la victime a été immergée",
+          "isCorrect": false,
+          "comment": "Bien que le type de liquide puisse avoir un impact, la durée de l'hypoxie est un facteur plus critique pour le devenir des victimes de noyade."
+      },
+      {
+          "text": "La température de l'eau",
+          "isCorrect": false,
+          "comment": "Bien que la température de l'eau puisse influencer le devenir des victimes de noyade, la durée de l'hypoxie est un facteur plus déterminant."
+      }
+  ]
+},
+{
+  "text": "Quels sont les gestes à éviter lors de la prise en charge d'une victime de noyade ?",
+  "answers": [
+      {
+          "text": "Sécher prudemment la victime après son dégagement de l'eau",
+          "isCorrect": false,
+          "comment": "Il est important de sécher la victime pour éviter l'hypothermie, mais cela ne doit pas retarder les premiers secours."
+      },
+      {
+          "text": "Utiliser des couvertures pour protéger la victime du vent",
+          "isCorrect": false,
+          "comment": "Utiliser des couvertures peut aider à maintenir la chaleur corporelle de la victime, ce qui est bénéfique dans certains cas de noyade."
+      },
+      {
+          "text": "Effectuer des mobilisations intempestives lors du déshabillage de la victime",
+          "isCorrect": true,
+          "comment": "Il est important d'éviter les mobilisations intempestives qui pourraient aggraver les blessures ou le traumatisme de la victime."
+      },
+      {
+          "text": "Surveiller attentivement la victime en continu",
+          "isCorrect": false,
+          "comment": "Surveiller la victime en continu est essentiel pour détecter tout changement dans son état et adapter les premiers secours en conséquence."
+      }
+  ]
+},
+{
+  "text": "Quelle est la deuxième priorité lors de l'action de secours en cas de noyade ?",
+  "answers": [
+      {
+          "text": "Compléter le bilan de la victime",
+          "isCorrect": true,
+          "comment": "Après avoir assuré le dégagement de la victime du milieu aquatique, il est important de compléter le bilan de la victime pour évaluer son état et déterminer les prochaines étapes des premiers secours."
+      },
+      {
+          "text": "Surveiller attentivement la victime",
+          "isCorrect": false,
+          "comment": "Bien que la surveillance de la victime soit importante, elle ne doit pas retarder les autres actions de secours, comme le dégagement de la victime de l'eau."
+      },
+      {
+          "text": "Identifier les causes de l'incident",
+          "isCorrect": false,
+          "comment": "Bien qu'il soit important d'identifier les causes de l'incident pour prévenir d'autres accidents, cela ne doit pas retarder les premiers secours à la victime."
+      },
+      {
+          "text": "Déshabiller la victime",
+          "isCorrect": false,
+          "comment": "Déshabiller la victime peut être nécessaire pour évaluer les blessures, mais ce n'est pas la priorité immédiate lors de l'action de secours en cas de noyade."
+      }
+  ]
+},
+{
+  "text": "Pourquoi est-il important de sortir rapidement la victime de l'eau en cas d'arrêt cardiaque ?",
+  "answers": [
+      {
+          "text": "Pour éviter que la victime n'attrape froid",
+          "isCorrect": false,
+          "comment": "Bien que l'hypothermie puisse être une préoccupation, la principale raison de sortir rapidement la victime de l'eau est d'initier les premiers secours pour augmenter ses chances de survie."
+      },
+      {
+          "text": "Pour faciliter les compressions thoraciques",
+          "isCorrect": false,
+          "comment": "Bien que le dégagement de la victime de l'eau puisse faciliter les compressions thoraciques, la principale raison est d'initier rapidement les premiers secours."
+      },
+      {
+          "text": "Pour limiter les mobilisations du cou",
+          "isCorrect": false,
+          "comment": "Bien que limiter les mobilisations du cou soit important pour éviter les lésions de la colonne vertébrale, ce n'est pas la principale raison de sortir rapidement la victime de l'eau."
+      },
+      {
+          "text": "Pour augmenter les chances de survie de la victime",
+          "isCorrect": true,
+          "comment": "Sortir rapidement la victime de l'eau permet d'initier les premiers secours, ce qui est crucial pour augmenter ses chances de survie en cas d'arrêt cardiaque."
+      }
+  ]
+},
+{
+  "text": "Quelle est la conduite à tenir en cas de noyade si la victime est consciente ?",
+  "answers": [
+      {
+          "text": "Lui donner à boire immédiatement pour éviter la déshydratation",
+          "isCorrect": false,
+          "comment": "Il est déconseillé de donner à boire immédiatement à une victime de noyade, car cela pourrait aggraver son état. Il est préférable de lui fournir un environnement confortable et de surveiller attentivement son état."
+      },
+      {
+          "text": "L'installer dans une position confortable à l'abri du vent",
+          "isCorrect": true,
+          "comment": "Lorsqu'une victime de noyade est consciente, il est important de l'installer dans une position confortable à l'abri du vent pour éviter l'hypothermie et de surveiller attentivement son état."
+      },
+      {
+          "text": "Ne rien faire et attendre l'arrivée des secours",
+          "isCorrect": false,
+          "comment": "Bien que l'attente des secours soit importante, il est essentiel de fournir des premiers secours de base à la victime, comme la prévention de l'hypothermie et la surveillance de son état."
+      },
+      {
+          "text": "Procéder immédiatement à des compressions thoraciques",
+          "isCorrect": false,
+          "comment": "Les compressions thoraciques ne sont pas nécessaires si la victime est consciente et respire normalement."
+      }
+  ]
+},
+{
+  "text": "Quelle est la meilleure façon d'entrer dans l'eau pour secourir une victime de noyade ?",
+  "answers": [
+      {
+          "text": "Plonger tête la première pour une meilleure propulsion",
+          "isCorrect": false,
+          "comment": "Plonger tête la première peut entraîner des blessures graves, surtout dans des eaux peu profondes ou inconnues."
+      },
+      {
+          "text": "Utiliser un moyen d'aide au sauvetage comme une bouée",
+          "isCorrect": true,
+          "comment": "Utiliser un moyen d'aide au sauvetage comme une bouée est recommandé pour assurer la sécurité du sauveteur et de la victime."
+      },
+      {
+          "text": "S'approcher discrètement de la victime pour éviter la panique",
+          "isCorrect": false,
+          "comment": "S'approcher discrètement peut être difficile et risqué, surtout si la victime est en détresse."
+      },
+      {
+          "text": "Attendre que la victime nage jusqu'à vous pour la secourir",
+          "isCorrect": false,
+          "comment": "Attendre que la victime nage jusqu'à vous peut entraîner un retard dans le sauvetage, surtout si elle est en détresse."
+      }
+  ]
+},
+{
+  "text": "Qu'est-ce qui peut provoquer une hypoxie chez une victime de noyade ?",
+  "answers": [
+      {
+          "text": "Une réaction allergique aux produits chimiques présents dans l'eau",
+          "isCorrect": false,
+          "comment": "Bien que les réactions allergiques puissent être graves, elles ne sont pas la principale cause d'hypoxie chez les victimes de noyade."
+      },
+      {
+          "text": "Un arrêt volontaire de la respiration et un spasme laryngé",
+          "isCorrect": true,
+          "comment": "Un arrêt volontaire de la respiration et un spasme laryngé peuvent entraîner une privation d'oxygène (hypoxie) chez les victimes de noyade."
+      },
+      {
+          "text": "Une exposition prolongée au soleil",
+          "isCorrect": false,
+          "comment": "Bien que l'exposition prolongée au soleil puisse entraîner des problèmes de santé, elle n'est pas la principale cause d'hypoxie chez les victimes de noyade."
+      },
+      {
+          "text": "Une consommation excessive d'alcool",
+          "isCorrect": false,
+          "comment": "Bien que la consommation d'alcool puisse aggraver certains risques liés à la noyade, elle n'est pas la principale cause d'hypoxie."
+      }
+  ]
+},
+{
+  "text": "Quelles sont les conséquences de l'hypothermie chez une victime de noyade ?",
+  "answers": [
+      {
+          "text": "Une augmentation de la température corporelle",
+          "isCorrect": false,
+          "comment": "L'hypothermie se caractérise par une diminution de la température corporelle, pas par une augmentation."
+      },
+      {
+          "text": "Des frissons et une sensation de froid intense",
+          "isCorrect": true,
+          "comment": "L'hypothermie se manifeste généralement par des frissons, une sensation de froid intense et d'autres symptômes associés à une exposition prolongée au froid."
+      },
+      {
+          "text": "Une accélération du rythme cardiaque",
+          "isCorrect": false,
+          "comment": "L'hypothermie peut entraîner une diminution du rythme cardiaque, pas une accélération."
+      },
+      {
+          "text": "Une diminution de la pression artérielle",
+          "isCorrect": false,
+          "comment": "L'hypothermie peut entraîner une augmentation de la pression artérielle, pas une diminution."
+      }
+  ]
+},
+{
+  "text": "Quels sont les principaux symptômes de la noyade chez une victime consciente ?",
+  "answers": [
+      {
+          "text": "Des douleurs thoraciques et des difficultés à respirer",
+          "isCorrect": false,
+          "comment": "Ces symptômes peuvent être présents chez une victime de noyade, mais ils ne sont pas spécifiques à une victime consciente."
+      },
+      {
+          "text": "Un état de panique et une confusion mentale",
+          "isCorrect": false,
+          "comment": "Ces symptômes peuvent survenir chez une victime de noyade, mais ils ne sont pas spécifiques à une victime consciente."
+      },
+      {
+          "text": "Une fatigue extrême et des douleurs musculaires",
+          "isCorrect": false,
+          "comment": "Ces symptômes peuvent être présents chez une victime de noyade, mais ils ne sont pas spécifiques à une victime consciente."
+      },
+      {
+          "text": "Une toux persistante et des signes de détresse respiratoire",
+          "isCorrect": true,
+          "comment": "Une toux persistante et des signes de détresse respiratoire sont des symptômes courants de la noyade chez une victime consciente."
+      }
+  ]
+},
+{
+  "text": "Quel est le geste essentiel à réaliser en premier lors de la prise en charge d'une victime de noyade ?",
+  "answers": [
+      {
+          "text": "Appliquer immédiatement des compressions thoraciques",
+          "isCorrect": false,
+          "comment": "Les compressions thoraciques ne sont nécessaires que si la victime est en arrêt cardiaque."
+      },
+      {
+          "text": "Identifier les témoins de l'incident",
+          "isCorrect": false,
+          "comment": "Bien que l'identification des témoins soit importante, ce n'est pas la première priorité lors de la prise en charge d'une victime de noyade."
+      },
+      {
+          "text": "Assurer le dégagement immédiat et permanent de la victime du milieu aquatique",
+          "isCorrect": true,
+          "comment": "La première étape consiste à sortir la victime de l'eau pour prévenir toute détérioration supplémentaire de son état."
+      },
+      {
+          "text": "Examiner les vêtements de la victime",
+          "isCorrect": false,
+          "comment": "Bien que l'examen des vêtements puisse fournir des informations sur l'incident, ce n'est pas la première priorité lors de la prise en charge d'une victime de noyade."
       }
   ]
 },
