@@ -687,6 +687,546 @@ let questionsData = [
         }
     ]
 },
+
+{
+  "text": "Quelles sont les principales choses à examiner chez le nouveau-né pour déterminer s'il est en bonne santé ?",
+  "answers": [
+      {
+          "text": "Son cri ou sa respiration, son tonus et sa couleur de peau.",
+          "isCorrect": true,
+          "comment": "Correct. L'évaluation du cri ou de la respiration, du tonus musculaire et de la couleur de peau permet de déterminer l'état de santé du nouveau-né."
+      },
+      {
+          "text": "Son poids et sa taille.",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que le poids et la taille soient des mesures importantes, ils ne reflètent pas directement l'état de santé immédiat du nouveau-né."
+      },
+      {
+          "text": "Son activité motrice.",
+          "isCorrect": false,
+          "comment": "Incorrect. L'activité motrice peut être évaluée mais elle seule ne suffit pas à déterminer l'état de santé global du nouveau-né."
+      },
+      {
+          "text": "Sa température corporelle.",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que la température corporelle soit importante, elle ne constitue qu'un aspect de l'évaluation de la santé du nouveau-né."
+      }
+  ]
+},
+
+{
+  "text": "Quand doit-on clamper le cordon ombilical pour un nouveau-né en bonne santé ?",
+  "answers": [
+      {
+          "text": "Au minimum après 1 minute de vie.",
+          "isCorrect": true,
+          "comment": "Correct. Il est recommandé de clamper le cordon ombilical au minimum après 1 minute de vie pour permettre le transfert optimal de sang vers le nouveau-né."
+      },
+      {
+          "text": "Immédiatement après la naissance.",
+          "isCorrect": false,
+          "comment": "Incorrect. Clamper le cordon immédiatement peut priver le nouveau-né d'une quantité importante de sang."
+      },
+      {
+          "text": "Après 30 secondes de vie.",
+          "isCorrect": false,
+          "comment": "Incorrect. Attendre au moins 1 minute permet un meilleur transfert de sang vers le nouveau-né."
+      },
+      {
+          "text": "Une fois que le bébé a été séché.",
+          "isCorrect": false,
+          "comment": "Incorrect. L'ordre des interventions recommandé est de clamper le cordon puis de sécher le bébé."
+      }
+  ]
+},
+
+{
+  "text": "Que faut-il faire si le nouveau-né ne respire pas ou ne présente pas de cri à la naissance ?",
+  "answers": [
+      {
+          "text": "Commencer immédiatement les manœuvres de réanimation pour permettre au nouveau-né de respirer.",
+          "isCorrect": true,
+          "comment": "Correct. L'absence de respiration ou de cri nécessite une intervention immédiate pour assurer la ventilation du nouveau-né."
+      },
+      {
+          "text": "Attendre quelques minutes pour voir s'il réagit.",
+          "isCorrect": false,
+          "comment": "Incorrect. L'absence de respiration ou de cri nécessite une intervention rapide pour éviter les complications."
+      },
+      {
+          "text": "Clamper le cordon et placer le bébé sur une surface plane avant de commencer les manœuvres de réanimation.",
+          "isCorrect": false,
+          "comment": "Incorrect. L'intervention la plus urgente est de commencer les manœuvres de réanimation pour assurer la respiration du nouveau-né."
+      },
+      {
+          "text": "Demander un avis médical sans commencer de manœuvres de réanimation.",
+          "isCorrect": false,
+          "comment": "Incorrect. En cas d'absence de respiration ou de cri, des mesures immédiates doivent être prises pour assurer la survie du nouveau-né."
+      }
+  ]
+},
+
+
+{
+  "text": "Comment doit-on évaluer l'état du nouveau-né pendant la réanimation cardio-pulmonaire ?",
+  "answers": [
+      {
+          "text": "Toutes les minutes.",
+          "isCorrect": true,
+          "comment": "Correct. Pendant la réanimation, l'état du nouveau-né doit être évalué toutes les minutes pour ajuster les interventions en fonction de sa réponse."
+      },
+      {
+          "text": "Toutes les heures.",
+          "isCorrect": false,
+          "comment": "Incorrect. Une évaluation toutes les heures serait trop espacée pour détecter rapidement les changements dans l'état du nouveau-né pendant la réanimation."
+      },
+      {
+          "text": "Toutes les 5 minutes.",
+          "isCorrect": false,
+          "comment": "Incorrect. Une évaluation toutes les 5 minutes pourrait ne pas être suffisante pour détecter rapidement les changements dans l'état du nouveau-né pendant la réanimation."
+      },
+      {
+          "text": "Toutes les 10 minutes.",
+          "isCorrect": false,
+          "comment": "Incorrect. Une évaluation toutes les 10 minutes serait trop espacée pour détecter rapidement les changements dans l'état du nouveau-né pendant la réanimation."
+      }
+  ]
+},
+
+{
+  "text": "Quelle est la conduite à tenir en fonction de la fréquence cardiaque du nouveau-né ?",
+  "answers": [
+      {
+          "text": "Si la fréquence cardiaque est inférieure à 60 battements par minute, réaliser une RCP avec un apport complémentaire d'oxygène.",
+          "isCorrect": true,
+          "comment": "Correct. Une fréquence cardiaque inférieure à 60 bpm nécessite des mesures de réanimation, y compris un apport d'oxygène supplémentaire."
+      },
+      {
+          "text": "Si la fréquence cardiaque est entre 60 et 100 battements par minute, réaliser des compressions thoraciques.",
+          "isCorrect": false,
+          "comment": "Incorrect. Une fréquence cardiaque entre 60 et 100 bpm est généralement considérée comme normale chez un nouveau-né en bonne santé et ne nécessite pas de compressions thoraciques."
+      },
+      {
+          "text": "Si la fréquence cardiaque est supérieure à 100 battements par minute, ne pas surveiller étroitement le nouveau-né.",
+          "isCorrect": false,
+          "comment": "Incorrect. Une fréquence cardiaque supérieure à 100 bpm peut nécessiter une surveillance étroite pour détecter d'autres problèmes potentiels."
+      },
+      {
+          "text": "Si la fréquence cardiaque est inférieure à 60 battements par minute, réaliser une RCP sans apport complémentaire d'oxygène.",
+          "isCorrect": false,
+          "comment": "Incorrect. En cas de fréquence cardiaque inférieure à 60 bpm, un apport supplémentaire d'oxygène est nécessaire pour soutenir la réanimation."
+      }
+  ]
+},
+
+{
+  "text": "Quelle est la première étape à réaliser lorsque le nouveau-né est en bonne santé et présente un cri vigoureux ?",
+  "answers": [
+      {
+          "text": "Couvrir la mère.",
+          "isCorrect": false,
+          "comment": "Incorrect. La première étape consiste à libérer les voies aériennes du bébé pour assurer sa respiration et sa santé immédiate."
+      },
+      {
+          "text": "Libérer les voies aériennes du bébé.",
+          "isCorrect": true,
+          "comment": "Correct. La première étape est de s'assurer que les voies aériennes du nouveau-né sont dégagées pour faciliter sa respiration."
+      },
+      {
+          "text": "Demander un avis médical.",
+          "isCorrect": false,
+          "comment": "Incorrect. En présence d'un cri vigoureux, il n'est pas nécessaire de demander un avis médical immédiat."
+      },
+      {
+          "text": "Réaliser des compressions thoraciques.",
+          "isCorrect": false,
+          "comment": "Incorrect. Les compressions thoraciques ne sont pas nécessaires chez un nouveau-né en bonne santé et présentant un cri vigoureux."
+      }
+  ]
+},
+
+{
+  "text": "Pourquoi est-il important de protéger le nouveau-né contre le froid après la naissance ?",
+  "answers": [
+      {
+          "text": "Pour éviter qu'il ne se réchauffe trop rapidement.",
+          "isCorrect": false,
+          "comment": "Incorrect. Après la naissance, le nouveau-né peut avoir du mal à maintenir sa propre température corporelle et peut nécessiter une protection contre le froid pour éviter l'hypothermie."
+      },
+      {
+          "text": "Pour prévenir les infections.",
+          "isCorrect": false,
+          "comment": "Incorrect. La protection contre le froid vise principalement à maintenir la température corporelle du nouveau-né et ne vise pas spécifiquement à prévenir les infections."
+      },
+      {
+          "text": "Pour maintenir sa température corporelle.",
+          "isCorrect": true,
+          "comment": "Correct. Il est important de protéger le nouveau-né contre le froid pour maintenir sa température corporelle et prévenir l'hypothermie, car les nouveau-nés ont du mal à réguler leur température corporelle après la naissance."
+      },
+      {
+          "text": "Pour favoriser son sommeil.",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que le confort thermique puisse influencer le sommeil du nouveau-né, la principale raison de la protection contre le froid est de maintenir sa température corporelle."
+      }
+  ]
+},
+
+{
+  "text": "Quels sont les signes indiquant que le nouveau-né n'est pas en bonne santé ?",
+  "answers": [
+      {
+          "text": "Il ne pleure pas.",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que le cri vigoureux soit un bon signe de santé chez le nouveau-né, l'absence de cri n'est pas le seul indicateur de mauvaise santé."
+      },
+      {
+          "text": "Il ne respire pas ou présente une respiration anormale.",
+          "isCorrect": true,
+          "comment": "Correct. La respiration est un indicateur important de la santé du nouveau-né. Une respiration anormale ou l'absence de respiration peuvent indiquer des problèmes de santé."
+      },
+      {
+          "text": "Il ne bouge pas.",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que le tonus musculaire soit important, l'absence de mouvement ne constitue pas nécessairement un signe de mauvaise santé."
+      },
+      {
+          "text": "Tous les choix ci-dessus.",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que ces éléments puissent indiquer une mauvaise santé chez le nouveau-né, il peut y avoir d'autres signes à prendre en compte également."
+      }
+  ]
+},
+
+{
+  "text": "Quelle est la conduite à tenir si l'état du nouveau-né s'améliore pendant la réanimation cardio-pulmonaire ?",
+  "answers": [
+      {
+          "text": "Arrêter immédiatement la réanimation.",
+          "isCorrect": false,
+          "comment": "Incorrect. Même si l'état du nouveau-né s'améliore, il est important de poursuivre la réanimation jusqu'à ce que l'évaluation médicale confirme qu'elle n'est plus nécessaire."
+      },
+      {
+          "text": "Continuer la réanimation jusqu'à ce qu'un médecin arrive.",
+          "isCorrect": false,
+          "comment": "Incorrect. La décision de continuer ou d'arrêter la réanimation ne dépend pas uniquement de l'arrivée d'un médecin, mais plutôt de l'évaluation continue de l'état du nouveau-né."
+      },
+      {
+          "text": "Assurer une surveillance étroite de sa respiration.",
+          "isCorrect": true,
+          "comment": "Correct. En cas d'amélioration de l'état du nouveau-né pendant la réanimation, il est important de surveiller étroitement sa respiration et de continuer la réanimation si nécessaire."
+      },
+      {
+          "text": "Recommencer la réanimation à un rythme plus rapide.",
+          "isCorrect": false,
+          "comment": "Incorrect. Le rythme de la réanimation doit être adapté à l'état du nouveau-né, et une amélioration de l'état ne nécessite pas nécessairement un rythme plus rapide de réanimation."
+      }
+  ]
+},
+
+
+
+{
+  "text": "Quand doit-on réaliser le clampage et la section du cordon ombilical ?",
+  "answers": [
+      {
+          "text": "Avant la naissance.",
+          "isCorrect": false,
+          "comment": "Incorrect. Le clampage et la section du cordon ombilical sont réalisés après la naissance."
+      },
+      {
+          "text": "Après la naissance, après la 1ère minute de vie.",
+          "isCorrect": true,
+          "comment": "Correct. Le clampage et la section du cordon ombilical sont effectués après la naissance, généralement après la première minute de vie."
+      },
+      {
+          "text": "Pendant la grossesse.",
+          "isCorrect": false,
+          "comment": "Incorrect. Le clampage et la section du cordon ombilical se produisent après la naissance."
+      },
+      {
+          "text": "Après la naissance, avant la 1ère minute de vie.",
+          "isCorrect": false,
+          "comment": "Incorrect. Le clampage et la section du cordon ombilical se font après la naissance, pas avant."
+      }
+  ]
+},
+{
+  "text": "Quel est l'objectif du clampage du cordon ombilical ?",
+  "answers": [
+      {
+          "text": "Empêcher la circulation sanguine.",
+          "isCorrect": false,
+          "comment": "Incorrect. Le clampage du cordon ombilical facilite l'adaptation du nouveau-né à la vie extra-utérine, mais n'arrête pas la circulation sanguine."
+      },
+      {
+          "text": "Faciliter l'adaptation du nouveau-né à la vie extra-utérine.",
+          "isCorrect": true,
+          "comment": "Correct. Le clampage du cordon ombilical aide le nouveau-né à s'adapter à sa nouvelle vie en coupant le lien physique avec la mère."
+      },
+      {
+          "text": "Prévenir l'hypothermie chez la mère.",
+          "isCorrect": false,
+          "comment": "Incorrect. Le clampage du cordon ombilical n'a pas pour but de prévenir l'hypothermie chez la mère."
+      },
+      {
+          "text": "Favoriser le développement du fœtus.",
+          "isCorrect": false,
+          "comment": "Incorrect. Le clampage du cordon ombilical intervient après la naissance."
+      }
+  ]
+},
+{
+  "text": "Quel matériel est nécessaire pour réaliser la section du cordon ombilical ?",
+  "answers": [
+      {
+          "text": "Des compresses stériles, deux clamps de Barr, et une paire de ciseaux stériles.",
+          "isCorrect": true,
+          "comment": "Correct. Ces éléments sont nécessaires pour réaliser la section du cordon ombilical et assurer une coupe propre et stérile."
+      },
+      {
+          "text": "Des compresses usagées, un bandage et une paire de gants.",
+          "isCorrect": false,
+          "comment": "Incorrect. Des équipements stériles sont nécessaires pour éviter les infections."
+      },
+      {
+          "text": "Des lingettes désinfectantes et un masque chirurgical.",
+          "isCorrect": false,
+          "comment": "Incorrect. Ces articles ne sont pas suffisants pour réaliser une section du cordon ombilical."
+      },
+      {
+          "text": "Une bouteille de désinfectant et un tissu propre.",
+          "isCorrect": false,
+          "comment": "Incorrect. Ces éléments ne sont pas adaptés pour la section du cordon ombilical."
+      }
+  ]
+},
+{
+  "text": "Comment procède-t-on pour réaliser la section du cordon ombilical ?",
+  "answers": [
+      {
+          "text": "On sectionne directement sans clampage.",
+          "isCorrect": false,
+          "comment": "Incorrect. Le clampage est réalisé avant la section du cordon ombilical."
+      },
+      {
+          "text": "On sectionne entre les clamps.",
+          "isCorrect": true,
+          "comment": "Correct. La section du cordon ombilical se fait entre deux clamps stériles pour assurer une coupe propre et contrôlée."
+      },
+      {
+          "text": "On sectionne le cordon avant de le pincer.",
+          "isCorrect": false,
+          "comment": "Incorrect. Le clampage précède la section du cordon ombilical."
+      },
+      {
+          "text": "On sectionne avec des ciseaux non stériles.",
+          "isCorrect": false,
+          "comment": "Incorrect. Des ciseaux stériles sont nécessaires pour éviter les infections."
+      }
+  ]
+},
+{
+  "text": "Quelle est la conduite à adopter si le nouveau-né est en détresse et nécessite une réanimation ?",
+  "answers": [
+      {
+          "text": "Attendre l'arrivée des secours sans intervention.",
+          "isCorrect": false,
+          "comment": "Incorrect. Une réanimation immédiate est nécessaire en cas de détresse du nouveau-né."
+      },
+      {
+          "text": "Réaliser la section du cordon rapidement sans prendre de précautions.",
+          "isCorrect": false,
+          "comment": "Incorrect. Une réanimation appropriée est prioritaire."
+      },
+      {
+          "text": "Mettre des gants propres et procéder à la section du cordon sans désinfection.",
+          "isCorrect": true,
+          "comment": "Correct. La priorité est de mettre des gants propres avant toute intervention."
+      },
+      {
+          "text": "Arrêter toute manipulation jusqu'à l'arrivée des secours.",
+          "isCorrect": false,
+          "comment": "Incorrect. Une action immédiate est nécessaire en cas de détresse."
+      }
+  ]
+},
+
+{
+  "text": "Quel est le but de la pince du cordon ombilical ?",
+  "answers": [
+      {
+          "text": "Faciliter l'accouchement.",
+          "isCorrect": false,
+          "comment": "Incorrect. La pince du cordon ombilical n'a pas pour but de faciliter l'accouchement."
+      },
+      {
+          "text": "Prévenir l'hypothermie chez le nouveau-né.",
+          "isCorrect": false,
+          "comment": "Incorrect. La pince du cordon ombilical ne prévient pas l'hypothermie chez le nouveau-né."
+      },
+      {
+          "text": "Permettre l'expulsion du nouveau-né en présence d'une circulaire du cordon.",
+          "isCorrect": true,
+          "comment": "Correct. La pince du cordon ombilical permet de libérer le cordon lorsqu'il y a une circulaire, facilitant ainsi l'expulsion du nouveau-né."
+      },
+      {
+          "text": "Empêcher la circulation sanguine.",
+          "isCorrect": false,
+          "comment": "Incorrect. La pince du cordon ombilical ne vise pas à empêcher la circulation sanguine, mais plutôt à permettre l'expulsion du nouveau-né."
+      }
+  ]
+},
+{
+  "text": "Quels sont les risques associés à une mauvaise section du cordon ombilical ?",
+  "answers": [
+      {
+          "text": "Saignement excessif après la section.",
+          "isCorrect": false,
+          "comment": "Incorrect. Un saignement excessif n'est pas un risque majeur associé à une mauvaise section du cordon ombilical."
+      },
+      {
+          "text": "Infection du cordon.",
+          "isCorrect": false,
+          "comment": "Incorrect. Une infection du cordon est possible mais n'est pas le principal risque associé à une mauvaise section du cordon ombilical."
+      },
+      {
+          "text": "Pincement d'une partie d'intestin.",
+          "isCorrect": true,
+          "comment": "Correct. Une mauvaise section du cordon ombilical peut entraîner le pincement d'une partie d'intestin du nouveau-né, ce qui peut être dangereux."
+      },
+      {
+          "text": "Aucun risque.",
+          "isCorrect": false,
+          "comment": "Incorrect. Une mauvaise section du cordon ombilical comporte des risques potentiels pour le nouveau-né."
+      }
+  ]
+},
+{
+  "text": "Quelle est la recommandation concernant le positionnement du premier clamp par rapport à l'ombilic ?",
+  "answers": [
+      {
+          "text": "Il doit être placé directement sur l'ombilic.",
+          "isCorrect": false,
+          "comment": "Incorrect. Placer le clamp directement sur l'ombilic peut entraîner le pincement d'une partie d'intestin."
+      },
+      {
+          "text": "Il doit être suffisamment loin de l'ombilic pour ne pas pincer une partie d'intestin.",
+          "isCorrect": true,
+          "comment": "Correct. Le clamp doit être positionné à une distance suffisante de l'ombilic pour éviter de pincer une partie d'intestin du nouveau-né."
+      },
+      {
+          "text": "Il doit être placé après la section du cordon.",
+          "isCorrect": false,
+          "comment": "Incorrect. Le premier clamp est positionné avant la section du cordon ombilical."
+      },
+      {
+          "text": "Il doit être placé sur la mère.",
+          "isCorrect": false,
+          "comment": "Incorrect. Le clamp est placé sur le cordon ombilical du nouveau-né, pas sur la mère."
+      }
+  ]
+},
+{
+  "text": "Que doit-on faire si le cordon a été rompu avant l'arrivée des secours ?",
+  "answers": [
+      {
+          "text": "Attendre les secours sans intervention.",
+          "isCorrect": false,
+          "comment": "Incorrect. Une intervention est nécessaire pour sécuriser le cordon ombilical en cas de rupture avant l'arrivée des secours."
+      },
+      {
+          "text": "Poser un clamp sur la partie du cordon reliée au nouveau-né et un autre clamp sur la partie reliée à la mère.",
+          "isCorrect": true,
+          "comment": "Correct. Poser des clamps de chaque côté de la rupture permet de sécuriser le cordon ombilical jusqu'à l'arrivée des secours."
+      },
+      {
+          "text": "Désinfecter la zone sans poser de clamp.",
+          "isCorrect": false,
+          "comment": "Incorrect. Une désinfection ne suffit pas à sécuriser le cordon ombilical après une rupture."
+      },
+      {
+          "text": "Couper le cordon sans poser de clamp.",
+          "isCorrect": false,
+          "comment": "Incorrect. Couper le cordon sans poser de clamp peut entraîner des complications pour le nouveau-né."
+      }
+  ]
+},
+{
+  "text": "Quelle est la première étape pour réaliser la section du cordon ombilical ?",
+  "answers": [
+      {
+          "text": "Couper le cordon entre les clamps.",
+          "isCorrect": false,
+          "comment": "Incorrect. La première étape est de placer le premier clamp à une distance suffisante de l'ombilic."
+      },
+      {
+          "text": "Pincer le cordon avec une compresse stérile.",
+          "isCorrect": false,
+          "comment": "Incorrect. La première étape est de placer le premier clamp sur le cordon ombilical, pas de le pincer avec une compresse."
+      },
+      {
+          "text": "Poser le premier clamp à environ 10 à 15 cm de l'ombilic.",
+          "isCorrect": true,
+          "comment": "Correct. La première étape de la section du cordon ombilical est de placer le premier clamp à une distance appropriée de l'ombilic du nouveau-né."
+      },
+      {
+          "text": "Essuyer le cordon avec une compresse.",
+          "isCorrect": false,
+          "comment": "Incorrect. Avant de procéder à la section du cordon, il est nécessaire de placer les clamps de manière à sécuriser le cordon ombilical."
+      }
+  ]
+},
+
+{
+  "text": "Quelle est la conduite à tenir en cas de circulaire serrée du cordon ?",
+  "answers": [
+      {
+          "text": "Attendre que le cordon se détache naturellement.",
+          "isCorrect": false,
+          "comment": "Incorrect. Il est nécessaire d'intervenir pour sécuriser le cordon en cas de circulaire serrée."
+      },
+      {
+          "text": "Placer les clamps très près l'un de l'autre.",
+          "isCorrect": true,
+          "comment": "Correct. En cas de circulaire serrée du cordon, il est recommandé de placer les clamps très près l'un de l'autre pour sécuriser le cordon."
+      },
+      {
+          "text": "Couper le cordon à n'importe quel endroit.",
+          "isCorrect": false,
+          "comment": "Incorrect. Couper le cordon à n'importe quel endroit peut ne pas être sécuritaire en cas de circulaire serrée."
+      },
+      {
+          "text": "Demander l'avis d'un médecin.",
+          "isCorrect": false,
+          "comment": "Incorrect. Une intervention immédiate est nécessaire en cas de circulaire serrée, plutôt que d'attendre l'avis d'un médecin."
+      }
+  ]
+},
+{
+  "text": "Quel est le risque associé à la section du cordon ombilical ?",
+  "answers": [
+      {
+          "text": "Infection.",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien qu'une infection soit possible, ce n'est pas le principal risque associé à la section du cordon ombilical."
+      },
+      {
+          "text": "Hémorragie.",
+          "isCorrect": true,
+          "comment": "Correct. Le principal risque associé à la section du cordon ombilical est l'hémorragie, surtout si elle est mal réalisée."
+      },
+      {
+          "text": "Déshydratation.",
+          "isCorrect": false,
+          "comment": "Incorrect. La déshydratation n'est pas un risque directement associé à la section du cordon ombilical."
+      },
+      {
+          "text": "Aucun risque.",
+          "isCorrect": false,
+          "comment": "Incorrect. La section du cordon ombilical comporte des risques potentiels, notamment l'hémorragie."
+      }
+  ]
+},
 ];
 
 

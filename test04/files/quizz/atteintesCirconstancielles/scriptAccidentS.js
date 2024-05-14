@@ -453,7 +453,113 @@ let questionsData = [
             "comment": "Prendre des photos de la scène peut être utile à des fins d'enquête ou de documentation, mais cela ne doit pas être la priorité lorsqu'une victime est en contact avec un conducteur endommagé."
         }
     ]
-}
+},
+
+{
+  "text": "Quelles sont les conséquences des accidents barotraumatiques ?",
+  "answers": [
+      {
+          "text": "Des douleurs au niveau des articulations.",
+          "isCorrect": false,
+          "comment": "Les douleurs au niveau des articulations ne sont pas une conséquence typique des accidents barotraumatiques."
+      },
+      {
+          "text": "Des troubles neurologiques.",
+          "isCorrect": false,
+          "comment": "Les troubles neurologiques peuvent être causés par certains types d'accidents de plongée, mais ils ne sont pas spécifiquement associés aux accidents barotraumatiques."
+      },
+      {
+          "text": "Des bulles de gaz dans les vaisseaux pulmonaires.",
+          "isCorrect": false,
+          "comment": "Les bulles de gaz dans les vaisseaux pulmonaires peuvent être une conséquence des accidents de décompression, mais pas spécifiquement des accidents barotraumatiques."
+      },
+      {
+          "text": "Toutes les réponses précédentes sont correctes.",
+          "isCorrect": true,
+          "comment": "Les conséquences des accidents barotraumatiques peuvent inclure des douleurs articulaires, des troubles neurologiques et des bulles de gaz dans les vaisseaux pulmonaires."
+      }
+  ]
+},
+
+
+{
+  "text": "Quelles sont les conséquences des accidents de désaturation ?",
+  "answers": [
+      {
+          "text": "Des douleurs musculaires.",
+          "isCorrect": false,
+          "comment": "Les douleurs musculaires ne sont pas une conséquence typique des accidents de désaturation."
+      },
+      {
+          "text": "Des troubles de la conscience.",
+          "isCorrect": false,
+          "comment": "Les troubles de la conscience peuvent être associés à certains types d'accidents de plongée, mais pas spécifiquement aux accidents de désaturation."
+      },
+      {
+          "text": "Des perturbations de l'état de conscience.",
+          "isCorrect": false,
+          "comment": "C'est une réponse similaire à la précédente."
+      },
+      {
+          "text": "Toutes les réponses précédentes sont correctes.",
+          "isCorrect": true,
+          "comment": "Les conséquences des accidents de désaturation peuvent inclure des troubles de la conscience et des perturbations de l'état de conscience."
+      }
+  ]
+},
+
+{
+  "text": "Quelles sont les conséquences principales des concentrations toxiques des gaz ?",
+  "answers": [
+      {
+          "text": "Des troubles cardiaques.",
+          "isCorrect": false,
+          "comment": "Les troubles cardiaques ne sont pas une conséquence principale des concentrations toxiques des gaz."
+      },
+      {
+          "text": "Des perturbations de l'état de conscience.",
+          "isCorrect": false,
+          "comment": "Les perturbations de l'état de conscience peuvent être causées par certains types d'accidents de plongée, mais pas spécifiquement par les concentrations toxiques des gaz."
+      },
+      {
+          "text": "Des troubles visuels.",
+          "isCorrect": false,
+          "comment": "Les troubles visuels peuvent être associés à certains types d'accidents de plongée, mais pas spécifiquement aux concentrations toxiques des gaz."
+      },
+      {
+          "text": "Toutes les réponses précédentes sont correctes.",
+          "isCorrect": true,
+          "comment": "Les conséquences des concentrations toxiques des gaz peuvent inclure des perturbations de l'état de conscience et des troubles visuels."
+      }
+  ]
+},
+
+{
+  "text": "Quelles sont les conséquences principales des concentrations toxiques des gaz ?",
+  "answers": [
+      {
+          "text": "Des troubles cardiaques.",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que les concentrations toxiques des gaz puissent avoir un impact sur le système cardiovasculaire, ce ne sont pas les conséquences principales."
+      },
+      {
+          "text": "Des perturbations de l'état de conscience.",
+          "isCorrect": true,
+          "comment": "Correct. Les concentrations toxiques des gaz peuvent entraîner des altérations de l'état de conscience, allant de la confusion à la perte de conscience."
+      },
+      {
+          "text": "Des troubles visuels.",
+          "isCorrect": false,
+          "comment": "Incorrect. Les troubles visuels peuvent survenir avec certaines concentrations toxiques des gaz, mais ce ne sont pas les conséquences principales."
+      },
+      {
+          "text": "Toutes les réponses précédentes sont correctes.",
+          "isCorrect": false,
+          "comment": "Incorrect. Seules les perturbations de l'état de conscience sont les conséquences principales des concentrations toxiques des gaz."
+      }
+  ]
+},
+
 ];
 
 
