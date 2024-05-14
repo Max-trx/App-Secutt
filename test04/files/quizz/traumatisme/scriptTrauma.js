@@ -1071,7 +1071,7 @@ let questionsData = [
             comment: "Ce n'est pas la bonne réponse."
         },
         {
-            text: "Immobiliser la victime",
+            text: "ne pas mobiliser la victime",
             isCorrect: true,
             comment: "Réponse correcte : Immobiliser la victime"
         },
