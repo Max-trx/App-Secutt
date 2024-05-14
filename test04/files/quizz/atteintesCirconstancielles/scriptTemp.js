@@ -52,7 +52,7 @@ var Question = function (questionObj) {
     this.questionText.textContent = this.value.text;
 
     this.questionAnswers = document.createElement("div");
-    this.questionAnswers.classList.add(answers);
+    this.questionAnswers.classList.add("answers");
 
     for (let i = 0; i < this.value.answers.length; i++) {
       const ansObj = this.value.answers[i];
@@ -161,30 +161,29 @@ var Question = function (questionObj) {
 
 let questionsData = [
   {
-      text: "Quelle est la définition des gelures ?",
-      answers: [
-          {
-              text: "Des brûlures causées par l'exposition prolongée au soleil.",
-              isCorrect: false, comment: "Incorrect. Les gelures ne sont pas causées par l'exposition prolongée au soleil, mais par un refroidissement intense."
-          },
-          {
-              text: "Des lésions cutanées et des tissus sous-jacents provoquées par un refroidissement intense.",
-              isCorrect: true,
-              comment: "Correct. Les gelures sont des lésions cutanées et des tissus sous-jacents provoquées par un refroidissement intense."
-          },
-          {
-              text: "Des éruptions cutanées dues à une allergie alimentaire.",
-              isCorrect: false,
-              comment: "Incorrect. Les gelures ne sont pas des éruptions cutanées dues à une allergie alimentaire."
-          },
-          {
-              text: "Des plaies causées par des frottements répétés.",
-              isCorrect: false,
-              comment: "Incorrect. Les gelures ne sont pas des plaies causées par des frottements répétés, mais par un refroidissement intense."
-          }
-      ]
-  },
-  {
+    text: "Quelle est la définition des gelures ?",
+    answers: [
+        {
+            text: "Des brûlures causées par l'exposition prolongée au soleil.",
+            isCorrect: false, comment: "Incorrect. Les gelures ne sont pas causées par l'exposition prolongée au soleil, mais par un refroidissement intense."
+        },
+        {
+            text: "Des lésions cutanées et des tissus sous-jacents provoquées par un refroidissement intense.",
+            isCorrect: true,
+            comment: "Correct. Les gelures sont des lésions cutanées et des tissus sous-jacents provoquées par un refroidissement intense."
+        },
+        {
+            text: "Des éruptions cutanées dues à une allergie alimentaire.",
+            isCorrect: false,
+            comment: "Incorrect. Les gelures ne sont pas des éruptions cutanées dues à une allergie alimentaire."
+        },
+        {
+            text: "Des plaies causées par des frottements répétés.",
+            isCorrect: false,
+            comment: "Incorrect. Les gelures ne sont pas des plaies causées par des frottements répétés, mais par un refroidissement intense."
+        }
+    ]
+},{
       text: "Quelles sont les parties du corps les plus susceptibles d'être touchées par des gelures ?",
       answers: [
           {
@@ -1009,7 +1008,6 @@ let questionsData = [
       }
   ]
 }
-
 ];
 
 
