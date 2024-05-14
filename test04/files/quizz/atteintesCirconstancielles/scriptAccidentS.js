@@ -559,7 +559,281 @@ let questionsData = [
       }
   ]
 },
-
+{
+  "text": "Quelle est la définition d'une intoxication ?",
+  "answers": [
+      {
+          "text": "Une inflammation des voies respiratoires",
+          "isCorrect": false,
+          "comment": "Incorrect. Une intoxication n'est pas une inflammation des voies respiratoires, mais un trouble causé par la pénétration d'une substance toxique dans l'organisme."
+      },
+      {
+          "text": "Un trouble causé par la pénétration d'une substance toxique dans l'organisme",
+          "isCorrect": true,
+          "comment": "Correct. Une intoxication est un trouble causé par la pénétration d'une substance toxique dans l'organisme, pouvant entraîner divers symptômes et complications."
+      },
+      {
+          "text": "Une affection cutanée due à une exposition prolongée au soleil",
+          "isCorrect": false,
+          "comment": "Incorrect. Une intoxication n'est pas une affection cutanée, mais un trouble causé par l'ingestion, l'inhalation, ou le contact avec une substance toxique."
+      },
+      {
+          "text": "Une réaction allergique aux aliments",
+          "isCorrect": false,
+          "comment": "Incorrect. Une intoxication n'est pas une réaction allergique, mais un trouble causé par la pénétration d'une substance toxique dans l'organisme."
+      }
+  ]
+},
+{
+  "text": "Quelles sont les différentes voies par lesquelles un poison peut pénétrer dans l'organisme ?",
+  "answers": [
+      {
+          "text": "Digestion, inhalation, absorption, émission",
+          "isCorrect": false,
+          "comment": "Incorrect. La voie d'émission n'est pas une voie par laquelle un poison peut pénétrer dans l'organisme. Les voies courantes sont l'ingestion, l'inhalation, l'absorption et l'injection."
+      },
+      {
+          "text": "Digestion, inhalation, piqûre, immersion",
+          "isCorrect": false,
+          "comment": "Incorrect. L'immersion n'est pas une voie courante par laquelle un poison peut pénétrer dans l'organisme. Les voies courantes sont l'ingestion, l'inhalation, l'absorption et l'injection."
+      },
+      {
+          "text": "Ingestion, injection, respiration, absorption",
+          "isCorrect": true,
+          "comment": "Correct. Les principales voies par lesquelles un poison peut pénétrer dans l'organisme sont l'ingestion (digestion), l'injection, la respiration (inhalation) et l'absorption à travers la peau ou les muqueuses."
+      },
+      {
+          "text": "Ingestion, inspiration, injection, érosion",
+          "isCorrect": false,
+          "comment": "Incorrect. L'inspiration ne se réfère pas à l'inhalation de substances toxiques. Les voies courantes sont l'ingestion, l'inhalation, l'absorption et l'injection."
+      }
+  ]
+},
+{
+  "text": "Qu'est-ce qui peut également causer des intoxications?",
+  "answers": [
+      {
+          "text": "Les accidents de la route",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que les accidents de la route puissent causer des blessures graves, ils ne sont pas la cause directe des intoxications, qui sont dues à l'ingestion, l'inhalation ou l'absorption de substances toxiques."
+      },
+      {
+          "text": "Les infections bactériennes",
+          "isCorrect": false,
+          "comment": "Incorrect. Les infections bactériennes sont causées par des agents pathogènes, pas par des substances toxiques. Les intoxications sont généralement dues à l'exposition à des substances toxiques."
+      },
+      {
+          "text": "Les drogues, les médicaments et l'alcool",
+          "isCorrect": true,
+          "comment": "Correct. Les intoxications peuvent également être causées par la consommation excessive ou inappropriée de drogues, de médicaments ou d'alcool, ce qui peut entraîner des effets toxiques sur l'organisme."
+      },
+      {
+          "text": "Les blessures sportives",
+          "isCorrect": false,
+          "comment": "Incorrect. Les blessures sportives sont des traumatismes physiques causés par des activités sportives. Elles ne sont pas considérées comme des intoxications, qui sont dues à l'exposition à des substances toxiques."
+      }
+  ]
+},
+{
+  "text": "Quels sont les signes caractéristiques de surdosage ou d'intoxication aux opiacés ou aux opioïdes ?",
+  "answers": [
+      {
+          "text": "Pâleur de la peau et sueurs froides",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que ces symptômes puissent être présents dans certains cas d'intoxication, les signes caractéristiques d'un surdosage aux opiacés ou aux opioïdes incluent le myosis (réduction de la taille de la pupille) et la dépression respiratoire."
+      },
+      {
+          "text": "Myosis et dépression respiratoire",
+          "isCorrect": true,
+          "comment": "Correct. Les signes caractéristiques d'un surdosage ou d'une intoxication aux opiacés ou aux opioïdes incluent le myosis (réduction de la taille de la pupille) et la dépression respiratoire, qui peuvent être des indicateurs d'une intoxication grave."
+      },
+      {
+          "text": "Augmentation de la fréquence cardiaque et agitation",
+          "isCorrect": false,
+          "comment": "Incorrect. Une augmentation de la fréquence cardiaque et de l'agitation ne sont généralement pas associées à un surdosage aux opiacés ou aux opioïdes. Ces symptômes peuvent plutôt être observés dans d'autres types d'intoxications ou de troubles."
+      },
+      {
+          "text": "Fièvre et tachycardie",
+          "isCorrect": false,
+          "comment": "Incorrect. La fièvre et la tachycardie ne sont pas des signes caractéristiques d'un surdosage aux opiacés ou aux opioïdes. Les signes typiques incluent le myosis et la dépression respiratoire."
+      }
+  ]
+},
+{
+  "text": "Quelle est la recommandation en cas d'intoxication aux opiacés avec dépression respiratoire ?",
+  "answers": [
+      {
+          "text": "Administrer de l'oxygène en inhalation",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que l'administration d'oxygène puisse être nécessaire dans certains cas d'intoxication, la recommandation principale en cas d'intoxication aux opiacés avec dépression respiratoire est d'administrer de la naloxone, un antagoniste des opioïdes."
+      },
+      {
+          "text": "Administrer de la morphine",
+          "isCorrect": false,
+          "comment": "Incorrect. L'administration de morphine n'est pas appropriée en cas d'intoxication aux opiacés, car cela aggraverait la dépression respiratoire. La recommandation principale est d'administrer de la naloxone, un antagoniste des opioïdes."
+      },
+      {
+          "text": "Administrer de l'alprazolam",
+          "isCorrect": false,
+          "comment": "Incorrect. L'alprazolam est un médicament utilisé pour traiter les troubles anxieux et ne convient pas pour traiter une intoxication aux opiacés. La recommandation principale est d'administrer de la naloxone, un antagoniste des opioïdes."
+      },
+      {
+          "text": "Administrer de la naloxone par pulvérisation intranasale",
+          "isCorrect": true,
+          "comment": "Correct. En cas d'intoxication aux opiacés avec dépression respiratoire, la recommandation principale est d'administrer de la naloxone, un antagoniste des opioïdes, par pulvérisation intranasale pour inverser les effets des opiacés et restaurer la respiration."
+      }
+  ]
+},
+{
+  "text": "Que faut-il faire en cas de projection d'un toxique sur la peau provoquant une brûlure ?",
+  "answers": [
+      {
+          "text": "Laver abondamment avec de l'eau froide",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que le lavage abondant à l'eau soit une mesure initiale importante, en cas de projection d'un toxique provoquant une brûlure, la conduite à tenir est d'adopter la conduite à tenir face à une brûlure chimique, ce qui peut impliquer d'autres mesures spécifiques."
+      },
+      {
+          "text": "Ne rien faire et attendre l'intervention des secours",
+          "isCorrect": false,
+          "comment": "Incorrect. Il est important d'agir rapidement en cas de projection d'un toxique provoquant une brûlure. Attendre l'intervention des secours sans prendre de mesures immédiates peut aggraver la situation."
+      },
+      {
+          "text": "Appliquer une crème hydratante",
+          "isCorrect": false,
+          "comment": "Incorrect. L'application d'une crème hydratante n'est pas la mesure appropriée en cas de projection d'un toxique provoquant une brûlure. La conduite à tenir dépend du type de substance impliquée et peut nécessiter des mesures spécifiques."
+      },
+      {
+          "text": "Adopter la conduite à tenir face à une brûlure chimique",
+          "isCorrect": true,
+          "comment": "Correct. En cas de projection d'un toxique provoquant une brûlure, il est essentiel d'adopter la conduite à tenir face à une brûlure chimique, ce qui peut inclure le lavage abondant à l'eau, l'élimination des vêtements contaminés et l'application de mesures spécifiques en fonction du toxique."
+      }
+  ]
+},
+{
+  "text": "Quelles actions doivent être entreprises en cas d'intoxication en environnement toxique ?",
+  "answers": [
+      {
+          "text": "Se placer au contact direct du toxique pour évaluer la gravité de la situation",
+          "isCorrect": false,
+          "comment": "Incorrect. Se placer au contact direct du toxique peut mettre en danger la santé de la personne qui intervient. La priorité est de se retirer rapidement de l'environnement toxique et de protéger la victime."
+      },
+      {
+          "text": "Se retirer rapidement de l'environnement toxique et protéger la victime",
+          "isCorrect": true,
+          "comment": "Correct. En cas d'intoxication en environnement toxique, la première action à entreprendre est de se retirer rapidement de l'environnement toxique pour éviter toute exposition supplémentaire, puis de protéger la victime en lui fournissant une assistance médicale si nécessaire."
+      },
+      {
+          "text": "Inhaler volontairement le toxique pour développer une immunité",
+          "isCorrect": false,
+          "comment": "Incorrect. Inhaler volontairement le toxique est extrêmement dangereux et peut entraîner des dommages graves pour la santé. La priorité est de se retirer de l'environnement toxique et de chercher une assistance médicale."
+      },
+      {
+          "text": "Ignorer l'environnement toxique et se concentrer uniquement sur la victime",
+          "isCorrect": false,
+          "comment": "Incorrect. Ignorer l'environnement toxique peut mettre en danger la sécurité de la personne qui intervient. Il est essentiel de se retirer de l'environnement toxique tout en protégeant la victime."
+      }
+  ]
+},
+{
+  "text": "Quels signes peuvent être recherchés lors de l'examen d'une victime d'intoxication pour déterminer la nature du toxique ?",
+  "answers": [
+      {
+          "text": "Présence de pansements sur la peau",
+          "isCorrect": false,
+          "comment": "Incorrect. La présence de pansements sur la peau ne fournit pas d'indications sur la nature du toxique. Pour déterminer la nature du toxique, il est plus pertinent de rechercher des indices tels que la présence de boîtes de médicaments vides, des symptômes spécifiques et des antécédents médicaux."
+      },
+      {
+          "text": "Présence de cicatrices",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que la présence de cicatrices puisse indiquer des blessures antérieures, cela ne fournit pas d'informations spécifiques sur la nature du toxique. Pour déterminer la nature du toxique, il est plus pertinent de rechercher des indices tels que la présence de boîtes de médicaments vides, des symptômes spécifiques et des antécédents médicaux."
+      },
+      {
+          "text": "Présence de boîtes de médicaments vides",
+          "isCorrect": true,
+          "comment": "Correct. L'examen de la victime d'intoxication peut inclure la recherche de boîtes de médicaments vides ou d'autres emballages de substances toxiques, ce qui peut aider à identifier la nature du toxique et à déterminer le traitement approprié."
+      },
+      {
+          "text": "Présence de vêtements de protection",
+          "isCorrect": false,
+          "comment": "Incorrect. La présence de vêtements de protection ne fournit pas d'indications directes sur la nature du toxique. Pour déterminer la nature du toxique, il est plus pertinent de rechercher des indices tels que la présence de boîtes de médicaments vides, des symptômes spécifiques et des antécédents médicaux."
+      }
+  ]
+},
+{
+  "text": "Quelle est la priorité lors de l'action de secours en cas d'intoxication ?",
+  "answers": [
+      {
+          "text": "Identifier les témoins de l'incident",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien qu'il soit important de recueillir des informations sur les circonstances de l'intoxication, la priorité lors de l'action de secours est de lutter contre toute détresse vitale de la victime et de fournir une assistance médicale immédiate si nécessaire."
+      },
+      {
+          "text": "Demander un avis médical",
+          "isCorrect": false,
+          "comment": "Incorrect. Demander un avis médical est une étape importante, mais la priorité lors de l'action de secours en cas d'intoxication est de lutter contre toute détresse vitale de la victime et de fournir une assistance médicale immédiate si nécessaire."
+      },
+      {
+          "text": "Lutter contre une détresse vitale",
+          "isCorrect": true,
+          "comment": "Correct. La priorité lors de l'action de secours en cas d'intoxication est de lutter contre toute détresse vitale de la victime, telle que l'arrêt respiratoire ou cardiaque, et de fournir une assistance médicale immédiate si nécessaire."
+      },
+      {
+          "text": "Examiner les emballages des produits en cause",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien qu'il soit important de recueillir des informations sur les substances ingérées ou exposées, la priorité lors de l'action de secours est de lutter contre toute détresse vitale de la victime et de fournir une assistance médicale immédiate si nécessaire."
+      }
+  ]
+},
+{
+  "text": "Quel est le premier regard essentiel lorsqu'on suspecte une intoxication due à un environnement toxique ?",
+  "answers": [
+      {
+          "text": "Observer le ciel pour détecter des signes de pluie acide",
+          "isCorrect": false,
+          "comment": "Incorrect. Observer le ciel pour détecter des signes de pluie acide est important dans certaines situations environnementales, mais cela ne constitue pas le premier regard essentiel lorsqu'on suspecte une intoxication. Le premier regard essentiel est d'identifier la présence d'un nuage toxique ou d'une odeur désagréable."
+      },
+      {
+          "text": "Examiner attentivement les plantes environnantes",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que l'examen des plantes environnantes puisse être pertinent dans certains cas d'intoxication, ce n'est pas le premier regard essentiel lorsqu'on suspecte une intoxication due à un environnement toxique. Le premier regard essentiel est d'identifier la présence d'un nuage toxique ou d'une odeur désagréable."
+      },
+      {
+          "text": "Vérifier la présence de flacons suspects",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que la vérification de la présence de flacons suspects puisse être pertinente dans certains contextes, ce n'est pas le premier regard essentiel lorsqu'on suspecte une intoxication due à un environnement toxique. Le premier regard essentiel est d'identifier la présence d'un nuage toxique ou d'une odeur désagréable."
+      },
+      {
+          "text": "Identifier la présence d'un nuage toxique ou d'une odeur désagréable",
+          "isCorrect": true,
+          "comment": "Correct. Lorsqu'on suspecte une intoxication due à un environnement toxique, le premier regard essentiel est d'identifier la présence d'un nuage toxique ou d'une odeur désagréable, ce qui peut indiquer la présence de substances toxiques dans l'air."
+      }
+  ]
+},
+{
+  "text": "Quels éléments doivent être pris en compte lors de l'examen d'une victime d'intoxication pour déterminer la nature du toxique ?",
+  "answers": [
+      {
+          "text": "Les tatouages sur le corps de la victime",
+          "isCorrect": false,
+          "comment": "Incorrect. Les tatouages sur le corps de la victime ne fournissent pas d'indications directes sur la nature du toxique. Pour déterminer la nature du toxique, il est plus pertinent de rechercher des indices tels que la présence de boîtes de médicaments vides, des symptômes spécifiques et des antécédents médicaux."
+      },
+      {
+          "text": "Les bijoux portés par la victime",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que les bijoux portés par la victime puissent être pertinents pour l'identification de la victime, ils ne fournissent pas d'indications sur la nature du toxique. Pour déterminer la nature du toxique, il est plus pertinent de rechercher des indices tels que la présence de boîtes de médicaments vides, des symptômes spécifiques et des antécédents médicaux."
+      },
+      {
+          "text": "Les circonstances de survenue, la nature du toxique, la dose supposée absorbée et l'heure de l'ingestion",
+          "isCorrect": true,
+          "comment": "Correct. Lors de l'examen d'une victime d'intoxication, il est important de prendre en compte les circonstances de survenue, la nature du toxique, la dose supposée absorbée et l'heure de l'ingestion, car ces informations peuvent aider à déterminer le traitement approprié et à prévenir les complications."
+      },
+      {
+          "text": "Les vêtements portés par la victime au moment de l'incident",
+          "isCorrect": false,
+          "comment": "Incorrect. Bien que les vêtements portés par la victime puissent fournir des indices sur la nature du toxique, ils ne sont pas aussi significatifs que d'autres éléments tels que les circonstances de survenue, la dose supposée absorbée et l'heure de l'ingestion."
+      }
+  ]
+},
 ];
 
 
