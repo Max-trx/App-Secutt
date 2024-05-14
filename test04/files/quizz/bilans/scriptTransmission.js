@@ -235,6 +235,56 @@ let questionsData = [
         }
     ]
 },
+{
+  "text": "Comment épelle-t-on LAMPADAIRE en alphabet OTAN ?",
+  "answers": [
+      {
+          text: "Lima Alpha Mike Papa Alpha Delta Alpha India Romeo Echo ",
+          isCorrect: true,
+          comment: "Bien joué !"
+      },
+      {
+          text: "Lime Alpha Mike Papa Alpha Delta Alpha India Romeo Echo",
+          isCorrect: false,
+          comment: "Non, c'était Lima Alpha Mike Papa Alpha Delta Alpha India Romeo Echo."
+      },
+      {
+          text: "Linge Arbre Mire Parcours Arbitre Deltaplane Arbitre India Romeo Echo",
+          isCorrect: false,
+          comment: "Non, c'était Lima Alpha Mike Papa Alpha Delta Alpha India Romeo Echo"
+      },
+      {
+          text: "Linge Arbre Mire Papa Alpha Delta Alpha India Romeo Echo",
+          isCorrect: false,
+          comment: "Non, c'était Linge Arbre Mire"
+      }
+  ]
+},
+{
+  "text": "Comment épelle-t-on SECOURISTE en alphabet OTAN ?",
+  "answers": [
+      {
+          text: "Sierra Echo Charly Oscar Uniform Romeo India Sierra Tango Echo",
+          isCorrect: true,
+          comment: "Bien joué !"
+      },
+      {
+          text: "Sierra Echo Charly Oscar Uniform Romeo India Sierra Terrien Echo",
+          isCorrect: false,
+          comment: "Non, c'était Sierra Echo Charly Oscar Uniform Romeo India Sierra Tango Echo."
+      },
+      {
+          text: "Sierra Echo Charly Orion Uniform Romeo India Sierra Tango Echo",
+          isCorrect: false,
+          comment: "Non, c'était Sierra Echo Charly Oscar Uniform Romeo India Sierra Tango Echo"
+      },
+      {
+          text: "Sierra Ecole Charly Oscar Uniform Romeo India Sierra Tango Ecole",
+          isCorrect: false,
+          comment: "Non, c'était Sierra Echo Charly Oscar Uniform Romeo India Sierra Tango Echo"
+      }
+  ]
+},
 ];
 
 
