@@ -273,16 +273,18 @@ let questionsData = [
             "isCorrect": false,
             "comment": "Les informations sur les détresses vitales sont importantes, mais ce n'est pas tout ce qui doit être consigné."
         },
+
+        {
+            "text": "Uniquement les paramètres vitaux mesurés pendant l'intervention.",
+            "isCorrect": false,
+            "comment": "Les paramètres vitaux sont importants, mais ce n'est pas tout ce qui doit être consigné."
+        },
         {
             "text": "La synthèse des informations et des actions entreprises durant toute l'intervention.",
             "isCorrect": true,
             "comment": "Oui, il est essentiel de consigner et de transmettre une synthèse complète des informations et des actions."
         },
-        {
-            "text": "Uniquement les paramètres vitaux mesurés pendant l'intervention.",
-            "isCorrect": false,
-            "comment": "Les paramètres vitaux sont importants, mais ce n'est pas tout ce qui doit être consigné."
-        }
+
     ]
 },
 {

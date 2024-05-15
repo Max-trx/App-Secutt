@@ -166,8 +166,8 @@ let questionsData = [
 {
   text: "Qu'est-ce qu'un accident vasculaire cérébral (AVC) ?",
   answers: [
-    { text: "Un déficit neurologique soudain d'origine vasculaire.", isCorrect: true },
     { text: "Une rupture d'un vaisseau sanguin dans le cerveau.", isCorrect: false },
+    { text: "Un déficit neurologique soudain d'origine vasculaire.", isCorrect: true },
     { text: "Une perte de conscience brève et passagère.", isCorrect: false }
   ]
 },
@@ -186,9 +186,9 @@ let questionsData = [
 {
   text: "Quels sont les signes spécifiques d'un AVC selon le FAST test ?",
   answers: [
-    { text: "Face, Arm et Speech (langage).", isCorrect: true },
+    { text: "Fatigue, Appetite et Stress.", isCorrect: false },
     { text: "Fever, Arm et Spasm.", isCorrect: false },
-    { text: "Fatigue, Appetite et Stress.", isCorrect: false }
+    { text: "Face, Arm et Speech (langage).", isCorrect: true }
   ]
 },
 
@@ -206,8 +206,8 @@ let questionsData = [
 {
   text: "Que doit faire un secouriste si une victime présente des signes d'AVC ?",
   answers: [
-    { text: "Demander un avis médical immédiat et respecter les consignes.", isCorrect: true },
     { text: "Attendre que les symptômes disparaissent d'eux-mêmes.", isCorrect: false },
+    { text: "Demander un avis médical immédiat et respecter les consignes.", isCorrect: true },
     { text: "Donner à la victime des médicaments contre la douleur.", isCorrect: false }
   ]
 },
@@ -216,9 +216,9 @@ let questionsData = [
 {
   text: "Quels sont les trois signes spécifiques recherchés chez une victime d'AVC ?",
   answers: [
-    { text: "Déformation de la bouche, faiblesse ou engourdissement des bras, difficulté de langage.", isCorrect: true },
+    { text: "Toux persistante, fièvre élevée, fatigue extrême.", isCorrect: false },
     { text: "Douleur abdominale, difficulté de respiration, vertiges.", isCorrect: false },
-    { text: "Toux persistante, fièvre élevée, fatigue extrême.", isCorrect: false }
+    { text: "Déformation de la bouche, faiblesse ou engourdissement des bras, difficulté de langage.", isCorrect: true }
   ]
 },
 
@@ -246,8 +246,8 @@ let questionsData = [
 {
   text: "Quel est l'effet de l'interruption de la circulation sanguine pendant un AVC ?",
   answers: [
-    { text: "Une ischémie des cellules nerveuses, suivie de leur détérioration et de leur mort.", isCorrect: true },
     { text: "Un afflux excessif de sang dans le cerveau, provoquant des saignements.", isCorrect: false },
+    { text: "Une ischémie des cellules nerveuses, suivie de leur détérioration et de leur mort.", isCorrect: true },
     { text: "Une augmentation de l'oxygénation du cerveau, améliorant la santé des cellules nerveuses.", isCorrect: false }
   ]
 },

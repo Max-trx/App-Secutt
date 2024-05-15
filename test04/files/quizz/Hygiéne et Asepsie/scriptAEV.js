@@ -161,7 +161,7 @@ var Question = function (questionObj) {
 
 let questionsData = [
   {
-    text: "Qu'est-ce qu'un accident d'exposition à un risque viral selon la définition donnée ?",
+    text: "Qu'est-ce qu'un accident d'exposition à un risque viral ?",
     answers: [
         {
             text: "Toute exposition percutanée ou contact direct avec du sang ou un liquide biologique souillé par du sang.",
@@ -196,7 +196,7 @@ let questionsData = [
         {
             text: "Sang, salive, sperme, sécrétions vaginales.",
             isCorrect: true,
-            comment: "Exact, le sang, la salive, le sperme et les sécrétions vaginales présentent un risque de transmission des virus VIH, VHB et VHC."
+            comment: "Exact, le sang, la salive, le sperme et les sécrétions vaginales présentent un risque de transmission des virus VIH, VHB et VHC. En effet la salive peut contenir du sang."
         },
         {
             text: "Sang, urine, liquide céphalo-rachidien, sécrétions nasales.",
@@ -360,31 +360,7 @@ let questionsData = [
     }
 ]
 },
-{
-"text": "Qu'est-ce qu'un accident d'exposition à un risque viral ?",
-"answers": [
-    {
-        "text": "Une exposition cutanée à un liquide biologique contenant du sang.",
-        "isCorrect": true,
-        "comment": "Correct, un accident d'exposition à un risque viral implique une exposition cutanée ou muqueuse à du sang ou à un liquide biologique contaminé par du sang."
-    },
-    {
-        "text": "Une piqûre d'insecte infecté par un virus.",
-        "isCorrect": false,
-        "comment": "Ce n'est pas la définition d'un accident d'exposition à un risque viral."
-    },
-    {
-        "text": "Une infection causée par un virus suite à un contact indirect avec une personne malade.",
-        "isCorrect": false,
-        "comment": "Cette réponse décrit plutôt une infection virale, pas un accident d'exposition à un risque viral en tant que tel."
-    },
-    {
-        "text": "Une réaction allergique à un vaccin contre un virus.",
-        "isCorrect": false,
-        "comment": "Ce n'est pas la définition d'un accident d'exposition à un risque viral."
-    }
-]
-},
+
 {
 "text": "Quelle est la principale voie de transmission des microorganismes dans le contexte des risques infectieux ?",
 "answers": [
@@ -424,7 +400,7 @@ let questionsData = [
         "comment": "Il est recommandé d'utiliser un masque en tout temps pour limiter la transmission d'infections, pas seulement lorsque la victime tousse ou éternue."
     },
     {
-        "text": "Appliquer systématiquement des précautions d'hygiène standards.",
+        "text": "Appliquer systématiquement des précautions d'hygiène standards (gants masques etc).",
         "isCorrect": true,
         "comment": "Correct, l'application de précautions d'hygiène standards est essentielle pour limiter le risque de transmission d'infections entre la victime et l'intervenant."
     },
@@ -435,56 +411,8 @@ let questionsData = [
     }
 ]
 },
-{
-"text": "Quelles sont les précautions recommandées pour limiter le risque de transmission d'infections entre la victime et l'intervenant ?",
-"answers": [
-    {
-        "text": "Ne pas porter de gants pendant l'intervention pour mieux sentir les choses.",
-        "isCorrect": false,
-        "comment": "Ne pas porter de gants augmente le risque de transmission d'infections, ce n'est donc pas recommandé."
-    },
-    {
-        "text": "Utiliser un masque uniquement si la victime tousse ou éternue.",
-        "isCorrect": false,
-        "comment": "Il est recommandé d'utiliser un masque en tout temps pour limiter la transmission d'infections, pas seulement lorsque la victime tousse ou éternue."
-    },
-    {
-        "text": "Appliquer systématiquement des précautions d'hygiène standards.",
-        "isCorrect": true,
-        "comment": "Correct, l'application de précautions d'hygiène standards est essentielle pour limiter le risque de transmission d'infections entre la victime et l'intervenant."
-    },
-    {
-        "text": "Porter un tablier en plastique uniquement si la victime saigne abondamment.",
-        "isCorrect": false,
-        "comment": "Il est recommandé de porter un tablier en plastique en tout temps lors d'une intervention pour limiter la transmission d'infections, pas seulement en cas de saignement abondant."
-    }
-]
-},
-{
-"text": "Quelle est la première mesure de prévention contre les accidents d'exposition à un risque viral ?",
-"answers": [
-    {
-        "text": "La vaccination contre la grippe.",
-        "isCorrect": false,
-        "comment": "La vaccination contre la grippe n'est pas la première mesure de prévention contre les accidents d'exposition à un risque viral."
-    },
-    {
-        "text": "Le lavage fréquent des mains avec de l'eau et du savon.",
-        "isCorrect": false,
-        "comment": "Bien que le lavage fréquent des mains soit important, ce n'est pas la première mesure de prévention contre les accidents d'exposition à un risque viral."
-    },
-    {
-        "text": "La vaccination contre l'hépatite B.",
-        "isCorrect": true,
-        "comment": "Correct, la vaccination contre l'hépatite B est la première mesure de prévention contre les accidents d'exposition à un risque viral."
-    },
-    {
-        "text": "L'utilisation de masques en tissu.",
-        "isCorrect": false,
-        "comment": "L'utilisation de masques en tissu peut être utile, mais ce n'est pas la première mesure de prévention contre les accidents d'exposition à un risque viral."
-    }
-]
-},
+
+
 {
 "text": "Quelle est l'une des précautions recommandées pendant l'intervention pour limiter le risque infectieux ?",
 "answers": [
@@ -544,9 +472,9 @@ let questionsData = [
         "comment": "Utiliser les mêmes draps à usage unique pour chaque transport peut augmenter le risque de contamination croisée."
     },
     {
-        "text": "Utiliser des draps lavés après chaque transport.",
+        "text": "Changer les draps après chaque transport.",
         "isCorrect": true,
-        "comment": "Correct, il est recommandé d'utiliser des draps lavés après chaque transport sur le brancard pour limiter le risque infectieux."
+        "comment": "Correct, il est recommandé d'utiliser de nouveaux draps après chaque transport sur le brancard pour limiter le risque infectieux."
     },
     {
         "text": "Ignorer l'entretien du brancard.",
@@ -560,56 +488,7 @@ let questionsData = [
     }
 ]
 },
-{
-"text": "Quelle est une mesure recommandée pour limiter la transmission des particules infectieuses dans l'environnement de la victime ?",
-"answers": [
-    {
-        "text": "Se laver les mains après avoir touché l'environnement de la victime.",
-        "isCorrect": false,
-        "comment": "Se laver les mains après avoir touché l'environnement de la victime ne suffit pas à limiter la transmission des particules infectieuses."
-    },
-    {
-        "text": "Porter un masque de protection classé FFP2 avant d'entrer dans la pièce où se situe la victime.",
-        "isCorrect": true,
-        "comment": "Correct, le port d'un masque de protection classé FFP2 avant d'entrer dans la pièce peut limiter la transmission des particules infectieuses."
-    },
-    {
-        "text": "Utiliser au maximum du matériel à usage multiple.",
-        "isCorrect": false,
-        "comment": "L'utilisation du matériel à usage unique est préférable pour limiter la transmission des particules infectieuses."
-    },
-    {
-        "text": "Laisser la victime dans une pièce particulière sans aucune protection.",
-        "isCorrect": false,
-        "comment": "Laisser la victime sans protection dans une pièce particulière peut augmenter le risque de transmission des particules infectieuses."
-    }
-]
-},
-{
-"text": "Quelle est une mesure recommandée pour limiter la transmission des particules infectieuses dans l'environnement de la victime ?",
-"answers": [
-    {
-        "text": "Se laver les mains après avoir touché l'environnement de la victime.",
-        "isCorrect": false,
-        "comment": "Se laver les mains après avoir touché l'environnement de la victime ne suffit pas à limiter la transmission des particules infectieuses."
-    },
-    {
-        "text": "Porter un masque de protection classé FFP2 avant d'entrer dans la pièce où se situe la victime.",
-        "isCorrect": true,
-        "comment": "Correct, le port d'un masque de protection classé FFP2 avant d'entrer dans la pièce peut limiter la transmission des particules infectieuses."
-    },
-    {
-        "text": "Utiliser au maximum du matériel à usage multiple.",
-        "isCorrect": false,
-        "comment": "L'utilisation du matériel à usage unique est préférable pour limiter la transmission des particules infectieuses."
-    },
-    {
-        "text": "Laisser la victime dans une pièce particulière sans aucune protection.",
-        "isCorrect": false,
-        "comment": "Laisser la victime sans protection dans une pièce particulière peut augmenter le risque de transmission des particules infectieuses."
-    }
-]
-},
+
 {
 "text": "Quelle est une mesure recommandée pour les intervenants en contact avec la victime afin de limiter la transmission des agents infectieux ?",
 "answers": [
@@ -713,11 +592,7 @@ let questionsData = [
 {
 "text": "Quelles sont les précautions à prendre lors de la manipulation des déchets des activités de soins à risques infectieux (DASRI) ?",
 "answers": [
-{
-  "text": "Les précautions à prendre comprennent l'ouverture préalable de l'emballage, le dépôt du déchet dans l'emballage suivi de sa fermeture immédiate, l'évitement de remplir l'emballage au-delà de la limite indiquée, de tasser les déchets à l'intérieur de l'emballage, et la fermeture de l'emballage lorsque le taux maximum de remplissage est atteint.",
-  "isCorrect": true,
-  "comment": "Correct ! Les précautions à prendre lors de la manipulation des déchets des activités de soins à risques infectieux (DASRI) incluent plusieurs étapes, telles que l'ouverture préalable de l'emballage, le dépôt du déchet suivi de la fermeture immédiate de l'emballage, et le respect des limitations de remplissage et de la date de péremption."
-},
+
 {
   "text": "Il n'est pas nécessaire de fermer l'emballage après avoir déposé le déchet.",
   "isCorrect": false,
@@ -733,6 +608,11 @@ let questionsData = [
   "isCorrect": false,
   "comment": "Non, ce n'est pas une bonne pratique. Il ne faut pas tasser les déchets à l'intérieur de l'emballage à DASRI car cela peut compromettre la sécurité lors de la manipulation et de l'élimination des déchets."
 }
+{
+    "text": "Les précautions à prendre comprennent l'ouverture préalable de l'emballage, le dépôt du déchet dans l'emballage suivi de sa fermeture immédiate, l'évitement de remplir l'emballage au-delà de la limite indiquée, de tasser les déchets à l'intérieur de l'emballage, et la fermeture de l'emballage lorsque le taux maximum de remplissage est atteint.",
+    "isCorrect": true,
+    "comment": "Correct ! Les précautions à prendre lors de la manipulation des déchets des activités de soins à risques infectieux (DASRI) incluent plusieurs étapes, telles que l'ouverture préalable de l'emballage, le dépôt du déchet suivi de la fermeture immédiate de l'emballage, et le respect des limitations de remplissage et de la date de péremption."
+  },
 ]
 },
 ];
