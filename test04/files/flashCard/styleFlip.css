@@ -8,8 +8,8 @@ body {
   height: 100vh;
   overflow: hidden;
   /*background: linear-gradient(45deg, #061de3, #e306ca);*/
-  background-image: url("Helicoptere.jpg");
-  background-size: cover;
+  /*background-image: url("Helicoptere.jpg");
+  background-size: cover;*/
   backdrop-filter: blur(5px);
   font-family: Helvetica, sans-serif;
   color: rgb(211, 211, 211);
