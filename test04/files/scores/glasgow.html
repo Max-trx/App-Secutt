@@ -15,7 +15,7 @@
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="../../index.html">
         <img src="../../img/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-top me-2">
-        <div class="text-navbar fw-bold">Score Gaslgow</div>
+        <div class="text-navbar fw-bold">Score Glasgow</div>
       </a>
     </div>
   </nav>
@@ -30,10 +30,10 @@
           </div>
           <div class="col-md-4 mb-4 mt-4">
                   <h2>Ouverture des yeux?</h2>
-                  <label for="var_string"><input type="radio" name="variable" value="1" id="var_string" />1: nulle</label><br>
-                  <label for="var_join"><input type="radio" name="variable" value="2" id="var_join" />2: Retrait à la douleur</label><br>
-                  <label for="var_info"><input type="radio" name="variable" value="3" id="var_info" />3: À la demande</label><br>
-                  <label for="var_condition"><input type="radio" name="variable" value="4" id="var_condition" />4: Spontanée</label><br>
+                  <label><input type="radio" name="variable" value="1"/>1: Nulle</label><br>
+                  <label><input type="radio" name="variable" value="2"/>2: Retrait à la douleur</label><br>
+                  <label><input type="radio" name="variable" value="3"/>3: À la demande</label><br>
+                  <label><input type="radio" name="variable" value="4"/>4: Spontanée</label><br>
             </div>
           </div>
           <hr>
@@ -43,11 +43,11 @@
             </div>
             <div class="col-md-4 mb-4 mt-4">
                 <h2>Réponse Verbale?</h2>
-                <label for="sub_string"><input type="radio" name="sub" value="1" id="sub_string"/>1: Nulle</label><br>
-                <label for="sub_join"><input type="radio" name="sub" value="2" id="sub_join"/>2: Somnolente</label><br>
-                <label for="sub_info"><input type="radio" name="sub" value="3" id="sub_info" />3: Inappropriée</label><br>
-                <label for="sub_condition"><input type="radio" name="sub" value="4" id="sub_condition" />4: Confuse</label><br>
-                <label for="sub_french"><input type="radio" name="sub" value="5" id="sub_french" />5: Orientée</label><br>
+                <label><input type="radio" name="sub" value="1"/>1: Nulle</label><br>
+                <label><input type="radio" name="sub" value="2"/>2: Somnolente</label><br>
+                <label><input type="radio" name="sub" value="3"/>3: Inappropriée</label><br>
+                <label><input type="radio" name="sub" value="4"/>4: Confuse</label><br>
+                <label><input type="radio" name="sub" value="5"/>5: Orientée</label><br>
           </div>
         </div>
         <hr>
@@ -58,12 +58,12 @@
           </div>
           <div class="col-md-4 mb-4 mt-4">  
             <h2>Réponse Motrice?</h2>
-              <label for="cat_string"><input type="radio" name="con" value="1" id="cat_string" />1: Nulle</label><br>
-              <label for="cat_join"><input type="radio" name="con" value="2" id="cat_join" />2: Extension réflexe</label><br>
-              <label for="cat_info"><input type="radio" name="con" value="3" id="cat_info" />3: Flexion réflexe</label><br>
-              <label for="cat_condition"><input type="radio" name="con" value="4" id="cat_condition" />4: Inadaptée</label><br>
-              <label for="cat_french"><input type="radio" name="con" value="5" id="cat_french" />5: Retrait à la douleur</label><br>
-              <label for="cat_secutt"><input type="radio" name="con" value="6" id="cat_secutt" />6: Obéit aux ordres</label><br>
+              <label><input type="radio" name="con" value="1"/>1: Nulle</label><br>
+              <label><input type="radio" name="con" value="2"/>2: Extension réflexe</label><br>
+              <label><input type="radio" name="con" value="3"/>3: Flexion réflexe</label><br>
+              <label><input type="radio" name="con" value="4"/>4: Inadaptée</label><br>
+              <label><input type="radio" name="con" value="5"/>5: Retrait à la douleur</label><br>
+              <label><input type="radio" name="con" value="6"/>6: Obéit aux ordres</label><br>
             </div>
           </div>
     
@@ -90,7 +90,7 @@
         if (result <=6){
           document.getElementById("grade").innerHTML = "<span class='text-danger'>" +  result + "</span>";
         }
-        else if (result <=9 && result <= 7){
+        else if (result <=9 && result >= 7){
           document.getElementById("grade").innerHTML = "<span class='text-warning'>" +  result + "</span>";
         }
         else if (result >= 10){
@@ -107,7 +107,7 @@
 
   <!-- Footer -->
   <footer class="footer bg-dark text-light text-center">
-    <p>Mise à jour le 20/04/2022</p>
+    <p>Mise à jour le 15/05/2024</p>
     <p>Développé par l'association Secouristes UTT - Sec'UTT</p>
   </footer>
 

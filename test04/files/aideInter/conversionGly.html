@@ -26,7 +26,7 @@
         <!-- Questionnaire -->
         <div class="row justify-content-center">
           <div class="col-md-10 mb-4 mt-4 text-center">
-            <h2>Glycémien en G/L</h2>
+            <h2>Glycémien en g/L</h2>
             <input type="number" id="myInput1" oninput="myFunction1()"/><br>
           </div>
         </div>
@@ -42,7 +42,7 @@
 
         <div class="row justify-content-center">
           <div class="col-md-10 mb-4 mt-4 text-center">
-            <h2>Glycémie en mg/dl</h2>
+            <h2>Glycémie en mmol/L</h2>
             <input type="number" id="myInput2" oninput="myFunction2()"/><br>
           </div>
         </div>
@@ -58,7 +58,7 @@
 
         <div class="row justify-content-center">
           <div class="col-md-10 mb-4 mt-4 text-center">
-            <h2>Glycémie en mg/dl</h2>
+            <h2>Glycémie en mg/dL</h2>
             <input type="number" id="myInput3" oninput="myFunction3()"/><br>
           </div>
         </div>
@@ -78,24 +78,24 @@
         var x = document.getElementById("myInput1").value;
         var mg1 = 100* document.getElementById("myInput1").value;
         var mmol1 = 5.5* document.getElementById("myInput1").value;
-        document.getElementById("mg1").innerHTML = "Glycémie en mg/dl : " + mg1;
-        document.getElementById("mmol1").innerHTML = "Glycémie en mmol/l : " + mmol1;
+        document.getElementById("mg1").innerHTML = "Glycémie en mg/dL : " + mg1;
+        document.getElementById("mmol1").innerHTML = "Glycémie en mmol/L : " + mmol1;
         }
     
         function myFunction2() {
           var x = document.getElementById("myInput2").value;
           var g2 = 0.01*document.getElementById("myInput2").value;
           var mmol2 =0.0555*document.getElementById("myInput2").value;
-          document.getElementById("g2").innerHTML = "Glycémie en g/l : " + g2;
-          document.getElementById("mmol2").innerHTML = "Glycémie en mmol/l : " + mmol2;
+          document.getElementById("g2").innerHTML = "Glycémie en g/L : " + g2;
+          document.getElementById("mmol2").innerHTML = "Glycémie en mmol/L : " + mmol2;
         }
 
         function myFunction3() {
           var x = document.getElementById("myInput3").value;
           var mg3 = 0.18*100* document.getElementById("myInput3").value;
           var g3 = 0.18* document.getElementById("myInput3").value;
-          document.getElementById("mg3").innerHTML = "Glycémie en mg/dl : " + mg3;
-          document.getElementById("g3").innerHTML = "Glycémie en g/l : " + g3;
+          document.getElementById("mg3").innerHTML = "Glycémie en mg/dL : " + mg3;
+          document.getElementById("g3").innerHTML = "Glycémie en g/L : " + g3;
         }
       </script>
     
@@ -104,8 +104,8 @@
   
 
   <!-- Footer -->
-  <footer class="footer bg-dark text-light text-center py-3">
-    <p>Mise à jour le 20/04/2022</p>
+  <footer class="footer bg-dark text-light text-center">
+    <p>Mise à jour le 15/05/2024</p>
     <p>Développé par l'association Secouristes UTT - Sec'UTT</p>
   </footer>
 
