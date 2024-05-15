@@ -161,7 +161,7 @@ var Question = function (questionObj) {
 
 let questionsData = [
   {
-    text: "Qu'est-ce qu'un relevage d'une victime en position particulière selon le référentiel de secourisme ?",
+    text: "Qu'est-ce qu'un relevage d'une victime en position particulière ?",
     answers: [
       { text: "Une technique permettant de relever une victime blessée à l'aide d'un portoir souple.", isCorrect: false, comment: "Ce n'est pas la définition d'un relevage d'une victime en position particulière." },
       { text: "Une méthode de transfert d'une victime entre un brancard et un lit.", isCorrect: false, comment: "Cela ne correspond pas à la définition d'un relevage d'une victime en position particulière." },
@@ -169,15 +169,7 @@ let questionsData = [
       { text: "Une méthode de transfert d'une victime blessée vers une chaise de transport.", isCorrect: false, comment: "Ce n'est pas la définition d'un relevage d'une victime en position particulière." }
     ]
   },
-  {
-    text: "Quel est le rôle du secouriste 1 dans la technique de transfert par la 'cuillère' ?",
-    answers: [
-      { text: "Soutenir la tête de la victime et guider l'ensemble de la manœuvre.", isCorrect: true, comment: "Correct, c'est le rôle du secouriste 1 dans cette technique de transfert." },
-      { text: "Soutenir la taille de la victime et commander l'ensemble de la manœuvre.", isCorrect: false, comment: "Ce n'est pas le rôle du secouriste 1 dans la technique de transfert par la 'cuillère'." },
-      { text: "Placer le brancard à l'axe de la victime.", isCorrect: false, comment: "Ce n'est pas le rôle du secouriste 1 dans la technique de transfert par la 'cuillère'." },
-      { text: "Soutenir les jambes de la victime et aider à son relevage.", isCorrect: false, comment: "Ce n'est pas le rôle du secouriste 1 dans la technique de transfert par la 'cuillère'." }
-    ]
-  },
+
   {
     text: "Quelle est la justification d'utiliser une alèse portoir dans le transfert d'une victime selon le référentiel de secourisme ?",
     answers: [
@@ -194,15 +186,6 @@ let questionsData = [
       { text: "Une méthode de relevage utilisée lorsque la victime est en position latérale de sécurité.", isCorrect: false, comment: "Cela ne correspond pas à la définition de la technique du pont simple." },
       { text: "Une méthode de relevage impliquant trois porteurs et un aide pour déplacer la victime jusqu'au brancard.", isCorrect: true, comment: "Correct, c'est la définition de la technique du pont simple." },
       { text: "Une technique de transfert d'une victime blessée vers une chaise de transport.", isCorrect: false, comment: "Ce n'est pas la définition de la technique du pont simple." }
-    ]
-  },
-  {
-    text: "Quel est le rôle du secouriste 2 dans la technique de relevage d'une victime en position particulière ?",
-    answers: [
-      { text: "Soutenir la tête de la victime et guider l'ensemble de la manœuvre.", isCorrect: false, comment: "Ce n'est pas le rôle du secouriste 2 dans cette technique." },
-      { text: "Soutenir la taille de la victime et commander l'ensemble de la manœuvre.", isCorrect: false, comment: "Ce n'est pas le rôle du secouriste 2 dans cette technique." },
-      { text: "Saisir les chevilles de la victime.", isCorrect: true, comment: "Correct, c'est le rôle du secouriste 2 dans la technique de relevage d'une victime en position particulière." },
-      { text: "Placer le brancard à l'axe de la victime.", isCorrect: false, comment: "Ce n'est pas le rôle du secouriste 2 dans cette technique." }
     ]
   },
   {
@@ -332,7 +315,7 @@ let questionsData = [
     ]
   },
   {
-    text: "Quelle est la principale préoccupation lors du transfert d'une victime sur une chaise de transport selon le référentiel de secourisme ?",
+    text: "Quelle est la principale préoccupation lors du transfert d'une victime sur une chaise de transport ?",
     answers: [
       { text: "Assurer la stabilité de la victime pendant le transfert.", isCorrect: true, comment: "Exact, la principale préoccupation est de maintenir la stabilité de la victime lors de ce transfert." },
       { text: "Réduire le temps de transfert au maximum.", isCorrect: false, comment: "Ce n'est pas le principal objectif lors de ce type de transfert." },
@@ -341,16 +324,7 @@ let questionsData = [
     ]
   },
   {
-    text: "Quel est le rôle du secouriste 1 lors du transfert d'une victime à l'aide d'une alèse portoir ?",
-    answers: [
-      { text: "Guider et commander l'ensemble de la manœuvre.", isCorrect: true, comment: "C'est exact, le secouriste 1 est responsable de guider et de commander la manœuvre." },
-      { text: "Saisir les chevilles de la victime.", isCorrect: false, comment: "Ce n'est pas le rôle du secouriste 1 lors de cette technique." },
-      { text: "Soutenir la tête de la victime.", isCorrect: false, comment: "Ce n'est pas le rôle principal du secouriste 1 lors de cette technique." },
-      { text: "Assurer le confort maximal de la victime.", isCorrect: false, comment: "Ce n'est pas le rôle principal du secouriste 1 lors de cette technique." }
-    ]
-  },
-  {
-    text: "Pourquoi la technique de relevage d'une victime en position particulière est-elle utilisée selon le référentiel de secourisme ?",
+    text: "Pourquoi la technique de relevage d'une victime en position particulière est-elle utilisée ?",
     answers: [
       { text: "Elle permet de relever une victime sans risquer d'aggraver ses blessures.", isCorrect: true, comment: "Exact, cette technique est choisie pour minimiser les risques de blessures pour la victime." },
       { text: "Elle est plus rapide que d'autres techniques de relevage.", isCorrect: false, comment: "La vitesse n'est pas le principal critère de choix pour cette technique." },
