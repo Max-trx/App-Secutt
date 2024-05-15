@@ -288,7 +288,7 @@ let questionsData = [
     },
 
     {
-        "text": "Combien de compressions thoraciques doivent être effectuées lors d'une RCP chez l'adulte ?",
+        "text": "Combien de compressions thoraciques doivent être effectuées lors d'une RCP chez l'adulte par cycle ?",
         "answers": [
             {
                 "text": "20 compressions thoraciques.",
@@ -387,106 +387,34 @@ let questionsData = [
             }
         ]
     },
+    
     {
-        "text": "Quelle est la première étape à effectuer en l'absence de tiers lors d'un arrêt cardiaque chez l'adulte ?",
+        "text": "Donnez une cause de détresse circulatoire ?",
         "answers": [
-            {
-                "text": "Pratiquer immédiatement une RCP.",
-                "isCorrect": false,
-                "comment": "Ce n'est pas la bonne réponse."
-            },
-            {
-                "text": "Retirer tout corps étranger de la bouche de la victime.",
-                "isCorrect": true,
-                "comment": "Réponse correcte."
-            },
-            {
-                "text": "Demander un renfort médical.",
-                "isCorrect": false,
-                "comment": "Ce n'est pas la bonne réponse."
-            },
-            {
-                "text": "Allumer son téléphone portable en mode mains libres.",
-                "isCorrect": false,
-                "comment": "Ce n'est pas la bonne réponse."
-            }
-        ]
-    },
-    {
-        "text": "Quelle est la définition de la détresse circulatoire ?",
-        "answers": [
-            {
-                "text": "Une atteinte de la fonction respiratoire.",
-                "isCorrect": false,
-                "comment": "Ce n'est pas la bonne réponse."
-            },
-            {
-                "text": "Une atteinte de la fonction circulatoire.",
-                "isCorrect": true,
-                "comment": "Réponse correcte."
-            },
-            {
-                "text": "Une atteinte de la fonction neurologique.",
-                "isCorrect": false,
-                "comment": "Ce n'est pas la bonne réponse."
-            },
-            {
-                "text": "Une atteinte de la fonction musculaire.",
-                "isCorrect": false,
-                "comment": "Ce n'est pas la bonne réponse."
-            }
-        ]
-    },
-    {
-        "text": "Quel est l'un des exemples cités comme cause de détresse circulatoire ?",
-        "answers": [
-            {
-                "text": "Une réaction allergique grave.",
-                "isCorrect": true,
-                "comment": "Réponse correcte."
-            },
+            
             {
                 "text": "Un traumatisme crânien.",
                 "isCorrect": false,
-                "comment": "Ce n'est pas la bonne réponse."
+                "comment": "Et non c'était une réaction allergique grave."
             },
             {
                 "text": "Une insuffisance respiratoire.",
                 "isCorrect": false,
-                "comment": "Ce n'est pas la bonne réponse."
+                "comment": "Et non c'était une réaction allergique grave."
             },
             {
                 "text": "Une altération de la fonction musculaire.",
                 "isCorrect": false,
-                "comment": "Ce n'est pas la bonne réponse."
+                "comment": "Et non c'était une réaction allergique grave."
             }
+            {
+                "text": "Une réaction allergique grave.",
+                "isCorrect": true,
+                "comment": "C'est bien ça !"
+            },
         ]
     },
-    {
-        "text": "Quels signes peuvent indiquer une détresse circulatoire chez une victime ?",
-        "answers": [
-            {
-                "text": "Une décoloration de la peau ou pâleur.",
-                "isCorrect": true,
-                "comment": "Réponse correcte."
-            },
-            {
-                "text": "Des marbrures cutanées.",
-                "isCorrect": true,
-                "comment": "Réponse correcte."
-            },
-            {
-                "text": "Une transpiration excessive.",
-                "isCorrect": true,
-                "comment": "Réponse correcte."
-            },
-            {
-                "text": "Tous les choix sont corrects.",
-                "isCorrect": true,
-                "comment": "Réponse correcte."
-            }
-        ]
-    },
+    
     {
         "text": "Quelle est la fréquence cardiaque qui peut indiquer une détresse circulatoire chez une personne au repos ?",
         "answers": [
@@ -507,31 +435,6 @@ let questionsData = [
             },
             {
                 "text": "Inférieure à 120 battements par minute.",
-                "isCorrect": false,
-                "comment": "Ce n'est pas la bonne réponse."
-            }
-        ]
-    },
-    {
-        "text": "Que doit faire le secouriste si une victime présente des signes de détresse circulatoire ?",
-        "answers": [
-            {
-                "text": "Appliquer une position assise.",
-                "isCorrect": false,
-                "comment": "Ce n'est pas la bonne réponse."
-            },
-            {
-                "text": "Poursuivre le bilan sans intervention.",
-                "isCorrect": false,
-                "comment": "Ce n'est pas la bonne réponse."
-            },
-            {
-                "text": "Arrêter immédiatement toute cause évidente de détresse circulatoire.",
-                "isCorrect": true,
-                "comment": "Réponse correcte."
-            },
-            {
-                "text": "Administrer un médicament antiallergique.",
                 "isCorrect": false,
                 "comment": "Ce n'est pas la bonne réponse."
             }
@@ -848,7 +751,7 @@ let questionsData = [
             "comment": "La position latérale de sécurité n'est pas appropriée pour une victime en arrêt cardiaque."
         },
         {
-            "text": "Victime qui respire normalement mais ne répond pas.",
+            "text": "Victime inconsciente qui respire.",
             "isCorrect": true,
             "comment": "Correct, la PLS est utilisée pour une victime qui respire normalement mais est inconsciente."
         },
@@ -961,31 +864,6 @@ let questionsData = [
             "text": "État de somnolence et baisse de la pression artérielle.",
             "isCorrect": false,
             "comment": "Ces signes peuvent indiquer différents problèmes, mais pas nécessairement un besoin de réchauffement."
-        }
-    ]
-},
-{
-    "text": "Quels sont les moyens utilisés pour diminuer la déperdition de chaleur ou apporter de la chaleur à la victime ?",
-    "answers": [
-        {
-            "text": "Envelopper la victime dans un drap et une couverture.",
-            "isCorrect": true,
-            "comment": "Correct, l'enveloppement dans un drap et une couverture est un moyen efficace de fournir de la chaleur à la victime et de réduire la déperdition de chaleur."
-        },
-        {
-            "text": "Utiliser des poches d'eau froide.",
-            "isCorrect": false,
-            "comment": "L'utilisation de poches d'eau froide est plutôt utilisée pour refroidir la victime, pas pour lui fournir de la chaleur."
-        },
-        {
-            "text": "Exposer la victime au vent pour accélérer le réchauffement.",
-            "isCorrect": false,
-            "comment": "Exposer la victime au vent peut aggraver la déperdition de chaleur, pas la réduire."
-        },
-        {
-            "text": "Placer la victime sur une surface froide pour réduire la température corporelle.",
-            "isCorrect": false,
-            "comment": "Placer la victime sur une surface froide n'apportera pas de chaleur, mais augmentera plutôt la déperdition de chaleur."
         }
     ]
 },
@@ -1111,7 +989,7 @@ let questionsData = [
     {
     "text": "Assurer une liberté permanente des voies aériennes.",
     "isCorrect": true,
-    "comment": "Correct ! C'est une action importante pour une victime suspecte d'un traumatisme selon les recos."
+    "comment": "Correct ! C'est une action importante pour une victime suspecte d'un traumatisme selon les recos. La PLS n'est possible qu'après avis médical."
     },
     {
     "text": "La placer en position assise pour faciliter la respiration.",
@@ -1206,15 +1084,16 @@ let questionsData = [
     {
     "text": "Quels sont les risques et les conséquences d'une obstruction complète des voies aériennes ?",
     "answers": [
-    {
-    "text": "L'arrêt de la respiration.",
-    "isCorrect": true,
-    "comment": "Correct ! Une obstruction complète peut entraîner l'arrêt de la respiration."
-    },
+    
     {
     "text": "Des lésions internes.",
     "isCorrect": false,
     "comment": "Pas nécessairement. Les lésions internes ne sont pas une conséquence directe d'une obstruction des voies aériennes."
+    },
+    {
+    "text": "L'arrêt de la respiration.",
+    "isCorrect": true,
+    "comment": "Correct ! Une obstruction complète peut entraîner l'arrêt de la respiration."
     },
     {
     "text": "La réduction de la taille des voies respiratoires.",
@@ -1230,15 +1109,11 @@ let questionsData = [
     }, 
 
 
-
-
-
-
 {
     "text": "Quand l'administration d'oxygène par insufflation est-elle réalisée ?",
     "answers": [
     {
-    "text": "Lorsque la victime respire normalement sans besoin de ventilation artificielle.",
+    "text": "Lorsque la victime respire normalement.",
     "isCorrect": false,
     "comment": "Cette réponse ne correspond pas au moment où l'administration d'oxygène par insufflation est réalisée."
     },
@@ -1260,31 +1135,7 @@ let questionsData = [
     ]
     },
 
-    {
-    "text": "Pourquoi l'administration d'oxygène par insufflation est-elle justifiée ?",
-    "answers": [
-    {
-    "text": "Pour refroidir l'air insufflé et éviter les brûlures.",
-    "isCorrect": false,
-    "comment": "Non, la justification ne concerne pas le refroidissement de l'air."
-    },
-    {
-    "text": "Pour réduire l'efficacité des manœuvres de réanimation cardio-pulmonaire.",
-    "isCorrect": false,
-    "comment": "Ce n'est pas la justification de l'administration d'oxygène par insufflation."
-    },
-    {
-    "text": "Pour augmenter l'efficacité des manœuvres de réanimation cardio-pulmonaire en apportant plus d'oxygène à l'organisme.",
-    "isCorrect": true,
-    "comment": "Correct ! L'administration d'oxygène par insufflation augmente l'efficacité des manœuvres de réanimation en enrichissant l'air insufflé en oxygène."
-    },
-    {
-    "text": "Pour accélérer le processus de respiration spontanée chez la victime.",
-    "isCorrect": false,
-    "comment": "Cette réponse ne correspond pas à la justification de l'administration d'oxygène par insufflation."
-    }
-    ]
-    },
+
 
     {
     "text": "Quel matériel est nécessaire pour réaliser l'administration d'oxygène par insufflation ?",
@@ -1308,32 +1159,6 @@ let questionsData = [
     "text": "Des électrodes pour surveiller l'activité cardiaque de la victime.",
     "isCorrect": false,
     "comment": "Ces électrodes ne sont pas utilisées pour l'administration d'oxygène par insufflation."
-    }
-    ]
-    },
-
-    {
-    "text": "Quelles sont les conséquences de l'absence d'arrivée d'oxygène pendant l'administration d'oxygène par insufflation ?",
-    "answers": [
-    {
-    "text": "Interruption immédiate de la ventilation artificielle.",
-    "isCorrect": false,
-    "comment": "Non, l'absence d'arrivée d'oxygène ne doit pas interrompre la ventilation artificielle."
-    },
-    {
-    "text": "Risque accru de lésions pulmonaires chez la victime.",
-    "isCorrect": false,
-    "comment": "Ceci ne correspond pas aux conséquences énoncées."
-    },
-    {
-    "text": "L'administration d'oxygène ne doit pas retarder la mise en œuvre de la réanimation cardio-pulmonaire.",
-    "isCorrect": true,
-    "comment": "Correct ! L'absence d'oxygène ne doit pas retarder la réanimation cardio-pulmonaire, et l'insufflateur manuel permet de réaliser une ventilation à l'air."
-    },
-    {
-    "text": "Augmentation du risque d'incendie.",
-    "isCorrect": false,
-    "comment": "Ce n'est pas une conséquence directe de l'absence d'arrivée d'oxygène."
     }
     ]
     },
@@ -1364,57 +1189,7 @@ let questionsData = [
     ]
     },
 
-    {
-    "text": "Quels sont les risques à éviter lors de l'administration d'oxygène par insufflation ?",
-    "answers": [
-    {
-    "text": "L'utilisation prolongée de l'insufflateur manuel.",
-    "isCorrect": false,
-    "comment": "Non, l'utilisation prolongée n'est pas mentionnée comme un risque à éviter."
-    },
-    {
-    "text": "La dépression prolongée.",
-    "isCorrect": false,
-    "comment": "Ceci ne correspond pas aux risques mentionnés."
-    },
-    {
-    "text": "L'introduction d'une sonde d'aspiration au fond de la gorge chez une personne consciente.",
-    "isCorrect": true,
-    "comment": "Correct ! Cette action peut provoquer un réflexe de vomissement."
-    },
-    {
-    "text": "L'aspiration prolongée des narines chez le nouveau-né.",
-    "isCorrect": false,
-    "comment": "Ceci ne correspond pas directement aux risques mentionnés."
-    }
-    ]
-    },
 
-{
-"text": "Quelles sont les indications des compressions thoraciques ?",
-"answers": [
-{
-"text": "Pour rétablir la circulation artificielle en cas d'arrêt cardiaque.",
-"isCorrect": true,
-"comment": "Correct ! Les compressions thoraciques sont utilisées pour rétablir la circulation artificielle en cas d'arrêt cardiaque."
-},
-{
-"text": "Pour expulser un corps étranger par effet piston.",
-"isCorrect": false,
-"comment": "Cette réponse décrit plutôt l'indication des compressions abdominales."
-},
-{
-"text": "Pour maintenir une fréquence cardiaque normale.",
-"isCorrect": false,
-"comment": "Ceci n'est pas une indication des compressions thoraciques, mais plutôt leur effet attendu."
-},
-{
-"text": "Pour empêcher la reprise de la respiration normale.",
-"isCorrect": false,
-"comment": "Non, les compressions thoraciques visent à faciliter la reprise de la respiration normale."
-}
-]
-},
 {
 "text": "Quelle est la fréquence recommandée pour les compressions thoraciques ?",
 "answers": [
@@ -1443,16 +1218,17 @@ let questionsData = [
 {
 "text": "Quelle est la technique de désobstruction des voies aériennes utilisée en cas d'obstruction complète ?",
 "answers": [
-{
-"text": "Les claques dans le dos.",
-"isCorrect": true,
-"comment": "Correct ! Les claques dans le dos sont utilisées en cas d'obstruction complète des voies aériennes."
-},
+
 {
 "text": "Les compressions abdominales.",
 "isCorrect": false,
 "comment": "Cette technique est utilisée après une série de claques dans le dos inefficaces."
 },
+{
+    "text": "Les claques dans le dos.",
+    "isCorrect": true,
+    "comment": "Correct ! Les claques dans le dos sont utilisées en cas d'obstruction complète des voies aériennes."
+    },
 {
 "text": "Les compressions thoraciques.",
 "isCorrect": false,
@@ -1471,7 +1247,7 @@ let questionsData = [
 {
 "text": "Sur le dos.",
 "isCorrect": true,
-"comment": "Correct ! La victime est positionnée sur le dos pour les compressions thoraciques chez l'adulte."
+"comment": "C'est bien ça, la victime est positionnée sur le dos pour les compressions thoraciques chez l'adulte."
 },
 {
 "text": "À genoux, la face vers le sol.",
@@ -1496,7 +1272,7 @@ let questionsData = [
 {
 "text": "Environ 5 cm.",
 "isCorrect": true,
-"comment": "Correct ! Une profondeur d'environ 5 cm est recommandée pour les compressions thoraciques chez l'adulte."
+"comment": "Correct ! Une profondeur d'environ 5 cm est recommandée pour les compressions thoraciques chez l'adulte. C'est environ 1/3 de la personne."
 },
 {
 "text": "Environ 10 cm.",
@@ -1518,11 +1294,7 @@ let questionsData = [
 {
 "text": "Quelle est la position idéale des mains lors des compressions thoraciques ?",
 "answers": [
-{
-"text": "Au centre de la poitrine, sur le sternum.",
-"isCorrect": true,
-"comment": "Correct ! Les mains doivent être placées au centre de la poitrine, sur le sternum, pour les compressions thoraciques."
-},
+
 {
 "text": "Au-dessus de la tête de la victime.",
 "isCorrect": false,
@@ -1538,10 +1310,15 @@ let questionsData = [
 "isCorrect": false,
 "comment": "Cette position n'est pas recommandée pour les compressions thoraciques."
 }
+{
+"text": "Au centre de la poitrine, sur le sternum.",
+"isCorrect": true,
+"comment": "Correct ! Les mains doivent être placées au centre de la poitrine, sur le sternum, pour les compressions thoraciques."
+},
 ]
 },
 {
-"text": "À quelle fréquence les compressions thoraciques doivent-elles être réalisées en présence de plusieurs sauveteurs ?",
+"text": "À quelle fréquence devons nous relayer le secouriste qui masse lors d'un ACR ?",
 "answers": [
 {
 "text": "Toutes les 2 minutes.",
@@ -1570,19 +1347,20 @@ let questionsData = [
 "text": "Pourquoi est-il crucial de maintenir une fréquence de compression égale au temps de relâchement ?",
 "answers": [
 
+
+{
+"text": "Pour maintenir une pression constante sur le thorax.",
+"isCorrect": false,
+"comment": "La pression doit varier pour permettre au cœur de se remplir de sang."
+},
 {
 
 
 "text": "Pour permettre au cœur de se remplir de sang.",
 "isCorrect": true,
 "comment": "Correct ! Maintenir une fréquence de compression égale au temps de relâchement permet au cœur de se remplir de sang."
-
-
-},
-{
-"text": "Pour maintenir une pression constante sur le thorax.",
-"isCorrect": false,
-"comment": "La pression doit varier pour permettre au cœur de se remplir de sang."
+    
+    
 },
 {
 "text": "Pour éviter les lésions des organes internes.",
@@ -1596,81 +1374,8 @@ let questionsData = [
 }
 ]
 },
-{
-"text": "Quelle est la méthode de désobstruction des voies aériennes recommandée en cas d'obstruction complète chez un adulte ou un grand enfant ?",
-"answers": [
-{
-"text": "Les claques dans le dos.",
-"isCorrect": true,
-"comment": "Correct ! Les claques dans le dos sont recommandées en cas d'obstruction complète chez un adulte ou un grand enfant."
-},
-{
-"text": "Les compressions abdominales.",
-"isCorrect": false,
-"comment": "Les compressions abdominales sont recommandées après une série de claques dans le dos inefficaces."
-},
-{
-"text": "Les compressions thoraciques.",
-"isCorrect": false,
-"comment": "Les compressions thoraciques sont recommandées en cas d'arrêt cardiaque, pas d'obstruction des voies aériennes."
-},
-{
-"text": "L'insufflation bouche-à-bouche.",
-"isCorrect": false,
-"comment": "Cette technique est utilisée pour la ventilation artificielle, pas pour désobstruer les voies aériennes."
-}
-]
-},
-{
-"text": "Quelle est la méthode de désobstruction des voies aériennes recommandée en cas d'obstruction complète chez un nourrisson ou un petit enfant ?",
-"answers": [
-{
-"text": "Les claques dans le dos.",
-"isCorrect": false,
-"comment": "Cette méthode est utilisée chez l'adulte ou le grand enfant, pas chez le nourrisson ou le petit enfant."
-},
-{
-"text": "Les compressions abdominales.",
-"isCorrect": false,
-"comment": "Ces compressions sont recommandées chez l'adulte ou l'enfant après une série de claques inefficaces."
-},
-{
-"text": "Les compressions thoraciques.",
-"isCorrect": false,
-"comment": "Ces compressions sont recommandées en cas d'obstruction complète chez l'adulte, pas chez le nourrisson ou le petit enfant."
-},
-{
-"text": "Les compressions abdominales.",
-"isCorrect": true,
-"comment": "Correct ! Les compressions abdominales sont recommandées en cas d'obstruction complète chez le nourrisson ou le petit enfant."
-}
-]
-},
-{
-"text": "Quelle est la méthode de désobstruction des voies aériennes recommandée en cas d'obstruction complète chez un adulte ou un grand enfant après une série de claques inefficaces ?",
-"answers": [
-{
-"text": "Les compressions abdominales.",
-"isCorrect": true,
-"comment": "Correct ! Les compressions abdominales sont recommandées en cas d'obstruction complète chez un adulte ou un grand enfant après une série de claques inefficaces."
-},
-{
-"text": "Les claques dans le dos.",
-"isCorrect": false,
-"comment": "Ces claques sont recommandées en premier lieu, mais si elles sont inefficaces, les compressions abdominales doivent être utilisées."
-},
-{
-"text": "Les compressions thoraciques.",
-"isCorrect": false,
-"comment": "Ces compressions sont utilisées en cas d'arrêt cardiaque, pas d'obstruction des voies aériennes."
-},
-{
-"text": "L'insufflation bouche-à-bouche.",
-"isCorrect": false,
-"comment": "Cette technique est utilisée pour la ventilation artificielle, pas pour désobstruer les voies aériennes."
-}
-]
-},
+
+
 {
 "text": "Quel risque peut survenir lors de la réalisation des compressions abdominales ?",
 "answers": [
@@ -1697,7 +1402,7 @@ let questionsData = [
 ]
 },
 {
-"text": "Comment est évaluée l'efficacité des compressions abdominales chez l'adulte ?",
+"text": "Comment est évaluée l'efficacité des compressions abdominales chez l'adulte lors d'une OBVA ?",
 "answers": [
 {
 "text": "Par le rejet du corps étranger.",
@@ -1721,58 +1426,7 @@ let questionsData = [
 }
 ]
 },
-{
-"text": "Quelle est la position idéale de la victime pour les compressions abdominales chez l'adulte ?",
-"answers": [
-{
-"text": "Debout ou assise.",
-"isCorrect": false,
-"comment": "Ces positions ne sont pas recommandées pour les compressions abdominales."
-},
-{
-"text": "Allongée sur le dos.",
-"isCorrect": true,
-"comment": "Correct ! La victime doit être allongée sur le dos pour les compressions abdominales chez l'adulte."
-},
-{
-"text": "Sur le côté, légèrement inclinée.",
-"isCorrect": false,
-"comment": "Cette position n'est pas recommandée pour les compressions abdominales."
-},
-{
-"text": "À genoux, la face vers le sol.",
-"isCorrect": false
 
-,
-"comment": "Cette position n'est pas recommandée pour les compressions abdominales."
-}
-]
-},
-{
-"text": "Quelle est la technique recommandée pour la désobstruction des voies aériennes chez le nourrisson ou le petit enfant ?",
-"answers": [
-{
-"text": "Les compressions abdominales.",
-"isCorrect": true,
-"comment": "Correct ! Les compressions abdominales sont recommandées pour la désobstruction des voies aériennes chez le nourrisson ou le petit enfant."
-},
-{
-"text": "Les claques dans le dos.",
-"isCorrect": false,
-"comment": "Ces claques sont utilisées chez l'adulte ou le grand enfant, pas chez le nourrisson ou le petit enfant."
-},
-{
-"text": "Les compressions thoraciques.",
-"isCorrect": false,
-"comment": "Ces compressions sont recommandées en cas d'obstruction chez l'adulte, pas chez le nourrisson ou le petit enfant."
-},
-{
-"text": "L'insufflation bouche-à-bouche.",
-"isCorrect": false,
-"comment": "Cette technique est utilisée pour la ventilation artificielle, pas pour désobstruer les voies aériennes."
-}
-]
-},
 {
 "text": "Quel risque peut survenir lors de la réalisation des compressions thoraciques sur une personne obèse ou une femme enceinte ?",
 "answers": [
@@ -1823,56 +1477,9 @@ let questionsData = [
 }
 ]
 },
-{
-"text": "Pourquoi est-il crucial de maintenir une fréquence de compression égale au temps de relâchement lors des compressions thoraciques ?",
-"answers": [
-{
-"text": "Pour permettre au cœur de se remplir de sang.",
-"isCorrect": true,
-"comment": "Correct ! Maintenir une fréquence de compression égale au temps de relâchement permet au cœur de se remplir de sang."
-},
-{
-"text": "Pour assurer une ventilation adéquate.",
-"isCorrect": false,
-"comment": "La ventilation est liée à la respiration, pas à la circulation sanguine."
-},
-{
-"text": "Pour éviter les lésions des organes internes.",
-"isCorrect": false,
-"comment": "C'est important pour éviter les lésions, mais ce n'est pas la raison principale."
-},
-{
-"text": "Pour maintenir une pression constante sur le thorax.",
-"isCorrect": false,
-"comment": "La pression doit varier pour permettre au cœur de se remplir de sang."
-}
-]
-},
-{
-"text": "Quelle est la méthode recommandée pour la désobstruction des voies aériennes chez une personne obèse ou une femme enceinte en cas d'obstruction complète ?",
-"answers": [
-{
-"text": "Les compressions abdominales.",
-"isCorrect": true,
-"comment": "Correct ! Les compressions abdominales sont recommandées pour la désobstruction des voies aériennes chez une personne obèse ou une femme enceinte en cas d'obstruction complète."
-},
-{
-"text": "Les claques dans le dos.",
-"isCorrect": false,
-"comment": "Les claques dans le dos sont recommandées en cas d'obstruction chez l'adulte ou le grand enfant, pas chez la personne obèse ou la femme enceinte."
-},
-{
-"text": "Les compressions thoraciques.",
-"isCorrect": false,
-"comment": "Les compressions thoraciques sont utilisées pour rétablir la circulation, pas pour désobstruer les voies aériennes."
-},
-{
-"text": "L'insufflation bouche-à-bouche.",
-"isCorrect": false,
-"comment": "Cette technique est utilisée pour la ventilation artificielle, pas pour désobstruer les voies aériennes."
-}
-]
-},
+
+
+
 
 {
 "text": "Quel est le matériel nécessaire pour réaliser un garrot improvisé selon les recos ?",
@@ -1949,31 +1556,7 @@ let questionsData = [
 }
 ]
 },
-{
-"text": "Quel est le risque principal associé à l'utilisation d'un garrot selon les indications du paragraphe ?",
-"answers": [
-{
-"text": "Supprimer totalement la circulation du sang dans le segment de membre concerné.",
-"isCorrect": true,
-"comment": "Exact ! Le principal risque associé à l'utilisation d'un garrot est de supprimer totalement la circulation du sang dans le segment de membre concerné, comme indiqué dans les recos."
-},
-{
-"text": "Causer une infection.",
-"isCorrect": false,
-"comment": "Le principal risque associé à l'utilisation d'un garrot n'est pas de causer une infection, mais de supprimer totalement la circulation du sang."
-},
-{
-"text": "Provoquer une douleur intense.",
-"isCorrect": false,
-"comment": "Bien que la douleur puisse être un effet secondaire, ce n'est pas le principal risque associé à l'utilisation d'un garrot selon les indications du paragraphe."
-},
-{
-"text": "Endommager le membre blessé.",
-"isCorrect": false,
-"comment": "Le principal risque associé à l'utilisation d'un garrot n'est pas d'endommager le membre blessé, mais de supprimer totalement la circulation du sang."
-}
-]
-},
+
 {
 "text": "Quel est le moment approprié pour desserrer un garrot selon les indications du paragraphe ?",
 "answers": [
@@ -2000,7 +1583,7 @@ let questionsData = [
 ]
 },
 {
-"text": "Quel est le critère pour évaluer l'efficacité d'un garrot selon les indications du paragraphe ?",
+"text": "Quel est le critère pour évaluer l'efficacité d'un garrot selon les recos ?",
 "answers": [
 {
 "text": "L'arrêt du saignement.",
@@ -2050,13 +1633,9 @@ let questionsData = [
 ]
 },
 {
-"text": "Quelle est la différence principale entre la libération des voies aériennes chez une victime non traumatisée et une victime traumatisée selon les indications du paragraphe ?",
+"text": "Quelle est la différence principale entre la libération des voies aériennes chez une victime non traumatisée et une victime traumatisée selon les recos ?",
 "answers": [
-{
-"text": "La libération des voies aériennes chez une victime non traumatisée implique une bascule prudente de la tête en arrière et l'élévation du menton, tandis que chez une victime traumatisée, seule l'élévation du menton est réalisée.",
-"isCorrect": true,
-"comment": "Correct ! La principale différence est que chez une victime non traumatisée, la libération des voies aériennes implique une bascule prudente de la tête en arrière et l'élévation du menton, tandis que chez une victime traumatisée, seule l'élévation du menton est réalisée, comme spécifié dans les recos."
-},
+
 {
 "text": "Il n'y a pas de différence entre les deux procédures.",
 "isCorrect": false,
@@ -2068,6 +1647,11 @@ let questionsData = [
 "comment": "les recos indique que chez une victime non traumatisée, la libération des voies aériennes implique une bascule prudente de la tête en arrière et l'élévation du menton."
 },
 {
+"text": "La libération des voies aériennes chez une victime non traumatisée implique une bascule prudente de la tête en arrière et l'élévation du menton, tandis que chez une victime traumatisée, seule l'élévation du menton est réalisée.",
+"isCorrect": true,
+"comment": "Correct ! La principale différence est que chez une victime non traumatisée, la libération des voies aériennes implique une bascule prudente de la tête en arrière et l'élévation du menton, tandis que chez une victime traumatisée, seule l'élévation du menton est réalisée, comme spécifié dans les recos."
+},
+{
 "text": "La libération des voies aériennes chez une victime non traumatisée se fait par l'élévation du menton, tandis que chez une victime traumatisée, la tête est basculée en arrière et le menton est relevé.",
 "isCorrect": false,
 "comment": "les recos indique le contraire : chez une victime non traumatisée, la libération des voies aériennes implique une bascule prudente de la tête en arrière et l'élévation du menton."
@@ -2077,11 +1661,7 @@ let questionsData = [
 {
 "text": "Quel est le risque associé à la libération des voies aériennes chez une victime traumatisée selon les indications du paragraphe ?",
 "answers": [
-{
-"text": "Une aggravation d'un traumatisme du rachis cervical.",
-"isCorrect": true,
-"comment": "Exact ! Le risque associé à la libération des voies aériennes chez une victime traumatisée est une aggravation d'un traumatisme du rachis cervical, comme spécifié dans les recos."
-},
+
 {
 "text": "Une obstruction des voies aériennes.",
 "isCorrect": false,
@@ -2096,7 +1676,12 @@ let questionsData = [
 "text": "Un arrêt respiratoire.",
 "isCorrect": false,
 "comment": "Un arrêt respiratoire n'est pas le risque principal associé à la libération des voies aériennes chez une victime traumatisée."
-}
+},
+{
+"text": "Une aggravation d'un traumatisme du rachis cervical.",
+"isCorrect": true,
+"comment": "Exact ! Le risque associé à la libération des voies aériennes chez une victime traumatisée est une aggravation d'un traumatisme du rachis cervical, comme spécifié dans les recos."
+},
 ]
 },
 
