@@ -240,16 +240,17 @@ let questionsData = [
 {
   "text": "Qu'est-ce que le CO ?",
   "answers": [
+    {
+          "text": "Charbon oxydé",
+          "isCorrect": false,
+          "comment": "Le CO ne représente pas Charbon oxydé, mais plutôt Monoxyde de carbone."
+      },
       {
           "text": "Monoxyde de carbone",
           "isCorrect": true,
           "comment": "CO correspond à Monoxyde de carbone, un gaz toxique sans couleur ni odeur, souvent produit par la combustion incomplète de carburants."
       },
-      {
-          "text": "Charbon oxydé",
-          "isCorrect": false,
-          "comment": "Le CO ne représente pas Charbon oxydé, mais plutôt Monoxyde de carbone."
-      },
+      
       {
           "text": "Carbone organique",
           "isCorrect": false,
@@ -266,6 +267,10 @@ let questionsData = [
   "text": "Qu'est-ce que le DAE ?",
   "answers": [
       {
+          "text": "Dispositif d'accès électronique",
+          "isCorrect": false,
+          "comment": "Bien qu'il puisse exister, DAE ne signifie pas Dispositif d'accès électronique mais plutôt Défibrillateur automatisé externe."
+      },{
           "text": "Défibrillateur automatisé externe",
           "isCorrect": true,
           "comment": "Le DAE correspond effectivement à Défibrillateur automatisé externe, un dispositif utilisé pour administrer un choc électrique à une personne en cas d'arrêt cardiaque."
@@ -275,11 +280,7 @@ let questionsData = [
           "isCorrect": false,
           "comment": "DAE ne désigne pas Dispositif d'assistance électrique mais plutôt Défibrillateur automatisé externe."
       },
-      {
-          "text": "Dispositif d'accès électronique",
-          "isCorrect": false,
-          "comment": "Bien qu'il puisse exister, DAE ne signifie pas Dispositif d'accès électronique mais plutôt Défibrillateur automatisé externe."
-      },
+      
       {
           "text": "Détecteur d'activité électrique",
           "isCorrect": false,
@@ -291,11 +292,6 @@ let questionsData = [
   "text": "Qu'est-ce que le DASRI ?",
   "answers": [
       {
-          "text": "Déchets d'activités de soins à risques infectieux",
-          "isCorrect": true,
-          "comment": "Le DASRI correspond à Déchets d'activités de soins à risques infectieux, des déchets produits dans le cadre des soins médicaux et qui peuvent présenter un risque infectieux."
-      },
-      {
           "text": "Déchet alimentaire stérile",
           "isCorrect": false,
           "comment": "DASRI ne désigne pas Déchet alimentaire stérile mais plutôt Déchets d'activités de soins à risques infectieux."
@@ -304,7 +300,12 @@ let questionsData = [
           "text": "Dispositif d'aide à la réanimation",
           "isCorrect": false,
           "comment": "Bien que pertinent dans certains contextes, DASRI ne signifie pas Dispositif d'aide à la réanimation mais plutôt Déchets d'activités de soins à risques infectieux."
+      },{
+          "text": "Déchets d'activités de soins à risques infectieux",
+          "isCorrect": true,
+          "comment": "Le DASRI correspond à Déchets d'activités de soins à risques infectieux, des déchets produits dans le cadre des soins médicaux et qui peuvent présenter un risque infectieux."
       },
+      
       {
         "text": "Déchets d'activités de soins à risques infectieux",
         "isCorrect": true,
@@ -321,11 +322,6 @@ let questionsData = [
   "text": "Qu'est-ce que le DEA ?",
   "answers": [
       {
-          "text": "Défibrillateur externe automatisé",
-          "isCorrect": true,
-          "comment": "Le DEA correspond à Défibrillateur externe automatisé, un dispositif utilisé pour administrer un choc électrique à une personne en cas d'arrêt cardiaque."
-      },
-      {
           "text": "Dispositif électrique autonome",
           "isCorrect": false,
           "comment": "DEA ne désigne pas Dispositif électrique autonome mais plutôt Défibrillateur externe automatisé."
@@ -339,17 +335,17 @@ let questionsData = [
           "text": "Décision d'évacuation aérienne",
           "isCorrect": false,
           "comment": "Le DEA ne représente pas Décision d'évacuation aérienne, mais plutôt Défibrillateur externe automatisé."
-      }
+      },{
+          "text": "Défibrillateur externe automatisé",
+          "isCorrect": true,
+          "comment": "Le DEA correspond à Défibrillateur externe automatisé, un dispositif utilisé pour administrer un choc électrique à une personne en cas d'arrêt cardiaque."
+      },
+      
   ]
 },
 {
   "text": "Qu'est-ce que le DSA ?",
   "answers": [
-      {
-          "text": "Défibrillateur semi-automatique",
-          "isCorrect": true,
-          "comment": "Le DSA correspond à Défibrillateur semi-automatique, un dispositif qui guide l'utilisateur à travers le processus de défibrillation mais nécessite une action manuelle pour administrer le choc."
-      },
       {
           "text": "Dossier de santé automatisé",
           "isCorrect": false,
@@ -359,7 +355,12 @@ let questionsData = [
           "text": "Détecteur de signaux aériens",
           "isCorrect": false,
           "comment": "Bien qu'il puisse exister, DSA ne signifie pas Détecteur de signaux aériens mais plutôt Défibrillateur semi-automatique."
+      },{
+          "text": "Défibrillateur semi-automatique",
+          "isCorrect": true,
+          "comment": "Le DSA correspond à Défibrillateur semi-automatique, un dispositif qui guide l'utilisateur à travers le processus de défibrillation mais nécessite une action manuelle pour administrer le choc."
       },
+      
       {
           "text": "Dispositif de surveillance automatique",
           "isCorrect": false,
@@ -371,15 +372,15 @@ let questionsData = [
   "text": "Qu'est-ce que la FC ?",
   "answers": [
       {
+          "text": "Force centrifuge",
+          "isCorrect": false,
+          "comment": "FC ne désigne pas Force centrifuge mais plutôt Fréquence cardiaque."
+      },{
           "text": "Fréquence cardiaque",
           "isCorrect": true,
           "comment": "La FC correspond bien à Fréquence cardiaque, la mesure du nombre de battements du cœur par unité de temps, généralement exprimée en battements par minute (bpm)."
       },
-      {
-          "text": "Force centrifuge",
-          "isCorrect": false,
-          "comment": "FC ne désigne pas Force centrifuge mais plutôt Fréquence cardiaque."
-      },
+      
       {
           "text": "Fièvre cérébrale",
           "isCorrect": false,
@@ -417,16 +418,10 @@ let questionsData = [
       }
   ]
 },
-{
-  "questions": [
       {
           "text": "Qu'est-ce que le FR ?",
           "answers": [
-              {
-                  "text": "Fréquence respiratoire",
-                  "isCorrect": true,
-                  "comment": "Réponse correcte."
-              },
+            
               {
                   "text": "Fréquence cardiaque",
                   "isCorrect": false,
@@ -441,6 +436,10 @@ let questionsData = [
                   "text": "Fréquence régulatrice",
                   "isCorrect": false,
                   "comment": "Ce n'est pas la bonne réponse."
+              },{
+                  "text": "Fréquence respiratoire",
+                  "isCorrect": true,
+                  "comment": "Réponse correcte."
               }
           ]
       },
@@ -448,22 +447,21 @@ let questionsData = [
           "text": "Qu'est-ce que le MID ?",
           "answers": [
               {
-                  "text": "Matelas immobilisateur à dépression",
-                  "isCorrect": true,
-                  "comment": "Réponse correcte."
-              },
-              {
-                  "text": "Maladie infectieuse déclarée",
-                  "isCorrect": false,
-                  "comment": "Ce n'est pas la bonne réponse."
-              },
-              {
                   "text": "Mesure d'indice de dépression",
                   "isCorrect": false,
                   "comment": "Ce n'est pas la bonne réponse."
               },
               {
                   "text": "Méthode d'immobilisation dynamique",
+                  "isCorrect": false,
+                  "comment": "Ce n'est pas la bonne réponse."
+              },{
+                  "text": "Matelas immobilisateur à dépression",
+                  "isCorrect": true,
+                  "comment": "Réponse correcte."
+              },
+              {
+                  "text": "Maladie infectieuse déclarée",
                   "isCorrect": false,
                   "comment": "Ce n'est pas la bonne réponse."
               }
@@ -573,15 +571,16 @@ let questionsData = [
           "text": "Qu'est-ce que le VHB ?",
           "answers": [
               {
-                  "text": "Virus de l'hépatite B",
-                  "isCorrect": true,
-                  "comment": "Réponse correcte."
-              },
-              {
                   "text": "Vaccin pour hépatite B",
                   "isCorrect": false,
                   "comment": "Ce n'est pas la bonne réponse."
               },
+              {
+                  "text": "Virus de l'hépatite B",
+                  "isCorrect": true,
+                  "comment": "Réponse correcte."
+              },
+              
               {
                   "text": "Vaccin du virus du VHB",
                   "isCorrect": false,
@@ -953,8 +952,6 @@ let questionsData = [
               }
           ]
       }
-  ]
-}
 ];
 
 

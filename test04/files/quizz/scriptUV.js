@@ -406,7 +406,7 @@ let questionsData = [
                 "text": "Une altération de la fonction musculaire.",
                 "isCorrect": false,
                 "comment": "Et non c'était une réaction allergique grave."
-            }
+            },
             {
                 "text": "Une réaction allergique grave.",
                 "isCorrect": true,
@@ -1309,7 +1309,7 @@ let questionsData = [
 "text": "Sur le cou de la victime.",
 "isCorrect": false,
 "comment": "Cette position n'est pas recommandée pour les compressions thoraciques."
-}
+},
 {
 "text": "Au centre de la poitrine, sur le sternum.",
 "isCorrect": true,
