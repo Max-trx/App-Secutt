@@ -161,7 +161,7 @@ var Question = function (questionObj) {
 
 let questionsData = [
 {
-  "text": "Quel est l'objectif principal de l'abord relationnel?",
+  "text": "Quel est l'objectif principal de l'abord relationnel ?",
   "answers": [
       {
           text: "Fournir un traitement médical immédiat",
@@ -186,7 +186,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Comment devrait-on aborder la victime lors d'une intervention?",
+  "text": "Comment devrait-on aborder la victime lors d'une intervention ?",
   "answers": [
       {
           text: "En évitant tout contact direct",
@@ -211,7 +211,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Pourquoi est-il important de prendre le temps de se présenter à la victime?",
+  "text": "Pourquoi est-il important de prendre le temps de se présenter à la victime ?",
   "answers": [
       {
           text: "Pour laisser la victime dans l'incertitude",
@@ -236,83 +236,10 @@ let questionsData = [
   ]
 },
 
+
+
 {
-  "text": "Quel est l'objectif principal de l'abord relationnel?",
-  "answers": [
-      {
-          text: "Fournir un traitement médical immédiat",
-          isCorrect: false,
-          comment: "L'objectif principal est d'établir un contact et un dialogue."
-      },
-      {
-          text: "Établir un contact et un dialogue",
-          isCorrect: true,
-          comment: "L'abord relationnel vise à établir un contact et un dialogue avec la victime."
-      },
-      {
-          text: "Identifier les responsabilités légales",
-          isCorrect: false,
-          comment: "Bien que cela soit important, ce n'est pas l'objectif principal de l'abord relationnel."
-      },
-      {
-          text: "Ignorer les émotions de la victime",
-          isCorrect: false,
-          comment: "L'abord relationnel implique de reconnaître et de prendre en compte les émotions de la victime."
-      }
-  ]
-},
-{
-  "text": "Comment devrait-on aborder la victime lors d'une intervention?",
-  "answers": [
-      {
-          text: "En évitant tout contact direct",
-          isCorrect: false,
-          comment: "Un contact direct est souvent nécessaire pour établir une relation de confiance."
-      },
-      {
-          text: "En changeant fréquemment d'interlocuteur",
-          isCorrect: false,
-          comment: "Cela peut induire de la confusion chez la victime. Un interlocuteur principal est préférable."
-      },
-      {
-          text: "En privilégiant un interlocuteur principal et en s'identifiant",
-          isCorrect: true,
-          comment: "Cela permet d'établir une communication claire et de construire une relation de confiance."
-      },
-      {
-          text: "En ignorant les signes d'émotion de la victime",
-          isCorrect: false,
-          comment: "Il est important de reconnaître et de prendre en compte les émotions de la victime."
-      }
-  ]
-},
-{
-  "text": "Pourquoi est-il important de prendre le temps de se présenter à la victime?",
-  "answers": [
-      {
-          text: "Pour laisser la victime dans l'incertitude",
-          isCorrect: false,
-          comment: "Cela peut augmenter l'anxiété de la victime. La clarté est préférable."
-      },
-      {
-          text: "Pour établir un rapport de confiance",
-          isCorrect: true,
-          comment: "Se présenter permet d'établir un rapport de confiance et de réduire l'anxiété de la victime."
-      },
-      {
-          text: "Pour accélérer l'intervention médicale",
-          isCorrect: false,
-          comment: "Bien que l'intervention rapide soit importante, la confiance est également essentielle."
-      },
-      {
-          text: "Pour minimiser l'importance de la situation",
-          isCorrect: false,
-          comment: "Minimiser la situation peut invalider les émotions de la victime."
-      }
-  ]
-},
-{
-  "text": "Quelle question est recommandée pour instaurer le dialogue avec la victime?",
+  "text": "Quelle question est recommandée pour instaurer le dialogue avec la victime ?",
   "answers": [
       {
           text: "Avez-vous besoin d'une assistance médicale immédiate?",
@@ -337,7 +264,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Quelle est l'étape suivante après avoir posé le cadre de l'intervention?",
+  "text": "Quelle est l'étape suivante après avoir posé le cadre de l'intervention ?",
   "answers": [
       {
           text: "Transporter immédiatement la victime à l'hôpital",
@@ -362,7 +289,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Pourquoi est-il important de reformuler ce que la victime a exprimé?",
+  "text": "Pourquoi est-il important de reformuler ce que la victime a exprimé ?",
   "answers": [
       {
           text: "Pour laisser la victime dans la confusion",
@@ -387,7 +314,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Comment peut-on favoriser l'alliance avec la victime?",
+  "text": "Comment peut-on favoriser la relation avec la victime ?",
   "answers": [
       {
           text: "En lui demandant de quitter les lieux",
@@ -412,7 +339,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Quelle est l'étape finale avant de passer le relais à une autre équipe?",
+  "text": "Quelle est l'étape finale avant de passer le relais à une autre équipe ?",
   "answers": [
       {
           text: "Ignorer la victime et partir",
@@ -437,7 +364,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Comment devrait-on saluer la victime à la fin de l'intervention?",
+  "text": "Comment devrait-on saluer la victime à la fin de l'intervention ?",
   "answers": [
       {
           text: "En lui souhaitant une bonne continuation et en prenant congé",
@@ -452,7 +379,7 @@ let questionsData = [
       {
           text: "En lui rappelant les détails de l'intervention",
           isCorrect: false,
-          comment: "Cela peut sembler intrusif et ne pas reconnaître la fin de l'interaction."
+          comment: "Cela peut sembler intrusif et ne pas aider à la fin de l'interaction."
       },
       {
           text: "En minimisant l'impact de la situation sur sa vie",
@@ -462,7 +389,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Quel est le ton général recommandé lors de l'interaction avec la victime?",
+  "text": "Quel est le ton général recommandé lors de l'interaction avec la victime ?",
   "answers": [
       {
           text: "Froid et distancié",
@@ -487,7 +414,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Quelles sont les deux catégories de victimes parmi les enfants dans une situation de secours?",
+  "text": "Quelles sont les deux catégories de victimes parmi les enfants dans une situation de secours ?",
   "answers": [
       {
           text: "Victime primaire et victime secondaire",
@@ -511,33 +438,9 @@ let questionsData = [
       }
   ]
 },
+
 {
-  "text": "Pourquoi l'impact d'un événement grave sur un enfant est-il double?",
-  "answers": [
-      {
-          text: "Parce qu'il est moins affecté par les émotions",
-          isCorrect: false,
-          comment: "En fait, les enfants peuvent être profondément affectés émotionnellement par les événements graves en raison de leur vulnérabilité et de leur dépendance."
-      },
-      {
-          text: "Parce qu'il peut s'exprimer plus facilement que les adultes",
-          isCorrect: false,
-          comment: "Bien que les enfants puissent parfois avoir des difficultés à exprimer leurs émotions, cela ne rend pas leur impact émotionnel moindre."
-      },
-      {
-          text: "Parce qu'il peut être confronté à la vulnérabilité de ses parents",
-          isCorrect: true,
-          comment: "Les enfants peuvent être confrontés à la vulnérabilité de leurs parents, ce qui peut aggraver l'impact émotionnel de la situation sur eux."
-      },
-      {
-          text: "Parce qu'il est plus apte à comprendre la situation",
-          isCorrect: false,
-          comment: "La capacité à comprendre la situation peut varier d'un enfant à l'autre et dépend de nombreux facteurs, mais cela n'explique pas pourquoi leur impact émotionnel serait double."
-      }
-  ]
-},
-{
-  "text": "Comment devrait-on adapter sa communication lorsqu'on intervient auprès d'un enfant?",
+  "text": "Comment devrait-on adapter sa communication lorsqu'on intervient auprès d'un enfant ?",
   "answers": [
       {
           text: "En utilisant un ton froid et distant",
@@ -563,10 +466,10 @@ let questionsData = [
 },
 
 {
-  "text": "Que devrait éviter de faire le secouriste tout au long de l'intervention auprès de l'enfant?",
+  "text": "Que devrait éviter de faire le secouriste tout au long de l'intervention auprès de l'enfant ?",
   "answers": [
       {
-          text: "Mentir sur la gravité de la situation",
+          text: "Dire la vérité sur la gravité de la situation",
           isCorrect: false,
           comment: "La transparence est importante pour établir la confiance avec l'enfant, donc mentir ne devrait jamais être une option."
       },
@@ -588,7 +491,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Quelle attitude le secouriste devrait-il adopter envers les émotions de l'enfant?",
+  "text": "Quelle attitude le secouriste devrait-il adopter envers les émotions de l'enfant ?",
   "answers": [
       {
           text: "Les ignorer complètement",
@@ -613,7 +516,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Pourquoi est-il important de ne pas mentir à l'enfant pendant l'intervention?",
+  "text": "Pourquoi est-il important de ne pas mentir à l'enfant pendant l'intervention ?",
   "answers": [
       {
           text: "Pour éviter de le perturber davantage",
@@ -637,33 +540,9 @@ let questionsData = [
       }
   ]
 },
+
 {
-  "text": "Quelle est la principale raison de ne pas encourager les attitudes héroïques chez l'enfant?",
-  "answers": [
-      {
-          text: "Pour éviter de susciter la peur chez l'enfant",
-          isCorrect: false,
-          comment: "Encourager les attitudes héroïques peut en fait augmenter la confiance de l'enfant et lui donner un sentiment de contrôle sur la situation."
-      },
-      {
-          text: "Pour encourager l'enfant à se comporter de manière irresponsable",
-          isCorrect: false,
-          comment: "Encourager les attitudes héroïques peut aider l'enfant à développer un sentiment de responsabilité et d'empathie envers les autres."
-      },
-      {
-          text: "Pour favoriser une expression saine des émotions de l'enfant",
-          isCorrect: true,
-          comment: "Encourager les attitudes héroïques peut encourager l'enfant à refouler ses vraies émotions et à ne pas demander l'aide dont il a besoin."
-      },
-      {
-          text: "Pour augmenter le niveau de stress de l'enfant",
-          isCorrect: false,
-          comment: "Encourager les attitudes héroïques peut en fait aider à réduire le stress de l'enfant en lui donnant un sentiment de contrôle sur la situation."
-      }
-  ]
-},
-{
-  text: "Quels sont les risques psychologiques auxquels est exposé le secouriste dans son activité?",
+  text: "Quels sont les risques psychologiques principaux auxquels est exposé le secouriste dans son activité ?",
   answers: [
       {
           text: "Fatigue physique et sentiment de déshumanisation",
@@ -688,7 +567,7 @@ let questionsData = [
   ]
 },
 {
-  text: "Quelle est la réaction immédiate de stress qui permet au secouriste de mobiliser ses ressources pour accomplir sa mission?",
+  text: "Quelle est la réaction immédiate de stress qui permet au secouriste de mobiliser ses ressources pour accomplir sa mission ?",
   answers: [
       {
           text: "Fuite",
@@ -713,7 +592,7 @@ let questionsData = [
   ]
 },
 {
-  text: "Quels sont les symptômes d'un trouble de stress aigu chez un secouriste?",
+  text: "Quels sont les symptômes principaux d'un trouble de stress aigu chez un secouriste ?",
   answers: [
       {
           text: "Répétition de l'événement initial et évitement des situations similaires",
@@ -738,7 +617,7 @@ let questionsData = [
   ]
 },
 {
-  text: "Qu'est-ce que le traumatisme vicariant?",
+  text: "Qu'est-ce que le traumatisme vicariant ?",
   answers: [
       {
           text: "Un trouble psychologique développé par les victimes",
@@ -763,10 +642,10 @@ let questionsData = [
   ]
 },
 {
-  text: "Quels sont les symptômes d'un épuisement professionnel (burn-out) chez le secouriste?",
+  text: "Quels sont les symptômes d'un épuisement professionnel (burn-out) chez le secouriste ?",
   answers: [
       {
-          text: "Épuisement émotionnel, déshumanisation et sentiment d'accomplissement personnel",
+          text: "Épuisement émotionnel, déshumanisation et sentiment de non-accomplissement personnel",
           isCorrect: true,
           comment: "Ces symptômes sont caractéristiques de l'épuisement professionnel, qui résulte d'un stress chronique lié au travail."
       },
@@ -781,7 +660,7 @@ let questionsData = [
           comment: "Ces symptômes peuvent être associés à l'épuisement professionnel, mais ils ne le définissent pas entièrement."
       },
       {
-          text: "Perte d'idéal du métier, sentiment d'échec et sentiment de vide émotionnel",
+          text: "Perte d'idéal du métier et sentiment d'échec",
           isCorrect: false,
           comment: "Ces symptômes peuvent être présents dans l'épuisement professionnel, mais ils ne sont pas les seuls ni les plus spécifiques."
       }
@@ -789,7 +668,7 @@ let questionsData = [
 },
 
 {
-  text: "Quelle est l'une des compétences indissociables pour être efficace en tant que secouriste?",
+  text: "Quelle est l'une des compétences indissociables pour être efficace en tant que secouriste ?",
   answers: [
       {
           text: "Connaissance approfondie des protocoles médicaux",
@@ -802,7 +681,7 @@ let questionsData = [
           comment: "Une bonne condition physique est essentielle pour répondre efficacement aux situations d'urgence et pour assurer sa propre sécurité."
       },
       {
-          text: "Capacité à prendre des décisions rapides",
+          text: "SST",
           isCorrect: false,
           comment: "La capacité à prendre des décisions rapides est importante, mais elle peut être compromise en l'absence d'une condition physique optimale."
       },
@@ -814,7 +693,7 @@ let questionsData = [
   ]
 },
 {
-  text: "Quelles sont les mesures recommandées pour préserver l'opérationnalité mentale du secouriste?",
+  text: "Quelles sont les mesures recommandées pour préserver l'opérationnalité mentale du secouriste ?",
   answers: [
       {
           text: "Éviter les situations stressantes et émotionnelles",
@@ -839,7 +718,7 @@ let questionsData = [
   ]
 },
 {
-  text: "Que devrait faire le secouriste si l'un des membres de l'équipe présente des manifestations inhabituelles pendant une intervention?",
+  text: "Que devrait faire le secouriste si l'un des membres de l'équipe présente des signes inhabituelles pendant une intervention?",
   answers: [
       {
           text: "Ignorer les signes et poursuivre la mission",
@@ -864,7 +743,7 @@ let questionsData = [
   ]
 },
 {
-  text: "Qu'est-ce qui peut nécessiter une orientation vers une aide professionnelle spécialisée pour un secouriste?",
+  text: "Qu'est-ce qui peut nécessiter une orientation vers une aide professionnelle spécialisée pour un secouriste ?",
   answers: [
       {
           text: "Une réaction immédiate de stress",
@@ -872,9 +751,9 @@ let questionsData = [
           comment: "Une réaction immédiate de stress est normale dans certaines situations et ne nécessite pas nécessairement une aide professionnelle spécialisée à moins qu'elle ne persiste ou s'aggrave."
       },
       {
-          text: "Une perte de capacité de réflexe",
+          text: "Une diminution des capacités de réflexe",
           isCorrect: false,
-          comment: "Une perte de capacité de réflexe peut être un signe de fatigue ou de stress, mais cela ne nécessite pas nécessairement une aide professionnelle spécialisée à moins que cela n'interfère avec la capacité de travailler efficacement."
+          comment: "Une diminution des capacités de réflexe peut être un signe de fatigue ou de stress, mais cela ne nécessite pas nécessairement une aide professionnelle spécialisée à moins que cela n'interfère avec la capacité de travailler efficacement."
       },
       {
           text: "Un sentiment d'accomplissement personnel",
@@ -889,7 +768,7 @@ let questionsData = [
   ]
 },
 {
-  text: "Quel est l'objectif de l'appui psychologique précoce et approprié pour un secouriste?",
+  text: "Quel est l'objectif de l'appui psychologique précoce et approprié pour un secouriste ?",
   answers: [
       {
           text: "Améliorer ses performances physiques",
