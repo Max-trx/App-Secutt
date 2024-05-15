@@ -163,11 +163,7 @@ let questionsData = [
 {
   "text": "Qu'est-ce que l'ACR ?",
   "answers": [
-      {
-          "text": "Arrêt cardio-respiratoire",
-          "isCorrect": true,
-          "comment": "L'ACR désigne effectivement l'Arrêt cardiaque, une situation critique nécessitant une intervention médicale d'urgence."
-      },
+      
       {
           "text": "Accident cérébrovasculaire rapide ",
           "isCorrect": false,
@@ -178,6 +174,11 @@ let questionsData = [
           "isCorrect": false,
           "comment": "AC ne représente pas Acide citrique, mais plutôt Arrêt cardiaque."
       },
+      {
+        "text": "Arrêt cardio-respiratoire",
+        "isCorrect": true,
+        "comment": "L'ACR désigne effectivement l'Arrêt cardiaque, une situation critique nécessitant une intervention médicale d'urgence."
+    },
       {
           "text": "Arrêt respiratoire récurrent ",
           "isCorrect": false,
@@ -213,11 +214,7 @@ let questionsData = [
 {
   "text": "Qu'est-ce que l'AEV ?",
   "answers": [
-      {
-          "text": "Accident d'exposition à un risque viral",
-          "isCorrect": true,
-          "comment": "L'AEV fait référence à Accident d'exposition à un risque viral, une situation où une personne est exposée à un agent pathogène potentiellement infectieux."
-      },
+      
       {
           "text": "Analyse électronique des variations",
           "isCorrect": false,
@@ -232,7 +229,12 @@ let questionsData = [
           "text": "Association des ergothérapeutes volontaires",
           "isCorrect": false,
           "comment": "Bien qu'une telle association puisse exister, AEV ne désigne pas Association des ergothérapeutes volontaires mais plutôt Accident d'exposition à un risque viral."
-      }
+      },
+      {
+        "text": "Accident d'exposition à un risque viral",
+        "isCorrect": true,
+        "comment": "L'AEV fait référence à Accident d'exposition à un risque viral, une situation où une personne est exposée à un agent pathogène potentiellement infectieux."
+    },
   ]
 },
 {
@@ -303,6 +305,11 @@ let questionsData = [
           "isCorrect": false,
           "comment": "Bien que pertinent dans certains contextes, DASRI ne signifie pas Dispositif d'aide à la réanimation mais plutôt Déchets d'activités de soins à risques infectieux."
       },
+      {
+        "text": "Déchets d'activités de soins à risques infectieux",
+        "isCorrect": true,
+        "comment": "Le DASRI correspond à Déchets d'activités de soins à risques infectieux, des déchets produits dans le cadre des soins médicaux et qui peuvent présenter un risque infectieux."
+    },
       {
           "text": "Désinfectant antiseptique",
           "isCorrect": false,
@@ -740,11 +747,7 @@ let questionsData = [
       {
           "text": "Qu'est-ce que la PLS ?",
           "answers": [
-              {
-                  "text": "Position latérale de sécurité",
-                  "isCorrect": true,
-                  "comment": "Réponse correcte."
-              },
+              
               {
                   "text": "Position de libération sécurisée",
                   "isCorrect": false,
@@ -759,22 +762,30 @@ let questionsData = [
                   "text": "Position lombaire stabilisée",
                   "isCorrect": false,
                   "comment": "Ce n'est pas la bonne réponse."
-              }
+              },
+              {
+                "text": "Position latérale de sécurité",
+                "isCorrect": true,
+                "comment": "Réponse correcte."
+            }
           ]
       },
       {
           "text": "Qu'est-ce que l'AVC ?",
           "answers": [
-              {
-                  "text": "Accident vasculaire cérébral",
-                  "isCorrect": true,
-                  "comment": "Réponse correcte."
-              },
+              
               {
                   "text": "Arrêt vasculaire cardiaque",
                   "isCorrect": false,
                   "comment": "Ce n'est pas la bonne réponse."
               },
+
+              {
+                "text": "Accident vasculaire cérébral",
+                "isCorrect": true,
+                "comment": "Réponse correcte."
+              },
+            
               {
                   "text": "Accident vasculaire corporel",
                   "isCorrect": false,
@@ -790,11 +801,7 @@ let questionsData = [
       {
           "text": "Qu'est-ce que la CUMP ?",
           "answers": [
-              {
-                  "text": "Cellule d'urgence médico-psychologique",
-                  "isCorrect": true,
-                  "comment": "Réponse correcte."
-              },
+              
               {
                   "text": "Cellule médicale d'urgence multi-professionnelle",
                   "isCorrect": false,
@@ -806,6 +813,11 @@ let questionsData = [
                   "comment": "Ce n'est pas la bonne réponse."
               },
               {
+                "text": "Cellule d'urgence médico-psychologique",
+                "isCorrect": true,
+                "comment": "Réponse correcte."
+            },
+              {
                   "text": "Cellule médicale d'urgence mobile et psychologique",
                   "isCorrect": false,
                   "comment": "Ce n'est pas la bonne réponse."
@@ -815,11 +827,7 @@ let questionsData = [
       {
           "text": "Qu'est-ce que la MIN ?",
           "answers": [
-              {
-                  "text": "Mort inattendue et inexpliquée du nourrisson",
-                  "isCorrect": true,
-                  "comment": "Réponse correcte."
-              },
+              
               {
                   "text": "Maladie infantile négligée",
                   "isCorrect": false,
@@ -831,6 +839,11 @@ let questionsData = [
                   "comment": "Ce n'est pas la bonne réponse."
               },
               {
+                "text": "Mort inattendue et inexpliquée du nourrisson",
+                "isCorrect": true,
+                "comment": "Réponse correcte."
+            },
+              {
                   "text": "Mécanisme d'isolement néonatal",
                   "isCorrect": false,
                   "comment": "Ce n'est pas la bonne réponse."
@@ -840,11 +853,7 @@ let questionsData = [
       {
           "text": "Qu'est-ce que le Hg ?",
           "answers": [
-              {
-                  "text": "Mercure",
-                  "isCorrect": true,
-                  "comment": "Réponse correcte."
-              },
+              
               {
                   "text": "Humidité globale",
                   "isCorrect": false,
@@ -856,6 +865,11 @@ let questionsData = [
                   "comment": "Ce n'est pas la bonne réponse."
               },
               {
+                "text": "Mercure",
+                "isCorrect": true,
+                "comment": "Réponse correcte."
+            },
+              {
                   "text": "Hémoglobine glycolysée",
                   "isCorrect": false,
                   "comment": "Ce n'est pas la bonne réponse."
@@ -865,11 +879,7 @@ let questionsData = [
       {
           "text": "Qu'est-ce que la LVA ?",
           "answers": [
-              {
-                  "text": "Libération des voies aériennes",
-                  "isCorrect": true,
-                  "comment": "Réponse correcte."
-              },
+              
               {
                   "text": "Lutte contre les voies aériennes",
                   "isCorrect": false,
@@ -884,7 +894,12 @@ let questionsData = [
                   "text": "Langue verte aiguë",
                   "isCorrect": false,
                   "comment": "Ce n'est pas la bonne réponse."
-              }
+              },
+              {
+                "text": "Libération des voies aériennes",
+                "isCorrect": true,
+                "comment": "Réponse correcte."
+            }
           ]
       },
       {
@@ -915,11 +930,7 @@ let questionsData = [
       {
           "text": "Qu'est-ce que la DGSCGC ?",
           "answers": [
-              {
-                  "text": "Direction Générale de la Sécurité Civile et de la Gestion des crises",
-                  "isCorrect": true,
-                  "comment": "Réponse correcte."
-              },
+             
               {
                   "text": "Direction Générale de la Surveillance Civile et de la Gestion des catastrophes",
                   "isCorrect": false,
@@ -930,6 +941,11 @@ let questionsData = [
                   "isCorrect": false,
                   "comment": "Ce n'est pas la bonne réponse."
               },
+              {
+                "text": "Direction Générale de la Sécurité Civile et de la Gestion des crises",
+                "isCorrect": true,
+                "comment": "Réponse correcte."
+            },
               {
                   "text": "Direction Générale de la Sécurité et de la Gestion des Crises Civiles",
                   "isCorrect": false,
