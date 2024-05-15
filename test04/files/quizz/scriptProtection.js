@@ -465,7 +465,7 @@ let questionsData = [
     ]
 },
 {
-    text: "Combien de techniques de dégagement d'urgence sont décrites pour soustraire une victime à un danger réel et vital ?",
+    text: "Combien de techniques de dégagement d'urgence sont décrites dans les recommandations pour soustraire une victime à un danger réel et vital ?",
     answers: [
         {
             text: "Trois",
