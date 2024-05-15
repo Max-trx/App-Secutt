@@ -294,7 +294,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Que doit faire un intervenant secouriste lorsqu'une victime est en contact avec un conducteur endommagé ?",
+  "text": "Que doit faire un intervenant secouriste lorsqu'une victime est en contact avec un conducteur endommagé dans le cadre d'un accident electrique ?",
   "answers": [
       {
           text: "S'approcher immédiatement de la victime.",
