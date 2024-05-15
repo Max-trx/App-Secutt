@@ -166,8 +166,8 @@ let questionsData = [
 {
   text: "Qu'est-ce qu'une crise d'asthme ?",
   answers: [
-    { text: "Une détresse respiratoire causée par une inflammation et une contraction des bronchioles.", isCorrect: true },
     { text: "Un arrêt cardiaque soudain.", isCorrect: false },
+    { text: "Une détresse respiratoire causée par une inflammation et une contraction des bronchioles.", isCorrect: true },
     { text: "Une infection virale des voies respiratoires.", isCorrect: false }
   ]
 },
@@ -186,9 +186,9 @@ let questionsData = [
 {
   text: "Quel est le rôle des médicaments dans la crise d'asthme ?",
   answers: [
-    { text: "Ils relaxent les bronchioles pour faciliter la respiration.", isCorrect: true },
+    { text: "Ils stimulent le système immunitaire pour combattre l'inflammation.", isCorrect: false },
     { text: "Ils abaissent la pression artérielle pour réduire l'anxiété.", isCorrect: false },
-    { text: "Ils stimulent le système immunitaire pour combattre l'inflammation.", isCorrect: false }
+    { text: "Ils relaxent les bronchioles pour faciliter la respiration.", isCorrect: true }
   ]
 },
 
@@ -206,8 +206,8 @@ let questionsData = [
 {
   text: "Que doit faire le secouriste en cas de crise d'asthme chez une victime consciente ?",
   answers: [
-    { text: "Faciliter la respiration, aider la victime à prendre son traitement, demander un avis médical.", isCorrect: true },
     { text: "Administre immédiatement de l'oxygène en inhalation.", isCorrect: false },
+    { text: "Faciliter la respiration, aider la victime à prendre son traitement, demander un avis médical.", isCorrect: true  },
     { text: "Placer la victime en position couchée pour lui permettre de se reposer.", isCorrect: false }
   ]
 },
@@ -216,9 +216,9 @@ let questionsData = [
 {
   text: "Quelle est la position généralement recommandée pour une victime en crise d'asthme ?",
   answers: [
-    { text: "Assise ou demi-assise.", isCorrect: true },
+    { text: "Allongée sur le dos les jambes relevées.", isCorrect: false },
     { text: "Couchée sur le ventre.", isCorrect: false },
-    { text: "Allongée sur le dos les jambes relevées.", isCorrect: false }
+    { text: "Assise ou demi-assise.", isCorrect: true }
   ]
 },
 
@@ -236,8 +236,8 @@ let questionsData = [
 {
   text: "Que doit faire le secouriste si la victime perd connaissance lors d'une crise d'asthme ?",
   answers: [
-    { text: "Appliquer la conduite à tenir devant un arrêt cardiaque si la victime ne respire plus.", isCorrect: true },
     { text: "Administrer un médicament anti-allergique par voie orale.", isCorrect: false },
+    { text: "Appliquer la conduite à tenir devant un arrêt cardiaque si la victime ne respire plus.", isCorrect: true },
     { text: "Demander à la victime de prendre des respirations profondes.", isCorrect: false }
   ]
 },
@@ -246,9 +246,9 @@ let questionsData = [
 {
   text: "Quelle est la principale recommandation pour aider une victime d'asthme à prendre son traitement ?",
   answers: [
-    { text: "Rassurer la victime et l'aider à utiliser son aérosol doseur.", isCorrect: true },
+    { text: "Administrer le traitement sans demander l'avis de la victime.", isCorrect: false },
     { text: "Demander à la victime de se calmer et de respirer profondément.", isCorrect: false },
-    { text: "Administrer le traitement sans demander l'avis de la victime.", isCorrect: false }
+    { text: "Rassurer la victime et l'aider à utiliser son aérosol doseur.", isCorrect: true }
   ]
 },
 
