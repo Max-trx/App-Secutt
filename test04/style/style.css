@@ -15,7 +15,7 @@
     transform: scale(1.15);
 }
 .footer {
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
     padding: 2px;
     width: 100%;
@@ -66,5 +66,9 @@
     .text-navbar {
         font-size: 0.9em;
         white-space: normal;
+    }
+
+    .footer {
+        font-size: small;
     }
 }
