@@ -270,7 +270,7 @@ var Question = function (questionObj) {
   }
   
   shuffle(questionsData);
-  
+  /*
   // creating questions
   for (var i = 0; i < 5; i++) {
     let question = new Question({
@@ -280,7 +280,7 @@ var Question = function (questionObj) {
   
     appContainer.appendChild(question.create());
     questions.push(question);
-  }
+  }*/
   
   document.addEventListener("question-answered", ({ detail }) => {
     if (detail.answer.isCorrect) {
@@ -325,6 +325,9 @@ if (isNaN(numberOfQuestions) || numberOfQuestions <= 0) {
     appContainer.appendChild(question.create());
     questions.push(question);
   }
+
+  // Mettre à jour le score initial
+scoreContainer.innerHTML = `Score: ${score}/${numberOfQuestions}`;
 }
   
   console.log(questions, questionsData);
