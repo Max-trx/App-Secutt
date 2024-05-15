@@ -161,25 +161,25 @@ var Question = function (questionObj) {
 
 let questionsData = [
 {
-  "text": "Qu'est-ce que l'AC ?",
+  "text": "Qu'est-ce que l'ACR ?",
   "answers": [
       {
-          "text": "Arrêt cardiaque",
+          "text": "Arrêt cardio-respiratoire",
           "isCorrect": true,
-          "comment": "L'AC désigne effectivement l'Arrêt cardiaque, une situation critique nécessitant une intervention médicale d'urgence."
+          "comment": "L'ACR désigne effectivement l'Arrêt cardiaque, une situation critique nécessitant une intervention médicale d'urgence."
       },
       {
-          "text": "Accident cérébrovasculaire",
+          "text": "Accident cérébrovasculaire rapide ",
           "isCorrect": false,
           "comment": "L'AC ne fait pas référence à un Accident cérébrovasculaire mais plutôt à un Arrêt cardiaque."
       },
       {
-          "text": "Acide citrique",
+          "text": "Acide citrique réactif",
           "isCorrect": false,
           "comment": "AC ne représente pas Acide citrique, mais plutôt Arrêt cardiaque."
       },
       {
-          "text": "Arrêt respiratoire",
+          "text": "Arrêt respiratoire récurrent ",
           "isCorrect": false,
           "comment": "Bien que similaire, l'AC ne signifie pas Arrêt respiratoire mais plutôt Arrêt cardiaque."
       }
