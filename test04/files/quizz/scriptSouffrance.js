@@ -161,7 +161,7 @@ var Question = function (questionObj) {
 
 let questionsData = [
   {
-    "text": "Qu'est-ce qu'un état de crise selon la définition donnée ?",
+    "text": "Qu'est-ce qu'un état de crise ?",
     "answers": [
         {
             "text": "Une réaction brusque et intense, de durée limitée, générant une souffrance aiguë difficile à contenir",
@@ -188,15 +188,16 @@ let questionsData = [
 {
     "text": "Quelles peuvent être les origines des troubles entraînant un état de crise ?",
     "answers": [
-        {
-            "text": "Des facteurs physiques, psychologiques ou psychiatriques",
-            "isCorrect": true,
-            "comment": "Réponse correcte."
-        },
+
         {
             "text": "Uniquement des facteurs psychologiques",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Des facteurs physiques, psychologiques ou psychiatriques",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
         },
         {
             "text": "Uniquement des facteurs physiques",
@@ -213,11 +214,7 @@ let questionsData = [
 {
     "text": "Qu'est-ce qui peut être considéré comme un facteur déclencheur externe d'un état de crise ?",
     "answers": [
-        {
-            "text": "Un événement stressant, potentiellement traumatisant, exposant soudainement la personne à une menace de mort",
-            "isCorrect": true,
-            "comment": "Réponse correcte."
-        },
+        
         {
             "text": "Un changement interne à la personne",
             "isCorrect": false,
@@ -229,6 +226,11 @@ let questionsData = [
             "comment": "Ce n'est pas la bonne réponse."
         },
         {
+            "text": "Un événement stressant, potentiellement traumatisant, exposant soudainement la personne à une menace de mort",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
             "text": "Une réaction aiguë de la victime",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse."
@@ -238,11 +240,7 @@ let questionsData = [
 {
     "text": "Quels sont les signes et manifestations qui peuvent indiquer un état de crise chez une personne ?",
     "answers": [
-        {
-            "text": "Des signes et manifestations repérables dans différentes sphères : comportementales, émotionnelles et cognitives",
-            "isCorrect": true,
-            "comment": "Réponse correcte."
-        },
+        
         {
             "text": "Seulement des signes physiques visibles",
             "isCorrect": false,
@@ -257,11 +255,16 @@ let questionsData = [
             "text": "Des signes qui ne peuvent être observés que par des professionnels de santé",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse."
-        }
+        },
+        {
+            "text": "Des signes et manifestations repérables dans différentes sphères : comportementales, émotionnelles et cognitives",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
     ]
 },
 {
-    "text": "Comment peut réagir une victime en état de crise selon les informations données ?",
+    "text": "Comment peut réagir une victime en état de crise ?",
     "answers": [
         {
             "text": "Elle peut présenter une réaction de fuite panique ou une agitation désordonnée",
@@ -288,15 +291,16 @@ let questionsData = [
 {
     "text": "Quels sont les signes indiquant un état de panique chez une personne ?",
     "answers": [
-        {
-            "text": "Une tension nerveuse avec apparition d'anxiété et d'agitation psychomotrice",
-            "isCorrect": true,
-            "comment": "Réponse correcte."
-        },
+       
         {
             "text": "Une capacité à raisonner calmement",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Une tension nerveuse avec apparition d'anxiété et d'agitation psychomotrice",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
         },
         {
             "text": "Une réaction de recul par rapport à la situation",
@@ -311,38 +315,9 @@ let questionsData = [
     ]
 },
 {
-    "text": "Quelles sont les différentes formes que peuvent prendre les comportements agressifs ?",
-    "answers": [
-        {
-            "text": "Incivilités, comportements menaçants, violence verbale",
-            "isCorrect": true,
-            "comment": "Réponse correcte."
-        },
-        {
-            "text": "Compassion et empathie",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse."
-        },
-        {
-            "text": "Passivité et retrait",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse."
-        },
-        {
-            "text": "Acceptation et compréhension",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse."
-        }
-    ]
-},
-{
     "text": "Quels sont les signes d'alerte indiquant un passage à l'acte violent ?",
     "answers": [
-        {
-            "text": "Pâleur, augmentation de la coloration du visage, agitation",
-            "isCorrect": true,
-            "comment": "Réponse correcte."
-        },
+        
         {
             "text": "Respiration profonde et régulière",
             "isCorrect": false,
@@ -354,6 +329,11 @@ let questionsData = [
             "comment": "Ce n'est pas la bonne réponse."
         },
         {
+            "text": "Pâleur, augmentation de la coloration du visage, agitation",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
             "text": "Immobilité et silence",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse."
@@ -363,11 +343,7 @@ let questionsData = [
 {
     "text": "Quelle est la conduite à tenir spécifique face à un geste violent ?",
     "answers": [
-        {
-            "text": "Évaluer la dangerosité de la situation et mettre en sécurité les objets potentiellement dangereux",
-            "isCorrect": true,
-            "comment": "Réponse correcte."
-        },
+       
         {
             "text": "Utiliser des gestes violents pour se défendre",
             "isCorrect": false,
@@ -382,7 +358,12 @@ let questionsData = [
             "text": "Laisser la personne agressive seule pour qu'elle se calme d'elle-même",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse."
-        }
+        },
+        {
+            "text": "Évaluer la dangerosité de la situation et mettre en sécurité les objets potentiellement dangereux",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
     ]
 },
 {
@@ -413,15 +394,16 @@ let questionsData = [
 {
     "text": "Quel est l'objectif principal de l'action de secours en termes de relation avec la victime ?",
     "answers": [
-        {
-            "text": "Identifier les réactions inhabituelles et protéger la victime et son entourage",
-            "isCorrect": true,
-            "comment": "Réponse correcte."
-        },
+        
         {
             "text": "Éviter toute interaction avec la victime pour des raisons de sécurité",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse."
+        },
+        {
+            "text": "Identifier les réactions inhabituelles et protéger la victime et son entourage",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
         },
         {
             "text": "Réaliser des gestes médicaux complexes dès le début de l'intervention",
@@ -438,11 +420,7 @@ let questionsData = [
 {
     "text": "Que recherche le secouriste lors de l'observation et de la recherche d'éléments auprès de la victime ?",
     "answers": [
-        {
-            "text": "Des signes et des caractéristiques spécifiques, ainsi que des informations sur les antécédents, traitements et hospitalisations potentiels",
-            "isCorrect": true,
-            "comment": "Réponse correcte."
-        },
+        
         {
             "text": "Uniquement la cause externe de la crise",
             "isCorrect": false,
@@ -454,6 +432,11 @@ let questionsData = [
             "comment": "Ce n'est pas la bonne réponse."
         },
         {
+            "text": "Des signes et des caractéristiques spécifiques, ainsi que des informations sur les antécédents, traitements et hospitalisations potentiels",
+            "isCorrect": true,
+            "comment": "Réponse correcte."
+        },
+        {
             "text": "Des informations sur les antécédents de la victime",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse."
@@ -463,11 +446,7 @@ let questionsData = [
 {
     "text": "Quelle est la première étape pour déterminer les stratégies de protection et de prise en charge de la victime ?",
     "answers": [
-        {
-            "text": "Identifier les risques potentiels dans l'environnement",
-            "isCorrect": true,
-            "comment": "Réponse correcte."
-        },
+        
         {
             "text": "Demander immédiatement l'intervention des forces de l'ordre",
             "isCorrect": false,
@@ -482,32 +461,12 @@ let questionsData = [
             "text": "Stabiliser l'état de crise de la victime",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse."
-        }
-    ]
-},
-{
-    "text": "Quelles sont les actions à entreprendre en cas de contact et de dialogue impossibles avec la victime ?",
-    "answers": [
+        },
         {
-            "text": "Demander une médicalisation en vue d'une éventuelle sédation",
+            "text": "Identifier les risques potentiels dans l'environnement",
             "isCorrect": true,
             "comment": "Réponse correcte."
         },
-        {
-            "text": "Continuer à essayer de communiquer verbalement avec la victime",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse."
-        },
-        {
-            "text": "Réaliser des gestes invasifs pour réanimer la victime",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse."
-        },
-        {
-            "text": "Ne rien faire et attendre que la situation se calme d'elle-même",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse."
-        }
     ]
 },
 {
