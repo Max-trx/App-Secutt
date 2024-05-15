@@ -163,22 +163,22 @@ let questionsData = [
   {"text": "Que faut-il faire en cas de traumatisme dentaire ?",
     "answers": [
         {
-        "text": "a) Faire avaler à la victime de l'eau de javel",
+        "text": "Faire avaler à la victime de l'eau de javel",
         "isCorrect": false,
         "comment": "Faire avaler de l'eau de javel à la victime peut être dangereux. Il est important de consulter un professionnel de la santé."
         },
         {
-            "text": "b) Rincer la dent tombée pendant 1 minute sous l'eau courante",
+            "text": "Rincer la dent tombée pendant 1 minute sous l'eau courante",
             "isCorrect": false,
             "comment": "Rincer la dent tombée sous l'eau courante peut endommager les tissus. La dent doit être manipulée avec précaution."
         },
         {
-            "text": "c) Garder la dent dans de l'eau du robinet",
+            "text": "Garder la dent dans de l'eau du robinet",
             "isCorrect": false,
             "comment": "Conserver la dent dans de l'eau du robinet n'est pas recommandé. Elle devrait plutôt être placée dans du lait ou dans une solution saline."
         },
         {
-            "text": "d) Consulter immédiatement un chirurgien-dentiste",
+            "text": "Consulter immédiatement un chirurgien-dentiste",
             "isCorrect": true,
             "comment": "En cas de traumatisme dentaire, il est crucial de consulter immédiatement un professionnel de la santé dentaire pour évaluer la blessure et fournir un traitement approprié."
         }
@@ -188,22 +188,22 @@ let questionsData = [
   "text": "Quelle est la conduite à tenir en présence d'un traumatisme dentaire avec délogement d'une dent ?",
   "answers": [
       {
-          "text": "a) Faire boire de l'eau froide à la victime",
+          "text": "Faire boire de l'eau froide à la victime",
           "isCorrect": false,
           "comment": "Faire boire de l'eau froide à la victime n'est pas la conduite à tenir en cas de traumatisme dentaire avec délogement d'une dent."
       },
       {
-          "text": "b) Rincer la dent tombée avec du savon",
+          "text": "Rincer la dent tombée avec du savon",
           "isCorrect": false,
           "comment": "Rincer la dent avec du savon n'est pas recommandé, car cela peut contaminer la dent."
       },
       {
-          "text": "c) Recueillir la dent tombée et la transporter avec la victime",
+          "text": "Recueillir la dent tombée et la transporter avec la victime dans du serum phy",
           "isCorrect": true,
           "comment": "En cas de traumatisme dentaire avec délogement d'une dent, il est important de recueillir la dent tombée et de la transporter avec la victime pour une éventuelle réimplantation."
       },
       {
-          "text": "d) Laisser la dent sur le sol et appeler immédiatement les secours",
+          "text": "Laisser la dent sur le sol et appeler immédiatement les secours",
           "isCorrect": false,
           "comment": "Il est important de recueillir la dent tombée pour éviter sa perte et de contacter immédiatement les secours pour obtenir des conseils supplémentaires."
       }
@@ -213,22 +213,22 @@ let questionsData = [
   "text": "Quelle est la conduite à tenir en cas de traumatisme dentaire ?",
   "answers": [
       {
-          "text": "a) Demander à la victime de boire de l'alcool pour désinfecter la plaie",
+          "text": "Demander à la victime de boire de l'alcool pour désinfecter la plaie",
           "isCorrect": false,
           "comment": "Boire de l'alcool ne désinfectera pas la plaie et peut même aggraver la situation en altérant l'état de la victime."
       },
       {
-          "text": "b) Demander à la victime de garder la dent tombée dans de l'eau du robinet",
+          "text": "Demander à la victime de garder la dent tombée dans de l'eau du robinet",
           "isCorrect": false,
           "comment": "Garder la dent dans de l'eau du robinet peut endommager les tissus de la dent et réduire les chances de la réimplanter avec succès."
       },
       {
-          "text": "c) Demander à la victime de se rincer la bouche avec de l'eau",
+          "text": "Demander à la victime de se rincer la bouche avec de l'eau",
           "isCorrect": true,
           "comment": "Rincer la bouche avec de l'eau peut aider à éliminer les débris et à réduire le risque d'infection après un traumatisme dentaire."
       },
       {
-          "text": "d) Demander à la victime de ne pas consulter de médecin",
+          "text": "Demander à la victime de ne pas consulter de médecin",
           "isCorrect": false,
           "comment": "Il est important de consulter un médecin ou un dentiste dès que possible en cas de traumatisme dentaire pour évaluer les dommages et administrer un traitement approprié."
       }
@@ -238,22 +238,22 @@ let questionsData = [
   "text": "Quelles sont les principales causes de traumatisme abdominal ?",
   "answers": [
       {
-          "text": "a) Piqûre d'insecte",
+          "text": "Piqûre d'insecte",
           "isCorrect": false,
           "comment": "Les piqûres d'insectes ne sont généralement pas des causes majeures de traumatisme abdominal."
       },
       {
-          "text": "b) Explosion",
+          "text": "Explosion",
           "isCorrect": true,
           "comment": "Les explosions peuvent causer des traumatismes abdominaux graves."
       },
       {
-          "text": "c) Éruption volcanique",
+          "text": "Éruption volcanique",
           "isCorrect": false,
           "comment": "Les éruptions volcaniques sont peu susceptibles de causer des traumatismes abdominaux."
       },
       {
-          "text": "d) Brûlure chimique",
+          "text": "Brûlure chimique",
           "isCorrect": false,
           "comment": "Les brûlures chimiques peuvent causer des lésions cutanées, mais pas nécessairement des traumatismes abdominaux."
       }
@@ -263,22 +263,22 @@ let questionsData = [
   "text": "Quel risque est associé aux traumatismes avec atteinte des organes creux ?",
   "answers": [
       {
-          "text": "a) Risque de détresse respiratoire",
+          "text": "Risque de détresse respiratoire",
           "isCorrect": false,
           "comment": "Bien que la détresse respiratoire puisse être une complication, le risque principal est l'infection due à la perforation des organes."
       },
       {
-          "text": "b) Risque d'hypothermie",
+          "text": "Risque d'hypothermie",
           "isCorrect": false,
           "comment": "Le risque principal est l'infection, pas l'hypothermie."
       },
       {
-          "text": "c) Risque infectieux",
+          "text": "Risque infectieux",
           "isCorrect": true,
           "comment": "Les traumatismes avec atteinte des organes creux augmentent le risque d'infection."
       },
       {
-          "text": "d) Risque de fracture",
+          "text": "Risque de fracture",
           "isCorrect": false,
           "comment": "Les organes creux ne peuvent pas subir de fracture."
       }
@@ -288,22 +288,22 @@ let questionsData = [
   "text": "Comment peut se manifester une éviscération ?",
   "answers": [
       {
-          "text": "a) Par des douleurs aux membres",
+          "text": "Par des douleurs aux membres",
           "isCorrect": false,
           "comment": "Une éviscération implique l'exposition des viscères à l'extérieur de l'abdomen, pas de douleurs aux membres."
       },
       {
-          "text": "b) Par des vomissements répétés",
+          "text": "Par des vomissements répétés",
           "isCorrect": false,
           "comment": "Les vomissements répétés ne sont pas une manifestation typique d'une éviscération."
       },
       {
-          "text": "c) Par des vomissements de sang",
+          "text": "Par des vomissements de sang",
           "isCorrect": false,
           "comment": "Les vomissements de sang peuvent indiquer d'autres conditions, mais pas nécessairement une éviscération."
       },
       {
-          "text": "d) Par une exposition des viscères à l'extérieur de l'abdomen",
+          "text": "Par une exposition des viscères à l'extérieur de l'abdomen",
           "isCorrect": true,
           "comment": "Une éviscération se produit lorsque les viscères sont exposés à l'extérieur de l'abdomen."
       }
@@ -313,22 +313,22 @@ let questionsData = [
   "text": "Quelle est la conduite à tenir en présence d'une éviscération ?",
   "answers": [
       {
-          "text": "a) Remettre immédiatement les viscères en place",
+          "text": "Remettre immédiatement les viscères en place",
           "isCorrect": false,
           "comment": "Remettre les viscères en place sans les précautions nécessaires peut aggraver les blessures."
       },
       {
-          "text": "b) Utiliser des compresses pour comprimer les viscères",
+          "text": "Utiliser des compresses pour comprimer les viscères",
           "isCorrect": false,
           "comment": "Comprimer les viscères peut entraîner des dommages supplémentaires. Il est préférable de les protéger avec un champ stérile."
       },
       {
-          "text": "c) Envelopper les viscères dans un champ stérile humidifié",
+          "text": "Envelopper les viscères dans un champ stérile humidifié",
           "isCorrect": true,
           "comment": "L'enveloppement des viscères dans un champ stérile humidifié aide à les protéger contre la contamination et la dessiccation."
       },
       {
-          "text": "d) Ne rien faire",
+          "text": "Ne rien faire",
           "isCorrect": false,
           "comment": "L'éviscération nécessite une intervention médicale immédiate pour éviter des complications."
       }
@@ -338,22 +338,22 @@ let questionsData = [
   "text": "Pourquoi faut-il protéger la victime contre le froid, le vent ou la chaleur en cas de traumatisme abdominal ?",
   "answers": [
       {
-          "text": "a) Pour éviter la propagation de l'infection",
+          "text": "Pour éviter la propagation de l'infection",
           "isCorrect": false,
           "comment": "La protection contre le froid, le vent ou la chaleur vise principalement à prévenir l'hypothermie ou l'hyperthermie."
       },
       {
-          "text": "b) Pour prévenir l'hypothermie ou l'hyperthermie",
+          "text": "Pour prévenir l'hypothermie ou l'hyperthermie",
           "isCorrect": true,
           "comment": "Le traumatisme abdominal peut perturber la régulation de la température corporelle, ce qui rend la protection contre les températures extrêmes importante."
       },
       {
-          "text": "c) Pour éviter les réactions allergiques",
+          "text": "Pour éviter les réactions allergiques",
           "isCorrect": false,
           "comment": "Les réactions allergiques ne sont pas liées directement au traumatisme abdominal."
       },
       {
-          "text": "d) Pour empêcher la détérioration de la plaie",
+          "text": "Pour empêcher la détérioration de la plaie",
           "isCorrect": false,
           "comment": "La protection contre les éléments vise à maintenir la stabilité de la température corporelle, pas à prévenir la détérioration de la plaie."
       }
@@ -363,22 +363,22 @@ let questionsData = [
   "text": "Quelle est la conduite à tenir spécifique pour toute femme enceinte victime d'un traumatisme violent ?",
   "answers": [
       {
-          "text": "a) La faire marcher pour favoriser la circulation sanguine",
+          "text": "La faire marcher pour favoriser la circulation sanguine",
           "isCorrect": false,
           "comment": "Marcher peut aggraver les blessures chez une femme enceinte victime d'un traumatisme violent."
       },
       {
-          "text": "b) La placer en position assise pour soulager la pression abdominale",
+          "text": "La placer en position assise pour soulager la pression abdominale",
           "isCorrect": false,
           "comment": "La position assise peut mettre davantage de pression sur l'abdomen. Une évaluation médicale immédiate est nécessaire."
       },
       {
-          "text": "c) La considérer comme traumatisée de l'abdomen et la faire consulter dans un service d'urgence ou spécialisé",
+          "text": "La considérer comme traumatisée de l'abdomen et la faire consulter dans un service d'urgence ou spécialisé",
           "isCorrect": true,
           "comment": "Toute femme enceinte victime d'un traumatisme violent doit être considérée comme présentant un risque pour le fœtus et doit être évaluée immédiatement par un professionnel de la santé."
       },
       {
-          "text": "d) Appliquer un pansement stérile sur l'abdomen pour protéger le fœtus",
+          "text": "Appliquer un pansement stérile sur l'abdomen pour protéger le fœtus",
           "isCorrect": false,
           "comment": "L'application d'un pansement ne suffit pas. Une évaluation médicale complète est nécessaire."
       }
@@ -388,22 +388,22 @@ let questionsData = [
   "text": "Quelle est la priorité dans l'action de secours en cas de traumatisme abdominal ?",
   "answers": [
       {
-          "text": "a) Identifier la gravité de la plaie",
+          "text": "Identifier la gravité de la plaie",
           "isCorrect": false,
           "comment": "Bien qu'il soit important d'évaluer la plaie, la priorité est de prévenir toute détresse circulatoire en surveillant attentivement la victime."
       },
       {
-          "text": "b) Installer ou transporter la victime dans une position d'attente adaptée",
+          "text": "Installer ou transporter la victime dans une position d'attente adaptée",
           "isCorrect": false,
           "comment": "La première priorité est de stabiliser la victime dans la position la plus confortable pour prévenir d'autres dommages."
       },
       {
-          "text": "c) Examiner la victime pour rechercher des lésions",
+          "text": "Examiner la victime pour rechercher des lésions",
           "isCorrect": false,
           "comment": "Bien qu'il soit nécessaire d'examiner la victime, la priorité initiale est de prévenir toute détresse circulatoire."
       },
       {
-          "text": "d) Prévenir toute détresse circulatoire par une surveillance attentive",
+          "text": "Prévenir toute détresse circulatoire par une surveillance attentive",
           "isCorrect": true,
           "comment": "La priorité est de surveiller attentivement la victime pour détecter et traiter rapidement toute détresse circulatoire."
       }
@@ -413,22 +413,22 @@ let questionsData = [
   "text": "Quels sont les trois types principaux de causes de traumatisme abdominal énumérés dans le texte ?",
   "answers": [
       {
-          "text": "a) Choc électrique, brûlure chimique, gelure",
+          "text": "Choc électrique, brûlure chimique, gelure",
           "isCorrect": false,
           "comment": "Ces éléments ne sont pas des causes principales de traumatisme abdominal."
       },
       {
-          "text": "b) Explosion, chute de grande hauteur, accident de vélo",
+          "text": "Explosion, chute de grande hauteur, accident de vélo",
           "isCorrect": false,
           "comment": "Bien que ces événements puissent causer des blessures, ils ne sont pas les principales causes de traumatisme abdominal énumérées."
       },
       {
-          "text": "c) Pénétration d'un corps étranger, traumatisme direct, décélération brusque",
+          "text": "Pénétration d'un corps étranger, traumatisme direct, décélération brusque",
           "isCorrect": true,
           "comment": "Ce sont en effet les principaux types de causes de traumatisme abdominal énumérés."
       },
       {
-          "text": "d) Éruption volcanique, avalanche, tremblement de terre",
+          "text": "Éruption volcanique, avalanche, tremblement de terre",
           "isCorrect": false,
           "comment": "Ces événements peuvent causer des traumatismes, mais ils ne sont pas spécifiquement liés aux traumatismes abdominaux."
       }
@@ -438,22 +438,22 @@ let questionsData = [
   "text": "Quel est le risque associé aux traumatismes avec atteinte des gros vaisseaux abdominaux ?",
   "answers": [
       {
-          "text": "a) Risque de brûlures",
+          "text": "Risque de brûlures",
           "isCorrect": false,
           "comment": "Les gros vaisseaux abdominaux ne sont pas associés aux brûlures, mais plutôt aux hémorragies internes."
       },
       {
-          "text": "b) Risque de détresse circulatoire par hémorragie interne",
+          "text": "Risque de détresse circulatoire par hémorragie interne",
           "isCorrect": true,
           "comment": "Les blessures aux gros vaisseaux abdominaux peuvent entraîner une perte de sang importante et une détresse circulatoire."
       },
       {
-          "text": "c) Risque de lésions nerveuses",
+          "text": "Risque de lésions nerveuses",
           "isCorrect": false,
           "comment": "Les gros vaisseaux abdominaux ne sont pas associés aux lésions nerveuses, mais plutôt aux hémorragies et à la détresse circulatoire."
       },
       {
-          "text": "d) Risque de détresse respiratoire",
+          "text": "Risque de détresse respiratoire",
           "isCorrect": false,
           "comment": "Les problèmes respiratoires ne sont pas directement liés aux traumatismes des gros vaisseaux abdominaux."
       }
@@ -463,49 +463,24 @@ let questionsData = [
   "text": "Pourquoi faut-il rechercher l'existence de lésions dans le dos de la victime en cas de traumatisme abdominal ?",
   "answers": [
       {
-          "text": "a) Pour vérifier si la victime peut marcher",
+          "text": "Pour vérifier si la victime peut marcher",
           "isCorrect": false,
           "comment": "La capacité de marcher n'est pas la principale préoccupation lors de la recherche de lésions dans le dos."
       },
       {
-          "text": "b) Pour évaluer la gravité de la plaie",
+          "text": "Pour évaluer la gravité de la plaie",
           "isCorrect": false,
           "comment": "L'évaluation de la gravité de la plaie se concentre sur la zone abdominale, pas nécessairement sur le dos."
       },
       {
-          "text": "c) Pour identifier d'autres sources de douleur",
+          "text": "Pour identifier d'autres sources de douleur",
           "isCorrect": true,
           "comment": "Les lésions dans le dos peuvent indiquer d'autres traumatismes ou fractures qui pourraient être liés au traumatisme abdominal."
       },
       {
-          "text": "d) Pour appliquer un traitement spécifique aux lésions du dos",
+          "text": "Pour appliquer un traitement spécifique aux lésions du dos",
           "isCorrect": false,
           "comment": "L'identification des lésions dans le dos est principalement pour évaluer l'étendue des dommages et planifier le traitement global, pas seulement pour les lésions du dos."
-      }
-  ]
-},
-{
-  "text": "Quelle position doit être adoptée par la victime en cas de traumatisme abdominal ?",
-  "answers": [
-      {
-          "text": "a) Position debout",
-          "isCorrect": false,
-          "comment": "Une position debout peut aggraver les lésions internes. Une position allongée est généralement recommandée."
-      },
-      {
-          "text": "b) Position allongée, à plat ventre, jambes tendues",
-          "isCorrect": false,
-          "comment": "Une position à plat ventre peut exercer une pression sur l'abdomen. Une position allongée sur le dos avec les jambes fléchies est souvent préférée."
-      },
-      {
-          "text": "c) Position assise, jambes croisées",
-          "isCorrect": false,
-          "comment": "Une position assise peut exercer une pression sur l'abdomen et ne pas être confortable pour la victime."
-      },
-      {
-          "text": "d) Position allongée, à plat dos, jambes fléchies",
-          "isCorrect": true,
-          "comment": "Cette position aide à soulager la pression sur l'abdomen et à prévenir d'autres dommages."
       }
   ]
 },
@@ -513,22 +488,22 @@ let questionsData = [
   "text": "Quel est le pourcentage approximatif de mortalité des traumatismes du bassin ?",
   "answers": [
       {
-          "text": "a) 2-5%",
+          "text": "2-5%",
           "isCorrect": false,
           "comment": "Le taux de mortalité est généralement plus élevé, allant jusqu'à environ 8-15%."
       },
       {
-          "text": "b) 5-8%",
+          "text": "5-8%",
           "isCorrect": false,
           "comment": "Le taux de mortalité est généralement plus élevé, allant jusqu'à environ 8-15%."
       },
       {
-          "text": "c) 8-15%",
+          "text": "8-15%",
           "isCorrect": true,
           "comment": "Le taux de mortalité des traumatismes du bassin se situe généralement dans cette plage, allant jusqu'à environ 8-15%."
       },
       {
-          "text": "d) 15-20%",
+          "text": "15-20%",
           "isCorrect": false,
           "comment": "Le taux de mortalité est généralement plus bas que cela, se situant autour de 8-15%."
       }
@@ -538,22 +513,22 @@ let questionsData = [
   "text": "Quel signe évoque un traumatisme du bassin si la victime peut s'exprimer ?",
   "answers": [
       {
-          "text": "a) Douleur dans les bras",
+          "text": "Douleur dans les bras",
           "isCorrect": false,
           "comment": "La douleur dans les bras n'est pas spécifique aux traumatismes du bassin."
       },
       {
-          "text": "b) Douleur dans le cou",
+          "text": "Douleur dans le cou",
           "isCorrect": false,
           "comment": "La douleur dans le cou n'est pas spécifique aux traumatismes du bassin."
       },
       {
-          "text": "c) Douleur dans le bassin ou la partie basse de l'abdomen",
+          "text": "Douleur dans le bassin ou la partie basse de l'abdomen",
           "isCorrect": true,
           "comment": "La douleur dans le bassin ou la partie basse de l'abdomen peut être un signe de traumatisme à cette région."
       },
       {
-          "text": "d) Douleur dans les jambes",
+          "text": "Douleur dans les jambes",
           "isCorrect": false,
           "comment": "La douleur dans les jambes n'est pas spécifique aux traumatismes du bassin."
       }
@@ -563,22 +538,22 @@ let questionsData = [
   "text": "Quel élément ne fait pas partie des signes observables lors de l'examen d'une victime de traumatisme du bassin ?",
   "answers": [
       {
-          "text": "a) Douleur du bassin",
+          "text": "Douleur du bassin",
           "isCorrect": false,
           "comment": "La douleur du bassin est souvent un signe observable d'un traumatisme à cette région."
       },
       {
-          "text": "b) Impossibilité de bouger les membres inférieurs",
+          "text": "Impossibilité de bouger les membres inférieurs",
           "isCorrect": false,
           "comment": "L'impossibilité de bouger les membres inférieurs peut être un signe observable de traumatisme du bassin."
       },
       {
-          "text": "c) Respiration difficile",
+          "text": "Respiration difficile",
           "isCorrect": true,
           "comment": "La respiration difficile n'est généralement pas un signe observable directement lié aux traumatismes du bassin."
       },
       {
-          "text": "d) Urine sanglante ou présence de sang sur les sous-vêtements",
+          "text": "Urine sanglante ou présence de sang sur les sous-vêtements",
           "isCorrect": false,
           "comment": "La présence d'urine sanglante ou de sang sur les sous-vêtements peut indiquer un traumatisme du bassin."
       }
@@ -588,22 +563,22 @@ let questionsData = [
   "text": "Quelle action est recommandée en cas de détresse vitale chez une victime de traumatisme du bassin ?",
   "answers": [
       {
-          "text": "a) Appliquer un pansement sur la plaie",
+          "text": "Appliquer un pansement sur la plaie",
           "isCorrect": false,
           "comment": "Bien qu'un pansement puisse être nécessaire, la détresse circulatoire doit être gérée en priorité."
       },
       {
-          "text": "b) Mettre la victime en position assise",
+          "text": "Mettre la victime en position assise",
           "isCorrect": false,
           "comment": "La position assise peut ne pas être appropriée pour une victime de traumatisme du bassin avec détresse circulatoire."
       },
       {
-          "text": "c) Immobiliser le bassin",
+          "text": "Immobiliser le bassin",
           "isCorrect": true,
           "comment": "Immobiliser le bassin peut aider à prévenir toute aggravation de la blessure et à stabiliser la victime."
       },
       {
-          "text": "d) Appliquer de la chaleur sur la zone affectée",
+          "text": "Appliquer de la chaleur sur la zone affectée",
           "isCorrect": false,
           "comment": "L'application de chaleur peut ne pas être appropriée, surtout en cas de suspicion d'hémorragie interne."
       }
@@ -613,49 +588,24 @@ let questionsData = [
   "text": "Quelle est la première mesure à prendre lors de l'action de secours pour une victime de traumatisme du bassin ?",
   "answers": [
       {
-          "text": "a) Installer la victime dans une position assise",
+          "text": "Installer la victime dans une position assise",
           "isCorrect": false,
           "comment": "La position assise peut ne pas être appropriée pour une victime de traumatisme du bassin avec détresse circulatoire."
       },
       {
-          "text": "b) Contacter les services d'urgence",
+          "text": "Contacter les services d'urgence",
           "isCorrect": false,
           "comment": "Bien que contacter les services d'urgence soit essentiel, il y a une action prioritaire à prendre avant cela."
       },
       {
-          "text": "c) Prévenir toute détresse circulatoire par une surveillance attentive",
+          "text": "Prévenir toute détresse circulatoire par une surveillance attentive",
           "isCorrect": true,
           "comment": "Prévenir toute détresse circulatoire est essentiel pour assurer la stabilité de la victime."
       },
       {
-          "text": "d) Examiner les membres supérieurs",
+          "text": "Examiner les membres supérieurs",
           "isCorrect": false,
           "comment": "Bien que l'examen des membres supérieurs puisse être nécessaire, il y a une action prioritaire à prendre avant cela."
-      }
-  ]
-},
-{
-  "text": "Qu'est-ce que laisser la victime en une \"position allongée stricte\" signifie dans le contexte de l'action de secours pour un traumatisme du bassin ?",
-  "answers": [
-      {
-          "text": "a) Position allongée sur le côté",
-          "isCorrect": false,
-          "comment": "La position allongée sur le dos, les jambes tendues, est généralement recommandée."
-      },
-      {
-          "text": "b) Position allongée sur le dos, les jambes tendues",
-          "isCorrect": true,
-          "comment": "Cette position aide à stabiliser la victime et à prévenir toute aggravation du traumatisme."
-      },
-      {
-          "text": "c) Position allongée sur le ventre",
-          "isCorrect": false,
-          "comment": "La position sur le ventre peut ne pas être appropriée pour une victime de traumatisme du bassin."
-      },
-      {
-          "text": "d) Position assise",
-          "isCorrect": false,
-          "comment": "La position assise peut ne pas être appropriée pour une victime de traumatisme du bassin."
       }
   ]
 },
@@ -663,48 +613,47 @@ let questionsData = [
   "text": "Pourquoi est-il recommandé de dénuder le bassin de la victime lors de l'action de secours ?",
   "answers": [
       {
-          "text": "a) Pour vérifier la présence de lésions et de sang sur les sous-vêtements",
+          "text": "Pour vérifier la présence de lésions et de sang sur les sous-vêtements",
           "isCorrect": true,
           "comment": "Cela permet d'évaluer les dommages potentiels et d'identifier toute blessure cachée."
       },
       {
-          "text": "b) Pour faciliter la respiration de la victime",
+          "text": "Pour faciliter la respiration de la victime",
           "isCorrect": false,
           "comment": "Bien que la respiration soit importante, ce n'est pas la principale raison de dénuder le bassin."
       },
       {
-          "text": "c) Pour réduire la douleur",
+          "text": "Pour réduire la douleur",
           "isCorrect": false,
           "comment": "Bien que cela puisse aider, ce n'est pas la principale raison de dénuder le bassin."
       },
       {
-          "text": "d) Pour identifier d'autres blessures sur le corps",
+          "text": "Pour identifier d'autres blessures sur le corps",
           "isCorrect": false,
           "comment": "L'identification d'autres blessures est un avantage, mais ce n'est pas la principale raison de dénuder le bassin."
       }
   ]
 },
-
 {
   "text": "Quelle est la mesure recommandée si la victime présente un traumatisme du bassin associé à des signes de détresse circulatoire ?",
   "answers": [
       {
-          "text": "a) Appliquer un pansement compressif",
+          "text": "Appliquer un pansement compressif",
           "isCorrect": false,
           "comment": "Bien que cela puisse être nécessaire, il y a une action prioritaire à prendre avant cela."
       },
       {
-          "text": "b) Immobiliser la victime",
+          "text": "Immobiliser la victime",
           "isCorrect": false,
           "comment": "L'immobilisation seule peut ne pas suffire pour gérer la détresse circulatoire."
       },
       {
-          "text": "c) Mettre en place une contention externe du bassin",
+          "text": "Mettre en place une contention externe du bassin",
           "isCorrect": true,
           "comment": "La contention externe du bassin peut aider à stabiliser la région et à prévenir toute aggravation de la blessure."
       },
       {
-          "text": "d) Administrer des médicaments antidouleur",
+          "text": "Administrer des médicaments antidouleur",
           "isCorrect": false,
           "comment": "Bien que cela puisse être nécessaire, il y a une action prioritaire à prendre avant cela."
       }
@@ -714,49 +663,24 @@ let questionsData = [
   "text": "Comment doit être protégée une victime de traumatisme du bassin contre les éléments environnementaux ?",
   "answers": [
       {
-          "text": "a) En l'isolant dans une pièce calme",
+          "text": "En l'isolant dans une pièce calme",
           "isCorrect": false,
           "comment": "Isoler la victime dans une pièce calme peut ne pas être pratique dans toutes les situations d'urgence."
       },
       {
-          "text": "b) En la recouvrant d'une couverture",
+          "text": "En la recouvrant d'une couverture",
           "isCorrect": true,
           "comment": "Recouvrir la victime d'une couverture peut aider à maintenir sa chaleur corporelle et à prévenir l'hypothermie."
       },
       {
-          "text": "c) En la plaçant à l'ombre",
+          "text": "En la plaçant à l'ombre",
           "isCorrect": false,
           "comment": "Placer la victime à l'ombre peut être bénéfique, mais ce n'est pas la principale mesure pour la protéger contre les éléments environnementaux."
       },
       {
-          "text": "d) En la massant",
+          "text": "En la massant",
           "isCorrect": false,
           "comment": "Masser la victime peut ne pas être approprié dans le contexte d'un traumatisme du bassin."
-      }
-  ]
-},
-{
-  "text": "Quelle est la principale action recommandée en présence d'une détresse vitale chez une victime de traumatisme du bassin ?",
-  "answers": [
-      {
-          "text": "a) Appliquer un pansement sur la plaie",
-          "isCorrect": false,
-          "comment": "Bien que cela puisse être nécessaire, il y a une action prioritaire à prendre avant cela."
-      },
-      {
-          "text": "b) Immobiliser la victime",
-          "isCorrect": false,
-          "comment": "L'immobilisation seule peut ne pas suffire pour gérer la détresse vitale."
-      },
-      {
-          "text": "c) Administrer des médicaments antidouleur",
-          "isCorrect": false,
-          "comment": "La gestion de la douleur peut être nécessaire, mais il y a une action prioritaire à prendre avant cela."
-      },
-      {
-          "text": "d) Appliquer la conduite à tenir adaptée à son état",
-          "isCorrect": true,
-          "comment": "Appliquer la conduite à tenir adaptée à l'état de la victime est crucial pour assurer sa survie."
       }
   ]
 },
@@ -764,22 +688,22 @@ let questionsData = [
   "text": "Quel est l'objectif de limiter toute mobilisation de la victime, sauf en cas de nécessité absolue, dans l'action de secours pour un traumatisme du bassin ?",
   "answers": [
       {
-          "text": "a) Pour éviter la douleur",
+          "text": "Pour éviter la douleur",
           "isCorrect": false,
           "comment": "Bien que cela puisse être un résultat, l'objectif principal est de prévenir toute aggravation de la blessure."
       },
       {
-          "text": "b) Pour éviter toute aggravation de la blessure",
+          "text": "Pour éviter toute aggravation de la blessure",
           "isCorrect": true,
           "comment": "Limiter la mobilisation peut aider à prévenir des dommages supplémentaires au bassin et aux structures environnantes."
       },
       {
-          "text": "c) Pour faciliter le transport de la victime",
+          "text": "Pour faciliter le transport de la victime",
           "isCorrect": false,
           "comment": "Le transport de la victime peut nécessiter une mobilisation, mais la priorité est d'éviter toute aggravation de la blessure."
       },
       {
-          "text": "d) Pour permettre à la victime de se reposer",
+          "text": "Pour permettre à la victime de se reposer",
           "isCorrect": false,
           "comment": "Bien que le repos soit important, limiter la mobilisation vise principalement à prévenir toute aggravation de la blessure."
       }
@@ -789,49 +713,24 @@ let questionsData = [
   "text": "Que doit-on rechercher en particulier lors de la dénudation du bassin de la victime ?",
   "answers": [
       {
-          "text": "a) La présence de lésions sur le visage",
+          "text": "La présence de lésions sur le visage",
           "isCorrect": false,
           "comment": "Bien que la vérification des blessures soit importante, le visage n'est pas directement lié au traumatisme du bassin."
       },
       {
-          "text": "b) La présence de lésions dans le dos ou au niveau des fesses",
+          "text": "La présence de lésions dans le dos ou au niveau des fesses",
           "isCorrect": true,
           "comment": "Les lésions dans le dos ou au niveau des fesses peuvent indiquer des blessures potentielles au bassin ou à la colonne vertébrale."
       },
       {
-          "text": "c) La présence de lésions sur les membres supérieurs",
+          "text": "La présence de lésions sur les membres supérieurs",
           "isCorrect": false,
           "comment": "Bien que cela puisse être important, le focus principal est sur le bassin et les régions environnantes."
       },
       {
-          "text": "d) La présence de lésions sur les chevilles",
+          "text": "La présence de lésions sur les chevilles",
           "isCorrect": false,
           "comment": "Bien que cela puisse être important, le focus principal est sur le bassin et les régions environnantes."
-      }
-  ]
-},
-{
-  "text": "Quel est le but de la contention externe du bassin ?",
-  "answers": [
-      {
-          "text": "a) Réduire la douleur",
-          "isCorrect": false,
-          "comment": "Bien que cela puisse aider, le but principal est de stabiliser le bassin et de prévenir toute aggravation de la blessure."
-      },
-      {
-          "text": "b) Faciliter la respiration",
-          "isCorrect": false,
-          "comment": "Bien que cela puisse être bénéfique, le but principal est de stabiliser le bassin et de prévenir toute aggravation de la blessure."
-      },
-      {
-          "text": "c) Prévenir toute aggravation de la blessure",
-          "isCorrect": false,
-          "comment": "La contention externe vise à stabiliser le bassin, mais il y a un autre objectif plus spécifique."
-      },
-      {
-          "text": "d) Stabiliser le bassin",
-          "isCorrect": true,
-          "comment": "La contention externe du bassin vise à stabiliser la région et à prévenir toute détérioration de la blessure."
       }
   ]
 },
@@ -839,22 +738,22 @@ let questionsData = [
   "text": "Quelle est la recommandation en cas d'impossibilité d'obtenir un avis médical pour une victime de traumatisme du bassin présentant des signes de détresse circulatoire ?",
   "answers": [
       {
-          "text": "a) Attendre l'arrivée des secours sans intervention",
+          "text": "Attendre l'arrivée des secours sans intervention",
           "isCorrect": false,
           "comment": "En cas de détresse circulatoire, des mesures doivent être prises pour stabiliser la victime jusqu'à l'arrivée des secours."
       },
       {
-          "text": "b) Immobiliser la victime sans aucune autre mesure",
+          "text": "Immobiliser la victime sans aucune autre mesure",
           "isCorrect": false,
           "comment": "L'immobilisation seule peut ne pas suffire pour gérer la détresse circulatoire."
       },
       {
-          "text": "c) Mettre en place une contention externe du bassin",
+          "text": "Mettre en place une contention externe du bassin",
           "isCorrect": true,
           "comment": "La contention externe du bassin peut aider à stabiliser la victime en attendant l'arrivée des secours médicaux."
       },
       {
-          "text": "d) Administrer des médicaments antidouleur",
+          "text": "Administrer des médicaments antidouleur",
           "isCorrect": false,
           "comment": "Bien que cela puisse être nécessaire, il y a une action prioritaire à prendre avant cela."
       }
@@ -864,52 +763,26 @@ let questionsData = [
   "text": "Quelle mesure supplémentaire est nécessaire en présence d'une détresse vitale chez une victime de traumatisme du bassin ?",
   "answers": [
       {
-          "text": "a) Demander à la victime de bouger ses membres",
+          "text": "Demander à la victime de bouger ses membres",
           "isCorrect": false,
           "comment": "En cas de détresse vitale, d'autres mesures prioritaires doivent être prises pour stabiliser la victime."
       },
       {
-          "text": "b) Administrer des médicaments antidouleur",
+          "text": "Administrer des médicaments antidouleur",
           "isCorrect": false,
           "comment": "La gestion de la douleur peut être nécessaire, mais il y a une autre mesure plus importante en cas de détresse vitale."
       },
       {
-          "text": "c) Mettre en place une contention externe du bassin",
+          "text": "Mettre en place une contention externe du bassin",
           "isCorrect": true,
           "comment": "La contention externe du bassin peut aider à stabiliser la victime en cas de détresse vitale."
       },
       {
-          "text": "d) Appliquer un pansement compressif",
+          "text": "Appliquer un pansement compressif",
           "isCorrect": false,
           "comment": "Bien que cela puisse être nécessaire, il y a une autre mesure plus importante en cas de détresse vitale."
       }
   ]
-},
-
-{
-    "text": "Qu'est-ce qui peut causer un traumatisme crânien ?",
-    "answers": [
-        {
-            text: "Se blesser par un objet pénétrant",
-            isCorrect: true,
-            comment: "Se blesser par un objet pénétrant"
-        },
-        {
-            text: "Tomber d'une grande hauteur",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse."
-        },
-        {
-            text: "Respirer de l'oxygène",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse."
-        },
-        {
-            text: "Faire de l'exercice physique",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse."
-        }
-    ]
 },
 {
     "text": "Quelles sont les conséquences d'un choc direct au niveau de la tête ?",
@@ -1081,31 +954,6 @@ let questionsData = [
         },
         {
             text: "Administrer de l'oxygène en inhalation",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse."
-        }
-    ]
-},
-{
-    "text": "Que doit faire l'intervenant en présence d'une victime qui respire mais a perdu connaissance ?",
-    "answers": [
-        {
-            text: "Rien, car la victime respire",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse."
-        },
-        {
-            text: "Administrer de l'oxygène en inhalation",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse."
-        },
-        {
-            text: "Appliquer la conduite à tenir adaptée à une victime qui présente une détresse vitale",
-            isCorrect: true,
-            comment: "Réponse correcte : Appliquer la conduite à tenir adaptée à une victime qui présente une détresse vitale"
-        },
-        {
-            text: "Appeler les secours et attendre leur arrivée",
             isCorrect: false,
             comment: "Ce n'est pas la bonne réponse."
         }
@@ -1312,33 +1160,8 @@ let questionsData = [
     ]
 },
 {
-    "text": "Que doit faire l'intervenant si l'immobilisation du rachis est nécessaire ?",
+    "text": "Que doit faire l'intervenant en cas de plainte de la victime de nausées ou de vomissements ?",
     "answers": [
-        {
-            "text": "Rien, car cela pourrait aggraver la situation",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. L'immobilisation du rachis est cruciale pour éviter tout mouvement qui pourrait aggraver les lésions existantes. Il est essentiel d'immobiliser correctement le rachis en utilisant des sangles ou d'autres dispositifs d'immobilisation appropriés."
-        },
-        {
-            "text": "Immobiliser la victime avec des sangles",
-            "isCorrect": true,
-            "comment": "Réponse correcte : Lorsque l'immobilisation du rachis est nécessaire, l'intervenant doit immobiliser la victime en utilisant des sangles ou d'autres dispositifs d'immobilisation appropriés pour maintenir le rachis dans une position stable et éviter tout mouvement qui pourrait aggraver les lésions."
-        },
-        {
-            "text": "Demander à la victime de bouger pour voir si elle ressent de la douleur",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Demander à la victime de bouger peut aggraver les lésions potentielles du rachis et ne doit pas être fait avant l'évaluation médicale appropriée. L'immobilisation est la priorité pour prévenir les dommages supplémentaires."
-        },
-        {
-            "text": "Appliquer de la glace sur la zone affectée",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Bien que l'application de glace puisse être appropriée pour certaines blessures, elle n'est pas recommandée pour l'immobilisation du rachis. L'utilisation de dispositifs d'immobilisation est préférable pour maintenir la stabilité du rachis."
-        }
-    ]
-},
-{
-"text": "Que doit faire l'intervenant en cas de plainte de la victime de nausées ou de vomissements ?",
-"answers": [
     {
         "text": "Lui donner à boire",
         "isCorrect": false,
@@ -1612,56 +1435,6 @@ let questionsData = [
     ]
 },
 {
-    "text": "Quelle est la conduite à tenir en présence d'une détresse vitale ?",
-    "answers": [
-        {
-            "text": "Attendre l'arrivée des secours sans intervenir",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. En présence d'une détresse vitale, il est important de traiter prioritairement la situation selon les procédures adéquates."
-        },
-        {
-            "text": "Traiter prioritairement la détresse vitale selon la conduite à tenir adéquate",
-            "isCorrect": true,
-            "comment": "Réponse correcte : En cas de détresse vitale, il faut agir immédiatement en suivant les procédures appropriées pour sauver la vie de la victime."
-        },
-        {
-            "text": "Demander à la victime de se lever et de marcher",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Une détresse vitale nécessite une intervention immédiate et ne doit pas être ignorée."
-        },
-        {
-            "text": "Donner à la victime un verre d'eau pour la réconforter",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Donner à boire à une victime en détresse vitale ne résoudra pas le problème sous-jacent."
-        }
-    ]
-},
-{
-    "text": "Quelles sont les détresses vitales prioritaires ?",
-    "answers": [
-        {
-            "text": "Une douleur au niveau du dos",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Une douleur au dos n'est pas nécessairement une détresse vitale."
-        },
-        {
-            "text": "Une obstruction des voies aériennes",
-            "isCorrect": true,
-            "comment": "Réponse correcte : Une obstruction des voies respiratoires est une détresse vitale prioritaire nécessitant une intervention immédiate."
-        },
-        {
-            "text": "Un engourdissement dans les pieds",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Un engourdissement dans les pieds n'est pas une détresse vitale, bien que cela puisse indiquer d'autres problèmes de santé."
-        },
-        {
-            "text": "Un saignement mineur sur le bras",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Un saignement mineur n'est généralement pas considéré comme une détresse vitale, sauf s'il est associé à une hémorragie importante."
-        }
-    ]
-},
-{
     "text": "Comment traiter une victime agitée non coopérante ?",
     "answers": [
         {
@@ -1683,31 +1456,6 @@ let questionsData = [
             "text": "Appeler la police pour la maîtriser",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse. Appeler la police n'est généralement pas nécessaire pour gérer une victime agitée non coopérante dans un contexte médical d'urgence."
-        }
-    ]
-},
-{
-    "text": "Quelles sont les actions à entreprendre en cas de plaie pénétrante isolée du thorax, du cou ou de la tête ?",
-    "answers": [
-        {
-            "text": "Immobiliser immédiatement la victime",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. L'immobilisation immédiate n'est pas toujours nécessaire en cas de plaie pénétrante, surtout si elle est isolée au thorax, au cou ou à la tête."
-        },
-        {
-            "text": "Appliquer une crème antiseptique sur la plaie",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Une crème antiseptique peut ne pas être suffisante pour traiter une plaie pénétrante."
-        },
-        {
-            "text": "Appliquer la conduite à tenir adéquate pour une plaie du thorax, du cou ou de la tête",
-            "isCorrect": true,
-            "comment": "Réponse correcte : En cas de plaie pénétrante isolée au thorax, au cou ou à la tête, il est important d'appliquer la conduite à tenir appropriée pour chaque situation spécifique."
-        },
-        {
-            "text": "Ignorer la plaie et se concentrer sur d'autres blessures",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Toutes les plaies pénétrantes nécessitent une évaluation et une prise en charge appropriées pour éviter des complications graves."
         }
     ]
 },
@@ -1832,56 +1580,6 @@ let questionsData = [
     ]
 },
 {
-"text": "Quelle est la conduite à tenir en présence d'une détresse respiratoire ?",
-"answers": [
-    {
-        "text": "Attendre l'arrivée des secours sans intervenir",
-        "isCorrect": false,
-        "comment": "Ce n'est pas la bonne réponse. En cas de détresse respiratoire, une intervention immédiate est nécessaire pour traiter la cause et éviter des complications graves."
-    },
-    {
-        "text": "Traiter immédiatement la cause de la détresse respiratoire",
-        "isCorrect": true,
-        "comment": "Réponse correcte : En présence d'une détresse respiratoire, il est crucial de traiter immédiatement la cause sous-jacente pour stabiliser la respiration de la victime et éviter des complications graves."
-    },
-    {
-        "text": "Encourager la victime à parler pour vérifier sa respiration",
-        "isCorrect": false,
-        "comment": "Ce n'est pas la bonne réponse. Encourager la victime à parler ne traite pas la détresse respiratoire et peut même aggraver la situation en cas de difficultés respiratoires."
-    },
-    {
-        "text": "Donner à la victime des médicaments pour calmer l'anxiété",
-        "isCorrect": false,
-        "comment": "Ce n'est pas la bonne réponse. Donner des médicaments pour calmer l'anxiété ne traite pas la cause de la détresse respiratoire et peut retarder la prise en charge appropriée."
-    }
-]
-},
-{
-    "text": "Quels sont les signes d'une détresse respiratoire ?",
-    "answers": [
-        {
-            "text": "Une plaie ouverte sur le bras",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Une plaie ouverte sur le bras n'est pas un signe de détresse respiratoire."
-        },
-        {
-            "text": "Une respiration rapide et superficielle",
-            "isCorrect": true,
-            "comment": "Réponse correcte : Une respiration rapide et superficielle est un signe courant de détresse respiratoire, indiquant une difficulté à obtenir suffisamment d'oxygène."
-        },
-        {
-            "text": "Une douleur abdominale légère",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Une douleur abdominale légère n'est pas spécifique à la détresse respiratoire."
-        },
-        {
-            "text": "Un engourdissement dans les jambes",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Un engourdissement dans les jambes n'est pas un signe de détresse respiratoire."
-        }
-    ]
-},
-{
     "text": "Quel est le but de l'immobilisation de la tête et du cou ?",
     "answers": [
         {
@@ -1903,31 +1601,6 @@ let questionsData = [
             "text": "De maintenir la tête en position inclinée pour améliorer la respiration",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse. L'immobilisation de la tête et du cou ne vise pas à maintenir une position inclinée pour améliorer la respiration, mais plutôt à prévenir les mouvements qui pourraient aggraver les lésions du rachis cervical."
-        }
-    ]
-},
-{
-    "text": "Quand utiliser une minerve souple ?",
-    "answers": [
-        {
-            "text": "Lorsqu'il est nécessaire d'immobiliser le rachis cervical sans suspicion de lésion",
-            "isCorrect": true,
-            "comment": "Réponse correcte : Une minerve souple est utilisée lorsqu'il est nécessaire d'immobiliser le rachis cervical sans suspicion de lésion pour des raisons de précaution ou de confort."
-        },
-        {
-            "text": "Uniquement en cas de traumatisme crânien",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Une minerve souple peut être utilisée dans diverses situations, pas uniquement en cas de traumatisme crânien."
-        },
-        {
-            "text": "Lorsque la victime se plaint de douleurs au dos",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Une minerve souple n'est pas spécifiquement utilisée pour les douleurs au dos, mais plutôt pour l'immobilisation du rachis cervical."
-        },
-        {
-            "text": "Lorsqu'il est difficile d'appliquer un collier cervical rigide",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. Une minerve souple n'est pas utilisée en remplacement d'un collier cervical rigide, mais dans des situations où une immobilisation moins contraignante est nécessaire."
         }
     ]
 },
@@ -2003,81 +1676,6 @@ let questionsData = [
             "text": "Jamais, car cela pourrait aggraver les blessures de la victime",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse. Le relevage de sécurité est parfois nécessaire pour assurer la sécurité de la victime et de ceux qui l'entourent."
-        }
-    ]
-},
-{
-    "text": "Quelle est la position de la victime lors du relevage de sécurité ?",
-    "answers": [
-        {
-            "text": "Assise",
-            "isCorrect": true,
-            "comment": "Réponse correcte : La position de la victime lors du relevage de sécurité est assise."
-        },
-        {
-            "text": "Allongée sur le dos",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. La victime est placée en position assise lors du relevage de sécurité."
-        },
-        {
-            "text": "Allongée sur le ventre",
-            "isCorrect": false,
-            "comment": "Ce n'est pas la bonne réponse. La position de la victime lors du relevage de sécurité est assise, pas allongée sur le ventre."
-        },
-        {
-            text: "Debout",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse. La victime est placée en position assise lors du relevage de sécurité, pas debout."
-        }
-    ]
-},
-{
-    "text": "Quelles sont les actions à entreprendre avant le relevage de sécurité ?",
-    "answers": [
-        {
-            text: "Ignorer les blessures de la victime pour ne pas aggraver sa douleur",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse. Il est important de prendre en compte les blessures de la victime lors du relevage de sécurité."
-        },
-        {
-            text: "Vérifier la conscience de la victime et son état de respiration",
-            isCorrect: true,
-            comment: "Réponse correcte : Avant le relevage de sécurité, il est important de vérifier la conscience de la victime et son état de respiration."
-        },
-        {
-            text: "Laisser la victime seule pour trouver de l'aide",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse. Il est crucial de rester auprès de la victime pour assurer sa sécurité avant le relevage de sécurité."
-        },
-        {
-            text: "Appliquer immédiatement un collier cervical",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse. L'application d'un collier cervical peut être nécessaire après le relevage de sécurité en fonction des blessures de la victime, mais ce n'est pas une étape préliminaire."
-        }
-    ]
-},
-{
-    "text": "Comment doit être effectué le relevage de sécurité ?",
-    "answers": [
-        {
-            text: "Rapidement pour éviter d'exposer la victime trop longtemps",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse. Le relevage de sécurité doit être effectué avec précaution pour éviter d'aggraver les blessures de la victime."
-        },
-        {
-            text: "En demandant à la victime de se relever elle-même",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse. Le relevage de sécurité est effectué par les secouristes pour protéger la victime et lui éviter tout mouvement excessif."
-        },
-        {
-            text: "En maintenant la tête, le cou et le tronc en position alignée",
-            isCorrect: true,
-            comment: "Réponse correcte : Le relevage de sécurité doit être effectué en maintenant la tête, le cou et le tronc de la victime en position alignée pour limiter les risques de lésions supplémentaires."
-        },
-        {
-            text: "En utilisant des mouvements brusques pour soulever la victime",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse. Les mouvements brusques peuvent aggraver les blessures de la victime. Le relevage doit être effectué de manière contrôlée et douce."
         }
     ]
 },
@@ -2282,31 +1880,6 @@ let questionsData = [
     ]
 },
 {
-    "text": "Quel est le but de l'immobilisation d'une victime sur un brancard cuillère ?",
-    "answers": [
-        {
-            text: "Limiter les mouvements de la victime",
-            isCorrect: true,
-            comment: "Réponse correcte : L'immobilisation sur un brancard cuillère vise à limiter les mouvements de la victime, ce qui est essentiel pour éviter d'aggraver les blessures, en particulier celles de la colonne vertébrale."
-        },
-        {
-            text: "Faciliter le transport de la victime",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse. Bien que le brancard cuillère facilite le transport, son objectif principal est d'immobiliser la victime pour prévenir toute exacerbation des blessures."
-        },
-        {
-            text: "Réduire la douleur de la victime",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse. L'immobilisation sur un brancard cuillère n'a pas pour objectif principal de réduire la douleur, mais plutôt de limiter les mouvements pour éviter d'aggraver les blessures."
-        },
-        {
-            text: "Permettre à la victime de se déplacer librement",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse. L'immobilisation sur un brancard cuillère vise à restreindre les mouvements de la victime, pas à lui permettre de se déplacer librement."
-        }
-    ]
-},
-{
     "text": "Quel est l'objectif principal de l'immobilisation d'une victime présentant un traumatisme crânien ?",
     "answers": [
         {
@@ -2328,31 +1901,6 @@ let questionsData = [
             text: "Faciliter le transport de la victime",
             isCorrect: false,
             comment: "Ce n'est pas la bonne réponse. Bien que le transport soit important, l'objectif principal de l'immobilisation dans le cas d'un traumatisme crânien est de prévenir toute exacerbation des lésions."
-        }
-    ]
-},
-{
-    "text": "Qu'est-ce qu'un traumatisme du thorax ?",
-    "answers": [
-        {
-            text: "Une blessure au niveau du bras",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse. Un traumatisme du thorax concerne spécifiquement cette région du corps."
-        },
-        {
-            text: "Une blessure au niveau de l'abdomen",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse. Un traumatisme du thorax concerne spécifiquement la région de la cage thoracique, pas l'abdomen."
-        },
-        {
-            text: "Une atteinte traumatique du thorax avec ou sans plaie",
-            isCorrect: true,
-            comment: "Réponse correcte : Un traumatisme du thorax se réfère à une atteinte traumatique de cette région du corps, avec ou sans plaie associée."
-        },
-        {
-            text: "Une blessure au niveau de la tête",
-            isCorrect: false,
-            comment: "Ce n'est pas la bonne réponse. Un traumatisme du thorax concerne spécifiquement la région de la cage thoracique, pas la tête."
         }
     ]
 },
@@ -2557,31 +2105,6 @@ let questionsData = [
     ]
 },
 {
-"text": "Que faut-il faire si une victime a perdu connaissance suite à un traumatisme du thorax ?",
-"answers": [
-    {
-        "text": "Laisser la victime sans assistance",
-        "isCorrect": false,
-        "comment": "Ce n'est pas la bonne réponse. Il est crucial de fournir une assistance à une victime inconsciente, surtout après un traumatisme du thorax."
-    },
-    {
-        "text": "Appliquer une RCP immédiatement",
-        "isCorrect": false,
-        "comment": "Ce n'est pas la bonne réponse. La RCP est nécessaire seulement si la victime cesse de respirer ou si son pouls s'arrête."
-    },
-    {
-        "text": "Attendre que la victime reprenne connaissance",
-        "isCorrect": false,
-        "comment": "Ce n'est pas la bonne réponse. Si une victime est inconsciente, il faut agir rapidement pour obtenir de l'aide médicale."
-    },
-    {
-        "text": "Appeler les secours",
-        "isCorrect": true,
-        "comment": "Réponse correcte : L'appel aux secours est la première étape essentielle à effectuer si une victime perd connaissance après un traumatisme du thorax."
-    }
-]
-},
-{
 "text": "Comment peut se manifester une atteinte du thorax chez une victime consciente ?",
 "answers": [
     {
@@ -2599,28 +2122,6 @@ let questionsData = [
     },
     {
         "text": "Par une diminution de l'odorat",
-        "isCorrect": false
-    }
-]
-},
-{
-"text": "Quelle est la conduite à tenir devant une victime suspecte d'un traumatisme crânien et qui respire ?",
-"answers": [
-    {
-        "text": "Appeler les secours et attendre leur arrivée",
-        "isCorrect": true,
-        "comment": "Réponse correcte : En cas de traumatisme crânien avec respiration préservée, il est essentiel d'appeler les secours et d'attendre leur arrivée."
-    },
-    {
-        "text": "Immobiliser la victime",
-        "isCorrect": false
-    },
-    {
-        "text": "Administrer de l'oxygène en inhalation",
-        "isCorrect": false
-    },
-    {
-        "text": "Rien, car la victime respire",
         "isCorrect": false
     }
 ]
@@ -2648,28 +2149,6 @@ let questionsData = [
 ]
 },
 {
-"text": "Quels sont les signes d'une atteinte de la moelle épinière chez une victime présentant un traumatisme du dos ?",
-"answers": [
-    {
-        "text": "Engourdissement et douleur au niveau de la colonne vertébrale",
-        "isCorrect": false
-    },
-    {
-        "text": "Perte de conscience et difficulté respiratoire",
-        "isCorrect": false
-    },
-    {
-        "text": "Perte ou diminution de la force musculaire et de la sensibilité des membres",
-        "isCorrect": true,
-        "comment": "Réponse correcte : Une atteinte de la moelle épinière peut se manifester par une perte ou une diminution de la force musculaire et de la sensibilité des membres chez une victime de traumatisme du dos."
-    },
-    {
-        "text": "Douleur et raideur au niveau de la nuque",
-        "isCorrect": false
-    }
-]
-},
-{
 "text": "Quelle est la première étape à effectuer en cas de suspicion de lésion du rachis chez une victime ?",
 "answers": [
     {
@@ -2680,28 +2159,6 @@ let questionsData = [
         "text": "Immobiliser la tête et le cou de la victime",
         "isCorrect": true,
         "comment": "Réponse correcte : En cas de suspicion de lésion du rachis, la première étape est d'immobiliser la tête et le cou de la victime pour éviter tout mouvement qui pourrait aggraver la blessure."
-    },
-    {
-        "text": "Demander à la victime de bouger pour évaluer les douleurs",
-        "isCorrect": false
-    },
-    {
-        "text": "Administrer des médicaments antidouleur à la victime",
-        "isCorrect": false
-    }
-]
-},
-{
-"text": "Quelle est la première étape à effectuer en cas de suspicion de lésion du rachis chez une victime ?",
-"answers": [
-    {
-        "text": "Demander à la victime de se relever",
-        "isCorrect": false
-    },
-    {
-        "text": "Immobiliser la tête et le cou de la victime",
-        "isCorrect": true,
-        "comment": "Réponse correcte : Il est essentiel d'immobiliser la tête et le cou pour prévenir d'autres dommages en cas de suspicion de lésion du rachis."
     },
     {
         "text": "Demander à la victime de bouger pour évaluer les douleurs",
@@ -2868,28 +2325,6 @@ let questionsData = [
 ]
 },
 {
-"text": "Quelle est la position recommandée pour une victime avec une atteinte au niveau d'un membre inférieur ?",
-"answers": [
-    {
-        "text": "Position assise",
-        "isCorrect": false
-    },
-    {
-        "text": "Position allongée",
-        "isCorrect": true,
-        "comment": "Réponse correcte : Il est recommandé de placer la victime en position allongée en cas d'atteinte au niveau d'un membre inférieur."
-    },
-    {
-        "text": "Position debout",
-        "isCorrect": false
-    },
-    {
-        "text": "Position inclinée",
-        "isCorrect": false
-    }
-]
-},
-{
 "text": "Pourquoi doit-on immobiliser le membre atteint avec l'attelle la plus appropriée ?",
 "answers": [
     {
@@ -2978,116 +2413,6 @@ let questionsData = [
 ]
 },
 {
-"text": "Que faire si la victime a perdu connaissance après un traumatisme des membres ?",
-"answers": [
-    {
-        "text": "La déplacer immédiatement",
-        "isCorrect": false
-    },
-    {
-        "text": "La laisser dans la position où elle se trouve",
-        "isCorrect": false
-    },
-    {
-        "text": "Appliquer une conduite à tenir spécifique",
-        "isCorrect": true,
-        "comment": "Réponse correcte : En cas de perte de connaissance après un traumatisme des membres, appliquer une conduite à tenir spécifique est nécessaire."
-    },
-    {
-        "text": "Ne rien faire et attendre l'arrivée des secours",
-        "isCorrect": false
-    }
-]
-},
-{
-"text": "Quel est l'effet de l'immobilisation du membre blessé ?",
-"answers": [
-    {
-        "text": "Aggravation de la douleur",
-        "isCorrect": false
-    },
-    {
-        "text": "Prévention de tout déplacement de la zone blessée",
-        "isCorrect": true,
-        "comment": "Réponse correcte : L'immobilisation prévient tout déplacement de la zone blessée."
-    },
-    {
-        "text": "Augmentation de la mobilité",
-        "isCorrect": false
-    },
-    {
-        "text": "Diminution de la sensibilité",
-        "isCorrect": false
-    }
-]
-},
-{
-"text": "Que doit faire le secouriste en présence d'une fracture ouverte avec un saignement abondant ?",
-"answers": [
-    {
-        "text": "Appliquer du froid sur la plaie",
-        "isCorrect": false
-    },
-    {
-        "text": "Immobiliser le membre blessé immédiatement",
-        "isCorrect": false
-    },
-    {
-        "text": "Appliquer la conduite à tenir face à une hémorragie externe avant toute immobilisation",
-        "isCorrect": true,
-        "comment": "Réponse correcte : Il est crucial d'appliquer la conduite à tenir face à une hémorragie externe avant toute immobilisation en cas de fracture ouverte avec saignement abondant."
-    },
-    {
-        "text": "Réaligner la fracture pour arrêter le saignement",
-        "isCorrect": false
-    }
-]
-},
-{
-"text": "Que doit faire le secouriste si la victime présente une détresse vitale après un traumatisme ?",
-"answers": [
-    {
-        "text": "Immobiliser le membre blessé",
-        "isCorrect": false
-    },
-    {
-        "text": "Appliquer une conduite à tenir adaptée à une détresse circulatoire",
-        "isCorrect": true,
-        "comment": "Réponse correcte : En cas de détresse vitale après un traumatisme, il faut appliquer une conduite à tenir adaptée à une détresse circulatoire."
-    },
-    {
-        "text": "Appliquer du froid sur la lésion",
-        "isCorrect": false
-    },
-    {
-        "text": "Examiner la victime en détail",
-        "isCorrect": false
-    }
-]
-},
-{
-"text": "Quel est l'effet de l'application de froid sur une lésion ?",
-"answers": [
-    {
-        "text": "Augmente le gonflement",
-        "isCorrect": false
-    },
-    {
-        "text": "Réduit la douleur",
-        "isCorrect": true,
-        "comment": "Réponse correcte : L'application de froid sur une lésion aide à réduire la douleur."
-    },
-    {
-        "text": "Réaligne les os",
-        "isCorrect": false
-    },
-    {
-        "text": "Provoque des saignements",
-        "isCorrect": false
-    }
-]
-},
-{
 "text": "Comment le secouriste doit-il placer la victime si l'atteinte est au niveau d'un membre supérieur ?",
 "answers": [
     {
@@ -3131,31 +2456,6 @@ let questionsData = [
     }
 ]
 },
-    {
-        "text": "Qu'est-ce qui peut provoquer une détresse vitale lors d'un traumatisme de la face et du cou ?",
-        "answers": [
-            {
-                "text": "Obstruction des voies aériennes",
-                "isCorrect": true,
-                "comment": "Réponse correcte : Une obstruction des voies aériennes peut entraîner une détresse respiratoire sévère lors d'un traumatisme de la face et du cou."
-            },
-            {
-                "text": "Gonflement des paupières",
-                "isCorrect": false,
-                "comment": "Lors d'un traumatisme de la face et du cou, le gonflement des paupières peut être présent mais n'entraîne pas directement une détresse vitale."
-            },
-            {
-                "text": "Douleur dentaire sévère",
-                "isCorrect": false,
-                "comment": "La douleur dentaire sévère, bien que douloureuse, ne constitue pas une cause directe de détresse vitale lors d'un traumatisme de la face et du cou."
-            },
-            {
-                "text": "Fracture du bras",
-                "isCorrect": false,
-                "comment": "Une fracture du bras ne provoque pas de détresse vitale directe lors d'un traumatisme de la face et du cou."
-            }
-        ]
-    },
     {
         "text": "Quelles sont les causes courantes des traumatismes de la face et du cou ?",
         "answers": [
@@ -3257,56 +2557,6 @@ let questionsData = [
         ]
     },
     {
-        "text": "Que faire en cas de fracture de la mandibule avec détresse respiratoire ?",
-        "answers": [
-            {
-                "text": "Rester en attente sans intervention",
-                "isCorrect": false,
-                "comment": "En cas de fracture de la mandibule avec détresse respiratoire, une intervention immédiate est nécessaire pour stabiliser la respiration de la victime."
-            },
-            {
-                "text": "Installer la victime sur le ventre",
-                "isCorrect": false,
-                "comment": "Installer la victime sur le ventre peut aggraver la détresse respiratoire. Il est préférable de positionner la victime sur le côté pour aider à la respiration."
-            },
-            {
-                "text": "Installer la victime sur le côté",
-                "isCorrect": true,
-                "comment": "Réponse correcte : En cas de fracture de la mandibule avec détresse respiratoire, il est important de positionner la victime sur le côté pour maintenir les voies respiratoires dégagées."
-            },
-            {
-                "text": "Immobiliser les bras",
-                "isCorrect": false,
-                "comment": "L'immobilisation des bras n'est pas nécessaire en cas de détresse respiratoire due à une fracture de la mandibule."
-            }
-        ]
-    },
-    {
-        "text": "Comment minimiser les mouvements des yeux en cas d'atteinte traumatique de l'œil ?",
-        "answers": [
-            {
-                "text": "Demander à la victime de regarder autour",
-                "isCorrect": false,
-                "comment": "Demander à la victime de regarder autour peut aggraver les blessures oculaires en augmentant les mouvements des yeux. Il est préférable de limiter les mouvements oculaires en demandant à la victime de fermer les yeux et de rester allongée."
-            },
-            {
-                "text": "Recouvrir les yeux avec des bandages serrés",
-                "isCorrect": false,
-                "comment": "Recouvrir les yeux avec des bandages serrés peut être excessif et peut aggraver les blessures oculaires. Il est préférable d'adopter une approche plus douce pour minimiser les mouvements des yeux."
-            },
-            {
-                "text": "Demander à la victime de fermer les yeux et de rester allongée",
-                "isCorrect": true,
-                "comment": "Réponse correcte : En demandant à la victime de fermer les yeux et de rester allongée, on limite les mouvements oculaires et on favorise la protection des yeux blessés."
-            },
-            {
-                "text": "Faire pivoter la tête de la victime",
-                "isCorrect": false,
-                "comment": "Pivoter la tête de la victime peut aggraver les blessures oculaires en provoquant des mouvements involontaires des yeux. Il est préférable de maintenir la tête stable."
-            }
-        ]
-    },
-    {
         "text": "Quelle est la conduite à tenir face à un saignement abondant causé par une fracture de la face ?",
         "answers": [
             {
@@ -3328,56 +2578,6 @@ let questionsData = [
                 "text": "Installer la victime sur le dos",
                 "isCorrect": false,
                 "comment": "Installer la victime sur le dos peut aggraver le saignement en augmentant la pression sur la région blessée."
-            }
-        ]
-    },
-    {
-        "text": "Que doit faire le secouriste si la victime perd connaissance ?",
-        "answers": [
-            {
-                "text": "Attendre qu'elle reprenne conscience d'elle-même",
-                "isCorrect": false,
-                "comment": "Attendre que la victime reprenne conscience peut retarder les soins nécessaires. Il est important d'intervenir immédiatement en appliquant la conduite à tenir adaptée."
-            },
-            {
-                "text": "Chercher à réveiller la victime en la secouant",
-                "isCorrect": false,
-                "comment": "Secouer la victime peut aggraver les blessures. Il est préférable d'adopter des techniques non invasives pour réveiller la victime."
-            },
-            {
-                "text": "Appliquer la conduite à tenir adaptée",
-                "isCorrect": true,
-                "comment": "Réponse correcte : En cas de perte de conscience, il est essentiel d'appliquer immédiatement la conduite à tenir adaptée pour assurer la sécurité de la victime."
-            },
-            {
-                "text": "Continuer à vérifier le pouls",
-                "isCorrect": false,
-                "comment": "Continuer à vérifier le pouls est important mais ne remplace pas la prise en charge immédiate en cas de perte de connaissance."
-            }
-        ]
-    },
-    {
-        "text": "Quel risque est associé à une obstruction des voies aériennes lors d'un traumatisme de la face ?",
-        "answers": [
-            {
-                "text": "Saignement nasal",
-                "isCorrect": false,
-                "comment": "Une obstruction des voies aériennes peut entraîner une détresse respiratoire mais n'est pas spécifiquement associée à des saignements nasaux."
-            },
-            {
-                "text": "Détresse respiratoire",
-                "isCorrect": true,
-                "comment": "Réponse correcte : Une obstruction des voies aériennes peut entraîner une détresse respiratoire sévère, mettant la vie de la victime en danger."
-            },
-            {
-                "text": "Fracture dentaire",
-                "isCorrect": false,
-                "comment": "Une obstruction des voies aériennes ne conduit pas directement à une fracture dentaire, bien que d'autres blessures puissent survenir lors du traumatisme."
-            },
-            {
-                "text": "Douleur abdominale",
-                "isCorrect": false,
-                "comment": "La douleur abdominale n'est pas un symptôme directement associé à une obstruction des voies aériennes."
             }
         ]
     },
@@ -3407,31 +2607,6 @@ let questionsData = [
         ]
     },
     {
-        "text": "Que faire si la victime présente une déformation de la face après un traumatisme ?",
-        "answers": [
-            {
-                "text": "Ignorer la déformation si elle n'entrave pas la respiration",
-                "isCorrect": false,
-                "comment": "Une déformation de la face peut indiquer des blessures sous-jacentes graves. Il est crucial d'évaluer et de traiter toute déformation après un traumatisme."
-            },
-            {
-                "text": "Demander à la victime de masser la zone déformée",
-                "isCorrect": false,
-                "comment": "Masser la zone déformée peut aggraver les blessures et causer des complications. Une évaluation professionnelle est nécessaire."
-            },
-            {
-                "text": "Installer la victime en position assise",
-                "isCorrect": false,
-                "comment": "Installer la victime en position assise peut ne pas être approprié si des blessures graves sont suspectées. La position allongée est souvent recommandée."
-            },
-            {
-                "text": "Appliquer la conduite à tenir face à une détresse vitale",
-                "isCorrect": true,
-                "comment": "Réponse correcte : En présence d'une déformation de la face après un traumatisme, il est essentiel d'appliquer immédiatement la conduite à tenir adaptée pour gérer la détresse vitale."
-            }
-        ]
-    },
-    {
         "text": "Pourquoi est-il important de ne pas comprimer la trachée lors de la compression manuelle pour arrêter un saignement au niveau du cou ?",
         "answers": [
             {
@@ -3453,31 +2628,6 @@ let questionsData = [
                 "text": "Pour évaluer la température corporelle",
                 "isCorrect": false,
                 "comment": "La compression de la trachée n'est pas liée à l'évaluation de la température corporelle. Son but principal est de contrôler le saignement."
-            }
-        ]
-    },
-    {
-        "text": "Que doit faire le secouriste si la plaie est située au niveau du cou ?",
-        "answers": [
-            {
-                "text": "Appliquer de la glace immédiatement",
-                "isCorrect": false,
-                "comment": "L'application de glace n'est pas recommandée pour les plaies au niveau du cou, car cela peut aggraver les blessures et causer des complications vasculaires."
-            },
-            {
-                "text": "Maintenir la compression manuelle en comprimant la trachée",
-                "isCorrect": false,
-                "comment": "Comprimer la trachée peut entraîner une obstruction des voies respiratoires et n'est pas une méthode appropriée pour le contrôle du saignement au niveau du cou."
-            },
-            {
-                "text": "Veiller à ne pas comprimer la trachée de la victime",
-                "isCorrect": true,
-                "comment": "Réponse correcte : Lors du traitement d'une plaie au niveau du cou, il est crucial de veiller à ne pas comprimer la trachée, ce qui pourrait compromettre les voies respiratoires."
-            },
-            {
-                "text": "Retirer tous les corps étrangers visibles",
-                "isCorrect": false,
-                "comment": "Retirer les corps étrangers peut être nécessaire mais ne doit pas compromettre la respiration de la victime. La priorité est de contrôler le saignement sans obstruer les voies respiratoires."
             }
         ]
     },
@@ -3557,56 +2707,6 @@ let questionsData = [
         ]
     },
     {
-        "text": "Quelle est la conduite à tenir si la victime présente une atteinte traumatique de l'œil ?",
-        "answers": [
-            {
-                "text": "Demander à la victime de cligner des yeux rapidement",
-                "isCorrect": false,
-                "comment": "Demander à la victime de cligner des yeux rapidement peut aggraver les blessures oculaires. Il est préférable de minimiser les mouvements oculaires."
-            },
-            {
-                "text": "Recouvrir les yeux avec des bandages serrés",
-                "isCorrect": false,
-                "comment": "Recouvrir les yeux avec des bandages serrés peut être excessif et peut aggraver les blessures oculaires. Il est préférable d'adopter une approche plus douce."
-            },
-            {
-                "text": "Tenter de retirer tout corps étranger visible",
-                "isCorrect": false,
-                "comment": "Tenter de retirer les corps étrangers peut aggraver les blessures oculaires. Les manipulations oculaires doivent être effectuées par du personnel qualifié."
-            },
-            {
-                "text": "Minimiser les mouvements des yeux et recouvrir les deux yeux avec des compresses stériles",
-                "isCorrect": true,
-                "comment": "Réponse correcte : En cas d'atteinte traumatique de l'œil, il est important de minimiser les mouvements oculaires et de protéger les yeux avec des compresses stériles."
-            }
-        ]
-    },
-    {
-        "text": "Que faire si le saignement causé par une fracture de la face est abondant ?",
-        "answers": [
-            {
-                "text": "Ne rien faire, le saignement s'arrêtera naturellement",
-                "isCorrect": false,
-                "comment": "Un saignement abondant nécessite une intervention immédiate pour éviter les complications graves. La compression manuelle est souvent nécessaire."
-            },
-            {
-                "text": "Installer la victime sur le dos",
-                "isCorrect": false,
-                "comment": "Installer la victime sur le dos peut aggraver le saignement en augmentant la pression sur la région blessée. La position latérale de sécurité est préférable."
-            },
-            {
-                "text": "Appliquer une compression manuelle en tenant compte de la position de la trachée",
-                "isCorrect": true,
-                "comment": "Réponse correcte : En cas de saignement abondant, une compression manuelle en tenant compte de la position de la trachée est essentielle pour contrôler le saignement sans compromettre les voies respiratoires."
-            },
-            {
-                "text": "Appliquer de la chaleur sur la zone blessée",
-                "isCorrect": false,
-                "comment": "L'application de chaleur peut aggraver le saignement. La compression manuelle est la méthode de contrôle du saignement la plus appropriée."
-            }
-        ]
-    },
-    {
         "text": "Quand demander un avis médical lors d'un traumatisme de la face et du cou ?",
         "answers": [
             {
@@ -3628,31 +2728,6 @@ let questionsData = [
                 "text": "Avant d'évaluer la gravité de la situation",
                 "isCorrect": false,
                 "comment": "Il est essentiel de demander un avis médical immédiat en cas de détresse vitale ou de blessure grave, sans attendre l'évaluation de la gravité de la situation."
-            }
-        ]
-    },
-    {
-        "text": "Que faire si le saignement causé par une fracture de la face est abondant ?",
-        "answers": [
-            {
-                "text": "Ne rien faire, le saignement s'arrêtera naturellement",
-                "isCorrect": false,
-                "comment": "Un saignement abondant nécessite une intervention immédiate pour éviter les complications graves. La compression manuelle est souvent nécessaire."
-            },
-            {
-                "text": "Installer la victime sur le dos",
-                "isCorrect": false,
-                "comment": "Installer la victime sur le dos peut aggraver le saignement en augmentant la pression sur la région blessée. La position latérale de sécurité est préférable."
-            },
-            {
-                "text": "Appliquer une compression manuelle en tenant compte de la position de la trachée",
-                "isCorrect": true,
-                "comment": "Réponse correcte : En cas de saignement abondant, une compression manuelle en tenant compte de la position de la trachée est essentielle pour contrôler le saignement sans compromettre les voies respiratoires."
-            },
-            {
-                "text": "Appliquer de la chaleur sur la zone blessée",
-                "isCorrect": false,
-                "comment": "L'application de chaleur peut aggraver le saignement. La compression manuelle est la méthode de contrôle du saignement la plus appropriée."
             }
         ]
     },
@@ -3681,15 +2756,6 @@ let questionsData = [
           { "text": "Uniquement si la victime demande une contention pelvienne.", isCorrect: false, comment: "La décision de mettre en place une contention pelvienne dépend des critères médicaux, pas seulement de la demande de la victime." },
           { "text": "En cas de suspicion de fracture ailleurs que dans le bassin.", isCorrect: false, comment: "La contention pelvienne est spécifique aux traumatismes du bassin." },
           { "text": "Si la victime ressent des douleurs au niveau du bassin.", isCorrect: false, comment: "La mise en place de la contention pelvienne est basée sur des critères médicaux spécifiques." }
-        ]
-      },
-      {
-        "text": "Quel est l'effet de la contention pelvienne sur les fractures du bassin ?",
-        answers: [
-          { "text": "Elle rapproche les fragments osseux et les immobilise.", isCorrect: true, comment: "Oui, la contention pelvienne vise à stabiliser les fractures du bassin." },
-          { "text": "Elle augmente la mobilité des fragments osseux.", isCorrect: false, comment: "La contention pelvienne a pour objectif de limiter la mobilité des fragments osseux pour réduire les complications." },
-          { "text": "Elle dissocie les fragments osseux pour faciliter le traitement.", isCorrect: false, comment: "La contention pelvienne cherche à stabiliser les fragments osseux." },
-          { "text": "Elle n'a aucun effet sur les fractures du bassin.", isCorrect: false, comment: "La contention pelvienne est recommandée pour immobiliser les fractures du bassin." }
         ]
       },
       {
@@ -3738,24 +2804,6 @@ let questionsData = [
         ]
       },
       {
-        "text": "Comment doit être positionnée la ceinture pelvienne par rapport aux grands trochanters de la victime ?",
-        answers: [
-          { "text": "Elle doit être centrée au niveau des grands trochanters.", isCorrect: true, comment: "Oui, la ceinture pelvienne doit être correctement positionnée pour assurer une contention efficace." },
-          { "text": "Elle doit être positionnée au-dessus des grands trochanters.", isCorrect: false, comment: "La ceinture pelvienne doit être centrée pour stabiliser le bassin." },
-          { "text": "Elle doit être positionnée en dessous des grands trochanters.", isCorrect: false, comment: "La contention pelvienne est plus efficace lorsqu'elle est centrée au niveau des grands trochanters." },
-          { "text": "Elle doit être serrée autour des cuisses de la victime.", isCorrect: false, comment: "La ceinture pelvienne doit être centrée sur le bassin pour une contention efficace." }
-        ]
-      },
-      {
-        "text": "Quelle est la principale justification de l'utilisation d'une contention pelvienne chez une victime de traumatisme du bassin ?",
-        answers: [
-          { "text": "Elle permet de rapprocher les fragments osseux et d'immobiliser la région lésée.", isCorrect: true, comment: "Oui, la contention pelvienne vise à stabiliser le bassin et à limiter les complications." },
-          { "text": "Elle réduit la douleur de la victime.", isCorrect: false, comment: "Bien que la contention pelvienne puisse aider à réduire la douleur, son objectif principal est la stabilisation du bassin." },
-          { "text": "Elle empêche toute mobilité de la victime.", isCorrect: false, comment: "La contention pelvienne est spécifique à la stabilisation du bassin, pas à l'immobilité totale de la victime." },
-          { "text": "Elle améliore la circulation sanguine dans la région lésée.", isCorrect: false, comment: "La contention pelvienne vise à limiter les saignements et à stabiliser le bassin." }
-        ]
-      },
-      {
         "text": "Que doit faire un secouriste avant de mettre en place une contention pelvienne ?",
         answers: [
           { "text": "Évaluer la situation et obtenir un avis médical si possible.", isCorrect: true, comment: "Oui, il est essentiel d'évaluer la situation et de suivre les protocoles médicaux appropriés." },
@@ -3765,7 +2813,7 @@ let questionsData = [
         ]
       },
       {
-        "text": "Pour quels membres du corps peut-on utiliser une attelle à dépression en secourisme ?",
+        "text": "Pour quels membres du corps peut-on utiliser une attelle à dépression ?",
         answers: [
           { "text": "Le coude, l'avant-bras, le poignet, le genou, la jambe, la cheville et parfois l'épaule en cas de traumatisme spécifique.", isCorrect: true, comment: "Correct, une attelle à dépression peut être utilisée pour immobiliser ces parties du corps en cas de traumatisme." },
           { "text": "Uniquement le coude et le genou.", isCorrect: false, comment: "Une attelle à dépression peut être utilisée pour plus de parties du corps en cas de besoin spécifique." },
@@ -3783,7 +2831,7 @@ let questionsData = [
         ]
       },
       {
-        "text": "Quel est le composant essentiel d'une attelle à dépression utilisée en secourisme ?",
+        "text": "Quel est le composant essentiel d'une attelle à dépression utilisée ?",
         answers: [
           { "text": "Une enveloppe étanche à l'air contenant des billes de polystyrène expansé et une vanne d'admission d'air.", isCorrect: true, comment: "Exact, ces composants permettent de créer et de maintenir la dépression nécessaire à l'immobilisation du membre." },
           { "text": "Des sangles de maintien solides.", isCorrect: false, comment: "Les sangles sont importantes mais l'enveloppe étanche et la vanne d'admission d'air sont essentielles pour créer la dépression." },
@@ -3792,7 +2840,7 @@ let questionsData = [
         ]
       },
       {
-        "text": "Quelle est la méthode de fonctionnement d'une attelle à dépression en secourisme ?",
+        "text": "Quelle est la méthode de fonctionnement d'une attelle à dépression ?",
         answers: [
           { "text": "Créer une dépression à l'intérieur de l'enveloppe étanche pour immobiliser le membre de manière rigide.", isCorrect: true, comment: "Oui, la dépression maintient le membre immobilisé dans une position confortable." },
           { "text": "Appliquer une compression élevée autour du membre blessé.", isCorrect: false, comment: "L'objectif n'est pas d'appliquer une compression élevée mais de maintenir le membre de manière stable." },
@@ -3830,26 +2878,28 @@ let questionsData = [
       {
         "text": "Quels sont les risques liés à une mauvaise mise en place d'une attelle à dépression sur un membre traumatisé ?",
         answers: [
+          { "text": "Aucun risque n'est associé à une mauvaise mise en place d'une attelle à dépression.", isCorrect: false, comment: "Une mauvaise immobilisation peut avoir des conséquences néfastes pour la victime." },
           { "text": "Mobilisation du membre, douleur accrue et risque de complications.", isCorrect: true, comment: "Oui, une mauvaise immobilisation peut aggraver les blessures et augmenter les risques pour la victime." },
           { "text": "Diminution de la circulation sanguine dans le membre.", isCorrect: false, comment: "La mauvaise mise en place peut entraîner des complications, mais cela ne concerne pas directement la circulation sanguine." },
           { "text": "Augmentation de la douleur due à une compression excessive.", isCorrect: false, comment: "Une mauvaise immobilisation peut en effet aggraver la douleur mais pas uniquement en raison d'une compression excessive." },
-          { "text": "Aucun risque n'est associé à une mauvaise mise en place d'une attelle à dépression.", isCorrect: false, comment: "Une mauvaise immobilisation peut avoir des conséquences néfastes pour la victime." }
+          
         ]
       },
       {
         "text": "Quels critères indiquent une immobilisation correcte à l'aide d'une attelle à dépression ?",
         answers: [
-          { "text": "Le segment blessé et les articulations sus et sous-jacentes sont immobilisés, l'attelle est correctement fixée, la douleur diminue et aucune compression excessive n'est présente.", isCorrect: true, comment: "Oui, ces critères indiquent une immobilisation efficace et sûre." },
-          { "text": "La victime ne ressent aucune douleur après l'immobilisation.", isCorrect: false, comment: "La douleur peut diminuer mais cela seul ne garantit pas une immobilisation correcte." },
+                    { "text": "La victime ne ressent aucune douleur après l'immobilisation.", isCorrect: false, comment: "La douleur peut diminuer mais cela seul ne garantit pas une immobilisation correcte." },
           { "text": "Une compression élevée est exercée autour du membre blessé.", isCorrect: false, comment: "Une immobilisation efficace n'implique pas une compression excessive." },
+          { "text": "Le segment blessé et les articulations sus et sous-jacentes sont immobilisés, l'attelle est correctement fixée, la douleur diminue et aucune compression excessive n'est présente.", isCorrect: true, comment: "Oui, ces critères indiquent une immobilisation efficace et sûre." },
+
           { "text": "L'attelle est maintenue en place par des sangles solides.", isCorrect: false, comment: "La fixation de l'attelle est importante mais ne suffit pas à garantir une immobilisation correcte." }
         ]
       },
       {
-        "text": "Quelle est la différence principale entre une attelle à dépression et une attelle classique en secourisme ?",
+        "text": "Quelle est la différence principale entre une attelle à dépression et une attelle classique ?",
         answers: [
-          { "text": "Une attelle à dépression utilise une enveloppe étanche à l'air pour créer une immobilisation rigide, tandis qu'une attelle classique utilise des matériaux rigides ou souples pour maintenir le membre en place.", isCorrect: true, comment: "Exact, l'attelle à dépression crée un environnement stable en retirant l'air à l'intérieur." },
-          { "text": "Une attelle à dépression est plus confortable pour la victime.", isCorrect: false, comment: "Le confort peut varier mais la différence principale réside dans le mode d'immobilisation." },
+                { "text": "Une attelle à dépression est plus confortable pour la victime.", isCorrect: false, comment: "Le confort peut varier mais la différence principale réside dans le mode d'immobilisation." },
+                { "text": "Une attelle à dépression utilise une enveloppe étanche à l'air pour créer une immobilisation rigide, tandis qu'une attelle classique utilise des matériaux rigides ou souples pour maintenir le membre en place.", isCorrect: true, comment: "Exact, l'attelle à dépression crée un environnement stable en retirant l'air à l'intérieur." },
           { "text": "Une attelle à dépression est plus rapide à mettre en place en cas d'urgence.", isCorrect: false, comment: "La rapidité peut varier mais la différence clé réside dans la méthode d'immobilisation utilisée." },
           { "text": "Une attelle à dépression est utilisée uniquement pour les membres inférieurs.", isCorrect: false, comment: "Une attelle à dépression peut être utilisée pour divers membres du corps en cas de besoin." }
         ]
@@ -3864,16 +2914,7 @@ let questionsData = [
         ]
       },
       {
-        "text": "Que doit faire un secouriste pour créer le vide à l'intérieur d'une attelle à dépression ?",
-        answers: [
-          { "text": "Aspirer l'air à travers la vanne d'admission jusqu'à ce que l'attelle devienne rigide.", isCorrect: true, comment: "Oui, le vide est créé en retirant l'air à l'intérieur de l'attelle pour la rendre rigide et immobile." },
-          { "text": "Injecter de l'air à l'intérieur de l'attelle jusqu'à ce qu'elle se solidifie.", isCorrect: false, comment: "Le vide est créé en retirant l'air, pas en ajoutant de l'air à l'intérieur de l'attelle." },
-          { "text": "Régler les sangles de maintien pour renforcer l'immobilisation.", isCorrect: false, comment: "Les sangles servent à fixer l'attelle mais ne sont pas utilisées pour créer le vide." },
-          { "text": "Chauffer l'attelle à dépression pour la rendre rigide.", isCorrect: false, comment: "Le vide est créé par l'extraction de l'air, pas par chauffage." }
-        ]
-      },
-      {
-        "text": "Quel est l'avantage principal de l'utilisation d'une attelle à dépression par rapport à une attelle classique en secourisme ?",
+        "text": "Quel est l'avantage principal de l'utilisation d'une attelle à dépression par rapport à une attelle classique  ?",
         answers: [
           { "text": "Elle peut créer une immobilisation rigide et confortable en épousant parfaitement la forme du membre blessé.", isCorrect: true, comment: "Oui, l'attelle à dépression offre une immobilisation plus personnalisée et efficace grâce à la dépression créée à l'intérieur." },
           { "text": "Elle est plus facile à mettre en place en cas d'urgence.", isCorrect: false, comment: "La facilité de mise en place peut varier mais la personnalisation de l'immobilisation est un avantage clé de l'attelle à dépression." },
@@ -3882,29 +2923,11 @@ let questionsData = [
         ]
       },
       {
-        "text": "Quelle est la fonction des billes de polystyrène expansé à l'intérieur de l'enveloppe d'une attelle à dépression ?",
-        answers: [
-          { "text": "Elles s'adaptent à la forme du membre blessé pour créer une immobilisation personnalisée.", isCorrect: true, comment: "Oui, les billes permettent à l'attelle de s'adapter à la forme du membre pour une immobilisation efficace." },
-          { "text": "Elles maintiennent l'attelle en place sur le membre sans bouger.", isCorrect: false, comment: "Les billes contribuent à l'adaptabilité de l'attelle mais ne sont pas directement liées à sa fixation." },
-          { "text": "Elles renforcent la rigidité de l'attelle une fois le vide créé.", isCorrect: false, comment: "La rigidité est principalement due à la dépression créée à l'intérieur de l'attelle, pas aux billes elles-mêmes." },
-          { "text": "Elles permettent de maintenir la pression d'air à l'intérieur de l'attelle pendant l'immobilisation.", isCorrect: false, comment: "Les billes contribuent à la personnalisation de l'immobilisation en épousant la forme du membre." }
-        ]
-      },
-      {
         "text": "Quel est le rôle du secouriste 3 lors de la mise en place d'une attelle à dépression sur un membre inférieur ?",
         answers: [
           { "text": "Préparer l'attelle en répartissant les billes et ouvrir la valve d'admission d'air.", isCorrect: true, comment: "Oui, le secouriste 3 prépare l'attelle et commence le processus d'immobilisation en ouvrant la valve." },
           { "text": "Faire le vide à l'intérieur de l'attelle une fois en place.", isCorrect: false, comment: "Le vide est réalisé après que l'attelle a été correctement positionnée sous le membre." },
           { "text": "Maintenir le membre blessé en place pendant la mise en place de l'attelle.", isCorrect: false, comment: "Le secouriste 3 est responsable de la préparation initiale de l'attelle avant son placement sous le membre." },
-          { "text": "Passer les sangles de maintien autour du membre après la mise en place de l'attelle.", isCorrect: false, comment: "Les sangles sont utilisées après que l'attelle a été correctement positionnée sous le membre." }
-        ]
-      },
-      {
-        "text": "Quel est le rôle du secouriste 2 lors de la mise en place d'une attelle à dépression sur un membre inférieur ?",
-        answers: [
-          { "text": "Soulever le membre et glisser l'attelle en place sous la supervision du secouriste 3.", isCorrect: true, comment: "Oui, le secouriste 2 aide à placer l'attelle sous le membre et travaille en collaboration avec le secouriste 3." },
-          { "text": "Faire le vide à l'intérieur de l'attelle une fois en place.", isCorrect: false, comment: "Le vide est réalisé après que l'attelle a été correctement positionnée sous le membre." },
-          { "text": "Maintenir le membre blessé en place pendant la mise en place de l'attelle.", isCorrect: false, comment: "Le secouriste 1 est responsable de maintenir le membre pendant que le secouriste 2 place l'attelle." },
           { "text": "Passer les sangles de maintien autour du membre après la mise en place de l'attelle.", isCorrect: false, comment: "Les sangles sont utilisées après que l'attelle a été correctement positionnée sous le membre." }
         ]
       },
@@ -3920,10 +2943,11 @@ let questionsData = [
       {
         "text": "Quel est le principal risque associé à une attelle à dépression mal positionnée sur un membre traumatisé ?",
         answers: [
+                   { "text": "Diminution de la circulation sanguine dans le membre.", isCorrect: false, comment: "La mauvaise position peut affecter la circulation mais le risque principal est le mouvement non contrôlé du membre." },
+          { "text": "Aucun risque n'est associé à une mauvaise position d'une attelle à dépression.", isCorrect: false, comment: "Une attelle mal positionnée peut avoir des conséquences néfastes pour la victime." }, 
           { "text": "Mouvement non contrôlé du membre, douleur accrue et risque de complications.", isCorrect: true, comment: "Oui, une attelle mal positionnée peut aggraver les blessures et entraîner des complications pour la victime." },
           { "text": "Compression excessive du membre blessé.", isCorrect: false, comment: "Une attelle mal positionnée peut effectivement causer une compression excessive mais le risque principal est le mouvement non contrôlé du membre." },
-          { "text": "Diminution de la circulation sanguine dans le membre.", isCorrect: false, comment: "La mauvaise position peut affecter la circulation mais le risque principal est le mouvement non contrôlé du membre." },
-          { "text": "Aucun risque n'est associé à une mauvaise position d'une attelle à dépression.", isCorrect: false, comment: "Une attelle mal positionnée peut avoir des conséquences néfastes pour la victime." }
+
         ]
       },
       {
@@ -3936,15 +2960,6 @@ let questionsData = [
         ]
       },
       {
-        "text": "Comment la vanne d'admission d'air contribue-t-elle à l'immobilisation avec une attelle à dépression ?",
-        answers: [
-          { "text": "Elle permet de créer et de maintenir la dépression nécessaire à l'immobilisation en régulant l'entrée et la sortie d'air.", isCorrect: true, comment: "Oui, la vanne joue un rôle crucial dans le contrôle de la pression d'air à l'intérieur de l'attelle." },
-          { "text": "Elle maintient l'attelle en place sur le membre immobilisé.", isCorrect: false, comment: "La vanne contrôle la pression d'air mais n'affecte pas directement la fixation de l'attelle." },
-          { "text": "Elle renforce la rigidité de l'attelle une fois mise en place.", isCorrect: false, comment: "La rigidité est principalement due à la dépression créée à l'intérieur de l'attelle, pas à la vanne elle-même." },
-          { "text": "Elle permet de fixer l'attelle solidement autour du membre blessé.", isCorrect: false, comment: "La fixation de l'attelle est assurée par d'autres moyens ; la vanne contrôle la pression à l'intérieur de l'attelle." }
-        ]
-      },
-      {
         "text": "Qu'est-ce que l'écharpe utilisée lors de l'immobilisation de l'épaule avec une attelle à dépression ?",
         answers: [
           { "text": "Elle est glissée entre les branches de l'attelle pour stabiliser le membre supérieur.", isCorrect: true, comment: "Oui, l'écharpe est utilisée pour maintenir la position du membre supérieur pendant l'immobilisation de l'épaule." },
@@ -3954,16 +2969,7 @@ let questionsData = [
         ]
       },
       {
-        "text": "Que doit faire le secouriste 1 lors de l'immobilisation de l'épaule avec une attelle à dépression ?",
-        answers: [
-          { "text": "Maintenir le membre blessé pendant que le secouriste 2 place l'attelle et l'écharpe.", isCorrect: true, comment: "Oui, le secouriste 1 est chargé de maintenir le membre dans une position stable pendant que l'attelle est placée." },
-          { "text": "Faire le vide à l'intérieur de l'attelle une fois en place.", isCorrect: false, comment: "Le vide est créé après que l'attelle a été correctement positionnée sous le membre." },
-          { "text": "Passer les sangles de maintien autour du membre après la mise en place de l'attelle.", isCorrect: false, comment: "Les sangles sont utilisées après que l'attelle a été correctement positionnée sous le membre." },
-          { "text": "Régler la vanne d'admission d'air pour maintenir la pression à l'intérieur de l'attelle.", isCorrect: false, comment: "La vanne contrôle la pression d'air mais ne concerne pas directement la mise en place de l'attelle." }
-        ]
-      },
-      {
-        "text": "Quelle est l'indication principale pour l'utilisation d'une attelle modulable en secourisme ?",
+        "text": "Quelle est l'indication principale pour l'utilisation d'une attelle modulable ?",
         answers: [
           { "text": "Assurer l'immobilisation du coude, de l'avant-bras et du poignet pour le membre supérieur, et du genou, de la jambe et de la cheville pour le membre inférieur.", isCorrect: true, comment: "C'est exact, l'attelle modulable est utilisée pour immobiliser ces parties du corps en cas de traumatisme." },
           { "text": "Immobiliser uniquement le membre supérieur en cas de fracture.", isCorrect: false, comment: "L'attelle modulable peut également être utilisée pour le membre inférieur." },
@@ -3972,7 +2978,7 @@ let questionsData = [
         ]
       },
       {
-        "text": "Quel est l'objectif principal de l'immobilisation avec une attelle modulable en secourisme ?",
+        "text": "Quel est l'objectif principal de l'immobilisation avec une attelle modulable ?",
         answers: [
           { "text": "Limiter les mouvements d'un membre traumatisé, diminuer la douleur et prévenir les complications.", isCorrect: true, comment: "Oui, l'immobilisation vise à ces objectifs pour assurer un traitement efficace des traumatismes." },
           { "text": "Restreindre la circulation sanguine dans le membre blessé.", isCorrect: false, comment: "L'immobilisation ne vise pas à restreindre la circulation sanguine mais à limiter les mouvements et prévenir les complications." },
@@ -3981,147 +2987,11 @@ let questionsData = [
         ]
       },
       {
-        "text": "Quels sont les matériaux principaux utilisés dans une attelle modulable de type Aluform R ?",
-        answers: [
-          { "text": "Armature en aluminium, rembourrage en mousse, enveloppe en polystyrène, sangles autoagrippantes.", isCorrect: true, comment: "C'est correct, ces éléments composent une attelle modulable de type Aluform R." },
-          { "text": "Acier inoxydable et plastique dur.", isCorrect: false, comment: "L'attelle Aluform R utilise principalement de l'aluminium et de la mousse, pas de l'acier." },
-          { "text": "Bois et tissu élastique.", isCorrect: false, comment: "Les attelles modulables modernes utilisent des matériaux plus avancés comme l'aluminium et la mousse." },
-          { "text": "Fibres de carbone et gel absorbant.", isCorrect: false, comment: "Ces matériaux ne sont pas couramment utilisés dans les attelles modulables standard." }
-        ]
-      },
-      {
-        "text": "Pourquoi est-il important d'effectuer un habillage préalable lors de l'utilisation d'une attelle de Kramer ?",
-        answers: [
-          { "text": "Pour rendre l'attelle moins traumatisante et éviter le contact direct du membre avec le métal.", isCorrect: true, comment: "Exact, l'habillage préalable est nécessaire pour le confort et la sécurité du patient." },
-          { "text": "Pour maintenir la stabilité de l'attelle.", isCorrect: false, comment: "L'habillage vise à améliorer le confort du patient et à éviter les irritations de la peau." },
-          { "text": "Pour renforcer la rigidité de l'attelle.", isCorrect: false, comment: "L'habillage préalable ne concerne pas la rigidité mais le confort du patient." },
-          { "text": "Pour rendre l'attelle plus légère et facile à manipuler.", isCorrect: false, comment: "L'habillage préalable est principalement pour le confort du patient et non pour la manipulation de l'attelle." }
-        ]
-      },
-      {
-        "text": "Quel est le nombre minimum de secouristes nécessaires pour placer une attelle de Kramer correctement ?",
-        answers: [
-          { "text": "Deux secouristes au minimum.", isCorrect: true, comment: "Oui, deux secouristes sont généralement nécessaires pour manipuler et placer correctement une attelle de Kramer." },
-          { "text": "Trois secouristes au minimum.", isCorrect: false, comment: "Deux secouristes sont suffisants pour placer une attelle de Kramer." },
-          { "text": "Un secouriste seul peut le faire.", isCorrect: false, comment: "Une attelle de Kramer nécessite généralement deux personnes pour un placement correct." },
-          { "text": "Quatre secouristes au minimum.", isCorrect: false, comment: "Deux secouristes sont généralement suffisants pour manipuler une attelle de Kramer." }
-        ]
-      },
-      {
-        "text": "Quel est le rôle du secouriste 1 lors de la mise en place d'une attelle modulable sur un membre supérieur ?",
-        answers: [
-          { "text": "Maintenir le membre blessé au niveau des articulations sus et sous-jacentes au traumatisme, éventuellement après réalignement, jusqu'à la mise en place de l'attelle.", isCorrect: true, comment: "Oui, le secouriste 1 est responsable de maintenir le membre dans une position stable avant et pendant la mise en place de l'attelle." },
-          { "text": "Effectuer le vide à l'intérieur de l'attelle une fois en place.", isCorrect: false, comment: "Le vide est généralement effectué par un autre secouriste après la mise en place de l'attelle." },
-          { "text": "Fixer l'attelle au membre blessé à l'aide de sangles autoagrippantes.", isCorrect: false, comment: "Ce rôle est généralement effectué par le secouriste 2." },
-          { "text": "Préparer l'attelle adaptée à la situation.", isCorrect: false, comment: "La préparation de l'attelle est le rôle du secouriste 2." }
-        ]
-      },
-      {
         "text": "Pourquoi est-il important de rembourrer les espaces libres entre l'attelle et le membre blessé lors de l'immobilisation ?",
         answers: [
-          { "text": "Pour assurer un contact permanent entre l'attelle et le membre, garantissant ainsi une immobilisation efficace.", isCorrect: true, comment: "Oui, le rembourrage assure une immobilisation stable en évitant les mouvements indésirables." },
-          { "text": "Pour renforcer la rigidité de l'attelle.", isCorrect: false, comment: "Le rembourrage n'affecte pas la rigidité mais le confort et la stabilité de l'immobilisation." },
+                   { "text": "Pour renforcer la rigidité de l'attelle.", isCorrect: false, comment: "Le rembourrage n'affecte pas la rigidité mais le confort et la stabilité de l'immobilisation." }, { "text": "Pour assurer un contact permanent entre l'attelle et le membre, garantissant ainsi une immobilisation efficace.", isCorrect: true, comment: "Oui, le rembourrage assure une immobilisation stable en évitant les mouvements indésirables." },
           { "text": "Pour rendre l'attelle plus légère.", isCorrect: false, comment: "Le rembourrage vise à améliorer le confort et l'efficacité de l'immobilisation, pas à réduire le poids de l'attelle." },
           { "text": "Pour empêcher l'attelle de bouger pendant le transport.", isCorrect: false, comment: "Le rembourrage vise à stabiliser l'attelle contre le membre blessé, pas à prévenir les mouvements pendant le transport." }
-        ]
-      },
-      {
-        "text": "Quelle est la fonction principale des sangles autoagrippantes sur une attelle modulable ?",
-        answers: [
-          { "text": "Fixer l'attelle solidement autour du membre blessé.", isCorrect: true, comment: "Oui, les sangles autoagrippantes sont utilisées pour assurer une fixation solide de l'attelle sur le membre." },
-          { "text": "Contrôler la pression à l'intérieur de l'attelle.", isCorrect: false, comment: "Les sangles autoagrippantes servent à maintenir l'attelle en place, pas à contrôler la pression interne." },
-          { "text": "Améliorer le confort du patient.", isCorrect: false, comment: "Les sangles autoagrippantes sont principalement pour la fixation de l'attelle, pas pour le confort." },
-          { "text": "Maintenir la rigidité de l'attelle une fois en place.", isCorrect: false, comment: "La rigidité est principalement assurée par la structure de l'attelle et le rembourrage, pas par les sangles." }
-        ]
-      },
-      {
-        "text": "Que doit vérifier le secouriste 2 après avoir fixé une attelle modulable sur un membre supérieur ?",
-        answers: [
-          { "text": "La qualité de l'immobilisation et l'état de l'extrémité du membre.", isCorrect: true, comment: "Exact, le secouriste doit s'assurer que l'immobilisation est correcte et que l'extrémité du membre est en bon état." },
-          { "text": "La pression interne de l'attelle.", isCorrect: false, comment: "La pression interne est contrôlée avant la fixation de l'attelle." },
-          { "text": "La rigidité de l'attelle.", isCorrect: false, comment: "La rigidité est vérifiée lors de la mise en place de l'attelle, pas après la fixation." },
-          { "text": "La température du membre.", isCorrect: false, comment: "La température n'est pas une préoccupation directe lors de la fixation de l'attelle." }
-        ]
-      },
-      {
-        "text": "Quelle partie du membre est immobilisée par une attelle à traction pneumatique de Donway ?",
-        answers: [
-          { "text": "Les traumatismes de la cuisse et des 2/3 supérieurs de la jambe.", isCorrect: true, comment: "Correct, cette attelle est utilisée pour l'immobilisation de cette partie du membre." },
-          { "text": "Les traumatismes du genou et du pied.", isCorrect: false, comment: "Cette attelle vise à immobiliser des zones plus hautes du membre inférieur." },
-          { "text": "Les traumatismes de la cheville et du pied.", isCorrect: false, comment: "Une attelle à traction n'est pas adaptée pour les traumatismes du pied ou de la cheville." },
-          { "text": "Les fractures du bassin et de la colonne vertébrale.", isCorrect: false, comment: "Ces types de fractures nécessitent d'autres approches et ne conviennent pas à cette attelle." }
-        ]
-      },
-      {
-        "text": "Dans quelles circonstances une attelle à traction ne peut-elle pas être utilisée ?",
-        answers: [
-          { "text": "Si les deux membres inférieurs sont atteints (préférer alors le MID), s'il existe un traumatisme de la cheville ou du pied, s'il existe un traumatisme du bassin ou de la partie inférieure du dos.", isCorrect: true, comment: "Exact, ces situations nécessitent d'autres types d'immobilisation ou de traitements." },
-          { "text": "Si le membre est trop long pour l'attelle.", isCorrect: false, comment: "La longueur du membre n'est pas un facteur déterminant pour l'utilisation de cette attelle." },
-          { "text": "Si le traumatisme est situé dans la partie inférieure de la jambe uniquement.", isCorrect: false, comment: "L'attelle à traction peut être utilisée pour les traumatismes de la partie supérieure de la jambe." },
-          { "text": "Si le patient est conscient et capable de bouger le membre blessé.", isCorrect: false, comment: "L'utilisation d'une attelle à traction dépend du type de traumatisme et des recommandations médicales, pas seulement de la capacité du patient à bouger." }
-        ]
-      },
-      {
-        "text": "Quel est l'objectif principal de l'immobilisation avec une attelle à traction ?",
-        answers: [
-          { "text": "Limite les mouvements du membre traumatisé, diminue la douleur et prévient la survenue de complications.", isCorrect: true, comment: "Oui, l'immobilisation vise à ces objectifs pour un traitement efficace des traumatismes." },
-          { "text": "Maintenir le membre dans une position confortable.", isCorrect: false, comment: "L'objectif principal est de limiter les mouvements et de réduire la douleur, pas seulement de fournir du confort." },
-          { "text": "Permettre au patient de se déplacer malgré la blessure.", isCorrect: false, comment: "L'immobilisation vise à restreindre les mouvements pour permettre une guérison efficace." },
-          { "text": "Augmenter la circulation sanguine dans le membre traumatisé.", isCorrect: false, comment: "L'attelle vise à limiter les mouvements pour éviter d'aggraver la blessure, pas à augmenter la circulation sanguine." }
-        ]
-      },
-      {
-        "text": "Quel est le rôle de la partie supérieure de l'attelle à traction de Donway ?",
-        answers: [
-          { "text": "Elle soutient la cuisse à l'aide de sangles et forme un anneau de blocage du bassin.", isCorrect: true, comment: "Oui, la partie supérieure de l'attelle à traction soutient la cuisse et assure la stabilité du bassin." },
-          { "text": "Elle exerce une traction directe sur la jambe blessée.", isCorrect: false, comment: "La traction est exercée par la partie inférieure de l'attelle, pas par la partie supérieure." },
-          { "text": "Elle maintient le pied en place avec une semelle rigide.", isCorrect: false, comment: "Le maintien du pied est assuré par la partie inférieure de l'attelle." },
-          { "text": "Elle permet de gonfler l'attelle à l'aide de la pompe.", isCorrect: false, comment: "La partie supérieure ne contrôle pas le gonflage de l'attelle." }
-        ]
-      },
-      {
-        "text": "Comment est exercée la traction sur le membre traumatisé avec une attelle à traction pneumatique de Donway ?",
-        answers: [
-          { "text": "Par des vérins contrôlés par la pression créée par la pompe reliée au tube creux constituant le 'U'.", isCorrect: true, comment: "Oui, la traction est contrôlée par la pression exercée sur les vérins de l'attelle." },
-          { "text": "Par des ressorts situés dans la partie supérieure de l'attelle.", isCorrect: false, comment: "La traction est contrôlée par des vérins, pas par des ressorts." },
-          { "text": "Par un système hydraulique alimenté par la pompe manuelle.", isCorrect: false, comment: "La traction n'est pas effectuée par un système hydraulique dans ce cas." },
-          { "text": "Par une pression exercée manuellement par les secouristes.", isCorrect: false, comment: "La traction est contrôlée par la pompe et les vérins intégrés à l'attelle." }
-        ]
-      },
-      {
-        "text": "Combien de secouristes sont nécessaires au minimum pour la mise en place d'une attelle à traction de Donway ?",
-        answers: [
-          { "text": "Trois secouristes.", isCorrect: true, comment: "Oui, au moins trois secouristes sont requis pour la mise en place de cette attelle." },
-          { "text": "Deux secouristes.", isCorrect: false, comment: "Trois secouristes sont nécessaires pour manipuler correctement l'attelle à traction." },
-          { "text": "Un secouriste.", isCorrect: false, comment: "Un seul secouriste ne suffit pas pour assurer une mise en place sécurisée de cette attelle." },
-          { "text": "Cinq secouristes.", isCorrect: false, comment: "Trois secouristes sont normalement suffisants pour cette tâche." }
-        ]
-      },
-      {
-        "text": "Quel est le rôle du secouriste 3 dans la mise en place d'une attelle à traction ?",
-        answers: [
-          { "text": "Réaliser le maintien du bassin.", isCorrect: true, comment: "Oui, le secouriste 3 est chargé de maintenir le bassin pendant la mise en place de l'attelle." },
-          { "text": "Préparer l'attelle adaptée à la situation.", isCorrect: false, comment: "La préparation de l'attelle est le rôle du secouriste 2." },
-          { "text": "Assurer la traction sur le membre blessé.", isCorrect: false, comment: "La traction est contrôlée par le système intégré à l'attelle, pas par le secouriste 3." },
-          { "text": "Vérifier la qualité de l'immobilisation une fois l'attelle en place.", isCorrect: false, comment: "La vérification de l'immobilisation est une tâche partagée par tous les secouristes impliqués." }
-        ]
-      },
-      {
-        "text": "Pourquoi l'attelle à traction ne peut-elle être installée que sur un membre réaligné ?",
-        answers: [
-          { "text": "Pour assurer une traction efficace et sûre sans aggraver le traumatisme.", isCorrect: true, comment: "Exact, l'alignement du membre est essentiel pour une traction correcte et sans risque." },
-          { "text": "Pour rendre la procédure plus rapide.", isCorrect: false, comment: "L'alignement du membre est crucial pour éviter d'aggraver les lésions existantes." },
-          { "text": "Pour permettre une meilleure visibilité de la blessure.", isCorrect: false, comment: "L'alignement du membre n'est pas lié à la visibilité de la blessure, mais à la sécurité de la procédure." },
-          { "text": "Pour faciliter l'application des sangles de fixation.", isCorrect: false, comment: "L'alignement du membre vise à éviter les complications lors de l'immobilisation." }
-        ]
-      },
-      {
-        "text": "Que fait la soupape de sécurité sur une attelle à traction en cas de pression excessive ?",
-        answers: [
-          { "text": "Elle libère automatiquement la pression excédentaire pour éviter tout risque pour le patient.", isCorrect: true, comment: "Oui, la soupape de sécurité assure la sécurité du patient en cas de surpression." },
-          { "text": "Elle augmente la pression pour renforcer l'immobilisation.", isCorrect: false, comment: "La soupape de sécurité agit pour prévenir les risques liés à une pression excessive." },
-          { "text": "Elle verrouille la pression pour maintenir la traction constante.", isCorrect: false, comment: "La soupape de sécurité agit dans le sens contraire pour éviter les risques liés à une pression excessive." },
-          { "text": "Elle permet aux secouristes de contrôler manuellement la traction.", isCorrect: false, comment: "La soupape de sécurité agit de manière automatique pour assurer la sécurité du patient." }
         ]
       },
       {
@@ -4143,21 +3013,12 @@ let questionsData = [
         ]
       },
       {
-        "text": "Quel est l'élément clé contrôlant la traction exercée par une attelle à traction pneumatique de Donway ?",
-        answers: [
-          { "text": "La pression créée par la pompe sur les vérins intégrés à l'attelle.", isCorrect: true, comment: "Oui, la pression contrôle la force de traction appliquée par l'attelle." },
-          { "text": "La longueur des barres métalliques de l'attelle.", isCorrect: false, comment: "La longueur des barres n'affecte pas directement la traction exercée par l'attelle." },
-          { "text": "Le type de matériau utilisé pour la partie supérieure de l'attelle.", isCorrect: false, comment: "Le matériau n'a pas d'incidence directe sur le contrôle de la traction." },
-          { "text": "Le nombre de sangles utilisées pour fixer l'attelle.", isCorrect: false, comment: "Les sangles servent à fixer l'attelle, mais elles ne contrôlent pas la traction." }
-        ]
-      },
-      {
         "text": "Pourquoi une attelle à traction ne peut-elle pas être installée sans la demande et la présence d'un médecin ?",
         answers: [
-          { "text": "Pour garantir la sécurité et éviter les complications dues à une mauvaise utilisation.", isCorrect: true, comment: "Oui, l'installation d'une attelle à traction nécessite une expertise médicale pour assurer son efficacité et sa sécurité." },
-          { "text": "Pour accélérer le processus d'immobilisation.", isCorrect: false, comment: "La présence d'un médecin est nécessaire pour des raisons de sécurité et de supervision médicale." },
+                  { "text": "Pour accélérer le processus d'immobilisation.", isCorrect: false, comment: "La présence d'un médecin est nécessaire pour des raisons de sécurité et de supervision médicale." },
           { "text": "Pour obtenir une autorisation officielle avant d'utiliser l'attelle.", isCorrect: false, comment: "La présence du médecin garantit une utilisation appropriée de l'attelle, mais ne nécessite pas d'autorisation spécifique." },
-          { "text": "Pour permettre au médecin de surveiller la progression de l'immobilisation.", isCorrect: false, comment: "La supervision médicale est cruciale pour garantir l'efficacité et la sécurité de l'immobilisation." }
+          { "text": "Pour permettre au médecin de surveiller la progression de l'immobilisation.", isCorrect: false, comment: "La supervision médicale est cruciale pour garantir l'efficacité et la sécurité de l'immobilisation." }, 
+          { "text": "Pour garantir la sécurité et éviter les complications dues à une mauvaise utilisation.", isCorrect: true, comment: "Oui, l'installation d'une attelle à traction nécessite une expertise médicale pour assurer son efficacité et sa sécurité." },
         ]
       },
       {
@@ -4170,129 +3031,13 @@ let questionsData = [
         ]
       },
       {
-        "text": "Quel est le rôle de la partie inférieure en 'U' sur une attelle à traction pneumatique de Donway ?",
-        answers: [
-          { "text": "Elle soutient la jambe blessée et permet l'application de la traction contrôlée par la pompe.", isCorrect: true, comment: "Oui, la partie inférieure de l'attelle soutient la jambe et contrôle la traction exercée sur le membre blessé." },
-          { "text": "Elle maintient la cuisse en place avec des sangles de fixation.", isCorrect: false, comment: "Le maintien de la cuisse est assuré par la partie supérieure de l'attelle." },
-          { "text": "Elle absorbe les chocs en cas de mouvement involontaire.", isCorrect: false, comment: "La partie inférieure de l'attelle n'est pas conçue pour absorber les chocs, mais pour supporter la jambe et appliquer la traction." },
-          { "text": "Elle contrôle la pression exercée par la pompe sur le membre blessé.", isCorrect: false, comment: "La pression est contrôlée par la partie supérieure de l'attelle, pas par la partie inférieure." }
-        ]
-      },
-      {
-        "text": "Combien de barres métalliques constituent la partie supérieure d'une attelle à traction de Donway ?",
-        answers: [
-          { "text": "Deux barres métalliques.", isCorrect: true, comment: "Oui, la partie supérieure de l'attelle est constituée de deux barres métalliques." },
-          { "text": "Trois barres métalliques.", isCorrect: false, comment: "La partie supérieure est composée de deux barres métalliques." },
-          { "text": "Une barre métallique.", isCorrect: false, comment: "La partie supérieure de l'attelle comporte deux barres métalliques pour soutenir la cuisse et le bassin." },
-          { "text": "Quatre barres métalliques.", isCorrect: false, comment: "Deux barres métalliques forment la partie supérieure de l'attelle à traction." }
-        ]
-      },
-      {
-        "text": "Qu'est-ce qui déclenche l'application d'une traction contrôlée sur le membre blessé avec une attelle à traction de Donway ?",
-        answers: [
-          { "text": "La pression exercée par la pompe sur les vérins intégrés à l'attelle.", isCorrect: true, comment: "Oui, la traction est contrôlée par la pression appliquée via la pompe sur les vérins de l'attelle." },
-          { "text": "La manipulation manuelle de l'attelle par les secouristes.", isCorrect: false, comment: "La traction est contrôlée par le système intégré à l'attelle, pas par les secouristes." },
-          { "text": "Le serrage des sangles de fixation.", isCorrect: false, comment: "Les sangles de fixation servent à maintenir l'attelle en place mais ne contrôlent pas la traction." },
-          { "text": "Le mouvement du patient.", isCorrect: false, comment: "La traction est appliquée de manière contrôlée par le dispositif de l'attelle, pas par le mouvement du patient." }
-        ]
-      },
-      {
-        "text": "Quelle est la principale fonction de la traverse métallique fixe sur l'attelle à traction de Donway ?",
-        answers: [
-          { "text": "Elle supporte la semelle du pied et assure la stabilité de la jambe.", isCorrect: true, comment: "Oui, la traverse métallique fixe soutient la jambe et la semelle du pied pour stabiliser le membre blessé." },
-          { "text": "Elle contrôle la pression exercée sur la jambe.", isCorrect: false, comment: "La pression est contrôlée par d'autres composants de l'attelle, pas par la traverse métallique fixe." },
-          { "text": "Elle permet la fixation des sangles de la partie inférieure de l'attelle.", isCorrect: false, comment: "La fixation des sangles est réalisée par d'autres éléments de l'attelle." },
-          { "text": "Elle assure le confort du patient pendant l'immobilisation.", isCorrect: false, comment: "La traverse métallique fixe n'est pas conçue pour le confort, mais pour la stabilité et le support du membre blessé." }
-        ]
-      },
-      {
-        "text": "Quel rôle joue la large sangle réglable dans la partie inférieure de l'attelle à traction de Donway ?",
-        answers: [
-          { "text": "Elle soutient la jambe blessée et contribue à appliquer la traction sur le membre.", isCorrect: true, comment: "Oui, la sangle réglable soutient la jambe et participe à l'application de la traction." },
-          { "text": "Elle maintient la cuisse en place avec des sangles de fixation.", isCorrect: false, comment: "La cuisse est maintenue par la partie supérieure de l'attelle, pas par la sangle réglable de la partie inférieure." },
-          { "text": "Elle contrôle la pression exercée sur la jambe.", isCorrect: false, comment: "La pression est contrôlée par d'autres composants de l'attelle, pas par la sangle réglable." },
-          { "text": "Elle permet de gonfler l'attelle à l'aide de la pompe.", isCorrect: false, comment: "La pompe est utilisée pour contrôler la traction, pas pour gonfler l'attelle." }
-        ]
-      },
-      {
-        "text": "Quel est le rôle de la pompe et du manomètre sur une attelle à traction pneumatique de Donway ?",
-        answers: [
-          { "text": "Ils contrôlent et surveillent la pression de la traction exercée sur le membre blessé.", isCorrect: true, comment: "Oui, la pompe et le manomètre servent à contrôler et surveiller la pression de traction appliquée par l'attelle." },
-          { "text": "Ils fixent l'attelle en place sur le membre blessé.", isCorrect: false, comment: "La fixation de l'attelle est assurée par d'autres composants de l'attelle, pas par la pompe ou le manomètre." },
-          { "text": "Ils contrôlent la température de l'attelle pendant son utilisation.", isCorrect: false, comment: "Le contrôle de la température n'est pas une fonction de la pompe ou du manomètre sur cette attelle." },
-          { "text": "Ils facilitent le gonflage de l'attelle pour l'immobilisation.", isCorrect: false, comment: "La pompe est utilisée pour contrôler la traction, pas pour gonfler l'attelle." }
-        ]
-      },
-      {
-        "text": "Quelle est la fonction des deux barres supérieures d'une attelle à traction de Donway lors de son application ?",
-        answers: [
-          { "text": "Elles réalisent deux vérins qui appliquent une traction contrôlée par la pression de la pompe.", isCorrect: true, comment: "Oui, les barres supérieures de l'attelle servent à appliquer une traction contrôlée sur le membre blessé." },
-          { "text": "Elles maintiennent le membre en place pendant l'immobilisation.", isCorrect: false, comment: "Le maintien du membre est assuré par d'autres parties de l'attelle, pas par les barres supérieures." },
-          { "text": "Elles absorbent les chocs en cas de mouvement involontaire.", isCorrect: false, comment: "Les barres supérieures ne sont pas conçues pour absorber les chocs, mais pour appliquer la traction." },
-          { "text": "Elles contrôlent la pression exercée sur le membre blessé.", isCorrect: false, comment: "La pression est contrôlée par d'autres composants de l'attelle, pas par les barres supérieures." }
-        ]
-      },
-      {
-        "text": "Qu'est-ce qui est régulé par la sangle soutenant la cuisse dans la partie supérieure de l'attelle à traction de Donway ?",
-        answers: [
-          { "text": "L'anneau de blocage du bassin.", isCorrect: true, comment: "Oui, la sangle soutenant la cuisse participe à la stabilisation et au blocage du bassin pendant l'immobilisation." },
-          { "text": "La pression exercée sur la jambe.", isCorrect: false, comment: "La pression est contrôlée par d'autres composants de l'attelle, pas par la sangle soutenant la cuisse." },
-          { "text": "La position de la jambe pendant l'immobilisation.", isCorrect: false, comment: "La position est déterminée par d'autres parties de l'attelle, pas par la sangle soutenant la cuisse." },
-          { "text": "Le confort du patient pendant l'immobilisation.", isCorrect: false, comment: "La sangle soutenant la cuisse vise à stabiliser le bassin et le membre pendant l'immobilisation, pas à fournir du confort." }
-        ]
-      },
-      {
-        "text": "Pourquoi la partie inférieure en 'U' de l'attelle à traction de Donway est-elle creuse ?",
-        answers: [
-          { "text": "Pour permettre le positionnement de la jambe blessée et le passage de la traverse métallique fixe.", isCorrect: true, comment: "Oui, la partie inférieure creuse de l'attelle permet de loger le membre et les composants de traction pour une application sécurisée." },
-          { "text": "Pour absorber les chocs en cas de mouvement involontaire.", isCorrect: false, comment: "La partie inférieure n'est pas conçue pour absorber les chocs, mais pour soutenir le membre et appliquer la traction." },
-          { "text": "Pour permettre l'écoulement de l'air pendant l'utilisation de l'attelle.", isCorrect: false, comment: "La conception creuse vise à loger correctement le membre et les composants de traction, pas à faciliter l'écoulement de l'air." },
-          { "text": "Pour faciliter le transport et le stockage de l'attelle.", isCorrect: false, comment: "La conception creuse vise à optimiser l'immobilisation du membre, pas le transport ou le stockage de l'attelle." }
-        ]
-      },
-      {
-        "text": "Quel est l'objectif principal de la partie inférieure de l'attelle à traction de Donway ?",
-        answers: [
-          { "text": "Soutenir la jambe blessée et permettre l'application de la traction contrôlée.", isCorrect: true, comment: "Oui, la partie inférieure de l'attelle soutient le membre et applique la traction pour l'immobilisation efficace du membre." },
-          { "text": "Maintenir la cuisse en place avec des sangles de fixation.", isCorrect: false, comment: "Le maintien de la cuisse est assuré par la partie supérieure de l'attelle, pas par la partie inférieure." },
-          { "text": "Contrôler la pression exercée sur la jambe.", isCorrect: false, comment: "La pression est contrôlée par d'autres composants de l'attelle, pas par la partie inférieure." },
-          { "text": "Absorber les chocs en cas de mouvement involontaire.", isCorrect: false, comment: "La partie inférieure n'est pas conçue pour absorber les chocs, mais pour soutenir le membre et appliquer la traction." }
-        ]
-      },
-      {
-        "text": "Que permettent de réaliser les deux barres supérieures de l'attelle à traction de Donway une fois engagées dans les branches creuses de la partie inférieure en 'U' ?",
-        answers: [
-          { "text": "Deux vérins qui appliquent une traction contrôlée sur le membre blessé.", isCorrect: true, comment: "Oui, les barres supérieures engagées dans la partie inférieure forment des vérins qui permettent de contrôler la traction sur le membre blessé." },
-          { "text": "Un verrouillage sécurisé de la jambe blessée.", isCorrect: false, comment: "Les barres supérieures servent à appliquer la traction contrôlée, pas à verrouiller la jambe." },
-          { "text": "Un système de gonflage pour stabiliser la jambe.", isCorrect: false, comment: "Le système de gonflage est contrôlé par d'autres composants de l'attelle, pas par les barres supérieures." },
-          { "text": "Une fixation solide du membre pendant l'immobilisation.", isCorrect: false, comment: "La fixation du membre est assurée par l'ensemble de l'attelle, pas seulement par les barres supérieures." }
-        ]
-      },
-      {
-        "text": "Pourquoi l'attelle à traction pneumatique de Donway est-elle dotée d'une soupape de sécurité ?",
-        answers: [
-          { "text": "Pour libérer automatiquement la pression excédentaire en cas de surpression.", isCorrect: true, comment: "Oui, la soupape de sécurité assure la sécurité du patient en cas de surpression lors de l'immobilisation." },
-          { "text": "Pour réguler la pression exercée sur le membre blessé.", isCorrect: false, comment: "La pression est régulée par d'autres composants de l'attelle, pas par la soupape de sécurité." },
-          { "text": "Pour renforcer la traction sur le membre.", isCorrect: false, comment: "La soupape de sécurité agit pour éviter les risques liés à une pression excessive, pas pour renforcer la traction." },
-          { "text": "Pour contrôler le gonflage de l'attelle pendant son utilisation.", isCorrect: false, comment: "La pompe contrôle le gonflage de l'attelle, pas la soupape de sécurité." }
-        ]
-      },
-      {
-        "text": "Quel est le principal rôle de la sangle réglable dans la partie inférieure de l'attelle à traction de Donway ?",
-        answers: [
-          { "text": "Soutenir la jambe blessée et participer à l'application de la traction contrôlée.", isCorrect: true, comment: "Oui, la sangle réglable soutient la jambe et participe à l'application de la traction pour immobiliser efficacement le membre." },
-          { "text": "Maintenir la cuisse en place avec des sangles de fixation.", isCorrect: false, comment: "Le maintien de la cuisse est assuré par la partie supérieure de l'attelle, pas par la sangle réglable de la partie inférieure." },
-          { "text": "Contrôler la pression exercée sur la jambe.", isCorrect: false, comment: "La pression est contrôlée par d'autres composants de l'attelle, pas par la sangle réglable." },
-          { "text": "Absorber les chocs en cas de mouvement involontaire.", isCorrect: false, comment: "La sangle réglable n'est pas conçue pour absorber les chocs, mais pour soutenir le membre et appliquer la traction." }
-        ]
-      },
-      {
           "text": "Quand est-il nécessaire d'utiliser une immobilisation du membre supérieur au moyen d'écharpes ?",
-          answers: [
+          answers: [ 
+            { "text": "Pour des traitements médicaux avancés du membre supérieur.", isCorrect: false, comment: "Les écharpes servent principalement à l'immobilisation et ne sont pas liées à des traitements médicaux avancés." },
               { "text": "Lorsque des moyens plus appropriés ne sont pas disponibles pour mobiliser la victime.", isCorrect: true, comment: "Effectivement, les écharpes sont utilisées quand d'autres moyens d'immobilisation ne sont pas disponibles." },
               { "text": "Uniquement en cas de fractures graves du membre supérieur.", isCorrect: false, comment: "Les écharpes peuvent être utilisées plus largement que pour les fractures graves, lorsque d'autres moyens ne sont pas disponibles." },
               { "text": "En présence de complications circulatoires graves.", isCorrect: false, comment: "Les écharpes ne sont pas spécifiquement réservées aux complications circulatoires, mais plutôt à l'immobilisation générale du membre supérieur." },
-              { "text": "Pour des traitements médicaux avancés du membre supérieur.", isCorrect: false, comment: "Les écharpes servent principalement à l'immobilisation et ne sont pas liées à des traitements médicaux avancés." }
+            
           ]
       },
       {
@@ -4305,32 +3050,15 @@ let questionsData = [
           ]
       },
       {
-          "text": "Quel matériau est utilisé pour fabriquer une écharpe triangulaire utilisée dans l'immobilisation du membre supérieur ?",
-          answers: [
-              { "text": "Coton, toile ou papier non-tissé.", isCorrect: true, comment: "Oui, ces matériaux sont utilisés pour fabriquer des écharpes triangulaires." },
-              { "text": "Métal et plastique rigide.", isCorrect: false, comment: "Ces matériaux ne sont pas utilisés pour les écharpes triangulaires dans ce contexte." },
-              { "text": "Verre et céramique.", isCorrect: false, comment: "Ces matériaux ne sont adaptés pour les écharpes triangulaires en raison de leur rigidité." },
-              { "text": "Caoutchouc et silicone.", isCorrect: false, comment: "Ces matériaux ne sont pas utilisés pour les écharpes triangulaires dans ce contexte." }
-          ]
-      },
-      {
           "text": "Comment doit être positionné le sommet d'une écharpe triangulaire lors de l'immobilisation du membre supérieur ?",
           answers: [
-              { "text": "Du côté du coude.", isCorrect: true, comment: "Oui, le sommet de l'écharpe doit être du côté du coude pour une immobilisation efficace." },
+
               { "text": "Du côté de l'épaule opposée au membre blessé.", isCorrect: false, comment: "Le sommet doit être du côté du coude pour une immobilisation correcte." },
-              { "text": "Au niveau de la main.", isCorrect: false, comment: "Le sommet de l'écharpe doit être plus haut, du côté du coude." },
+              { "text": "Au niveau de la main.", isCorrect: false, comment: "Le sommet de l'écharpe doit être plus haut, du côté du coude." },              
+              { "text": "Du côté du coude.", isCorrect: true, comment: "Oui, le sommet de l'écharpe doit être du côté du coude pour une immobilisation efficace." },
               { "text": "Au niveau du poignet.", isCorrect: false, comment: "Le sommet de l'écharpe doit être plus haut, du côté du coude." }
           ]
-      },
-      {
-          "text": "Quelle est la longueur minimale recommandée pour la base d'une écharpe triangulaire utilisée dans l'immobilisation du membre supérieur ?",
-          answers: [
-              { "text": "1,2 mètres.", isCorrect: true, comment: "Oui, la longueur minimale recommandée pour la base de l'écharpe triangulaire est de 1,2 mètres." },
-              { "text": "1 mètre.", isCorrect: false, comment: "La longueur minimale recommandée est légèrement supérieure à 1 mètre." },
-              { "text": "2 mètres.", isCorrect: false, comment: "La longueur recommandée est moindre que 2 mètres." },
-              { "text": "0,5 mètres.", isCorrect: false, comment: "La longueur recommandée est significativement plus grande que 0,5 mètres." }
-          ]
-      },
+      }, 
       {
           "text": "Où doivent être nouées les pointes de l'écharpe triangulaire utilisée pour immobiliser le membre supérieur ?",
           answers: [
@@ -4350,43 +3078,25 @@ let questionsData = [
           ]
       },
   {
-      "text": "Qu'est-ce qu'un plan dur en secourisme ?",
+      "text": "Qu'est-ce qu'un plan dur ?",
       answers: [
         { "text": "Un outil rigide utilisé pour l'immobilisation et le transfert de victimes en cas de traumatisme du rachis.", isCorrect: true, comment: "Exact, le plan dur est un dispositif rigide essentiel en cas de suspicion de traumatisme du rachis." },
-        { "text": "Une méthode de secourisme utilisée en cas de situation critique.", isCorrect: false, comment: "Ce n'est pas la définition précise d'un plan dur en secourisme." },
+        { "text": "Une méthode utilisée en cas de situation critique.", isCorrect: false, comment: "Ce n'est pas la définition précise d'un plan dur en secourisme." },
         { "text": "Un protocole de prise en charge des blessés sur le terrain.", isCorrect: false, comment: "Cela ne définit pas spécifiquement ce qu'est un plan dur en secourisme." },
         { "text": "Un dispositif pour transporter les victimes par hélicoptère.", isCorrect: false, comment: "Cette définition ne correspond pas à celle d'un plan dur." }
       ]
   },
   {
-      "text": "Quelle est la longueur approximative d'un plan dur utilisé en secourisme ?",
-      answers: [
-        { "text": "Environ 1,85 mètres.", isCorrect: true, comment: "C'est correct, un plan dur standard mesure environ 1,85 mètres de longueur." },
-        { "text": "Environ 2 mètres.", isCorrect: false, comment: "Ce n'est pas la longueur typique d'un plan dur utilisé en secourisme." },
-        { "text": "Environ 1 mètre.", isCorrect: false, comment: "Cette longueur est insuffisante pour un plan dur utilisé en secourisme." },
-        { "text": "Environ 3 mètres.", isCorrect: false, comment: "Ce serait une longueur excessive pour un plan dur utilisé en secourisme." }
-      ]
-  },
-  {
-      "text": "Quel matériau constitue un plan dur utilisé en secourisme ?",
-      answers: [
-        { "text": "PVC radiotransparent et résistant à l'eau.", isCorrect: true, comment: "Exact, un plan dur en secourisme est généralement fabriqué en PVC radiotransparent pour la résistance à l'eau." },
-        { "text": "Bois robuste et imperméable.", isCorrect: false, comment: "Le bois n'est pas couramment utilisé pour les plans durs en secourisme." },
-        { "text": "Aluminium léger et flexible.", isCorrect: false, comment: "L'aluminium n'est pas le matériau typique pour un plan dur utilisé en secourisme." },
-        { "text": "Acier inoxydable résistant.", isCorrect: false, comment: "L'acier inoxydable n'est pas couramment utilisé pour les plans durs en secourisme." }
-      ]
-  },
-  {
-      "text": "Quelles sont les caractéristiques importantes d'un plan dur en secourisme ?",
-      answers: [
+      "text": "Quelles sont les caractéristiques importantes d'un plan dur ?",
+      answers: [        { "text": "Flexibilité et opacité.", isCorrect: false, comment: "Un plan dur doit être rigide et radiotransparent." },
         { "text": "Rigidité, radiotransparence, résistance à l'eau.", isCorrect: true, comment: "Ces caractéristiques sont essentielles pour un plan dur en secourisme." },
         { "text": "Flexibilité et légèreté.", isCorrect: false, comment: "Un plan dur doit être rigide plutôt que flexible pour l'immobilisation." },
         { "text": "Opacité et légèreté.", isCorrect: false, comment: "L'opacité n'est pas une caractéristique souhaitable pour un plan dur en secourisme." },
-        { "text": "Flexibilité et opacité.", isCorrect: false, comment: "Un plan dur en secourisme doit être rigide et radiotransparent." }
+
       ]
   },
   {
-      "text": "À quoi sert l'immobilisateur de tête utilisé avec un plan dur en secourisme ?",
+      "text": "À quoi sert l'immobilisateur de tête utilisé avec un plan dur ?",
       answers: [
         { "text": "À limiter les mouvements de la tête et du cou en cas de suspicion de traumatisme du rachis.", isCorrect: true, comment: "Exact, l'immobilisateur de tête est crucial pour prévenir les lésions de la colonne cervicale." },
         { "text": "À soutenir la victime pendant le transport.", isCorrect: false, comment: "Cette réponse ne décrit pas correctement le rôle de l'immobilisateur de tête." },
@@ -4395,16 +3105,16 @@ let questionsData = [
       ]
   },
   {
-      "text": "Comment est constitué l'immobilisateur de tête utilisé avec un plan dur en secourisme ?",
-      answers: [
+      "text": "Comment est constitué l'immobilisateur de tête utilisé avec un plan dur ?",
+      answers: [      { "text": "D'un dispositif en mousse uniquement.", isCorrect: false, comment: "La mousse seule ne fournit pas suffisamment de soutien pour l'immobilisation de la tête." },        { "text": "D'une ceinture abdominale et de sangles thoraciques.", isCorrect: false, comment: "Ce type de dispositif est utilisé pour d'autres types de maintien mais pas spécifiquement pour l'immobilisation de la tête." },
         { "text": "D'un coussin de tête, de blocs d'immobilisation latéraux et de sangles de fixation frontale et mentonnière.", isCorrect: true, comment: "C'est exact, l'immobilisateur de tête est composé de plusieurs éléments pour assurer la stabilité de la tête et du cou." },
         { "text": "D'une seule bande de maintien autour de la tête.", isCorrect: false, comment: "Un seul élément ne suffit pas pour un bon maintien de la tête en cas de traumatisme du rachis." },
-        { "text": "D'un dispositif en mousse uniquement.", isCorrect: false, comment: "La mousse seule ne fournit pas suffisamment de soutien pour l'immobilisation de la tête." },
-        { "text": "D'une ceinture abdominale et de sangles thoraciques.", isCorrect: false, comment: "Ce type de dispositif est utilisé pour d'autres types de maintien mais pas spécifiquement pour l'immobilisation de la tête." }
+  
+
       ]
   },
   {
-      "text": "Pourquoi utilise-t-on un plan dur avec un immobilisateur de tête en secourisme ?",
+      "text": "Pourquoi utilise-t-on un plan dur avec un immobilisateur de tête ?",
       answers: [
         { "text": "Pour limiter les mouvements de la tête et du cou en cas de suspicion de traumatisme du rachis.", isCorrect: true, comment: "Exact, cette combinaison est cruciale pour éviter d'aggraver les lésions de la colonne cervicale." },
         { "text": "Pour maintenir la victime en position debout.", isCorrect: false, comment: "Cette réponse ne décrit pas correctement l'utilisation d'un plan dur avec un immobilisateur de tête." },
@@ -4413,7 +3123,7 @@ let questionsData = [
       ]
   },
   {
-      "text": "Quelle est l'utilité principale du plan dur en secourisme ?",
+      "text": "Quelle est l'utilité principale du plan dur ?",
       answers: [
         { "text": "Immobiliser et transférer les victimes en cas de suspicion de traumatisme du rachis.", isCorrect: true, comment: "C'est la fonction principale du plan dur dans les interventions d'urgence." },
         { "text": "Maintenir les secouristes stables sur le terrain.", isCorrect: false, comment: "Bien que la stabilité soit importante, ce n'est pas le rôle principal d'un plan dur en secourisme." },
@@ -4422,7 +3132,7 @@ let questionsData = [
       ]
   },
   {
-      "text": "Quelle est la technique recommandée pour transférer une victime allongée sur le dos sur un plan dur en l'absence de brancard cuillère en secourisme ?",
+      "text": "Quelle est la technique recommandée pour transférer une victime allongée sur le dos sur un plan dur en l'absence de brancard cuillère ?",
       answers: [
         { "text": "La technique du pont à quatre porteurs.", isCorrect: true, comment: "C'est la méthode recommandée lorsque le brancard cuillère n'est pas disponible." },
         { "text": "La technique du roulement de la victime au sol à trois secouristes.", isCorrect: false, comment: "Cette méthode est utilisée si d'autres techniques ne peuvent pas être réalisées." },
@@ -4431,7 +3141,7 @@ let questionsData = [
       ]
   },
   {
-      "text": "Quelle est la procédure à suivre pour installer une victime allongée sur le dos sur un plan dur en l'absence de brancard cuillère en secourisme ?",
+      "text": "Quelle est la procédure à suivre pour installer une victime allongée sur le dos sur un plan dur en l'absence de brancard cuillère ?",
       answers: [
         { "text": "Utiliser la technique du pont à quatre porteurs.", isCorrect: true, comment: "C'est la procédure recommandée pour transférer une victime sur un plan dur sans brancard cuillère." },
         { "text": "Utiliser la technique du roulement de la victime au sol à trois secouristes.", isCorrect: false, comment: "Cette méthode est une alternative si le pont à quatre porteurs n'est pas possible." },
@@ -4440,7 +3150,7 @@ let questionsData = [
       ]
   },
   {
-      "text": "Quelle est la priorité lors de l'installation d'une victime sur un plan dur en secourisme ?",
+      "text": "Quelle est la priorité lors de l'installation d'une victime sur un plan dur ?",
       answers: [
         { "text": "Maintenir l'axe tête-cou-tronc de la victime.", isCorrect: true, comment: "C'est la priorité principale pour éviter d'aggraver une éventuelle lésion de la colonne vertébrale." },
         { "text": "S'assurer que la victime est confortable.", isCorrect: false, comment: "Le confort n'est pas la priorité principale lors de l'installation sur un plan dur en secourisme." },
@@ -4449,7 +3159,7 @@ let questionsData = [
       ]
   },
   {
-      "text": "Combien d'intervenants sont nécessaires pour installer une victime allongée sur le dos sur un plan dur en l'absence de brancard cuillère en secourisme ?",
+      "text": "Combien d'intervenants sont nécessaires pour installer une victime allongée sur le dos sur un plan dur en l'absence de brancard cuillère ?",
       answers: [
         { "text": "Trois intervenants.", isCorrect: true, comment: "Trois intervenants sont nécessaires pour effectuer cette procédure efficacement." },
         { "text": "Deux intervenants.", isCorrect: false, comment: "Deux intervenants ne seraient pas suffisants pour cette procédure spécifique." },
@@ -4458,16 +3168,7 @@ let questionsData = [
       ]
   },
   {
-      "text": "Quel est le rôle du premier secouriste lors de l'installation d'une victime sur un plan dur en secourisme ?",
-      answers: [
-        { "text": "Maintenir la tête de la victime pendant toute la manœuvre.", isCorrect: true, comment: "Le premier secouriste est responsable de maintenir la tête de la victime stable pendant la procédure." },
-        { "text": "Coordonner les secouristes pour transporter la victime.", isCorrect: false, comment: "Le rôle du premier secouriste est spécifique à maintenir la stabilité de la tête de la victime." },
-        { "text": "Observer les signes vitaux de la victime.", isCorrect: false, comment: "Les signes vitaux sont importants mais ce n'est pas le rôle principal du premier secouriste dans cette procédure." },
-        { "text": "Assurer le confort de la victime pendant le transfert.", isCorrect: false, comment: "Le confort de la victime n'est pas le rôle principal du premier secouriste lors de cette procédure." }
-      ]
-  },
-  {
-      "text": "Quelle est la position de la victime pendant l'installation sur un plan dur en l'absence de brancard cuillère en secourisme ?",
+      "text": "Quelle est la position de la victime pendant l'installation sur un plan dur en l'absence de brancard cuillère ?",
       answers: [
         { "text": "Allongée sur le dos.", isCorrect: true, comment: "C'est la position de base pour cette procédure d'installation sur un plan dur." },
         { "text": "Allongée sur le ventre.", isCorrect: false, comment: "Cette position n'est pas utilisée pour l'installation sur un plan dur en l'absence de brancard cuillère." },
@@ -4476,7 +3177,7 @@ let questionsData = [
       ]
   },
   {
-      "text": "Quelle est la technique recommandée pour transférer une victime allongée sur le ventre sur un plan dur en secourisme ?",
+      "text": "Quelle est la technique recommandée pour transférer une victime allongée sur le ventre sur un plan dur ?",
       answers: [
         { "text": "La technique du retournement de la victime en utilisant un pont à trois porteurs.", isCorrect: true, comment: "C'est la méthode appropriée pour transférer une victime allongée sur le ventre sur un plan dur." },
         { "text": "La technique du roulement de la victime au sol à deux secouristes.", isCorrect: false, comment: "Cette méthode n'est pas appropriée pour transférer une victime allongée sur le ventre sur un plan dur." },
@@ -4485,7 +3186,7 @@ let questionsData = [
       ]
   },
   {
-      "text": "Quelle est la position de la victime pendant le transfert sur un plan dur en l'absence de brancard cuillère en secourisme ?",
+      "text": "Quelle est la position de la victime pendant le transfert sur un plan dur en l'absence de brancard cuillère ?",
       answers: [
         { "text": "Sur le côté, perpendiculairement au sol.", isCorrect: true, comment: "C'est la position finale recommandée pour le transfert d'une victime allongée sur le dos sur un plan dur." },
         { "text": "Sur le dos, parallèlement au sol.", isCorrect: false, comment: "Cette position n'est pas appropriée pour le transfert sur un plan dur en l'absence de brancard cuillère." },
@@ -4494,34 +3195,7 @@ let questionsData = [
       ]
   },
   {
-      "text": "Quelle est la procédure recommandée pour transférer une victime allongée sur le ventre sur un plan dur en l'absence de brancard cuillère en secourisme ?",
-      answers: [
-        { "text": "La technique du retournement de la victime en utilisant un pont à trois porteurs.", isCorrect: true, comment: "C'est la méthode appropriée pour transférer une victime allongée sur le ventre sur un plan dur." },
-        { "text": "La technique du roulement de la victime au sol à deux secouristes.", isCorrect: false, comment: "Cette méthode n'est pas appropriée pour transférer une victime allongée sur le ventre sur un plan dur." },
-        { "text": "La technique du roulement de la victime en utilisant un brancard souple.", isCorrect: false, comment: "Un brancard souple n'est pas approprié pour cette procédure." },
-        { "text": "La technique du levage direct de la victime sur le plan dur.", isCorrect: false, comment: "Le levage direct n'est pas recommandé pour cette procédure." }
-      ]
-  },
-  {
-      "text": "Quel est le rôle du troisième secouriste lors du transfert sur un plan dur en l'absence de brancard cuillère en secourisme ?",
-      answers: [
-        { "text": "Assurer le guidage et le maintien de la victime pendant le transfert.", isCorrect: true, comment: "Le troisième secouriste est chargé de guider et de maintenir la victime en position pendant le transfert." },
-        { "text": "Maintenir la tête et le cou de la victime.", isCorrect: false, comment: "Le maintien de la tête et du cou est généralement effectué par le premier secouriste." },
-        { "text": "Assurer la sécurité autour de la zone de transfert.", isCorrect: false, comment: "La sécurité de la zone est importante mais ce n'est pas le rôle principal du troisième secouriste pendant le transfert." },
-        { "text": "Effectuer les premiers gestes de secours à la victime.", isCorrect: false, comment: "Les premiers gestes de secours sont effectués avant le transfert sur un plan dur." }
-      ]
-  },
-  {
-      "text": "Quelle est la position de la victime lorsqu'elle est prête pour le transfert final sur un plan dur en l'absence de brancard cuillère en secourisme ?",
-      answers: [
-        { "text": "Sur le côté, perpendiculairement au sol.", isCorrect: true, comment: "C'est la position finale recommandée pour le transfert d'une victime allongée sur le dos sur un plan dur." },
-        { "text": "Sur le dos, parallèlement au sol.", isCorrect: false, comment: "Cette position n'est pas appropriée pour le transfert final sur un plan dur en l'absence de brancard cuillère." },
-        { "text": "Sur le ventre, perpendiculairement au sol.", isCorrect: false, comment: "Le transfert sur le ventre n'est pas réalisé sur un plan dur en l'absence de brancard cuillère." },
-        { "text": "Sur le dos, perpendiculairement au sol.", isCorrect: false, comment: "Cette position n'est pas recommandée pour le transfert final sur un plan dur." }
-      ]
-  },
-  {
-      "text": "Quelle est la technique appropriée pour transférer une victime allongée sur le dos sur un plan dur en l'absence de brancard cuillère en secourisme ?",
+      "text": "Quelle est la technique appropriée pour transférer une victime allongée sur le dos sur un plan dur en l'absence de brancard cuillère ?",
       answers: [
         { "text": "La technique du pont à quatre porteurs.", isCorrect: true, comment: "C'est la méthode appropriée pour transférer une victime sur un plan dur sans brancard cuillère." },
         { "text": "La technique du roulement de la victime au sol à trois secouristes.", isCorrect: false, comment: "Cette méthode est une alternative si le pont à quatre porteurs n'est pas possible." },
@@ -4529,53 +3203,17 @@ let questionsData = [
         { "text": "La technique du retournement de la victime en utilisant un brancard souple.", isCorrect: false, comment: "Un brancard souple n'est pas recommandé pour le transfert sur un plan dur en l'absence de brancard cuillère." }
       ]
   },
-  {
-      "text": "Quelle est la procédure pour installer une victime allongée sur le ventre sur un plan dur en l'absence de brancard cuillère en secourisme ?",
-      answers: [
-        { "text": "Utiliser la technique du retournement de la victime en utilisant un pont à trois porteurs.", isCorrect: true, comment: "C'est la procédure appropriée pour installer une victime allongée sur le ventre sur un plan dur en l'absence de brancard cuillère." },
-        { "text": "Utiliser la technique du roulement de la victime au sol à deux secouristes.", isCorrect: false, comment: "Cette méthode n'est pas appropriée pour installer une victime allongée sur le ventre sur un plan dur." },
-        { "text": "Utiliser la technique du roulement de la victime en utilisant un brancard souple.", isCorrect: false, comment: "Un brancard souple n'est pas approprié pour cette procédure." },
-        { "text": "Utiliser la technique du levage direct de la victime sur le plan dur.", isCorrect: false, comment: "Le levage direct n'est pas recommandé pour cette procédure." }
-      ]
-  },
-  {
-      "text": "Quel est le rôle du premier secouriste lors de l'installation d'une victime sur un plan dur en l'absence de brancard cuillère en secourisme ?",
-      answers: [
-        { "text": "Maintenir la tête de la victime pendant toute la manœuvre.", isCorrect: true, comment: "Le premier secouriste est responsable de maintenir la tête de la victime stable pendant la procédure." },
-        { "text": "Coordonner les secouristes pour transporter la victime.", isCorrect: false, comment: "Le rôle du premier secouriste est spécifique à maintenir la stabilité de la tête de la victime." },
-        { "text": "Observer les signes vitaux de la victime.", isCorrect: false, comment: "Les signes vitaux sont importants mais ce n'est pas le rôle principal du premier secouriste dans cette procédure." },
-        { "text": "Assurer le confort de la victime pendant le transfert.", isCorrect: false, comment: "Le confort de la victime n'est pas le rôle principal du premier secouriste lors de cette procédure." }
-      ]
-  },
       {
-          "text": "Quelle est la procédure pour installer une victime allongée sur le ventre sur un plan dur en l'absence de brancard cuillère en secourisme ?",
+          "text": "Quelle est la position de la victime pendant l'installation sur un plan dur en l'absence de brancard cuillère ?",
           answers: [
-            { "text": "Utiliser la technique du retournement de la victime en utilisant un pont à trois porteurs.", isCorrect: true, comment: "C'est la procédure appropriée pour installer une victime allongée sur le ventre sur un plan dur en l'absence de brancard cuillère." },
-            { "text": "Utiliser la technique du roulement de la victime au sol à deux secouristes.", isCorrect: false, comment: "Cette méthode n'est pas appropriée pour installer une victime allongée sur le ventre sur un plan dur." },
-            { "text": "Utiliser la technique du roulement de la victime en utilisant un brancard souple.", isCorrect: false, comment: "Un brancard souple n'est pas approprié pour cette procédure." },
-            { "text": "Utiliser la technique du levage direct de la victime sur le plan dur.", isCorrect: false, comment: "Le levage direct n'est pas recommandé pour cette procédure." }
-          ]
-      },
-      {
-          "text": "Quel est le rôle du premier secouriste lors de l'installation d'une victime sur un plan dur en l'absence de brancard cuillère en secourisme ?",
-          answers: [
-            { "text": "Maintenir la tête de la victime pendant toute la manœuvre.", isCorrect: true, comment: "Le premier secouriste est responsable de maintenir la tête de la victime stable pendant la procédure." },
-            { "text": "Coordonner les secouristes pour transporter la victime.", isCorrect: false, comment: "Le rôle du premier secouriste est spécifique à maintenir la stabilité de la tête de la victime." },
-            { "text": "Observer les signes vitaux de la victime.", isCorrect: false, comment: "Les signes vitaux sont importants mais ce n'est pas le rôle principal du premier secouriste dans cette procédure." },
-            { "text": "Assurer le confort de la victime pendant le transfert.", isCorrect: false, comment: "Le confort de la victime n'est pas le rôle principal du premier secouriste lors de cette procédure." }
-          ]
-      },
-      {
-          "text": "Quelle est la position de la victime pendant l'installation sur un plan dur en l'absence de brancard cuillère en secourisme ?",
-          answers: [
-            { "text": "Allongée sur le dos.", isCorrect: true, comment: "C'est la position de base pour cette procédure d'installation sur un plan dur." },
+
             { "text": "Allongée sur le ventre.", isCorrect: false, comment: "Cette position n'est pas utilisée pour l'installation sur un plan dur en l'absence de brancard cuillère." },
-            { "text": "Debout.", isCorrect: false, comment: "La victime ne serait pas debout pendant cette procédure d'installation sur un plan dur." },
+            { "text": "Debout.", isCorrect: false, comment: "La victime ne serait pas debout pendant cette procédure d'installation sur un plan dur." },            { "text": "Allongée sur le dos.", isCorrect: true, comment: "C'est la position de base pour cette procédure d'installation sur un plan dur." },
             { "text": "Assise.", isCorrect: false, comment: "La position assise n'est pas utilisée pour cette procédure." }
           ]
       },
       {
-          "text": "Quelle est la technique recommandée pour transférer une victime allongée sur le ventre sur un plan dur en secourisme ?",
+          "text": "Quelle est la technique recommandée pour transférer une victime allongée sur le ventre sur un plan dur ?",
           answers: [
             { "text": "La technique du retournement de la victime en utilisant un pont à trois porteurs.", isCorrect: true, comment: "C'est la méthode appropriée pour transférer une victime allongée sur le ventre sur un plan dur." },
             { "text": "La technique du roulement de la victime au sol à deux secouristes.", isCorrect: false, comment: "Cette méthode n'est pas appropriée pour transférer une victime allongée sur le ventre sur un plan dur." },
@@ -4584,7 +3222,7 @@ let questionsData = [
           ]
       },
       {
-          "text": "Quelle est la position de la victime pendant le transfert sur un plan dur en l'absence de brancard cuillère en secourisme ?",
+          "text": "Quelle est la position de la victime pendant le transfert sur un plan dur en l'absence de brancard cuillère ?",
           answers: [
             { "text": "Sur le côté, perpendiculairement au sol.", isCorrect: true, comment: "C'est la position finale recommandée pour le transfert d'une victime allongée sur le dos sur un plan dur." },
             { "text": "Sur le dos, parallèlement au sol.", isCorrect: false, comment: "Cette position n'est pas appropriée pour le transfert sur un plan dur en l'absence de brancard cuillère." },
@@ -4593,7 +3231,7 @@ let questionsData = [
           ]
       },
       {
-          "text": "Quelle est la procédure recommandée pour transférer une victime allongée sur le ventre sur un plan dur en l'absence de brancard cuillère en secourisme ?",
+          "text": "Quelle est la procédure recommandée pour transférer une victime allongée sur le ventre sur un plan dur en l'absence de brancard cuillère ?",
           answers: [
             { "text": "La technique du retournement de la victime en utilisant un pont à trois porteurs.", isCorrect: true, comment: "C'est la méthode appropriée pour transférer une victime allongée sur le ventre sur un plan dur." },
             { "text": "La technique du roulement de la victime au sol à deux secouristes.", isCorrect: false, comment: "Cette méthode n'est pas appropriée pour transférer une victime allongée sur le ventre sur un plan dur." },
@@ -4601,15 +3239,8 @@ let questionsData = [
             { "text": "La technique du levage direct de la victime sur le plan dur.", isCorrect: false, comment: "Le levage direct n'est pas recommandé pour cette procédure." }
           ]
       },
-
-
-
-
-//POSE PROBLEME
-
-
       {
-          "text": "Quelle est la position de la victime pendant l'installation sur un plan dur en l'absence de brancard cuillère en secourisme ?",
+          "text": "Quelle est la position de la victime pendant l'installation sur un plan dur en l'absence de brancard cuillère ?",
           answers: [
             { "text": "Allongée sur le dos.", isCorrect: true, comment: "C'est la position de base pour cette procédure d'installation sur un plan dur." },
             { "text": "Allongée sur le ventre.", isCorrect: false, comment: "Cette position n'est pas utilisée pour l'installation sur un plan dur en l'absence de brancard cuillère." },
@@ -4618,7 +3249,7 @@ let questionsData = [
           ]
       },
       {
-          "text": "Quelle est la technique recommandée pour transférer une victime allongée sur le ventre sur un plan dur en secourisme ?",
+          "text": "Quelle est la technique recommandée pour transférer une victime allongée sur le ventre sur un plan dur ?",
           answers: [
             { "text": "La technique du retournement de la victime en utilisant un pont à trois porteurs.", isCorrect: true, comment: "C'est la méthode appropriée pour transférer une victime allongée sur le ventre sur un plan dur." },
             { "text": "La technique du roulement de la victime au sol à deux secouristes.", isCorrect: false, comment: "Cette méthode n'est pas appropriée pour transférer une victime allongée sur le ventre sur un plan dur." },
@@ -4627,7 +3258,7 @@ let questionsData = [
           ]
       },
       {
-          "text": "Quelle est la position de la victime pendant le transfert sur un plan dur en l'absence de brancard cuillère en secourisme ?",
+          "text": "Quelle est la position de la victime pendant le transfert sur un plan dur en l'absence de brancard cuillère ?",
           answers: [
             { "text": "Sur le côté, perpendiculairement au sol.", isCorrect: true, comment: "C'est la position finale recommandée pour le transfert d'une victime allongée sur le dos sur un plan dur." },
             { "text": "Sur le dos, parallèlement au sol.", isCorrect: false, comment: "Cette position n'est pas appropriée pour le transfert sur un plan dur en l'absence de brancard cuillère." },
@@ -4635,42 +3266,800 @@ let questionsData = [
             { "text": "Sur le dos, perpendiculairement au sol.", isCorrect: false, comment: "Cette position n'est pas recommandée pour le transfert final sur un plan dur." }
           ]
       },
-          {
-              "text": "Quelle est la procédure recommandée pour transférer une victime allongée sur le ventre sur un plan dur en l'absence de brancard cuillère en secourisme ?",
-              answers: [
-                { "text": "La technique du retournement de la victime en utilisant un pont à trois porteurs.", isCorrect: true, comment: "C'est la méthode appropriée pour transférer une victime allongée sur le ventre sur un plan dur." },
-                { "text": "La technique du roulement de la victime au sol à deux secouristes.", isCorrect: false, comment: "Cette méthode n'est pas appropriée pour transférer une victime allongée sur le ventre sur un plan dur." },
-                { "text": "La technique du roulement de la victime en utilisant un brancard souple.", isCorrect: false, comment: "Un brancard souple n'est pas approprié pour cette procédure." },
-                { "text": "La technique du levage direct de la victime sur le plan dur.", isCorrect: false, comment: "Le levage direct n'est pas recommandé pour cette procédure." }
-              ]
-          },
-          {
-              "text": "Quel est le rôle du troisième secouriste lors du transfert sur un plan dur en l'absence de brancard cuillère en secourisme ?",
-              answers: [
-                { "text": "Assurer le guidage et le maintien de la victime pendant le transfert.", isCorrect: true, comment: "Le troisième secouriste est chargé de guider et de maintenir la victime en position pendant le transfert." },
-                { "text": "Maintenir la tête et le cou de la victime.", isCorrect: false, comment: "Le maintien de la tête et du cou est généralement effectué par le premier secouriste." },
-                { "text": "Assurer la sécurité autour de la zone de transfert.", isCorrect: false, comment: "La sécurité de la zone est importante mais ce n'est pas le rôle principal du troisième secouriste pendant le transfert." },
-                { "text": "Effectuer les premiers gestes de secours à la victime.", isCorrect: false, comment: "Les premiers gestes de secours sont effectués avant le transfert sur un plan dur." }
-              ]
-          },
-          {
-              "text": "Quelle est la position de la victime lorsqu'elle est prête pour le transfert final sur un plan dur en l'absence de brancard cuillère en secourisme ?",
-              answers: [
-                { "text": "Sur le côté, perpendiculairement au sol.", isCorrect: true, comment: "C'est la position finale recommandée pour le transfert d'une victime allongée sur le dos sur un plan dur." },
-                { "text": "Sur le dos, parallèlement au sol.", isCorrect: false, comment: "Cette position n'est pas appropriée pour le transfert final sur un plan dur en l'absence de brancard cuillère." },
-                { "text": "Sur le ventre, perpendiculairement au sol.", isCorrect: false, comment: "Le transfert sur le ventre n'est pas réalisé sur un plan dur en l'absence de brancard cuillère." },
-                { "text": "Sur le dos, perpendiculairement au sol.", isCorrect: false, comment: "Cette position n'est pas recommandée pour le transfert final sur un plan dur." }
-              ]
-          },
-          {
-              "text": "Quelle est la technique appropriée pour transférer une victime allongée sur le dos sur un plan dur en l'absence de brancard cuillère en secourisme ?",
-              answers: [
-                { "text": "La technique du pont à quatre porteurs.", isCorrect: true, comment: "C'est la méthode appropriée pour transférer une victime sur un plan dur sans brancard cuillère." },
-                { "text": "La technique du roulement de la victime au sol à trois secouristes.", isCorrect: false, comment: "Cette méthode est une alternative si le pont à quatre porteurs n'est pas possible." },
-                { "text": "La technique du levage direct sur le plan dur.", isCorrect: false, comment: "Le levage direct peut être dangereux sans équipement approprié." },
-                { "text": "La technique du retournement de la victime en utilisant un brancard souple.", isCorrect: false, comment: "Un brancard souple n'est pas recommandé pour le transfert sur un plan dur en l'absence de brancard cuillère." }
-              ]
-          }
+        {
+            text: "Quel est le but principal de l'immobilisation avec un matelas à dépression ?",
+            answers: [
+              { text: "Respecter l'axe tête-cou-tronc de la victime et limiter les mouvements de la colonne vertébrale.", isCorrect: true, comment: "Exact, l'immobilisation vise à prévenir les lésions de la colonne vertébrale." },
+              { text: "Stabiliser les membres inférieurs uniquement.", isCorrect: false, comment: "L'immobilisation vise l'ensemble du corps et pas seulement les membres inférieurs." },
+              { text: "Réduire le temps d'intervention des secours.", isCorrect: false, comment: "L'immobilisation n'est pas liée à la rapidité d'intervention des secours." },
+              { text: "Faciliter le confort de la victime.", isCorrect: false, comment: "Le confort n'est pas le principal objectif de l'immobilisation avec un matelas à dépression." }
+            ]
+        },
+        {
+            text: "Quelles sont les indications d'utilisation du matelas immobilisateur à dépression ?",
+            answers: [
+              { text: "Pour toute victime nécessitant un transport rapide vers l'hôpital.", isCorrect: false, comment: "Le matelas est utilisé pour l'immobilisation et non pour le transport rapide." },
+              { text: "Traumatisme de la colonne vertébrale, du bassin ou de la cuisse, ou présence de multiples lésions chez la victime.", isCorrect: true, comment: "Exact, ces indications justifient l'utilisation du matelas immobilisateur à dépression." },
+              { text: "Uniquement en cas de détresse respiratoire de la victime.", isCorrect: false, comment: "Le matelas peut être utilisé dans divers scénarios, pas uniquement pour la détresse respiratoire." },
+              { text: "Pour les victimes souffrant de blessures aux membres supérieurs.", isCorrect: false, comment: "Le matelas est principalement utilisé pour l'immobilisation de la colonne vertébrale." }
+            ]
+        },
+        {
+            text: "Dans quelles situations le matelas immobilisateur à dépression permet-il d'immobiliser les victimes dans une position adaptée à leur détresse ?",
+            answers: [
+              { text: "Lorsque la victime présente une détresse respiratoire, en l'immobilisant dans une position demi-assise.", isCorrect: true, comment: "Exact, le MID peut être utilisé pour adapter la position selon la détresse de la victime." },
+              { text: "Uniquement pour les victimes en position allongée sur le dos.", isCorrect: false, comment: "Le MID peut adapter la position en fonction de diverses détresses, pas seulement en position allongée." },
+              { text: "Pour les victimes avec des blessures aux membres inférieurs.", isCorrect: false, comment: "Le MID vise principalement à l'immobilisation de la colonne vertébrale et non des membres inférieurs." },
+              { text: "Pour toute victime nécessitant un transport rapide vers l'hôpital.", isCorrect: false, comment: "Le MID est utilisé pour l'immobilisation et non pour le transport rapide." }
+            ]
+        },
+        {
+            text: "Quelle est la position recommandée de la victime pendant l'installation sur un matelas à dépression ?",
+            answers: [
+              { text: "Sur le dos, alignée avec l'axe tête-cou-tronc.", isCorrect: true, comment: "Exact, la victime doit être alignée pour assurer l'immobilisation correcte de la colonne vertébrale." },
+              { text: "Sur le ventre, en position de récupération.", isCorrect: false, comment: "La position sur le ventre n'est pas recommandée pour l'immobilisation sur un matelas à dépression." },
+              { text: "En position assise, avec les jambes pliées.", isCorrect: false, comment: "La position assise n'est pas recommandée pour l'immobilisation sur un matelas à dépression." },
+              { text: "En position demi-assise pour faciliter la respiration.", isCorrect: false, comment: "La position demi-assise est utilisée en cas de détresse respiratoire mais pas nécessairement pour l'immobilisation." }
+            ]
+        },
+        {
+            text: "Que faire si le matelas à dépression appuie sur le sommet du crâne de la victime ?",
+            answers: [
+              { text: "Repositionner le matelas pour éviter tout appui sur le sommet du crâne.", isCorrect: true, comment: "Exact, il est crucial d'éviter tout appui sur le sommet du crâne pour prévenir les blessures." },
+              { text: "Utiliser des blocs de tête pour stabiliser le matelas.", isCorrect: false, comment: "Les blocs de tête sont utilisés pour stabiliser le rachis cervical, pas pour le sommet du crâne." },
+              { text: "Appliquer un coussin supplémentaire pour soutenir la tête de la victime.", isCorrect: false, comment: "Le matelas ne doit pas appuyer sur le sommet du crâne, donc ajouter un coussin ne résoudrait pas le problème." },
+              { text: "Régler le robinet pour dégonfler légèrement le matelas.", isCorrect: false, comment: "Il faut éviter l'appui sur le sommet du crâne en repositionnant correctement le matelas." }
+            ]
+        },
+        {
+            text: "Quel est le risque si la rigidité du matelas à dépression diminue pendant l'immobilisation ?",
+            answers: [
+              { text: "Une diminution de la qualité de l'immobilisation générale de la victime.", isCorrect: true, comment: "Exact, la rigidité du matelas est essentielle pour maintenir une immobilisation efficace." },
+              { text: "Une augmentation du confort de la victime.", isCorrect: false, comment: "La diminution de la rigidité compromet la qualité de l'immobilisation, pas le confort." },
+              { text: "Une réduction de l'irritation cutanée.", isCorrect: false, comment: "La rigidité du matelas est nécessaire pour l'immobilisation, pas pour réduire l'irritation cutanée." },
+              { text: "Un risque accru de déplacement de la victime.", isCorrect: false, comment: "La diminution de la rigidité peut affecter l'immobilisation mais ne provoque pas directement un déplacement de la victime." }
+            ]
+        },
+        {
+            text: "Comment doit se faire le transport de la victime une fois immobilisée sur le matelas à dépression ?",
+            answers: [
+              { text: "En déposant l'ensemble victime-matelas sur un brancard ou un plan dur, puis en l'arrimant pour éviter les mouvements.", isCorrect: true, comment: "Exact, le transport doit être sécurisé pour maintenir l'immobilisation de la victime." },
+              { text: "En transportant la victime à mains nues pour éviter tout risque de déplacement.", isCorrect: false, comment: "Le transport à mains nues n'assure pas une immobilisation adéquate." },
+              { text: "En dégonflant légèrement le matelas pour faciliter le transport.", isCorrect: false, comment: "Il faut maintenir la rigidité du matelas pendant le transport pour l'immobilisation de la victime." },
+              { text: "En retirant le matelas et en transportant la victime seule.", isCorrect: false, comment: "Le matelas doit rester en place pour maintenir l'immobilisation lors du transport." }
+            ]
+        },
+        {
+            text: "Que faire si le matelas immobilisateur à dépression (MIseul doit être utilisé pour un transport de courte distance ?",
+            answers: [
+              { text: "Soutenir le matelas sur les côtés pour éviter qu'il ne se plie en son milieu pendant le transport.", isCorrect: true, comment: "Exact, il faut maintenir le matelas rigide lors du transport pour assurer l'immobilisation." },
+              { text: "Gonfler légèrement le matelas pour réduire son poids pendant le transport.", isCorrect: false, comment: "Il faut maintenir la rigidité du matelas pour l'immobilisation, pas le gonfler." },
+              { text: "Dégonfler le matelas pour réduire l'espace occupé pendant le transport.", isCorrect: false, comment: "Le matelas doit rester rigide pour maintenir l'immobilisation, même lors d'un transport de courte distance." },
+              { text: "Transporter la victime sans utiliser le matelas pour plus de facilité.", isCorrect: false, comment: "Le matelas doit être utilisé pour maintenir l'immobilisation de la victime pendant le transport." }
+            ]
+        },
+        {
+            text: "Qu'est-ce qu'une complication possible masquée par l'immobilisation avec un matelas à dépression ?",
+            answers: [              { text: "Une aggravation de la détresse respiratoire de la victime.", isCorrect: false, comment: "L'immobilisation vise à stabiliser la victime et ne devrait pas aggraver la détresse respiratoire." },
+              { text: "Un déplacement involontaire de la victime pendant le transport.", isCorrect: false, comment: "Le matelas est conçu pour maintenir l'immobilisation et prévenir les déplacements." },
+              { text: "Un épanchement de sang ou une hémorragie extériorisée chez la victime.", isCorrect: true, comment: "Exact, le matelas peut masquer des signes d'hémorragie ou d'épanchement sanguin." },
+              { text: "Une compression accrue de la colonne vertébrale de la victime.", isCorrect: false, comment: "L'immobilisation vise à protéger la colonne vertébrale, pas à la comprimer davantage." }
+            ]
+        },
+        {
+            text: "Pourquoi est-il important de fermer le robinet après l'aspiration de l'air dans le matelas à dépression ?",
+            answers: [
+              { text: "Pour maintenir la rigidité du matelas en empêchant l'air de revenir à l'intérieur.", isCorrect: true, comment: "Exact, fermer le robinet conserve la rigidité du matelas en bloquant le retour d'air." },
+              { text: "Pour permettre à la victime de respirer plus facilement.", isCorrect: false, comment: "Le robinet fermé maintient la rigidité du matelas mais n'influence pas la respiration de la victime." },
+              { text: "Pour éviter l'écrasement de la victime sous le poids du matelas.", isCorrect: false, comment: "La fermeture du robinet maintient la rigidité mais n'influence pas le poids du matelas sur la victime." },
+              { text: "Pour faciliter le transport du matelas avec la victime.", isCorrect: false, comment: "La fermeture du robinet maintient la rigidité du matelas pour l'immobilisation, pas pour le transport." }
+            ]
+        },
+        {
+            text: "Quelle est la condition essentielle pour une bonne immobilisation avec un matelas à dépression ?",
+            answers: [
+              { text: "Assurer une flexibilité du matelas pour permettre des ajustements.", isCorrect: false, comment: "Le matelas doit rester rigide pour maintenir l'immobilisation, pas flexible." },
+              { text: "Maintenir la rigidité du matelas en permanence pour empêcher tout mouvement de la victime.", isCorrect: true, comment: "Exact, la rigidité constante du matelas est essentielle pour une immobilisation efficace." },
+              { text: "Garantir le confort maximal de la victime pendant l'immobilisation.", isCorrect: false, comment: "Le confort n'est pas la principale préoccupation de l'immobilisation, la sécurité l'est." },
+              { text: "Adapter la position de la victime en fonction de sa détresse respiratoire.", isCorrect: false, comment: "L'immobilisation vise à maintenir la position correcte, pas à s'adapter à la détresse respiratoire." }
+            ]
+        },
+        {
+            text: "Quand est-il recommandé de maintenir la tête du blessé en position neutre ?",
+            answers: [
+              { text: "Dès qu'un traumatisme de la tête, de la nuque ou du dos de la victime est suspecté.", isCorrect: true, comment: "Exact, le maintien de la tête en position neutre est indiqué en cas de suspicion de traumatisme de la tête, de la nuque ou du dos." },
+              { text: "Uniquement lorsqu'il y a une immobilisation complète de l'axe tête-cou-tronc.", isCorrect: false, comment: "Le maintien en position neutre peut être effectué en attente d'une immobilisation complète, mais il est recommandé dès la suspicion de traumatisme." },
+              { text: "Après avoir procédé à une évaluation primaire de la victime.", isCorrect: false, comment: "Le maintien en position neutre est recommandé dès la suspicion de traumatisme, avant une évaluation complète." },
+              { text: "Lorsque la victime est consciente et coopérante.", isCorrect: false, comment: "Le maintien en position neutre est indiqué dès la suspicion de traumatisme, indépendamment de la coopération de la victime." }
+            ]
+        },
+        {
+            text: "Quel est l'objectif principal du maintien de la tête en position neutre ?",
+            answers: [              { text: "Assurer le confort de la victime pendant l'intervention.", isCorrect: false, comment: "Le maintien en position neutre est prioritaire pour la sécurité et la prévention de complications." },
+              { text: "Limiter les mouvements du cou et stabiliser le rachis cervical en attente d'une immobilisation complète.", isCorrect: true, comment: "Exact, le maintien en position neutre vise à limiter les mouvements du cou et à stabiliser le rachis cervical en cas de suspicion de traumatisme." },
+              { text: "Faciliter le transport de la victime vers un centre médical.", isCorrect: false, comment: "Le maintien en position neutre est essentiel pour la stabilisation initiale en attendant une évaluation et une immobilisation adéquates." },
+              { text: "Réduire la douleur cervicale de la victime.", isCorrect: false, comment: "Le maintien en position neutre n'est pas destiné à réduire la douleur mais à limiter les mouvements du cou pour prévenir les lésions." },
+
+            ]
+        },
+        {
+            text: "Que doit faire le secouriste si la tête de la victime n'est pas alignée avec le tronc ?",
+            answers: [
+              { text: "Replacer délicatement la tête dans l'axe du tronc sans exercer de traction jusqu'à ce que la victime regarde droit devant.", isCorrect: true, comment: "Exact, il est important de replacer la tête de manière délicate pour éviter toute traction excessive." },
+              { text: "Exercer une légère traction pour aligner la tête avec le tronc.", isCorrect: false, comment: "Il ne faut pas exercer de traction sur la tête lors du repli dans l'axe du tronc." },
+              { text: "Demander à la victime de bouger la tête pour l'aligner avec le tronc.", isCorrect: false, comment: "Le secouriste doit effectuer le repositionnement de la tête sans demander à la victime de bouger." },
+              { text: "Immobiliser la tête dans sa position actuelle jusqu'à l'arrivée de renforts.", isCorrect: false, comment: "Il est préférable de replacer délicatement la tête dans l'axe du tronc si elle n'est pas alignée." }
+            ]
+        },
+        {
+            text: "Quand peut-on interrompre le maintien de la tête en position neutre ?",
+            answers: [
+              { text: "Après avoir demandé à la victime de ne pas bouger la tête et si elle est allongée à plat dos, calme et coopérante.", isCorrect: true, comment: "Exact, le maintien peut être interrompu si la victime est stable, consciente et coopérante." },
+              { text: "Uniquement après une immobilisation complète du rachis cervical.", isCorrect: false, comment: "Le maintien peut être interrompu en fonction de l'état de la victime, pas seulement après l'immobilisation complète." },
+              { text: "Après une évaluation complète de la victime par les secouristes.", isCorrect: false, comment: "La décision d'interrompre le maintien dépend de l'état de la victime et de sa coopération, pas seulement d'une évaluation complète." },
+              { text: "Lorsque la victime signale une amélioration de ses symptômes.", isCorrect: false, comment: "L'interruption du maintien dépend de l'évaluation de la stabilité de la victime, pas seulement des symptômes." }
+            ]
+        },
+        {
+            text: "Comment le secouriste doit-il se positionner pour maintenir la tête en position neutre ?",
+            answers: [
+
+              { text: "Debout à côté de la victime.", isCorrect: false, comment: "Le secouriste doit se placer à genoux pour maintenir la tête en position neutre, pas debout à côté de la victime." },
+              { text: "Assis au niveau des pieds de la victime.", isCorrect: false, comment: "Le secouriste doit se positionner au niveau de la tête de la victime pour maintenir la tête en position neutre." },
+              { text: "À genoux derrière la victime.", isCorrect: false, comment: "Il est recommandé de se placer à genoux dans l'axe de la victime, à la tête, pour maintenir la tête en position neutre." },  
+              { text: "À genoux dans l'axe de la victime, à la tête.", isCorrect: true, comment: "Exact, le secouriste doit se placer à genoux dans l'axe de la victime, au niveau de la tête, pour maintenir la tête en position neutre." },
+            ]
+        },
+        {
+            text: "Pendant combien de temps le maintien de la tête en position neutre est-il généralement maintenu ?",
+            answers: [
+              { text: "Jusqu'à l'immobilisation complète du rachis cervical.", isCorrect: true, comment: "Exact, le maintien de la tête en position neutre est maintenu en attente de l'immobilisation complète du rachis cervical." },
+              { text: "Durant toute la durée de l'intervention des secouristes.", isCorrect: false, comment: "Le maintien de la tête en position neutre n'est maintenu que jusqu'à ce que l'immobilisation du rachis cervical soit réalisée." },
+              { text: "Jusqu'à ce que la victime soit transportée vers un centre médical.", isCorrect: false, comment: "Le maintien de la tête en position neutre est maintenu jusqu'à ce que l'immobilisation du rachis cervical soit réalisée, pas seulement pendant le transport." },
+              { text: "Pendant toute la durée de l'évaluation initiale de la victime.", isCorrect: false, comment: "Le maintien de la tête en position neutre est maintenu en attente de l'immobilisation du rachis cervical, pas seulement pendant l'évaluation initiale." }
+            ]
+        },
+        {
+            text: "Que doit faire le secouriste si la tête de la victime résiste au déplacement pour la replacer en position neutre ?",
+            answers: [
+              { text: "Interrompre immédiatement la manœuvre et maintenir la tête dans sa position actuelle en attendant un renfort.", isCorrect: true, comment: "Exact, le secouriste doit cesser la manœuvre si la tête résiste au déplacement, pour éviter d'aggraver les lésions." },
+              { text: "Appliquer une traction progressive sur la tête pour la replacer en position neutre.", isCorrect: false, comment: "Il ne faut pas appliquer de traction sur la tête en cas de résistance au déplacement." },
+              { text: "Demander à la victime de bouger la tête pour faciliter le déplacement.", isCorrect: false, comment: "La tête doit être replacée délicatement sans demander de mouvement actif à la victime." },
+              { text: "Maintenir la tête dans sa position actuelle jusqu'à l'immobilisation complète du rachis cervical.", isCorrect: false, comment: "Il est préférable de cesser la manœuvre en cas de résistance pour éviter les complications." }
+            ]
+        },
+        {
+            text: "Quels symptômes doivent alerter le secouriste lors du maintien de la tête en position neutre ?",
+            answers: [
+              { text: "Une résistance au déplacement de la tête, une douleur cervicale accrue ou des sensations anormales dans les membres.", isCorrect: true, comment: "Exact, ces symptômes indiquent qu'il faut cesser la manœuvre et maintenir la tête dans sa position actuelle." },
+              { text: "Une sensation de fatigue dans les bras du secouriste.", isCorrect: false, comment: "Les symptômes liés à la victime, comme la résistance au déplacement de la tête, sont plus critiques pour l'évaluation." },
+              { text: "Une perte de sensibilité au niveau du cou de la victime.", isCorrect: false, comment: "Les sensations anormales dans les membres sont plus critiques pour l'évaluation de la stabilité du cou." },
+              { text: "Une augmentation de la fréquence cardiaque de la victime.", isCorrect: false, comment: "Les symptômes concernant la tête et le cou de la victime sont plus critiques pour l'évaluation initiale." }
+            ]
+        },
+        {
+            text: "Quelle est la principale précaution à prendre lors du maintien de la tête en position neutre ?",
+            answers: [              { text: "Appliquer une traction progressive sur la tête en cas de résistance.", isCorrect: false, comment: "Il ne faut pas appliquer de traction sur la tête en cas de résistance." },
+              { text: "Demander à la victime de bouger la tête pour vérifier la stabilité du cou.", isCorrect: false, comment: "La tête doit être replacée délicatement sans demander de mouvement actif à la victime." },
+              { text: "Cesser immédiatement la manœuvre en cas de résistance, de douleur accrue ou de sensations anormales.", isCorrect: true, comment: "Exact, il est essentiel de prendre des précautions pour éviter d'aggraver les lésions cervicales." },
+              { text: "Maintenir la position jusqu'à ce que la victime signale une amélioration de ses symptômes.", isCorrect: false, comment: "Les signes de la victime doivent alerter le secouriste pour cesser la manœuvre, pas seulement son signalement." },
+
+            ]
+        },
+        {
+            text: "Quel est l'objectif principal du maintien de la tête en position neutre pour un secouriste ?",
+            answers: [
+              { text: "Prévenir les mouvements du cou et stabiliser le rachis cervical en attente d'une immobilisation complète.", isCorrect: true, comment: "Exact, le maintien en position neutre vise à stabiliser le cou pour éviter les lésions avant l'immobilisation complète." },
+              { text: "Soutenir la tête de la victime pour lui éviter une gêne respiratoire.", isCorrect: false, comment: "Le maintien en position neutre est principalement pour la stabilisation du cou et la prévention des lésions." },
+              { text: "Empêcher la victime de bouger pendant l'intervention des secouristes.", isCorrect: false, comment: "Le maintien en position neutre est pour la sécurité du cou de la victime, pas seulement pour empêcher les mouvements." },
+              { text: "Réduire la douleur cervicale de la victime.", isCorrect: false, comment: "Le maintien en position neutre n'est pas destiné à réduire la douleur mais à prévenir les complications du cou." }
+            ]
+        },
+        {
+            text: "Que doit faire le secouriste si la victime est debout ou assise lors du maintien de la tête en position neutre ?",
+            answers: [
+              { text: "Replacer délicatement la tête dans l'axe du tronc en soulageant le rachis cervical du poids de la tête.", isCorrect: true, comment: "Exact, le secouriste doit soutenir la tête et replacer délicatement la tête dans l'axe du tronc." },
+              { text: "Demander à la victime de s'allonger immédiatement sur le dos.", isCorrect: false, comment: "Il n'est pas nécessaire de demander un changement de position, mais de replacer délicatement la tête." },
+              { text: "Demander à la victime de bouger la tête pour vérifier la mobilité du cou.", isCorrect: false, comment: "La tête doit être replacée en position neutre sans demander de mouvement actif à la victime." },
+              { text: "Appliquer une immobilisation du rachis cervical immédiatement.", isCorrect: false, comment: "Le maintien en position neutre est une étape préliminaire avant toute immobilisation du rachis cervical." }
+            ]
+        },
+        {
+            text: "Quel geste doit faire le secouriste si la tête de la victime résiste au déplacement lors du maintien en position neutre ?",
+            answers: [
+              { text: "Interrompre immédiatement la manœuvre et maintenir la tête dans sa position actuelle en attendant un renfort.", isCorrect: true, comment: "Exact, le secouriste doit cesser la manœuvre si la tête résiste au déplacement, pour éviter d'aggraver les lésions." },
+              { text: "Appliquer une traction progressive sur la tête pour la replacer en position neutre.", isCorrect: false, comment: "Il ne faut pas appliquer de traction sur la tête en cas de résistance au déplacement." },
+              { text: "Demander à la victime de bouger la tête pour faciliter le déplacement.", isCorrect: false, comment: "La tête doit être replacée délicatement sans demander de mouvement actif à la victime." },
+              { text: "Maintenir la tête dans sa position actuelle jusqu'à l'immobilisation complète du rachis cervical.", isCorrect: false, comment: "Il est préférable de cesser la manœuvre en cas de résistance pour éviter les complications." }
+            ]
+        },
+        {
+            text: "Quel est l'objectif principal de l'attelle cervico-thoracique (ACT) ?",
+            answers: [
+                { text: "Providing support to the lower back of a victim during transportation.", isCorrect: false, comment: "This is not the primary purpose of the ACT in managing suspected spinal injuries." },
+                { text: "Immobiliser la tête, la nuque et le dos d'une victime suspectée de traumatisme de la colonne vertébrale pour faciliter son dégagement ou son extraction.", isCorrect: true, comment: "Exact, l'ACT est utilisée pour immobiliser ces parties du corps lors d'une extraction ou d'un dégagement." },
+                { text: "Restricting movement of the upper limbs in case of suspected spinal injury.", isCorrect: false, comment: "This answer is incorrect as it doesn't address the primary purpose of the ACT in spinal injury scenarios." },
+                { text: "Promoting mobility and comfort for a victim with suspected spinal trauma.", isCorrect: false, comment: "The ACT is primarily for immobilization, not mobility, in suspected spinal injuries." }
+            ]
+        },
+        {
+            text: "Combien de sangles thoraciques sont utilisées pour attacher l'attelle cervico-thoracique ?",
+            answers: [
+                { text: "Deux.", isCorrect: false, comment: "The correct number of thoracic straps used is three." },
+                { text: "Quatre.", isCorrect: false, comment: "The correct number of thoracic straps used is three." },
+                { text: "Cinq.", isCorrect: false, comment: "The correct number of thoracic straps used is three." },
+                { text: "Trois.", isCorrect: true, comment: "Correct, three thoracic straps are used to secure the cervico-thoracic splint." }
+            ]
+        },
+        {
+            text: "Quelles parties du corps sont immobilisées par l'attelle cervico-thoracique ?",
+            answers: [
+                { text: "Les membres supérieurs et le bassin.", isCorrect: false, comment: "The ACT primarily immobilizes the upper body, not the limbs or pelvis." },
+                { text: "Les membres inférieurs et le bassin.", isCorrect: false, comment: "The ACT primarily immobilizes the upper body, not the lower limbs or pelvis." },
+                { text: "La tête, la nuque et le dos.", isCorrect: true, comment: "Correct, the ACT immobilizes the head, neck, and back of the victim." },
+                { text: "Le cou et les épaules.", isCorrect: false, comment: "The ACT immobilizes the head, neck, and back, not just the neck and shoulders." }
+            ]
+        },
+        {
+            text: "Pourquoi l'attelle cervico-thoracique (ACT) est-elle retirée avant le transport de la victime vers l'hôpital ?",
+            answers: [
+                { text: "Pour faciliter l'examen du rachis cervical en chemin.", isCorrect: false, comment: "The ACT is primarily removed to prevent respiratory issues, not for cervical spine examination during transport." },
+                { text: "Pour ajuster les sangles thoraciques avant le transport.", isCorrect: false, comment: "Adjustments to thoracic straps are not the primary reason for removing the ACT." },
+                { text: "Pour éviter les risques secondaires tels que les difficultés respiratoires.", isCorrect: true, comment: "Correct, removing the ACT helps prevent complications like breathing difficulties." },
+                { text: "Pour permettre une meilleure mobilité de la victime pendant le transport.", isCorrect: false, comment: "The removal of the ACT is primarily for patient safety and respiratory concerns, not mobility." }
+            ]
+        },
+        {
+            text: "Quelle est la première étape après avoir placé un collier cervical avant de mettre en place l'attelle cervico-thoracique ?",
+            answers: [
+                { text: "Contrôler la motricité et la sensibilité de l'extrémité de chaque membre.", isCorrect: true, comment: "Correct, limb motor and sensory assessment is a crucial step before applying the cervico-thoracic splint." },
+                { text: "Demander à la victime de s'asseoir confortablement.", isCorrect: false, comment: "Assessing limb function is essential before applying the ACT, rather than asking the victim to sit." },
+                { text: "Installer l'attelle cervico-thoracique immédiatement.", isCorrect: false, comment: "Limb assessment is necessary before proceeding with the application of the cervico-thoracic splint." },
+                { text: "S'assurer de la position de la victime sur le brancard.", isCorrect: false, comment: "Limb assessment is a critical step before applying the ACT, not related to positioning on the stretcher." }
+            ]
+        },
+        {
+            text: "Quelle est la raison pour laquelle on évite de comprimer le thorax lors de la mise en place de l'attelle cervico-thoracique ?",
+            answers: [
+                { text: "Pour ne pas aggraver une détresse respiratoire.", isCorrect: true, comment: "Correct, avoiding thoracic compression helps prevent respiratory distress during ACT application." },
+                { text: "Pour maintenir la victime dans une position confortable.", isCorrect: false, comment: "The primary concern is respiratory function, not just comfort, during ACT application." },
+                { text: "Pour faciliter l'extraction de la victime.", isCorrect: false, comment: "Respiratory compromise is the main concern, rather than ease of extraction." },
+                { text: "Pour assurer une immobilisation complète de la colonne vertébrale.", isCorrect: false, comment: "Thoracic compression is avoided primarily to prevent respiratory issues, not for spinal immobilization." }
+            ]
+        },
+        {
+            text: "Quelle est la dernière étape avant d'effectuer l'extraction de la victime après avoir posé l'attelle cervico-thoracique ?",
+            answers: [
+                { text: "Contrôler la motricité et la sensibilité de l'extrémité de chaque membre.", isCorrect: true, comment: "Correct, limb function assessment is the final step before extracting the victim." },
+                { text: "Ajuster les sangles thoraciques.", isCorrect: false, comment: "The last step is not adjusting thoracic straps but assessing limb function." },
+                { text: "S'assurer que la victime est confortable.", isCorrect: false, comment: "Limb function assessment is crucial before extraction, regardless of comfort." },
+                { text: "Communiquer avec l'équipe médicale pour le transport.", isCorrect: false, comment: "Final steps involve ensuring limb function before transportation, not direct communication with medical personnel." }
+            ]
+        },
+        {
+            text: "Quelle est la précaution à prendre lors de l'installation de l'attelle cervico-thoracique chez une femme enceinte pendant les derniers mois de grossesse ?",
+            answers: [
+                { text: "Ne pas serrer la sangle thoracique inférieure sur l'abdomen.", isCorrect: true, comment: "Correct, avoiding tightness of the lower thoracic strap over the abdomen is essential in late pregnancy." },
+                { text: "Éviter de mettre en place l'attelle cervico-thoracique.", isCorrect: false, comment: "Precautions such as proper strap adjustment are key, rather than avoiding the ACT altogether." },
+                { text: "Croiser les sangles thoraciques pour un meilleur maintien.", isCorrect: false, comment: "Avoiding tightness of the lower thoracic strap over the abdomen is crucial, not crossing thoracic straps." },
+                { text: "Renforcer les fixations de l'attelle cervico-thoracique.", isCorrect: false, comment: "The precaution involves proper strap adjustment, not reinforcing ACT attachments." }
+            ]
+        },
+        {
+            text: "Pourquoi est-il nécessaire de maintenir les bandes de chaque côté de la tête par les deux sangles de l'attelle cervico-thoracique ?",
+            answers: [
+                { text: "Pour stabiliser la tête et assurer son alignement avec le cou et le tronc.", isCorrect: true, comment: "Correct, securing the head bands with the straps stabilizes the head in alignment with the neck and trunk." },
+                { text: "Pour immobiliser les épaules de la victime.", isCorrect: false, comment: "Securing the head bands is primarily for head stabilization, not shoulder immobilization." },
+                { text: "Pour faciliter le déplacement de la victime.", isCorrect: false, comment: "The purpose of securing head bands is stability, not mobility, during movement." },
+                { text: "Pour réduire la douleur cervicale de la victime.", isCorrect: false, comment: "Head stabilization helps maintain alignment, not necessarily reduce neck pain." }
+            ]
+        },
+        {
+            text: "Quelle est la raison principale pour retirer l'attelle cervico-thoracique une fois la victime sur le Matelas Immobilisateur à Dépression (MID ?",
+            answers: [
+                { text: "Pour effectuer un examen complet de la colonne vertébrale.", isCorrect: false, comment: "Respiratory concerns are the primary reason for ACT removal, not solely for spinal examination." },
+                { text: "Pour éviter les risques de difficultés respiratoires pendant le transport.", isCorrect: true, comment: "Correct, removing the ACT helps prevent respiratory issues during transport on the MID." },
+                { text: "Pour faciliter la manipulation de la victime.", isCorrect: false, comment: "The removal of the ACT is primarily for patient safety, not ease of handling." },
+                { text: "Pour ajuster les fixations du Matelas Immobilisateur à Dépression (MID).", isCorrect: false, comment: "The ACT is removed to prevent respiratory complications, not for MID adjustments." }
+            ]
+        },
+        {
+            text: "Quel est le rôle des poignées de portage sur l'attelle cervico-thoracique ?",
+            answers: [
+                { text: "Permettre le déplacement de la victime avec l'ACT et les secouristes.", isCorrect: true, comment: "Correct, the carrying handles assist in moving the victim along with the ACT and rescuers." },
+                { text: "Assurer l'immobilisation de la tête de la victime.", isCorrect: false, comment: "The primary function of the handles is for mobility during transport, not head immobilization." },
+                { text: "Contrôler la sensibilité des membres inférieurs.", isCorrect: false, comment: "Carrying handles aid in patient movement rather than limb assessment." },
+                { text: "Stabiliser la colonne vertébrale de la victime.", isCorrect: false, comment: "The handles assist in patient transport, not spinal stabilization." }
+            ]
+        },
+        {
+            text: "Quand doit-on installer un collier cervical chez une victime suspectée de traumatisme du rachis ?",
+            answers: [
+                { text: "Avant une manœuvre de mobilisation de la victime, si la stabilisation manuelle du rachis est difficile ou aléatoire.", isCorrect: true, comment: "Correct, the cervical collar is applied before attempting to mobilize the victim's spine if manual stabilization is challenging." },
+                { text: "Après avoir déplacé la victime sur un brancard.", isCorrect: false, comment: "The cervical collar is applied before moving the victim onto a stretcher, not after." },
+                { text: "En dernier recours après avoir mobilisé la victime.", isCorrect: false, comment: "The cervical collar is applied before attempting any victim mobilization, not as a last resort." },
+                { text: "Uniquement si la victime est allongée sur le ventre.", isCorrect: false, comment: "The cervical collar is applied in various positions depending on the situation, not only when the victim is lying on their stomach." }
+            ]
+        },
+        {
+            text: "Quelle est la contre-indication à l'utilisation d'un collier cervical ?",
+            answers: [
+                { text: "Une possible obstruction des voies aériennes.", isCorrect: true, comment: "Correct, cervical collar use is contraindicated if there is a risk of airway obstruction." },
+                { text: "Une fracture du membre inférieur.", isCorrect: false, comment: "An airway issue, not a lower limb fracture, is a contraindication for cervical collar use." },
+                { text: "Une déformation du rachis thoracique.", isCorrect: false, comment: "Cervical collar use is contraindicated primarily for airway concerns, not specific spinal deformities." },
+                { text: "Une lésion de la peau au niveau du cou.", isCorrect: false, comment: "Airway issues are the main concern for contraindicating cervical collar use, not skin lesions." }
+            ]
+        },
+        {
+            text: "Quel est le rôle du secouriste 1 lors de la mise en place d'un collier cervical sur une victime allongée sur le dos ?",
+            answers: [
+                { text: "Maintenir la tête en position neutre pendant toute la manœuvre.", isCorrect: true, comment: "Correct, the primary role of the first rescuer is to maintain the victim's head in a neutral position throughout the procedure." },
+                { text: "S'assurer que la victime respire normalement.", isCorrect: false, comment: "Head stabilization is the primary role during cervical collar application, not respiratory assessment." },
+                { text: "Préparer le matériel nécessaire.", isCorrect: false, comment: "Head stabilization is the primary role during cervical collar application, not material preparation." },
+                { text: "Choisir le collier cervical adapté.", isCorrect: false, comment: "The first rescuer's role is head stabilization, not collar selection." }
+            ]
+        },
+        {
+            text: "Quelle est la méthode pour choisir la bonne hauteur du collier cervical ?",
+            answers: [
+                { text: "La hauteur du collier doit être égale à la distance entre le menton et le haut du sternum de la victime.", isCorrect: true, comment: "Correct, the collar height should match the distance from the chin to the top of the sternum." },
+                { text: "La hauteur du collier doit être ajustée selon l'avis du secouriste 2.", isCorrect: false, comment: "The collar height is determined by the anatomical distance, not solely based on rescuer judgment." },
+                { text: "Le collier cervical doit être placé au niveau des épaules de la victime.", isCorrect: false, comment: "Collar height is based on chin-to-sternum distance, not shoulder level." },
+                { text: "La hauteur du collier doit être au niveau des oreilles de la victime.", isCorrect: false, comment: "Collar height is based on chin-to-sternum distance, not ear level." }
+            ]
+        },
+        {
+            text: "Qu'est-ce que le secouriste doit faire si le collier cervical gêne la respiration de la victime ?",
+            answers: [
+
+                { text: "Retirer immédiatement le collier cervical.", isCorrect: false, comment: "Repositioning is preferred over immediate removal if the collar causes respiratory issues." },
+                { text: "Resserrer les sangles du collier cervical.", isCorrect: false, comment: "Loosening the collar or adjusting its position is preferred over tightening if there is airway obstruction." },
+                { text: "Maintenir la tête en position neutre.", isCorrect: false, comment: "Adjustment of the collar is the primary action if there's a breathing problem." },
+                                { text: "Réajuster le collier cervical pour libérer les voies aériennes.", isCorrect: true, comment: "Correct, if the collar obstructs breathing, readjust it to ensure airway patency." },
+            ]
+        },
+        {
+            text: "Quel est le rôle des bandes autoagrippantes sur un collier cervical ?",
+            answers: [
+                { text: "Maintenir la tête en position neutre.", isCorrect: false, comment: "The primary role of the fasteners is collar fixation, not head stabilization." },
+                { text: "Contrôler la motricité des membres de la victime.", isCorrect: false, comment: "Fasteners are for collar stability, not limb assessment." },
+                { text: "Assurer la fixation du collier autour du cou de la victime.", isCorrect: true, comment: "Correct, the hook-and-loop fasteners secure the collar around the victim's neck." },
+                { text: "Réajuster la taille du collier cervical.", isCorrect: false, comment: "Fasteners secure the collar in place; they do not adjust its size." }
+            ]
+        },
+        {
+            text: "Quelle action doit être prise si la victime présente une déformation préexistante du rachis cervical ?",
+            answers: [
+                { text: "Installer un collier cervical plus large pour stabiliser le rachis.", isCorrect: false, comment: "Maintaining the current head position is advised for pre-existing deformities, not collar adjustment." },
+                { text: "Effectuer une manipulation de la tête pour corriger la déformation.", isCorrect: false, comment: "Manual manipulation is not recommended for pre-existing cervical spine deformities." },
+                { text: "Appliquer une traction cervicale douce pour réaligner la colonne vertébrale.", isCorrect: false, comment: "No manipulation or traction should be performed on pre-existing spinal deformities." },
+                { text: "Maintenir la tête dans la position où elle se trouve.", isCorrect: true, comment: "Correct, if the victim has a pre-existing cervical spine deformity, the head should be maintained in its current position." },
+            ]
+        },
+        {
+            text: "Quel est le rôle du collier cervical lors de la mobilisation d'une victime suspectée de lésion du rachis cervical ?",
+            answers: [
+                { text: "Limiter les mouvements du rachis cervical pour réduire le risque de lésion médullaire.", isCorrect: true, comment: "Correct, the cervical collar restricts cervical spine movements to minimize the risk of spinal cord injury during mobilization." },
+                { text: "Maintenir la victime dans une position confortable.", isCorrect: false, comment: "The collar's primary role is to limit spine movements, not solely to ensure comfort." },
+                { text: "Stabiliser la région lombaire de la victime.", isCorrect: false, comment: "The collar targets cervical spine stability, not lumbar stabilization." },
+                { text: "Faciliter la mobilisation des membres de la victime.", isCorrect: false, comment: "Cervical collar use is primarily for cervical spine protection, not limb mobilization." }
+            ]
+        },
+        {
+            text: "Quand est-il recommandé de retirer le collier cervical chez une victime ?",
+            answers: [
+                { text: "Une fois la victime stabilisée sur un brancard de relevage.", isCorrect: false, comment: "Collar removal is recommended before hospital transport, not after stabilizing on a stretcher." },
+                { text: "Après avoir réévalué la motricité des membres de la victime.", isCorrect: false, comment: "Collar removal is primarily based on respiratory considerations, not limb assessments." },
+                { text: "Avant le transport de la victime vers l'hôpital pour éviter les complications respiratoires.", isCorrect: true, comment: "Correct, the collar should be removed before hospital transport to prevent respiratory complications." },
+                { text: "Lorsque la victime se sent prête à se déplacer.", isCorrect: false, comment: "Collar removal is based on medical assessment, not the victim's comfort level." }
+            ]
+        },
+        {
+            text: "Quelle est la principale complication liée à l'utilisation prolongée d'un collier cervical ?",
+            answers: [
+                { text: "Des difficultés respiratoires.", isCorrect: true, comment: "Correct, prolonged cervical collar use may lead to respiratory issues due to restricted chest movement." },
+                { text: "Des douleurs cervicales.", isCorrect: false, comment: "Respiratory complications are the main concern with prolonged collar use, not neck pain." },
+                { text: "Une instabilité de la colonne vertébrale.", isCorrect: false, comment: "Respiratory issues are the primary concern, not spinal instability." },
+                { text: "Une perte de sensibilité au niveau des membres.", isCorrect: false, comment: "Respiratory complications are the primary concern with prolonged collar use, not sensory deficits." }
+            ]
+        }, 
+        {
+            text: "Quelle est la démarche à suivre pour réaligner une jambe fracturée fermée ?",
+            answers: [
+                { text: "Saisir la cheville avec les deux mains et ramener progressivement la jambe dans l'axe normal du membre inférieur en exerçant une traction douce.", isCorrect: true, comment: "Correct, the leg should be gently pulled back into alignment after grasping the ankle with both hands." },
+                { text: "Demander à la victime de se déplacer pour réaligner sa jambe.", isCorrect: false, comment: "Direct manual realignment is required, not passive movement by the victim." },
+                { text: "Appliquer un bandage compressif autour de la jambe.", isCorrect: false, comment: "Realignment involves manual manipulation to restore alignment, not compression bandaging." },
+                { text: "Appliquer une attelle rigide sans manipulation directe.", isCorrect: false, comment: "Direct realignment is necessary before applying immobilization devices." }
+            ]
+        },
+        {
+            text: "Quand le réalignement d'un membre doit-il être interrompu immédiatement?",
+            answers: [
+                { text: "En cas de résistance au réalignement ou si la douleur de la victime devient intolérable.", isCorrect: true, comment: "Correct, realignment should be stopped immediately if there is resistance or intolerable pain." },
+                { text: "Après avoir immobilisé le membre réaligné.", isCorrect: false, comment: "Immediate cessation may be necessary if there are difficulties during realignment, regardless of subsequent immobilization." },
+                { text: "Après l'apparition de signes de déformation.", isCorrect: false, comment: "Interruption should occur based on realignment difficulties or pain, not solely on deformity." },
+                { text: "Une fois que la victime est immobilisée.", isCorrect: false, comment: "Interruption is based on realignment process and tolerance, not solely on final immobilization." }
+            ]
+        },
+        {
+            text: "Que doit faire le secouriste après avoir réaligné un membre fracturé fermé ?",
+            answers: [
+                { text: "Immobiliser le membre avec un dispositif d'immobilisation spécifique et surveiller l'atténuation de la douleur et des signes de complications.", isCorrect: true, comment: "Correct, immobilization with a specific device and monitoring for pain relief and complication signs are essential post-realignment steps." },
+                { text: "Administrer des analgésiques à la victime.", isCorrect: false, comment: "Post-realignment care involves immobilization and assessment, not just pain management." },
+                { text: "Demander à la victime de se déplacer pour tester le membre réaligné.", isCorrect: false, comment: "Post-realignment care focuses on proper immobilization and monitoring, not movement testing by the victim." },
+                { text: "Appliquer une attelle rigide sans surveillance.", isCorrect: false, comment: "Immobilization and careful monitoring are necessary post-realignment, not just applying a rigid splint." }
+            ]
+        },
+        {
+            text: "Pourquoi le réalignement d'un membre fracturé fermé peut-il être réalisé par un secouriste en l'absence de médecin ?",
+            answers: [
+                { text: "En cas de signes de complications vasculaires ou neurologiques, ou si la déformation empêche la mise en place d'un dispositif d'immobilisation.", isCorrect: true, comment: "Correct, realignment is indicated in the absence of a physician if there are signs of vascular or neurological complications, or if deformity obstructs immobilization." },
+                { text: "Uniquement après avis médical direct.", isCorrect: false, comment: "In certain emergency situations, realignment may be necessary even without direct medical supervision based on specific indications." },
+                { text: "Pour soulager immédiatement la douleur de la victime.", isCorrect: false, comment: "Realignment is primarily based on functional necessity and complication prevention, not just pain relief." },
+                { text: "Dans le but de fixer le membre avec un dispositif d'immobilisation.", isCorrect: false, comment: "Realignment is done to address specific complications or immobilization challenges, not solely to apply an immobilization device." }
+            ]
+        },
+        {
+            text: "Quelle est la principale justification du réalignement d'un membre ?",
+            answers: [
+                { text: "Prévenir les complications vasculaires ou nerveuses et permettre la mise en place d'un dispositif d'immobilisation.", isCorrect: true, comment: "Correct, realignment aims to prevent vascular or neurological complications and facilitate proper immobilization." },
+                { text: "Soulager immédiatement la douleur de la victime.", isCorrect: false, comment: "Realignment is primarily based on functional necessity and complication prevention, not just pain relief." },
+                { text: "Fixer le membre avec un dispositif d'immobilisation.", isCorrect: false, comment: "Realignment is done to address specific complications or immobilization challenges, not solely to apply an immobilization device." },
+                { text: "Assurer le confort de la victime pendant l'intervention.", isCorrect: false, comment: "Realignment aims to prevent complications and facilitate proper care, not solely for comfort." }
+            ]
+        },
+        {
+            text: "Que doit faire le secouriste pour réaligner un avant-bras fracturé fermé ?",
+            answers: [             { text: "Appliquer un bandage compressif autour du membre.", isCorrect: false, comment: "Realignment involves manual manipulation to restore alignment, not compression bandaging." },
+                { text: "Saisir le coude de la victime avec une main et le poignet ou la main avec l'autre main, puis ramener progressivement l'avant-bras dans l'axe normal en exerçant une traction douce.", isCorrect: true, comment: "Correct, the forearm should be gently pulled back into alignment after securing the elbow and wrist." },
+                { text: "Demander à la victime de bouger l'avant-bras pour le réaligner.", isCorrect: false, comment: "Direct manual realignment is required, not passive movement by the victim." },
+                { text: "Appliquer une attelle rigide sans manipulation directe.", isCorrect: false, comment: "Direct realignment is necessary before applying immobilization devices." }
+            ]
+        },
+        {
+            text: "Que doit faire le secouriste pour réaligner un avant-bras fracturé fermé ?",
+            answers: [
+                { text: "Saisir le coude de la victime avec une main et le poignet ou la main avec l'autre main, puis ramener progressivement l'avant-bras dans l'axe normal en exerçant une traction douce.", isCorrect: true, comment: "Correct, the forearm should be gently pulled back into alignment after securing the elbow and wrist." },
+                { text: "Demander à la victime de bouger l'avant-bras pour le réaligner.", isCorrect: false, comment: "Direct manual realignment is required, not passive movement by the victim." },
+                { text: "Appliquer un bandage compressif autour du membre.", isCorrect: false, comment: "Realignment involves manual manipulation to restore alignment, not compression bandaging." },
+                { text: "Appliquer une attelle rigide sans manipulation directe.", isCorrect: false, comment: "Direct realignment is necessary before applying immobilization devices." }
+            ]
+        },
+        {
+            text: "Quels signes peuvent indiquer la nécessité d'un réalignement d'un membre fracturé fermé  ?",
+            answers: [
+                { text: "Complications vasculaires ou neurologiques, ou impossibilité de mettre en place un dispositif d'immobilisation.", isCorrect: true, comment: "Correct, signs include vascular or neurological complications, or challenges with immobilization device placement." },
+                { text: "Douleur mineure dans le membre fracturé.", isCorrect: false, comment: "Indications for realignment are primarily based on functional and medical necessity, not solely on pain assessment." },
+                { text: "Présence de décoloration cutanée au niveau de la fracture.", isCorrect: false, comment: "Realignment considerations are based on vascular or neurological concerns, not skin discoloration." },
+                { text: "Disponibilité limitée de dispositifs d'immobilisation.", isCorrect: false, comment: "Indications for realignment are based on functional and medical necessity, not resource limitations." }
+            ]
+        },
+        {
+            text: "Quand doit-on interrompre immédiatement le réalignement d'un membre?",
+            answers: [
+                { text: "En cas de résistance au réalignement ou si la douleur de la victime devient intolérable.", isCorrect: true, comment: "Correct, realignment should be stopped immediately if there is resistance or intolerable pain." },
+                { text: "Après avoir immobilisé le membre réaligné.", isCorrect: false, comment: "Immediate cessation may be necessary if there are difficulties during realignment, regardless of subsequent immobilization." },
+                { text: "Après l'apparition de signes de déformation.", isCorrect: false, comment: "Interruption should occur based on realignment difficulties or pain, not solely on deformity." },
+                { text: "Une fois que la victime est immobilisée.", isCorrect: false, comment: "Interruption is based on realignment process and tolerance, not solely on final immobilization." }
+            ]
+        },
+        {
+            text: "Quelle est la principale justification du réalignement d'un membre ?",
+            answers: [
+                { text: "Soulager immédiatement la douleur de la victime.", isCorrect: false, comment: "Realignment is primarily based on functional necessity and complication prevention, not just pain relief." },
+                { text: "Prévenir les complications vasculaires ou nerveuses et permettre la mise en place d'un dispositif d'immobilisation.", isCorrect: true, comment: "Correct, realignment aims to prevent vascular or neurological complications and facilitate proper immobilization." },
+                { text: "Fixer le membre avec un dispositif d'immobilisation.", isCorrect: false, comment: "Realignment is done to address specific complications or immobilization challenges, not solely to apply an immobilization device." },
+                { text: "Assurer le confort de la victime pendant l'intervention.", isCorrect: false, comment: "Realignment aims to prevent complications and facilitate proper care, not solely for comfort." }
+            ]
+        },
+        {
+            text: "Quel est le critère pour interrompre immédiatement le réalignement d'un membre ?",
+            answers: [
+                { text: "Résistance au réalignement ou douleur intolérable pour la victime.", isCorrect: true, comment: "Correct, realignment should be immediately stopped if there is resistance or if the victim experiences intolerable pain." },
+                { text: "Absence de résultats visibles.", isCorrect: false, comment: "Interruption should be based on functional difficulties or pain tolerance, not solely on immediate results." },
+                { text: "Nouvelle évaluation de la déformation.", isCorrect: false, comment: "Immediate interruption is based on realignment process and functional necessity, not just on re-evaluation of the deformity." },
+                { text: "Arrivée d'un médecin sur les lieux.", isCorrect: false, comment: "Immediate cessation may be required based on patient discomfort or realignment challenges, not solely on physician presence." }
+            ]
+        },
+        {
+            text: "Quand est-il indiqué de retirer le casque de protection d'une victime en présence de deux secouristes ?",
+            answers: [
+                { text: "Dans tous les cas.", isCorrect: true, comment: "Correct, le retrait du casque est indiqué dans tous les cas lorsqu'au moins deux secouristes sont présents." },
+                { text: "Uniquement si la victime a perdu connaissance.", isCorrect: false, comment: "Le retrait est indiqué dans tous les cas lorsqu'au moins deux secouristes sont présents, pas seulement en cas de perte de connaissance." },
+                { text: "Seulement si la victime respire difficilement.", isCorrect: false, comment: "Le retrait est recommandé dans tous les cas avec deux secouristes, indépendamment de la respiration de la victime." },
+                { text: "Uniquement en présence d'un médecin.", isCorrect: false, comment: "Le retrait peut être effectué par deux secouristes sans nécessité d'un médecin." }
+            ]
+        },
+        {
+            text: "Quelle est la justification du retrait du casque de protection d'une victime ?",
+            answers: [
+                { text: "Le casque peut gêner dans la réalisation de l'examen et des gestes de secours.", isCorrect: true, comment: "Correct, la présence du casque peut entraver les gestes de secours et l'examen de la victime." },
+                { text: "Le casque est généralement endommagé et doit être retiré pour des raisons de sécurité.", isCorrect: false, comment: "La justification principale est liée à la gêne potentielle lors des gestes de secours, pas uniquement à l'état du casque." },
+                { text: "Pour identifier la marque du casque.", isCorrect: false, comment: "Le retrait n'est pas motivé par l'identification du casque mais par des considérations de secours." },
+                { text: "Pour permettre une meilleure visualisation du visage de la victime.", isCorrect: false, comment: "Le retrait est lié à la réalisation des gestes de secours et non à des considérations visuelles." }
+            ]
+        },
+        {
+            text: "Comment doit se positionner le secouriste chargé du retrait du casque parmi les deux intervenants ?",
+            answers: [
+                { text: "À côté de la tête de la victime en position debout.", isCorrect: false, comment: "La position à genoux dans l'axe de la tête est préférable pour un retrait efficace du casque." },
+                { text: "Derrière la victime pour mieux accéder au casque.", isCorrect: false, comment: "La position à genoux dans l'axe de la tête est recommandée pour le retrait du casque." },
+                { text: "À genoux dans l'axe de la tête de la victime.", isCorrect: true, comment: "Correct, le secouriste doit se placer à genoux dans l'axe de la tête de la victime pour retirer le casque." },
+                { text: "Debout, face à la victime.", isCorrect: false, comment: "La position à genoux dans l'axe de la tête est plus adaptée pour retirer le casque." }
+            ]
+        },
+        {
+            text: "Quelle est la principale contrainte liée au retrait du casque de protection ?",
+            answers: [
+                { text: "Le risque de mobilisation du rachis cervical ou de la tête de la victime.", isCorrect: true, comment: "Correct, le retrait du casque peut entraîner des risques de mobilisation du rachis cervical ou de la tête." },
+                { text: "La difficulté à retirer le casque en raison de sa conception.", isCorrect: false, comment: "La contrainte principale est liée aux risques de mobilisation du rachis cervical ou de la tête de la victime." },
+                { text: "La complexité des systèmes de fixation du casque.", isCorrect: false, comment: "Bien que les systèmes de fixation puissent poser des défis, la principale contrainte concerne les risques de mobilisation du rachis cervical ou de la tête." },
+                { text: "L'absence d'outils appropriés pour retirer le casque.", isCorrect: false, comment: "La principale contrainte est liée aux risques de mobilisation du rachis cervical ou de la tête, pas seulement à l'absence d'outils." }
+            ]
+        },
+        {
+            text: "Quelle est la recommandation principale pour éviter d'aggraver l'état de la victime lors du retrait du casque ?",
+            answers: [
+                { text: "Communiquer régulièrement avec la victime pendant le retrait.", isCorrect: false, comment: "La priorité est de maintenir la stabilité de la nuque et de la tête de la victime pendant le retrait du casque." },
+                { text: "Solliciter l'aide d'un médecin avant de retirer le casque.", isCorrect: false, comment: "La recommandation principale concerne la stabilité de la nuque et de la tête pendant le retrait du casque." },
+                { text: "Effectuer un examen complet avant de retirer le casque.", isCorrect: false, comment: "La priorité est la stabilité de la nuque et de la tête pendant le retrait du casque, pas un examen préalable." },
+                { text: "Maintenir la nuque et la tête de la victime immobiles durant toute la manœuvre.", isCorrect: true, comment: "Correct, la stabilité de la nuque et de la tête est essentielle pour éviter d'aggraver l'état de la victime." }
+            ]
+        },
+        {
+            text: "Quelle est la démarche recommandée pour retirer le casque d'une victime lorsque l'on agit seul ?",
+            answers: [
+                { text: "Demander à la victime de retirer son propre casque.", isCorrect: false, comment: "Le retrait du casque doit être effectué par le secouriste pour garantir la sécurité de la victime." },
+                { text: "Détacher les systèmes de fixation, saisir le casque par les parties latérales du bord inférieur et retirer le casque en maintenant la stabilité de la tête de la victime.", isCorrect: true, comment: "Correct, le retrait du casque seul nécessite une approche soigneuse pour maintenir la stabilité de la tête de la victime." },
+                { text: "Faire appel à un deuxième secouriste avant de retirer le casque.", isCorrect: false, comment: "Il est recommandé de suivre les directives appropriées pour retirer le casque seul en cas d'urgence." },
+                { text: "Observer la victime avant de commencer le retrait du casque.", isCorrect: false, comment: "L'approche appropriée consiste à suivre les étapes de retrait du casque seul de manière sûre et efficace." }
+            ]
+        },
+        {
+            text: "Pourquoi le retrait du casque par un seul secouriste est-il considéré comme un geste exceptionnel ?",
+            answers: [
+                { text: "Car cela peut entraîner des risques de mobilisation du rachis cervical ou de la tête de la victime.", isCorrect: true, comment: "Correct, le retrait du casque par un seul secouriste peut présenter des risques de mobilisation de la nuque ou de la tête." },
+                { text: "Parce que les secouristes agissent généralement en équipe.", isCorrect: false, comment: "La principale raison est liée aux risques de mobilisation du rachis cervical ou de la tête." },
+                { text: "En raison de la complexité des casques modernes.", isCorrect: false, comment: "La rareté du retrait du casque par un seul secouriste est due principalement aux risques de mobilisation du rachis cervical ou de la tête." },
+                { text: "Pour garantir l'efficacité des gestes de secours.", isCorrect: false, comment: "La raison principale est liée aux risques de mobilisation du rachis cervical ou de la tête pendant le retrait du casque." }
+            ]
+        },
+        {
+            text: "Quelle est la première étape recommandée pour retirer le casque d'une victime lorsque l'on agit seul ?",
+            answers: [
+                { text: "Relever la visière du casque.", isCorrect: true, comment: "Correct, la première étape consiste à relever la visière du casque pour préparer le retrait." },
+                { text: "Vérifier la respiration de la victime.", isCorrect: false, comment: "La priorité initiale est de libérer la visière du casque pour faciliter le retrait." },
+                { text: "Demander à la victime si elle peut retirer elle-même son casque.", isCorrect: false, comment: "La première action du secouriste est de relever la visière du casque pour préparer le retrait." },
+                { text: "Se placer dans l'axe de la tête de la victime.", isCorrect: false, comment: "Avant de retirer le casque, il est essentiel de relever la visière pour faciliter le retrait." }
+            ]
+        },
+        {
+            text: "Que doit faire le secouriste 2 pendant le retrait du casque pour maintenir la tête de la victime ?",
+            answers: [
+                { text: "Glisser doucement une main sous la base du crâne de la victime.", isCorrect: true, comment: "Correct, le secouriste 2 doit maintenir la tête en glissant une main sous la base du crâne pendant le retrait du casque." },
+                { text: "Demander à la victime de maintenir sa propre tête.", isCorrect: false, comment: "La responsabilité de maintenir la tête de la victime incombe au secouriste 2 pendant le retrait du casque." },
+                { text: "Utiliser un coussin d'immobilisation sous la tête de la victime.", isCorrect: false, comment: "Le maintien de la tête pendant le retrait du casque est effectué manuellement par le secouriste 2." },
+                { text: "Observer les signes vitaux de la victime pendant le retrait du casque.", isCorrect: false, comment: "La priorité du secouriste 2 est de maintenir la stabilité de la tête de la victime pendant le retrait du casque." }
+            ]
+        },
+        {
+            text: "Quelle est la démarche recommandée pour retirer le casque d'une victime en présence de deux secouristes ?",
+            answers: [
+                { text: "Le secouriste 2 détache les systèmes de fixation pendant que le secouriste 1 maintient la tête de la victime en position neutre.", isCorrect: true, comment: "Correct, la coordination entre les deux secouristes est essentielle pour retirer le casque en toute sécurité." },
+                { text: "Demander à la victime de retirer elle-même son casque.", isCorrect: false, comment: "Le retrait du casque doit être effectué par les secouristes pour garantir la sécurité de la victime." },
+                { text: "Demander l'aide d'un médecin avant de retirer le casque.", isCorrect: false, comment: "Les secouristes peuvent retirer le casque en suivant les bonnes pratiques sans nécessiter l'intervention immédiate d'un médecin." },
+                { text: "Immerger le casque dans l'eau pour le retirer plus facilement.", isCorrect: false, comment: "Le retrait du casque doit être effectué avec précaution en suivant les procédures appropriées." }
+            ]
+        },
+        {
+            text: "Quelles sont les indications pour l'application de froid sur une victime consciente ?",
+            answers: [
+                { text: "Un traumatisme de membre sans plaie apparente ou une piqûre d'insecte.", isCorrect: true, comment: "Correct, l'application de froid est indiquée pour un traumatisme de membre sans plaie ou une piqûre d'insecte chez une victime consciente." },
+                { text: "Une blessure ouverte nécessitant une désinfection rapide.", isCorrect: false, comment: "L'application de froid est contre-indiquée sur une plaie ouverte." },
+                { text: "Une douleur abdominale sévère.", isCorrect: false, comment: "L'application de froid est principalement indiquée pour les traumatismes de membre ou les piqûres d'insecte chez une victime consciente." },
+                { text: "Un état de choc.", isCorrect: false, comment: "L'état de choc n'est pas une indication directe pour l'application de froid sur une victime consciente." }
+            ]
+        },
+        {
+            text: "Quel est l'objectif principal de l'application de froid ?",
+            answers: [
+                { text: "Empêcher la formation de cloques.", isCorrect: false, comment: "Bien que l'application de froid puisse prévenir certaines réactions cutanées, son objectif principal est de réduire la douleur et le gonflement." },
+                { text: "Assurer une désinfection locale.", isCorrect: false, comment: "L'application de froid n'est pas destinée à désinfecter, mais plutôt à atténuer la douleur et limiter le gonflement." },
+                { text: "Éviter le risque de gelures.", isCorrect: false, comment: "Les gelures peuvent être un risque si l'application de froid est prolongée au-delà des recommandations." },
+                { text: "Atténuer la douleur et limiter le gonflement.", isCorrect: true, comment: "Correct, l'application de froid vise à réduire la douleur et le gonflement." },
+            ]
+        },
+        {
+            text: "Quelle est la durée maximale recommandée pour l'application de froid ?",
+            answers: [
+                { text: "Vingt minutes.", isCorrect: true, comment: "Correct, la durée d'application de froid ne doit pas dépasser vingt minutes pour éviter les complications." },
+                { text: "Trente minutes.", isCorrect: false, comment: "La durée recommandée est de vingt minutes pour l'application de froid." },
+                { text: "Quinze minutes.", isCorrect: false, comment: "La durée maximale est de vingt minutes pour l'application de froid selon les recommandations." },
+                { text: "Une heure.", isCorrect: false, comment: "Une application de froid d'une heure serait excessive et pourrait causer des dommages cutanés." }
+            ]
+        },
+        {
+            text: "Quelle est la recommandation en cas d'inconfort pendant l'application de froid ?",
+            answers: [
+                { text: "Arrêter immédiatement l'application de froid.", isCorrect: false, comment: "Une réduction de la durée est préférable à l'arrêt immédiat en cas d'inconfort." },
+                { text: "Réduire la durée d'application de moitié.", isCorrect: true, comment: "Correct, en cas d'inconfort pour la victime, la durée d'application de froid peut être réduite de moitié." },
+                { text: "Appliquer une source de chaleur pour compenser.", isCorrect: false, comment: "L'application de chaleur n'est pas recommandée pendant le traitement par le froid." },
+                { text: "Continuer sans modifier la durée d'application.", isCorrect: false, comment: "Une adaptation de la durée est nécessaire en cas d'inconfort pour la victime." }
+            ]
+        },
+        {
+            text: "Quelles sont les principales conséquences d'une application prolongée de froid ?",
+            answers: [
+                { text: "Réactions cutanées telles que rougeur, pâleur intense, petites cloques ou gelures.", isCorrect: true, comment: "Correct, une application prolongée de froid peut entraîner ces réactions cutanées indésirables." },
+                { text: "Amélioration de la circulation sanguine locale.", isCorrect: false, comment: "Une application de froid prolongée n'améliorera pas la circulation sanguine, mais peut au contraire causer des dommages cutanés." },
+                { text: "Diminution de la douleur et du gonflement.", isCorrect: false, comment: "Ces effets sont recherchés initialement avec l'application de froid, mais pas les réactions cutanées indésirables." },
+                { text: "Ralentissement de la réaction inflammatoire.", isCorrect: false, comment: "L'application de froid vise à réduire le gonflement, mais une exposition prolongée peut entraîner des effets indésirables sur la peau." }
+            ]
+        },
+        {
+            text: "Quel est l'objectif principal de l'emballage au moyen d'un pansement stérile ?",
+            answers: [
+                { text: "Accroître la protection de la zone lésée contre les souillures et limiter la déperdition de chaleur.", isCorrect: true, comment: "Correct, l'emballage au moyen d'un pansement stérile vise principalement à protéger la plaie contre les souillures et à limiter la perte de chaleur." },
+                { text: "Empêcher la formation de cicatrices.", isCorrect: false, comment: "Bien que l'emballage puisse aider à prévenir les complications, son objectif principal est la protection contre les souillures et la chaleur." },
+                { text: "Assurer une cicatrisation rapide de la plaie.", isCorrect: false, comment: "La cicatrisation dépend de nombreux facteurs, mais l'emballage stérile vise à protéger la plaie contre les infections et les souillures." },
+                { text: "Réduire la douleur immédiatement.", isCorrect: false, comment: "L'emballage stérile n'est pas principalement destiné à réduire la douleur, mais à protéger la zone lésée." }
+            ]
+        },
+        {
+            text: "Que doit éviter le sauveteur lors de l'utilisation d'un pansement stérile ?",
+            answers: [
+                { text: "Toucher avec les doigts la partie du pansement qui entrera en contact avec la zone lésée.", isCorrect: true, comment: "Exact, il est crucial d'éviter tout contact avec la partie du pansement qui sera en contact avec la plaie pour maintenir la stérilité." },
+                { text: "Utiliser des pansements non stériles pour les plaies étendues.", isCorrect: false, comment: "Les plaies étendues nécessitent généralement des pansements stériles pour éviter les infections." },
+                { text: "Envelopper la plaie avec des vêtements ordinaires.", isCorrect: false, comment: "Les plaies graves doivent être protégées avec des pansements stériles appropriés pour éviter les souillures et les complications." },
+                { text: "Nettoyer la plaie avant l'application du pansement stérile.", isCorrect: false, comment: "Le nettoyage de la plaie est important, mais il doit être effectué avant l'application du pansement stérile." }
+            ]
+        },
+        {
+            text: "Quel type de pansement stérile est décrit comme adapté pour les brûlures graves dans le texte ?",
+            answers: [
+                { text: "Pansement hydrocolloïde.", isCorrect: false, comment: "Les pansements hydrocolloïdes sont adaptés à d'autres types de plaies, mais pas spécifiquement conçus pour les brûlures graves." },
+                { text: "Pansement stérile pour brûlures type SSA", isCorrect: true, comment: "Correct, le pansement stérile pour brûlures type SSA est spécifiquement conçu pour les brûlures graves, offrant une protection accrue et limitant la déperdition de chaleur." },
+                { text: "Pansement adhésif non stérile.", isCorrect: false, comment: "Les pansements adhésifs non stériles ne conviennent pas aux brûlures graves en raison du risque d'infection." },
+                { text: "Compresses non stériles.", isCorrect: false, comment: "Les compresses non stériles ne doivent pas être utilisées pour les brûlures graves en raison du risque d'infection." }
+            ]
+        },
+        {
+            text: "Quelle est la conséquence d'un contact avec la partie du pansement qui entrera en contact avec la zone lésée ?",
+            answers: [
+                { text: "Risque de contamination et de perte de stérilité.", isCorrect: true, comment: "Exact, le contact avec la partie du pansement qui entrera en contact avec la plaie peut compromettre sa stérilité et augmenter le risque d'infection." },
+                { text: "Augmentation de la protection contre les souillures.", isCorrect: false, comment: "Le contact avec le pansement peut en fait diminuer la protection contre les souillures en compromettant sa stérilité." },
+                { text: "Meilleure adhérence du pansement à la peau.", isCorrect: false, comment: "Le contact avec la partie du pansement peut rendre plus difficile l'adhérence et compromettre l'efficacité du pansement." },
+                { text: "Réduction de la déperdition de chaleur.", isCorrect: false, comment: "La déperdition de chaleur n'est pas directement liée au contact avec la partie du pansement." }
+            ]
+        },
+        {
+            text: "Quelle est l'indication principale du maintien d'un pansement avec un filet tubulaire ?",
+            answers: [
+                { text: "Assurer le maintien d'un pansement non compressif sur une plaie.", isCorrect: true, comment: "Exact, le filet tubulaire permet de maintenir un pansement sans exercer de compression circulaire sur une plaie, tout en laissant à la victime sa liberté de mouvement." },
+                { text: "Exercer une compression sur une plaie ou une brûlure.", isCorrect: false, comment: "Le filet tubulaire est utilisé pour maintenir le pansement sans exercer de compression sur la plaie, contrairement à une bande." },
+                { text: "Éviter tout contact avec la plaie lors de l'application du pansement.", isCorrect: false, comment: "Le filet tubulaire sert à maintenir le pansement en place, mais il n'est pas conçu pour éviter le contact avec la plaie lors de l'application." },
+                { text: "Réduire la mobilité du membre affecté.", isCorrect: false, comment: "Le filet tubulaire permet de maintenir le pansement sans restreindre la liberté de mouvement de la victime." }
+            ]
+        },
+        {
+            text: "Quel est le risque associé à un bandage circulaire effectué avec une bande de maintien ?",
+            answers: [
+                { text: "Déplacement involontaire du pansement.", isCorrect: false, comment: "Le risque principal d'un bandage circulaire est lié à l'effet garrot plutôt qu'au déplacement du pansement." },
+                { text: "Effet garrot pouvant compromettre la circulation sanguine du membre.", isCorrect: true, comment: "Correct, un bandage circulaire peut entraîner un effet garrot, ce qui compromet la circulation sanguine du membre." },
+                { text: "Augmentation de la protection contre les souillures.", isCorrect: false, comment: "Le bandage circulaire ne vise pas à augmenter la protection contre les souillures, mais à maintenir le pansement en place." },
+                { text: "Diminution de la douleur dans la zone affectée.", isCorrect: false, comment: "Le bandage circulaire peut causer des douleurs ou des complications liées à la circulation sanguine plutôt que de les réduire." }
+            ]
+        },
+        {
+            text: "Quelle est la conséquence du maintien direct d'un dispositif de maintien sur la plaie ou la brûlure ?",
+            answers: [
+                { text: "Risque de contamination de la plaie ou de la brûlure.", isCorrect: true, comment: "Exact, le dispositif de maintien ne doit jamais être posé directement sur la plaie ou la brûlure pour éviter tout risque de contamination." },
+                { text: "Meilleure protection contre les souillures.", isCorrect: false, comment: "Le maintien direct sur la plaie peut en fait augmenter le risque de contamination plutôt que de protéger contre les souillures." },
+                { text: "Amélioration de la cicatrisation de la plaie.", isCorrect: false, comment: "Le maintien direct sur la plaie n'affecte pas directement la cicatrisation, mais peut compromettre la guérison en cas de contamination." },
+                { text: "Diminution de la douleur dans la zone affectée.", isCorrect: false, comment: "Le maintien direct sur la plaie peut causer des douleurs ou des complications plutôt que de les réduire." }
+            ]
+        },
+        {
+            text: "Quel est le but principal du maintien à l'aide d'un filet tubulaire ?",
+            answers: [
+                { text: "Maintenir le pansement sans exercer de compression circulaire et sans entraver la circulation sanguine.", isCorrect: true, comment: "Correct, le filet tubulaire permet de maintenir le pansement en place de manière sécurisée sans exercer de compression circulaire ni entraver la circulation sanguine." },
+                { text: "Exercer une compression pour réduire le gonflement autour de la plaie.", isCorrect: false, comment: "Le filet tubulaire n'est pas destiné à exercer une compression, mais plutôt à maintenir le pansement en place de manière non contraignante." },
+                { text: "Protéger la plaie contre les souillures extérieures.", isCorrect: false, comment: "Le filet tubulaire est principalement utilisé pour maintenir le pansement en place sans exercer de compression ni limiter la circulation." },
+                { text: "Faciliter l'application des bandages sur les plaies étendues.", isCorrect: false, comment: "Le filet tubulaire ne facilite pas l'application des bandages mais sert à maintenir le pansement en place." }
+            ]
+        },
+        {
+            text: "Quelle est la recommandation concernant le déplacement d'un dispositif de maintien sur une plaie ?",
+            answers: [              { text: "Il est recommandé de déplacer le pansement pour éviter les plis.", isCorrect: false, comment: "Déplacer le pansement pendant le maintien peut compromettre son efficacité et sa protection." },
+                { text: "Le dispositif ne doit pas déplacer le pansement lors de sa mise en place.", isCorrect: true, comment: "Exact, lors du maintien d'un pansement, le dispositif utilisé ne doit pas déplacer le pansement lui-même pour éviter tout compromis de l'intégrité du pansement." },
+                { text: "Il est acceptable que le dispositif déplace légèrement le pansement pour l'ajuster.", isCorrect: false, comment: "Le dispositif ne doit pas déplacer le pansement lors de sa mise en place pour garantir son efficacité." },
+                { text: "Le dispositif doit déplacer le pansement pour assurer un ajustement optimal.", isCorrect: false, comment: "Il est essentiel que le dispositif de maintien ne déplace pas le pansement pour maintenir son intégrité et son efficacité." },
+  
+            ]
+        },
+        {
+            text: "Quelle est la principale indication du pansement ?",
+            answers: [                { text: "Réduire la douleur immédiatement après une blessure.", isCorrect: false, comment: "Le pansement est plus destiné à protéger la plaie des infections que pour soulager immédiatement la douleur." },
+                { text: "Protéger une plaie après son nettoyage et éventuellement sa désinfection.", isCorrect: true, comment: "Exact, le pansement est utilisé pour protéger une plaie des souillures après son nettoyage et sa désinfection, limitant ainsi le risque d'infection secondaire." },
+                { text: "Stopper le saignement d'une plaie ouverte.", isCorrect: false, comment: "Le pansement est principalement utilisé pour protéger une plaie après son nettoyage, pas spécifiquement pour arrêter le saignement initial." },
+
+                { text: "Faciliter l'observation de l'évolution d'une plaie sans la protéger.", isCorrect: false, comment: "Le pansement est conçu pour protéger la plaie, pas pour faciliter l'observation sans protection." }
+            ]
+        },
+        {
+            text: "Quel est l'objectif du pansement individuel dans les premiers secours ?",
+            answers: [
+                { text: "Protéger une plaie non étendue contre les souillures.", isCorrect: true, comment: "Exact, le pansement individuel est utilisé pour protéger une plaie non étendue contre les souillures en fournissant une couverture stérile." },
+                { text: "Arrêter le saignement des plaies par balle.", isCorrect: false, comment: "Le pansement individuel n'est pas spécifiquement conçu pour arrêter le saignement des plaies par balle." },
+                { text: "Réduire l'inflammation des plaies ouvertes.", isCorrect: false, comment: "Le principal objectif est de protéger la plaie contre les souillures, pas de réduire l'inflammation." },
+                { text: "Faciliter le contrôle des saignements sur des brûlures graves.", isCorrect: false, comment: "Ce n'est pas le rôle principal du pansement individuel dans les premiers secours." }
+            ]
+        },
+        {
+            text: "Quelle est la fonction principale du pansement Type C ?",
+            answers: [
+                { text: "Protéger une ou plusieurs plaies en fournissant des compresses de tailles différentes.", isCorrect: true, comment: "Exact, le pansement Type C offre une protection en utilisant des compresses de tailles variées pour couvrir différentes dimensions de plaies." },
+                { text: "Arrêter le saignement sur des blessures graves.", isCorrect: false, comment: "Le pansement Type C vise principalement à protéger les plaies en fournissant une couverture avec des compresses de différentes tailles." },
+                { text: "Faciliter la désinfection des plaies ouvertes.", isCorrect: false, comment: "La fonction principale n'est pas de faciliter la désinfection mais de protéger les plaies." },
+                { text: "Fixer des compresses sur les brûlures du second degré.", isCorrect: false, comment: "Le pansement Type C n'est pas spécifiquement conçu pour les brûlures du second degré." }
+            ]
+        },
+        {
+            text: "Comment doit-on placer le membre amputé à l'intérieur du sac isotherme dans le lot membre arraché ou sectionné ?",
+            answers: [
+                { text: "Sans aucun emballage supplémentaire.", isCorrect: false, comment: "Il est nécessaire d'emballer le membre amputé dans un sac plastique avant de le placer dans le sac isotherme." },
+                { text: "À l'intérieur d'un sac plastique contenu dans le sac isotherme.", isCorrect: true, comment: "Exact, le membre amputé doit être placé à l'intérieur d'un sac plastique contenu dans le sac isotherme pour éviter le contact direct avec la source de froid." },
+                { text: "Directement en contact avec les sacs réfrigérants ou la glace.", isCorrect: false, comment: "Le membre amputé ne doit pas être en contact direct avec la source de froid pour éviter les gelures." },
+                { text: "À l'extérieur du sac isotherme pour un refroidissement rapide.", isCorrect: false, comment: "Le membre amputé doit être protégé à l'intérieur du sac isotherme pour éviter les gelures." }
+            ]
+        },
+        {
+            text: "Quel dispositif doit être utilisé pour maintenir le sac isotherme fermé dans le lot membre arraché ou sectionné ?",
+            answers: [
+                { text: "Un morceau de ruban adhésif.", isCorrect: true, comment: "Exact, un morceau de ruban adhésif est utilisé pour maintenir le sac isotherme fermé lors du transport du membre amputé." },
+                { text: "Une épingle de sûreté.", isCorrect: false, comment: "Une épingle de sûreté n'est pas le dispositif recommandé pour maintenir le sac isotherme fermé." },
+                { text: "Une bande de crêpe.", isCorrect: false, comment: "Une bande de crêpe n'est pas utilisée pour maintenir le sac isotherme fermé dans ce contexte." },
+                { text: "Un dispositif velcro.", isCorrect: false, comment: "Un dispositif velcro n'est généralement pas utilisé pour maintenir le sac isotherme fermé dans ce cas." }
+            ]
+        },
+        {
+            text: "Quel dispositif doit être utilisé pour maintenir le sac isotherme fermé dans le lot membre arraché ou sectionné ?",
+            answers: [
+                { text: "Un morceau de ruban adhésif.", isCorrect: true, comment: "Exact, un morceau de ruban adhésif est utilisé pour maintenir le sac isotherme fermé lors du transport du membre amputé." },
+                { text: "Une épingle de sûreté.", isCorrect: false, comment: "Une épingle de sûreté n'est pas le dispositif recommandé pour maintenir le sac isotherme fermé." },
+                { text: "Une bande de crêpe.", isCorrect: false, comment: "Une bande de crêpe n'est pas utilisée pour maintenir le sac isotherme fermé dans ce contexte." },
+                { text: "Un dispositif velcro.", isCorrect: false, comment: "Un dispositif velcro n'est généralement pas utilisé pour maintenir le sac isotherme fermé dans ce cas." }
+            ]
+        },
+        {
+            text: "Que doit-on inscrire sur le sac isotherme dans le lot membre arraché ou sectionné ?",
+            answers: [
+                { text: "Le nom de la victime et l'heure de survenue de l'amputation.", isCorrect: true, comment: "Exact, il est important d'indiquer le nom de la victime et l'heure de survenue de l'amputation sur le sac isotherme pour une identification rapide lors de l'intervention médicale." },
+                { text: "La taille du membre amputé.", isCorrect: false, comment: "La taille du membre amputé n'est pas nécessairement indiquée sur le sac isotherme." },
+                { text: "La température du sac réfrigérant.", isCorrect: false, comment: "La température du sac réfrigérant n'est pas spécifiquement requise sur le sac isotherme." },
+                { text: "Le nom de l'hôpital de destination.", isCorrect: false, comment: "Le nom de l'hôpital de destination n'est pas nécessairement inscrit sur le sac isotherme." }
+            ]
+        },
+        {
+            text: "Que doit-on éviter pour ne pas compromettre la réussite de la réimplantation du membre amputé ?",
+            answers: [
+                { text: "Le contact direct du membre avec la source de froid.", isCorrect: true, comment: "Exact, le contact direct avec la source de froid peut entraîner des gelures qui compromettent la réimplantation du membre amputé." },
+                { text: "L'utilisation de ruban adhésif pour maintenir le sac isotherme fermé.", isCorrect: false, comment: "L'utilisation de ruban adhésif pour fermer le sac isotherme n'est pas directement liée à la réimplantation du membre amputé." },
+                { text: "L'absence d'identification sur le sac isotherme.", isCorrect: false, comment: "L'absence d'identification sur le sac isotherme n'affecte pas directement la réussite de la réimplantation." },
+                { text: "L'exposition prolongée à l'air ambiant.", isCorrect: false, comment: "L'exposition prolongée à l'air ambiant n'est pas liée à la réimplantation du membre amputé mais au risque de contamination." }
+            ]
+        },
+        {
+            text: "Quel dispositif est utilisé pour maintenir le sac isotherme fermé lors du transport du membre amputé ?",
+            answers: [
+                { text: "Un morceau de ruban adhésif.", isCorrect: true, comment: "Exact, un morceau de ruban adhésif est utilisé pour maintenir fermé le sac isotherme lors du transport du membre amputé." },
+                { text: "Une épingle de sûreté.", isCorrect: false, comment: "Une épingle de sûreté n'est pas utilisée pour maintenir le sac isotherme fermé lors du transport du membre amputé." },
+                { text: "Une bande de crêpe.", isCorrect: false, comment: "Une bande de crêpe n'est pas le dispositif utilisé pour maintenir fermé le sac isotherme." },
+                { text: "Un dispositif velcro.", isCorrect: false, comment: "Un dispositif velcro n'est généralement pas utilisé pour maintenir fermé le sac isotherme." }
+            ]
+        },
+        
+        
 ];
 
 
