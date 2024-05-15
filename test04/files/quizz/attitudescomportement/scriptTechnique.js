@@ -160,7 +160,6 @@ var Question = function (questionObj) {
 //
 
 let questionsData = [
- 
 {
   "text": "Quelle question est recommandée pour instaurer le dialogue avec la victime?",
   "answers": [

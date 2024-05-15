@@ -1417,7 +1417,7 @@ let questionsData = [
           "comment": "Compresser les viscères peut augmenter les dommages et causer plus de douleur à la victime."
       }
   ]
-},
+}
 ];
 
 

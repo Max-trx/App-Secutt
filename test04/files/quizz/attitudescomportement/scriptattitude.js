@@ -160,7 +160,6 @@ var Question = function (questionObj) {
 //
 
 let questionsData = [
-  
 {
   "text": "Quel est l'objectif principal de l'abord relationnel ?",
   "answers": [
@@ -792,7 +791,7 @@ let questionsData = [
           comment: "L'appui psychologique peut aider le secouriste à maintenir une perspective réaliste sur son métier et à développer des stratégies pour faire face aux défis professionnels, mais il ne vise pas nécessairement à favoriser une vision optimiste à tout prix."
       }
   ]
-}
+},
 ];
 
 
