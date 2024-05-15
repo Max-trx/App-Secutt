@@ -280,7 +280,7 @@ let questionsData = [
           text: "Une augmentation de la perception de la douleur",
           isCorrect: false,
           comment: "Bien que l'hypervigilance puisse être associée à une sensibilité accrue aux stimuli environnementaux, elle n'entraîne pas nécessairement une augmentation de la perception de la douleur."
-      }
+      },
       {
         text: "Un état de désorientation temporelle et spatiale",
         isCorrect: true,

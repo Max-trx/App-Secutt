@@ -607,7 +607,7 @@ let questionsData = [
   "text": "Il est recommandé de tasser les déchets à l'intérieur de l'emballage à DASRI.",
   "isCorrect": false,
   "comment": "Non, ce n'est pas une bonne pratique. Il ne faut pas tasser les déchets à l'intérieur de l'emballage à DASRI car cela peut compromettre la sécurité lors de la manipulation et de l'élimination des déchets."
-}
+},
 {
     "text": "Les précautions à prendre comprennent l'ouverture préalable de l'emballage, le dépôt du déchet dans l'emballage suivi de sa fermeture immédiate, l'évitement de remplir l'emballage au-delà de la limite indiquée, de tasser les déchets à l'intérieur de l'emballage, et la fermeture de l'emballage lorsque le taux maximum de remplissage est atteint.",
     "isCorrect": true,
