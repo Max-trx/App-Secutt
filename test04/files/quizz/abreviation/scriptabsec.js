@@ -160,7 +160,6 @@ var Question = function (questionObj) {
 //
 
 let questionsData = [
-  
 {
   "text": "Qu'est-ce que l'AC ?",
   "answers": [
