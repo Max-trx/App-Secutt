@@ -255,7 +255,7 @@ let questionsData = [
             "text": "Des signes qui ne peuvent être observés que par des professionnels de santé",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse."
-        }
+        },
         {
             "text": "Des signes et manifestations repérables dans différentes sphères : comportementales, émotionnelles et cognitives",
             "isCorrect": true,
@@ -358,7 +358,7 @@ let questionsData = [
             "text": "Laisser la personne agressive seule pour qu'elle se calme d'elle-même",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse."
-        }
+        },
         {
             "text": "Évaluer la dangerosité de la situation et mettre en sécurité les objets potentiellement dangereux",
             "isCorrect": true,
@@ -461,7 +461,7 @@ let questionsData = [
             "text": "Stabiliser l'état de crise de la victime",
             "isCorrect": false,
             "comment": "Ce n'est pas la bonne réponse."
-        }
+        },
         {
             "text": "Identifier les risques potentiels dans l'environnement",
             "isCorrect": true,
