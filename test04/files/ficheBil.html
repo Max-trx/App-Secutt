@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exemple Bootstrap 5</title>
+  <title>Sec'UTT - Accès protégé</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../style/style.css">
+  <link rel="icon" type="image/png" href="../img/logoSecUTTpetit.png">
 
 </head>
 <body>
@@ -14,26 +15,55 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="../index.html">
-        <img src="../img/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-top me-2">
-        <div class="text-navbar fw-bold">Quizz</div>
+        <img src="../img/logoSecUTT.png" alt="Logo" width="50" height="50" class="d-inline-block align-top me-2">
+        <div class="text-navbar fw-bold">Fiche bilan</div>
       </a>
     </div>
   </nav>
 
+  <!-- Formulaire de connexion -->
+  <div id="loginContainer" class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Entrez le mot de passe pour accéder à cette page</h5>
+            <form id="loginForm">
+              <div class="mb-3">
+                <label for="password" class="form-label">Mot de passe</label>
+                <input type="password" class="form-control" id="password" name="password">
+              </div>
+              <button type="submit" class="btn btn-primary">Connexion</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Contenu de la page -->
-  <div class="container-fluid page mt-4">
+  <div id="content" class="container-fluid page mt-4" style="display: none;">
     <embed src="../pdf//BIlanA4.pdf" width="100%" height="500" type="application/pdf"/>
-
-    <p>En cas d'intervention, voici une fiche bilan qui peut être annoté à partir de votre téléphone : <a href="../pdf/Fiche_Bilan.docx">Fiche Bilan</a></p>
-
+    <p>En cas d'intervention, voici une fiche bilan qui peut être annotée à partir de votre téléphone : <a href="../pdf/Fiche_Bilan.docx">Fiche Bilan</a></p>
   </div>
 
   <!-- Footer -->
   <footer class="footer bg-dark text-light text-center">
-    <p>Mise à jour le 15/05/2024</p>
-    <p>Développé par l'association Secouristes UTT - Sec'UTT</p>
+    <p>Mise à jour le 14/05/2024 <br> Développé par l'association Secouristes UTT - Sec'UTT</p>
   </footer>
 
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      var password = document.getElementById("password").value;
+      // Vérifiez le mot de passe ici
+      if (password === "mdp") { // Remplacez "votre_mot_de_passe" par le mot de passe réel
+        document.getElementById("loginContainer").style.display = "none";
+        document.getElementById("content").style.display = "block";
+      } else {
+        alert("Mot de passe incorrect");
+      }
+    });
+  </script>
 </body>
 </html>
-

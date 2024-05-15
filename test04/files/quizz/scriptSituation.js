@@ -163,7 +163,7 @@ let questionsData = [
   {
     text: "Quels sont les types d'accidents pouvant entraîner une situation à nombreuses victimes selon le référentiel de secourisme ?",
     answers: [
-      { text: "Accidents de trafic, incendies, effondrements de structures, accidents sociaux, actes de terrorisme, catastrophes naturelles limitées, catastrophes technologiques, accidents infectieux.", isCorrect: true, comment: "Correct, ces sont les différents types d'accidents énumérés dans le référentiel." },
+      { text: "Accidents de trafic, incendies, effondrements de structures, accidents sociaux, actes de terrorisme, catastrophes naturelles, catastrophes technologiques, accidents infectieux.", isCorrect: true, comment: "Correct, ces sont les différents types d'accidents énumérés dans le référentiel." },
       { text: "Uniquement les accidents de trafic.", isCorrect: false, comment: "Il existe d'autres types d'accidents pouvant entraîner une situation à nombreuses victimes." },
       { text: "Uniquement les accidents de travail.", isCorrect: false, comment: "Les accidents de travail ne sont pas les seuls à entraîner des situations à nombreuses victimes." },
       { text: "Uniquement les catastrophes naturelles.", isCorrect: false, comment: "Les situations à nombreuses victimes ne sont pas limitées aux catastrophes naturelles." }
@@ -237,7 +237,7 @@ let questionsData = [
     answers: [
       { text: "Les ignorer car ils sont focalisés sur le sauvetage des victimes vivantes.", isCorrect: false, comment: "Les secouristes doivent également prendre en compte les victimes en arrêt cardiaque ou décédées." },
       { text: "Les traiter en priorité car leur état est plus grave que celui des autres victimes.", isCorrect: false, comment: "Les secouristes doivent prioriser les interventions en fonction de la gravité des blessures." },
-      { text: "Les prendre en charge selon les protocoles appropriés et les dégager si possible pour libérer les ressources médicales.", isCorrect: true, comment: "Correct, les secouristes doivent suivre les protocoles pour les victimes en arrêt cardiaque ou décédées." },
+      { text: "Les prendre en charge selon les protocoles appropriés et les dégager si possible pour libérer les ressources médicales.", isCorrect: true, comment: "Correct, les secouristes doivent suivre les protocoles pour les victimes en arrêt cardiaque ou décédées tout en priorisant les victimes vivantes." },
       { text: "Attendre l'arrivée des services de secours spécialisés avant d'intervenir.", isCorrect: false, comment: "Les secouristes doivent agir rapidement pour prendre en charge toutes les victimes." }
     ]
   },

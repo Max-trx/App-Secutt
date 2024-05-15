@@ -176,8 +176,8 @@ let questionsData = [
 {
   text: "Quelles sont les principales causes de douleur thoracique non traumatique ?",
   answers: [
-    { text: "Occlusion d'une artère coronaire, infection pulmonaire, reflux gastro-œsophagien.", isCorrect: true },
     { text: "Fracture des côtes, blessure au sternum, contusion pulmonaire.", isCorrect: false },
+    { text: "Occlusion d'une artère coronaire, infection pulmonaire, reflux gastro-œsophagien.", isCorrect: true },
     { text: "Maux de tête, douleurs abdominales, engourdissement des membres.", isCorrect: false }
   ]
 },
@@ -186,9 +186,9 @@ let questionsData = [
 {
   text: "Quels signes peuvent accompagner la douleur thoracique ?",
   answers: [
-    { text: "Malaise, pâleur, sueurs, nausées.", isCorrect: true },
+    { text: "Vertiges, troubles de la vision, perte d'équilibre.", isCorrect: false },
     { text: "Picotements dans les bras, sensation de chaleur dans les jambes.", isCorrect: false },
-    { text: "Vertiges, troubles de la vision, perte d'équilibre.", isCorrect: false }
+    { text: "Malaise, pâleur, sueurs, nausées.", isCorrect: true }
   ]
 },
 
@@ -206,8 +206,8 @@ let questionsData = [
 {
   text: "Comment la douleur thoracique peut-elle évoluer dans le temps ?",
   answers: [
-    { text: "Elle peut être continue ou intermittente, et sa durée doit être précisée.", isCorrect: true },
     { text: "Elle diminue progressivement avec le temps.", isCorrect: false },
+    { text: "Elle peut être continue ou intermittente, et sa durée doit être précisée.", isCorrect: true },
     { text: "Elle s'aggrave brusquement sans prévenir.", isCorrect: false }
   ]
 },
@@ -216,9 +216,9 @@ let questionsData = [
 {
   text: "Que doit faire le secouriste en cas de douleur thoracique chez une victime consciente ?",
   answers: [
-    { text: "Préserver les fonctions vitales, demander un avis médical, aider la victime à prendre un traitement si nécessaire.", isCorrect: true },
+    { text: "Administer un médicament anti-inflammatoire sans demander l'avis de la victime.", isCorrect: false },
     { text: "Appliquer immédiatement un massage cardiaque.", isCorrect: false },
-    { text: "Administer un médicament anti-inflammatoire sans demander l'avis de la victime.", isCorrect: false }
+    { text: "Préserver les fonctions vitales, demander un avis médical, aider la victime à prendre un traitement si nécessaire.", isCorrect: true }
   ]
 },
 
@@ -236,8 +236,8 @@ let questionsData = [
 {
   text: "Que doit faire le secouriste si la victime perd conscience lors de douleurs thoraciques ?",
   answers: [
-    { text: "Appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent.", isCorrect: true },
     { text: "Attendre que la victime reprenne conscience naturellement.", isCorrect: false },
+    { text: "Appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent.", isCorrect: true },
     { text: "Administer un médicament contre la douleur.", isCorrect: false }
   ]
 },
@@ -246,9 +246,9 @@ let questionsData = [
 {
   text: "Pourquoi est-il important de demander un avis médical en cas de douleur thoracique ?",
   answers: [
-    { text: "Pour évaluer la gravité de la situation et orienter la prise en charge appropriée.", isCorrect: true },
+    { text: "Pour prescrire un traitement sans tenir compte de la gravité de la situation.", isCorrect: false },
     { text: "Pour obtenir des conseils sur la relaxation.", isCorrect: false },
-    { text: "Pour prescrire un traitement sans tenir compte de la gravité de la situation.", isCorrect: false }
+    { text: "Pour évaluer la gravité de la situation et orienter la prise en charge appropriée.", isCorrect: true }
   ]
 },
 

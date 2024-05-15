@@ -160,134 +160,9 @@ var Question = function (questionObj) {
 //
 
 let questionsData = [
-{
-  "text": "Quelle question est recommandée pour instaurer le dialogue avec la victime?",
-  "answers": [
-      {
-          text: "Avez-vous besoin d'une assistance médicale immédiate?",
-          isCorrect: false,
-          comment: "Cette question peut être trop directe et ne pas encourager le dialogue."
-      },
-      {
-          text: "Quel est votre nom?",
-          isCorrect: false,
-          comment: "Cette question peut sembler superficielle au début de l'intervention."
-      },
-      {
-          text: "Pouvez-vous me dire ce qu'il se passe?",
-          isCorrect: true,
-          comment: "Cette question encourage la victime à partager son expérience et à ouvrir le dialogue."
-      },
-      {
-          text: "Pourquoi êtes-vous ici?",
-          isCorrect: false,
-          comment: "Cette question peut être perçue comme accusatrice ou jugementale."
-      }
-  ]
-},
-{
-  "text": "Quelle est l'étape suivante après avoir posé le cadre de l'intervention?",
-  "answers": [
-      {
-          text: "Transporter immédiatement la victime à l'hôpital",
-          isCorrect: false,
-          comment: "Informer et expliquer ce qui va être réalisé est souvent la prochaine étape."
-      },
-      {
-          text: "Explorer les loisirs de la victime",
-          isCorrect: false,
-          comment: "Cela peut sembler inapproprié ou déplacé dans ce contexte."
-      },
-      {
-          text: "Informer et expliquer ce qui va être réalisé",
-          isCorrect: true,
-          comment: "Cette étape permet à la victime de comprendre le processus et de se sentir en contrôle."
-      },
-      {
-          text: "Demander à la victime de quitter les lieux",
-          isCorrect: false,
-          comment: "Cela peut être précipité et ne pas répondre aux besoins de la victime."
-      }
-  ]
-},
-{
-  "text": "Pourquoi est-il important de reformuler ce que la victime a exprimé?",
-  "answers": [
-      {
-          text: "Pour laisser la victime dans la confusion",
-          isCorrect: false,
-          comment: "Cela peut augmenter l'anxiété de la victime. La clarification est préférable."
-      },
-      {
-          text: "Pour vérifier la compréhension et montrer de l'empathie",
-          isCorrect: true,
-          comment: "Reformuler montre à la victime qu'elle est entendue et comprise, ce qui renforce la relation."
-      },
-      {
-          text: "Pour minimiser l'importance de ses propos",
-          isCorrect: false,
-          comment: "Cela peut invalider les émotions de la victime et nuire à la relation."
-      },
-      {
-          text: "Pour éviter toute communication supplémentaire",
-          isCorrect: false,
-          comment: "La communication supplémentaire peut être nécessaire pour clarifier les informations."
-      }
-  ]
-},
-{
-  "text": "Comment peut-on favoriser l'alliance avec la victime?",
-  "answers": [
-      {
-          text: "En lui demandant de quitter les lieux",
-          isCorrect: false,
-          comment: "Cela peut être perçu comme insensible et ne répond pas aux besoins de la victime."
-      },
-      {
-          text: "En ignorant ses besoins et préférences",
-          isCorrect: false,
-          comment: "Cela peut compromettre la relation et la confiance de la victime envers les soignants."
-      },
-      {
-          text: "En impliquant la victime dans sa propre prise en charge",
-          isCorrect: true,
-          comment: "Impliquer la victime dans les décisions concernant son propre soin renforce son autonomie et son empowerment."
-      },
-      {
-          text: "En faisant des promesses impossibles à tenir",
-          isCorrect: false,
-          comment: "Cela peut créer de la frustration et de la méfiance chez la victime."
-      }
-  ]
-},
-{
-  "text": "Quelle est l'étape finale avant de passer le relais à une autre équipe?",
-  "answers": [
-      {
-          text: "Ignorer la victime et partir",
-          isCorrect: false,
-          comment: "Cela va à l'encontre du principe de fournir un soutien et un suivi appropriés."
-      },
-      {
-          text: "Préparer le passage de relais",
-          isCorrect: true,
-          comment: "Préparer le passage de relais assure une transition fluide et un suivi adéquat de la victime."
-      },
-      {
-          text: "Rester avec la victime indéfiniment",
-          isCorrect: false,
-          comment: "Cela peut être inapproprié et ne répond pas toujours aux besoins de la victime."
-      },
-      {
-          text: "Refuser toute aide supplémentaire",
-          isCorrect: false,
-          comment: "Cela va à l'encontre du principe de fournir un soutien complet à la victime."
-      }
-  ]
-},
 
 {
-  "text": "Comment peut-on évaluer la douleur chez un enfant?",
+  "text": "Comment peut-on évaluer la douleur chez un enfant ?",
   "answers": [
       {
           text: "En lui posant des questions complexes sur ses sensations",
@@ -312,7 +187,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Pourquoi l'utilisation d'une peluche est-elle recommandée lors de l'intervention auprès d'un enfant?",
+  "text": "Pourquoi l'utilisation d'une peluche est-elle recommandée lors de l'intervention auprès d'un enfant ?",
   "answers": [
       {
           text: "Pour distraire l'enfant et le faire rire",
@@ -336,33 +211,9 @@ let questionsData = [
       }
   ]
 },
+
 {
-  "text": "Quel est l'objectif principal de l'utilisation de la peluche pendant l'intervention?",
-  "answers": [
-      {
-          text: "Effrayer l'enfant pour qu'il coopère davantage",
-          isCorrect: false,
-          comment: "L'objectif principal est d'établir une relation de confiance et de rendre l'interaction plus confortable pour l'enfant, pas de l'effrayer davantage."
-      },
-      {
-          text: "Distraire l'enfant pendant les gestes de secourisme",
-          isCorrect: false,
-          comment: "Bien que la distraction puisse être un effet secondaire, ce n'est pas l'objectif principal de l'utilisation de la peluche."
-      },
-      {
-          text: "Faciliter la communication entre le secouriste et l'enfant",
-          isCorrect: true,
-          comment: "La peluche peut servir de médiateur pour faciliter la communication et établir une relation de confiance entre le secouriste et l'enfant."
-      },
-      {
-          text: "Remplacer la présence des parents",
-          isCorrect: false,
-          comment: "Rien ne peut remplacer la présence des parents pour l'enfant, mais la peluche peut offrir un soutien émotionnel supplémentaire pendant une situation stressante."
-      }
-  ]
-},
-{
-  "text": "Pourquoi est-il important de prendre en compte les signes de détresse psychologique chez une victime selon le texte?",
+  "text": "Pourquoi est-il important de prendre en compte les signes de détresse psychologique chez une victime selon le texte ?",
   "answers": [
       {
           text: "Pour minimiser les répercussions physiques à court terme",
@@ -387,7 +238,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Quel impact l'expression du visage et le regard d'une personne peuvent-ils avoir sur l'évaluation de son état affectif selon le texte?",
+  "text": "Quel impact l'expression du visage et le regard d'une personne peuvent-ils avoir sur l'évaluation de son état affectif selon le texte ?",
   "answers": [
       {
           text: "Aucun, car ces éléments sont souvent trompeurs",
@@ -412,18 +263,14 @@ let questionsData = [
   ]
 },
 {
-  "text": "Qu'est-ce que l'hypervigilance, mentionnée dans le texte, peut indiquer chez une victime?",
+  "text": "Qu'est-ce que l'hypervigilance peut indiquer chez une victime ?",
   "answers": [
       {
           text: "Une conscience claire de la situation",
           isCorrect: false,
           comment: "L'hypervigilance ne se manifeste pas nécessairement par une conscience claire de la situation, mais plutôt par une vigilance excessive et une réaction exagérée aux stimuli environnementaux."
       },
-      {
-          text: "Un état de désorientation temporelle et spatiale",
-          isCorrect: true,
-          comment: "L'hypervigilance peut entraîner une désorientation temporelle et spatiale chez une victime, car elle peut être tellement concentrée sur la recherche de menaces potentielles qu'elle perd le contact avec la réalité environnante."
-      },
+      
       {
           text: "Une attitude généralement calme et coopérante",
           isCorrect: false,
@@ -433,11 +280,16 @@ let questionsData = [
           text: "Une augmentation de la perception de la douleur",
           isCorrect: false,
           comment: "Bien que l'hypervigilance puisse être associée à une sensibilité accrue aux stimuli environnementaux, elle n'entraîne pas nécessairement une augmentation de la perception de la douleur."
-      }
+      },
+      {
+        text: "Un état de désorientation temporelle et spatiale",
+        isCorrect: true,
+        comment: "L'hypervigilance peut entraîner une désorientation temporelle et spatiale chez une victime, car elle peut être tellement concentrée sur la recherche de menaces potentielles qu'elle perd le contact avec la réalité environnante."
+    },
   ]
 },
 {
-  "text": "Quels éléments doivent être pris en compte lors de l'évaluation de l'état de conscience d'une victime, selon le texte?",
+  "text": "Quels éléments doivent être pris en compte lors de l'évaluation de l'état de conscience d'une victime, selon le texte ?",
   "answers": [
       {
           text: "La mémoire et la gestuelle",
@@ -461,33 +313,9 @@ let questionsData = [
       }
   ]
 },
+
 {
-  "text": "Quel est l'objectif de l'observation et du questionnement du secouriste selon le texte?",
-  "answers": [
-      {
-          text: "Identifier les blessures visibles",
-          isCorrect: false,
-          comment: "Bien que l'identification des blessures puisse être une partie importante de l'évaluation médicale, l'objectif principal de l'observation et du questionnement est d'évaluer l'état émotionnel et psychologique de la victime."
-      },
-      {
-          text: "Recueillir des informations sur l'histoire médicale de la victime",
-          isCorrect: false,
-          comment: "Bien que cela puisse être pertinent dans certains cas, l'observation et le questionnement visent principalement à évaluer l'état émotionnel et psychologique de la victime immédiatement après un événement stressant."
-      },
-      {
-          text: "Évaluer l'état émotionnel et psychologique de la victime",
-          isCorrect: true,
-          comment: "L'observation et le questionnement sont utilisés par le secouriste pour évaluer l'état émotionnel et psychologique de la victime, ce qui peut aider à déterminer les besoins immédiats en termes de soutien et d'intervention."
-      },
-      {
-          text: "Évaluer la gravité des blessures",
-          isCorrect: false,
-          comment: "Bien que cela puisse être nécessaire dans certains cas, l'objectif principal de l'observation et du questionnement est d'évaluer l'état émotionnel et psychologique de la victime plutôt que la gravité de ses blessures."
-      }
-  ]
-},
-{
-  "text": "Quel est l'objectif principal de la stabilisation de la victime lors de l'action de secours?",
+  "text": "Quel est l'objectif principal de la stabilisation de la victime lors de l'action de secours ?",
   "answers": [
       {
           text: "Réduire la durée totale de l'intervention médicale",
@@ -512,7 +340,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Quels sont les canaux de communication utilisés par le secouriste pour focaliser l'attention de la victime?",
+  "text": "Quels sont les canaux de communication utilisés par le secouriste pour focaliser l'attention de la victime ?",
   "answers": [
       {
           text: "Le canal olfactif, le toucher et la parole",
@@ -536,31 +364,7 @@ let questionsData = [
       }
   ]
 },
-{
-  "text": "Pourquoi le secouriste propose-t-il à la victime de fixer un point devant elle?",
-  "answers": [
-      {
-          text: "Pour aider la victime à se concentrer sur la respiration",
-          isCorrect: false,
-          comment: "Le fait de fixer un point devant la victime vise principalement à éviter qu'elle ne panique davantage en voyant des éléments visuels négatifs, plutôt qu'à se concentrer sur la respiration."
-      },
-      {
-          text: "Pour éviter que la victime ne panique davantage en voyant des éléments visuels négatifs",
-          isCorrect: true,
-          comment: "En encourageant la victime à fixer un point devant elle, le secouriste cherche à éviter qu'elle ne panique davantage en se concentrant sur des éléments visuels négatifs qui pourraient aggraver sa détresse émotionnelle."
-      },
-      {
-          text: "Pour encourager la victime à parler de ses sentiments",
-          isCorrect: false,
-          comment: "Bien que cela puisse être utile dans certains contextes, le but principal de proposer à la victime de fixer un point devant elle est de réduire sa panique en évitant les stimuli visuels négatifs."
-      },
-      {
-          text: "Pour distraire la victime de la situation actuelle",
-          isCorrect: false,
-          comment: "La fixation d'un point devant la victime n'a pas pour but de la distraire de la situation actuelle, mais plutôt de la calmer en évitant les stimuli visuels négatifs."
-      }
-  ]
-},
+
 {
   "text": "Quel est le but du code de communication établi entre le secouriste et la victime?",
   "answers": [
@@ -587,7 +391,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Pourquoi le secouriste encourage-t-il la victime à se concentrer sur des sujets agréables pour elle?",
+  "text": "Pourquoi le secouriste encourage-t-il la victime à se concentrer sur des sujets agréables pour elle ?",
   "answers": [
       {
           text: "Pour rendre l'intervention médicale plus rapide",
@@ -595,7 +399,7 @@ let questionsData = [
           comment: "Le but de cette action n'est pas de rendre l'intervention médicale plus rapide, mais plutôt de renforcer le sentiment de contrôle de la victime et de réduire sa détresse émotionnelle."
       },
       {
-          text: "Pour distraire la victime de la réalité de la situation",
+          text: "Pour que la victime ne soit plus en phase avec la réalité de la situation",
           isCorrect: false,
           comment: "Bien que cela puisse être un effet secondaire, le but principal d'encourager la victime à se concentrer sur des sujets agréables est de renforcer son sentiment de contrôle et de réduire sa détresse émotionnelle."
       },
@@ -611,7 +415,7 @@ let questionsData = [
       }
   ]
 },{
-  "text": "Quel est l'objectif principal de l'écoute active lors de l'intervention d'un secouriste?",
+  "text": "Quel est l'objectif principal de l'écoute active lors de l'intervention d'un secouriste ?",
   "answers": [
       {
           text: "Proposer des solutions aux problèmes de la victime",
@@ -636,7 +440,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Qu'est-ce que la phase de 'recontextualisation' implique pour le secouriste?",
+  "text": "Qu'est-ce que la phase de 'recontextualisation' implique pour le secouriste ?",
   "answers": [
       {
           text: "Offrir des conseils pour résoudre le problème de la victime",
@@ -661,7 +465,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Quelle est la principale action du secouriste lors de la phase de 'reformulation'?",
+  "text": "Quelle est la principale action du secouriste lors de la phase de 'reformulation' ?",
   "answers": [
       {
           text: "Proposer des solutions alternatives à la victime",
@@ -676,7 +480,7 @@ let questionsData = [
       {
           text: "Faire des comparaisons avec d'autres situations similaires",
           isCorrect: false,
-          comment: "La reformulation ne consiste pas à faire des comparaisons, mais plutôt à reformuler les propos de la victime pour une meilleure compréhension."
+          comment: "La reformulation ne consiste pas principalement à faire des comparaisons, même si c'est posssible, il s'agit plutôt de reformuler les propos de la victime pour une meilleure compréhension."
       },
       {
           text: "Consoler la victime en minimisant ses préoccupations",
@@ -685,58 +489,9 @@ let questionsData = [
       }
   ]
 },
+
 {
-  "text": "Pourquoi est-il important pour le secouriste de 'renforcer' positivement la victime?",
-  "answers": [
-      {
-          text: "Pour rationaliser les réactions émotionnelles de la victime",
-          isCorrect: false,
-          comment: "Le renforcement positif n'a pas pour but de rationaliser les réactions émotionnelles de la victime, mais plutôt d'encourager sa participation active dans la résolution de ses problèmes."
-      },
-      {
-          text: "Pour encourager la participation active de la victime dans la résolution du problème",
-          isCorrect: true,
-          comment: "Le renforcement positif est essentiel pour encourager la participation active de la victime dans la résolution de ses problèmes, en renforçant sa confiance et son engagement."
-      },
-      {
-          text: "Pour minimiser les problèmes de la victime et la consoler",
-          isCorrect: false,
-          comment: "Le renforcement positif ne vise pas à minimiser les problèmes de la victime, mais plutôt à renforcer sa confiance et son autonomie dans la résolution de ses problèmes."
-      },
-      {
-          text: "Pour pratiquer une pseudo-analyse de la situation",
-          isCorrect: false,
-          comment: "Le renforcement positif n'implique pas une pseudo-analyse de la situation, mais plutôt un soutien et un encouragement positifs pour la victime."
-      }
-  ]
-},
-{
-  "text": "Quelle est la principale action à éviter pour le secouriste lors de l'écoute active?",
-  "answers": [
-      {
-          text: "Parler de son expérience personnelle",
-          isCorrect: false,
-          comment: "Parler de son expérience personnelle peut parfois être utile pour établir un lien avec la victime, mais cela ne doit pas être la principale action lors de l'écoute active."
-      },
-      {
-          text: "Consoler la victime en minimisant ses préoccupations",
-          isCorrect: false,
-          comment: "La consolation de la victime est importante, mais elle ne doit pas être faite en minimisant ses préoccupations. L'écoute active implique une validation des sentiments de la victime."
-      },
-      {
-          text: "Offrir des solutions concrètes aux problèmes de la victime",
-          isCorrect: true,
-          comment: "Lors de l'écoute active, le secouriste doit éviter d'offrir des solutions concrètes aux problèmes de la victime. L'objectif est d'écouter activement et de renforcer positivement sa participation."
-      },
-      {
-          text: "Juger négativement les actions de la victime",
-          isCorrect: false,
-          comment: "La critique négative n'est pas appropriée lors de l'écoute active. L'objectif est de comprendre et de soutenir la victime de manière positive."
-      }
-  ]
-},
-{
-  "text": "Quel est l'objectif principal de la respiration contrôlée lors d'une intervention de secours?",
+  "text": "Quel est l'objectif principal de la respiration contrôlée lors d'une intervention de secours ?",
   "answers": [
       {
           "text": "Accélérer le rythme respiratoire pour dynamiser la victime",
@@ -761,7 +516,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Pourquoi est-il important de prolonger le temps d'expiration lors de la respiration contrôlée?",
+  "text": "Pourquoi est-il important de prolonger le temps d'expiration lors de la respiration contrôlée ?",
   "answers": [
       {
           "text": "Pour augmenter la vigilance et l'activité musculaire de la victime",
@@ -786,7 +541,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Quelle est la différence entre la respiration complète et la respiration abdominale?",
+  "text": "Quelle est la différence entre la respiration complète et la respiration abdominale ?",
   "answers": [
       {
           text: "La respiration complète implique uniquement le thorax tandis que la respiration abdominale implique le ventre",
@@ -810,31 +565,7 @@ let questionsData = [
       }
   ]
 },
-{
-  "text": "Pourquoi est-il important que les volumes inspiratoires et expiratoires soient identiques lors de la respiration contrôlée?",
-  "answers": [
-      {
-          text: "Pour favoriser une respiration superficielle et rapide",
-          isCorrect: false,
-          comment: "L'objectif n'est pas de favoriser une respiration superficielle et rapide, mais plutôt de maintenir une respiration équilibrée pour éviter une inspiration profonde."
-      },
-      {
-          text: "Pour éviter une expiration forcée qui entraînerait une inspiration profonde",
-          isCorrect: true,
-          comment: "Il est important que les volumes inspiratoires et expiratoires soient identiques pour éviter une expiration forcée qui pourrait entraîner une inspiration profonde, ce qui contredirait l'objectif de relaxation."
-      },
-      {
-          text: "Pour maximiser l'effet stimulant sur le système nerveux autonome",
-          isCorrect: false,
-          comment: "L'objectif de la respiration contrôlée n'est pas de maximiser l'effet stimulant sur le système nerveux autonome, mais plutôt de favoriser la relaxation et la détente."
-      },
-      {
-          text: "Pour garantir une respiration dynamisante et énergisante",
-          isCorrect: false,
-          comment: "L'objectif de la respiration contrôlée n'est pas de garantir une respiration dynamisante et énergisante, mais plutôt de favoriser la détente et la relaxation."
-      }
-  ]
-},
+
 {
   "text": "Quels sont les risques potentiels associés à la respiration contrôlée lors d'une intervention de secours?",
   "answers": [
@@ -861,7 +592,7 @@ let questionsData = [
   ]
 },
 {
-  "text": "Quel est l'objectif principal des techniques de focalisation et de défocalisation de l'attention lors d'une intervention de secours?",
+  "text": "Quel est l'objectif principal des techniques de focalisation et de défocalisation de l'attention lors d'une intervention de secours ?",
   "answers": [
       {
           "text": "Accroître la vulnérabilité émotionnelle de la victime",
@@ -885,58 +616,10 @@ let questionsData = [
       }
   ]
 },
+
+
 {
-  "text": "Quelles sont les tâches attentionnelles distractives utilisées pour la focalisation de l'attention?",
-  "answers": [
-      {
-          "text": "Répéter des phrases stressantes pour la victime",
-          "isCorrect": false,
-          "comment": "Répéter des phrases stressantes n'est pas une technique utilisée pour la focalisation de l'attention, car cela pourrait aggraver l'état émotionnel de la victime."
-      },
-      {
-          "text": "Poser des questions sur des sujets extérieurs à l'intervention",
-          "isCorrect": true,
-          "comment": "Poser des questions sur des sujets extérieurs à l'intervention est une tâche attentionnelle distractives couramment utilisée pour aider la victime à se concentrer sur autre chose que l'événement stressant."
-      },
-      {
-          "text": "Demander à la victime de se concentrer sur les détails de l'événement critique",
-          "isCorrect": false,
-          "comment": "Demander à la victime de se concentrer sur les détails de l'événement critique ne constitue pas une tâche attentionnelle distractives, car cela pourrait renforcer le stress associé à l'événement."
-      },
-      {
-          "text": "Augmenter la pression sur la victime pour la maintenir alerte",
-          "isCorrect": false,
-          "comment": "Augmenter la pression sur la victime n'est pas une technique de focalisation de l'attention, car cela pourrait aggraver son état émotionnel et augmenter le stress."
-      }
-  ]
-},
-{
-  "text": "Pourquoi est-il important de préciser que les tâches d'ancrage visent à la stabilisation émotionnelle?",
-  "answers": [
-      {
-          "text": "Pour augmenter la charge cognitive de la victime",
-          "isCorrect": false,
-          "comment": "Le but des tâches d'ancrage n'est pas d'augmenter la charge cognitive de la victime, mais plutôt de stabiliser ses émotions en lui fournissant des points de repère."
-      },
-      {
-          "text": "Pour susciter une réaction de peur chez la victime",
-          "isCorrect": false,
-          "comment": "Les tâches d'ancrage visent à stabiliser émotionnellement la victime et non à susciter des réactions de peur."
-      },
-      {
-          "text": "Pour éviter toute confusion chez la victime sur le but des exercices",
-          "isCorrect": true,
-          "comment": "Il est important de préciser que les tâches d'ancrage visent à la stabilisation émotionnelle pour éviter toute confusion chez la victime sur le but des exercices et pour garantir leur efficacité."
-      },
-      {
-          "text": "Pour accélérer le processus de guérison",
-          "isCorrect": false,
-          "comment": "Bien que les tâches d'ancrage puissent contribuer au processus de guérison en favorisant la stabilité émotionnelle, leur objectif principal est de stabiliser émotionnellement la victime."
-      }
-  ]
-},
-{
-  "text": "Quelle est la différence entre la visualisation conformiste et la visualisation créatrice?",
+  "text": "Quelle est la différence entre la visualisation conformiste et la visualisation créatrice ?",
   "answers": [
       {
           "text": "La visualisation conformiste se concentre sur des objets réels, tandis que la visualisation créatrice imagine des scénarios abstraits.",
