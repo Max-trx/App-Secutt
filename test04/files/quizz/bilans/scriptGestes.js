@@ -968,8 +968,112 @@ let questionsData = [
           isCorrect: false,
           comment: "Mauvaise réponse ! La fréquence cardiaque d'un enfant varie entre 70 à 140 bpm."
       }
+
+
+
   ]
 },
+{
+  "text": "Quel est le principal objectif de la mesure de la température d'une victime ?",
+  "answers": [
+      {
+          "text": "Dépister une augmentation ou une diminution de la température corporelle.",
+          "isCorrect": true,
+          "comment": "Oui, la mesure de la température d'une victime vise principalement à dépister une augmentation (hyperthermie) ou une diminution (hypothermie) de sa température corporelle."
+      },
+      {
+          "text": "Déterminer la fréquence respiratoire.",
+          "isCorrect": false,
+          "comment": "La mesure de la température ne vise pas à déterminer la fréquence respiratoire, mais plutôt à évaluer la température corporelle de la victime."
+      },
+      {
+          "text": "Évaluer la pression artérielle.",
+          "isCorrect": false,
+          "comment": "La mesure de la température ne vise pas à évaluer la pression artérielle, mais plutôt à évaluer la température corporelle de la victime."
+      },
+      {
+          "text": "Déterminer le taux de glycémie.",
+          "isCorrect": false,
+          "comment": "La mesure de la température ne vise pas à déterminer le taux de glycémie, mais plutôt à évaluer la température corporelle de la victime."
+      }
+  ]
+},
+{
+  "text": "Quels sont les types de thermomètres utilisables pour mesurer la température ?",
+  "answers": [
+      {
+          "text": "Thermomètre tympanique, thermomètre électronique, thermomètre médical et thermomètre frontal.",
+          "isCorrect": true,
+          "comment": "Oui, ces différents types de thermomètres peuvent être utilisés pour mesurer la température corporelle de la victime."
+      },
+      {
+          "text": "Spiromètre et tensiomètre.",
+          "isCorrect": false,
+          "comment": "Le spiromètre est utilisé pour mesurer la capacité pulmonaire, et le tensiomètre est utilisé pour mesurer la pression artérielle, mais ni l'un ni l'autre n'est utilisé pour mesurer la température corporelle."
+      },
+      {
+          "text": "Stéthoscope et oxymètre de pouls.",
+          "isCorrect": false,
+          "comment": "Le stéthoscope est utilisé pour écouter les sons du corps, et l'oxymètre de pouls est utilisé pour mesurer la saturation pulsée en oxygène, mais ni l'un ni l'autre n'est utilisé pour mesurer la température corporelle."
+      },
+      {
+          "text": "Tensiomètre et glucomètre.",
+          "isCorrect": false,
+          "comment": "Le tensiomètre est utilisé pour mesurer la pression artérielle, et le glucomètre est utilisé pour mesurer le taux de glycémie, mais ni l'un ni l'autre n'est utilisé pour mesurer la température corporelle."
+      }
+  ]
+},
+{
+  "text": "Quel est le type de thermomètre recommandé pour la mesure de la température chez un nourrisson de moins de 3 mois ?",
+  "answers": [
+      {
+          "text": "Thermomètre rectal.",
+          "isCorrect": true,
+          "comment": "Oui, le thermomètre rectal est recommandé pour mesurer la température chez un nourrisson de moins de 3 mois, car son conduit auditif est trop petit pour utiliser un thermomètre auriculaire."
+      },
+      {
+          "text": "Thermomètre buccal.",
+          "isCorrect": false,
+          "comment": "Le thermomètre buccal n'est pas recommandé pour mesurer la température chez un nourrisson de moins de 3 mois, car il peut être difficile de l'utiliser avec précision à cet âge."
+      },
+      {
+          "text": "Thermomètre auriculaire.",
+          "isCorrect": false,
+          "comment": "Le thermomètre auriculaire n'est pas recommandé pour mesurer la température chez un nourrisson de moins de 3 mois, car son conduit auditif est trop petit pour utiliser ce type de thermomètre."
+      },
+      {
+          "text": "Thermomètre frontal.",
+          "isCorrect": false,
+          "comment": "Le thermomètre frontal n'est pas recommandé pour mesurer la température chez un nourrisson de moins de 3 mois, car il peut ne pas être aussi précis que d'autres types de thermomètres."
+      }
+  ]
+},
+{
+  "text": "Quelle est la température normale du corps humain chez un adulte au repos et réveillé ?",
+  "answers": [
+      {
+          "text": "Autour de 37°C.",
+          "isCorrect": true,
+          "comment": "Oui, la température normale du corps humain chez un adulte au repos et réveillé est d'environ 37°C."
+      },
+      {
+          "text": "Autour de 35°C.",
+          "isCorrect": false,
+          "comment": "Une température autour de 35°C indiquerait une hypothermie légère chez un adulte au repos et réveillé, ce qui n'est pas considéré comme normal."
+      },
+      {
+          "text": "Autour de 40°C.",
+          "isCorrect": false,
+          "comment": "Une température autour de 40°C indiquerait une fièvre chez un adulte au repos et réveillé, ce qui n'est pas considéré comme normal."
+      },
+      {
+          "text": "Autour de 42°C.",
+          "isCorrect": false,
+          "comment": "Une température autour de 42°C serait considérée comme une hyperthermie sévère chez un adulte au repos et réveillé, ce qui n'est pas considéré comme normal."
+      }
+  ]
+},
+
 
 ];
 
